@@ -3,7 +3,7 @@
 
 </head>
 <body>
-
+  <!-- navbar start -->
 <div class="top">
     <div class="navbar">
         
@@ -22,13 +22,14 @@
             </div>
 
             <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/galeria/">Galeria</a>
-            <!--<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/pakiet-inwestor/"></a>-->
             <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/o-inwestycji/">O inwestycji</a>
             <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/lifestyle/">Lifestyle</a>
             <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/kontakt/">Kontakt</a>
             <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
         </div>
+        <!-- Popup button -->
         <button id="showPopup">Zapytaj o mieszkania</button>
+          <!-- Popup end -->
         <span class="hamburger hamburger--collapse navbar__item" id="js-navbar-toggle">
             <span class="hamburger-box">
                 <span class="hamburger-inner"></span>
@@ -49,7 +50,10 @@
           
              </div>
              </div>
+             <!-- navbar end -->
 <header>
+
+
     <div class="center">
 <p>INTELIGENTNE OSIEDLE W ZAWIERCIU</p>
 <svg class="arrows">
@@ -60,7 +64,14 @@
   <p class="text0">NOWOCZESNE MIESZKANIA</p>
   <button id="buttomText0">SPRAWDŹ MIESZKANIA</button>
   <p class="text1">PONADCZASOWY DESIGN ARCHITEKTONICZNY</p>
+  <svg class="arrows1">
+    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+</svg> 
   <p class="text2">WYJĄTKOWE CZĘŚCI WSPÓLNE</p>
+
+
   <p class="text3">DOSTĘPNE DLA MIESZKAŃCÓW</p>
   <button id="buttomText1">LIFESTYLE</button>
  
@@ -80,6 +91,68 @@
         dla tych, którzy szukają wyjątkowego miejsca do życia.</p>
     
   </section>
+
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+  </head>
+  <body>
+  <div class="split-slideshow11">
+    <div class="slideshow1">
+      <div class="slider1">
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2023/11/8-scaled.jpg" />
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2024/01/WIDOK-8-2-scaled.jpg"/>
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2023/11/1-1-scaled.jpg" />
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2023/11/3-scaled.jpg" />
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2024/01/CAM_18-1-scaled.jpg" />
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2023/11/4-1-scaled.jpg" />
+        </div>
+        <div class="item1">
+          <img src="https://parkpaderewskiego.pl/wp-content/uploads/2023/11/2-scaled.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="slideshow1-text1">
+      <div class="item1"></div>
+      <div class="item1"></div>
+      <div class="item1"></div>
+      <div class="item1"></div>
+      <div class="item1"></div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="add-padding add-flex">
+    <div class="center-text">
+      <h1 id="textAlexBrush" class="alex-brush"><span class="custom-font"></span><br/>Lifestyle</h1><br>
+      <section id="aboutus"></section>
+      <p id="textAboutus">Części wspólne stanowią serce naszej ekskluzywnej inwestycji, oferując mieszkańcom
+        przestrzenie idealne do relaksu, realizacji pasji, rekreacji i spotkań z przyjaciółmi. Każda z tych
+        przestrzeni została starannie zaprojektowana, aby zapewnić komfort i funkcjonalność. Naszym
+        głównym celem jest dostarczenie Ci czegoś więcej, niż mógłbyś się spodziewać</p>
+        <button id="buttomText2">ODKRYWAJ CZĘŚCI WSPÓLNE</button>
+  </section>
+
+
+  
+
+
   <script>
 
 
@@ -132,6 +205,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
   
 });
+
+
+
+
+// slides start
+ let tracking1,righttracking1,$slider1=$(".slideshow1 .slider1"),maxitem1s=$(".item1",$slider1).length,dragging1=!1;for($slider1Right=$(".slideshow1").clone().addClass("slideshow1-right").appendTo($(".split-slideshow11")),reverseitem1s=(rightitem1s=$(".item1",$slider1Right).toArray()).reverse(),$(".slider1",$slider1Right).html(""),i=0;i<maxitem1s;i++)$(reverseitem1s[i]).appendTo($(".slider1",$slider1Right));function changeSlide(){$(".slideshow1-left").slick("slickNext")}$slider1.addClass("slideshow1-left"),$(".slideshow1-left").slick({vertical:!0,verticalSwiping:!0,arrows:!1,infinite:!0,dots:!0,speed:1e3,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}).on("beforeChange",function(s,e,l,t){l>t&&0==t&&l==maxitem1s-1?($(".slideshow1-right .slider1").slick("slickGoTo",-1),$(".slideshow1-text1").slick("slickGoTo",maxitem1s)):l<t&&0==l&&t==maxitem1s-1?($(".slideshow1-right .slider1").slick("slickGoTo",maxitem1s),$(".slideshow1-text1").slick("slickGoTo",-1)):($(".slideshow1-right .slider1").slick("slickGoTo",maxitem1s-1-t),$(".slideshow1-text1").slick("slickGoTo",t))}).on("onclick",function(s){s.preventDefault(),s.deltaX>0||s.deltaY<0?$(this).slick("slickNext"):(s.deltaX<0||s.deltaY>0)&&$(this).slick("slickPrev")}).on("onclick",function(){dragging1=!0,tracking1=parseInt((tracking1=$(".slick-track",$slider1).css("transform")).split(",")[5]),righttracking1=parseInt((righttracking1=$(".slideshow1-right .slick-track").css("transform")).split(",")[5])}).on("onclick",function(){dragging1&&(difftracking1=(newtracking1=parseInt((newtracking1=$(".slideshow1-left .slick-track").css("transform")).split(",")[5]))-tracking1,$(".slideshow1-right .slick-track").css({transform:"matrix(1, 0, 0, 1, 0, "+(righttracking1-difftracking1)+")"}))}).on("onclick",function(){dragging1=!1}),$(".slideshow1-right .slider1").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:950,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)",initialSlide:maxitem1s-1}),$(".slideshow1-text1").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:900,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}),setInterval(changeSlide,3500);
+// slides end
+
+
+
+
+
+
+
+
+
+
   </script>
   <style>
 
@@ -243,7 +333,50 @@ header .center {
       animation-delay:0s;
       -webkit-animation-delay:0s; 
   }
-
+  .arrows1 {
+        width: 60px;
+        height: 72px;
+        left: 50%;
+        margin-left: -30px;
+        top: 30%;
+    }
+  
+    .arrows1 path {
+        stroke: #ffff;
+        fill: transparent;
+        stroke-width: 5px;	
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite; 
+    }
+  
+    @keyframes arrow {
+        0% {opacity:0}
+        40% {opacity:1}
+        80% {opacity:0}
+        100% {opacity:0}
+    }
+  
+    @-webkit-keyframes arrow {
+        0% {opacity:0}
+        40% {opacity:1}
+        80% {opacity:0}
+        100% {opacity:0}
+    }
+  
+    .arrows1 path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s;
+    }
+  
+    .arrows1 path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s;
+    }
+  
+    .arrows1 path.a3 {	
+        animation-delay:0s;
+        -webkit-animation-delay:0s; 
+    }
 
 .white-border {
 
@@ -284,6 +417,7 @@ border-radius: 5px;
 .fluentform .ff-el-group {
     margin-bottom:3px !important;
 }
+   /* navbar start */
 .hamburger {
   position: absolute;
     margin-top: 30px !important;
@@ -479,6 +613,7 @@ margin-top: 40px;
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
+   /* navbar end */
 #buttomText0, #buttomText1
 {
    
@@ -495,13 +630,40 @@ margin-top: 40px;
   border-radius: 5px;
 }
 
- #buttomText1:hover {
-  background-color: #5D5455;
+
+#buttomText2
+{
+   
+  margin-top: 0% !important;
+  margin-left: 0%;
+  color: #5D5455 !important;
+  border: 3px solid #5D5455;
+
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  padding: 15px 15px 15px;
+  color: rgb(2, 0, 0);
+  font-size: 17px;
+  border-radius: 5px;
 }
 
+
+
 #buttomText0:hover {
-  background-color: #5D5455;
+  background-color: #ffffff54;
 }
+ #buttomText1:hover {
+  background-color: #ffffff54;
+}
+#buttomText2:hover {
+  background-color:#5D5455;
+  color: #ffff !important;
+}
+
+
+
+
+ /* Popup button start  */
 #showPopup {
   position: absolute;
   margin-top: 2% !important;
@@ -520,8 +682,9 @@ margin-top: 40px;
   
 }
 #showPopup:hover {
-  background-color: #5D5455;
+  background-color: #ffffff54;
 }
+ /* Popup button end  */
 
 .popup {
 display: none;
@@ -594,7 +757,9 @@ form.fluent_form_10 .ff-btn-submit:not(.ff_btn_no_style) {
 }
 
 .center-text {
-  text-align: center;
+
+  text-align: left;
+  margin-left: 15%;
   margin-bottom: 40px;
   margin-top: 30px;
   color: #5D5455;;
@@ -705,6 +870,132 @@ input[type="submit"] {
   font-size: 12px;
   color: red;
 }
+
+
+.slideshow1 {
+  position:absolute;
+  z-index:1;
+  top:2450px;
+  left:0;
+  width:100%;
+  height:550px;
+  overflow:hidden
+  }
+  
+  .slideshow1 .slider1 {
+    width:100%;
+  height:100vw;
+  z-index:2
+  }
+  
+  .slideshow1 .slider1 * {
+  outline:none
+  }
+  
+  .slideshow1 .slider1 .item1 {
+  height:500px;
+  position:relative;
+  overflow:hidden;
+  border:none
+  }
+  
+  .slideshow1 .slider1 .item1 .text {
+  display:none
+  }
+  
+  .slideshow1 .slider1 .item1 img {
+  min-width:100%;
+  min-height:100%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+  }
+  
+  .slideshow1 .slick-dots {
+  z-index:100;
+  width:60px;
+  height:auto;
+  bottom:auto;
+  top:250px;
+  right:0;
+  transform:translateY(-50%);
+  left:auto;
+  color:#fff;
+  display:block
+  }
+  
+  .slideshow1 .slick-dots li {
+  display:block;
+  width:100%;
+  height:auto
+  }
+  
+  .slideshow1 .slick-dots li button {
+  position:relative;
+  width:20px;
+  height:15px;
+  text-align:center
+  }
+  
+  .slideshow1 .slick-dots li button:before {
+  content:"";
+  background:#fff;
+  color:#fff;
+  height:7px;
+  width:20px;
+  border-radius:0;
+  position:absolute;
+  top:50%;
+  right:0;
+  left:auto;
+  transform:translateY(-50%);
+  transition:all .3s ease-in-out;
+  opacity:.6
+  }
+  
+  .slideshow1 .slick-dots li.slick-active button:before {
+  width:55px;
+  opacity:1
+  }
+  
+  .slideshow1.slideshow1-right {
+  left:0;
+  z-index:1;
+  width:50vw;
+  pointer-events:none
+  }
+  
+  .slideshow1.slideshow1-right .slider1 {
+  left:0;
+  position:absolute
+  }
+  
+  .slideshow1-text1 {
+  position:absolute;
+  top:200px;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:100;
+  font-size:63px;
+  width:100vw;
+  text-align:center;
+  color:#fff;
+  font-family:'Open Sans',sans-serif;
+  font-weight:700;
+  pointer-events:none;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  line-height:1.8
+  }
+  
+
+
+
+
+
+
+
 	@media (max-width: 1300px) {
 			    
 			    .popup-content {
@@ -715,12 +1006,13 @@ input[type="submit"] {
 
 
 }
+ /* Popup button start  */
 #showPopup {
 margin-top: 2.5%!important;
   margin-left: 72%;
   font-size: 12px;
 
-  
+  /* Popup button end  */
 }
   .navbar {
   font-size: 12.5px;
@@ -747,7 +1039,7 @@ top: 0% !important;
   
 }
 
-
+/* Popup button start  */
 #showPopup {
 margin-top: 3%!important;
 
@@ -755,6 +1047,7 @@ margin-top: 3%!important;
   font-size: 9px;
  padding: 15px 15px 15px;
 } 
+/* Popup button end  */
 }
  @media (max-width:950px) {
   #showPopup {
@@ -767,8 +1060,40 @@ margin-top: 8.5%!important;
  
 }
 
+
+@media (max-width: 767px) {
+  .slideshow1-text1 {
+  font-size:20px;
+  top:140px
+  }
+  
+  .the-most {
+  position:fixed;
+  z-index:1;
+  bottom:0;
+  left:0;
+  width:50vw;
+  max-width:200px;
+  padding:10px
+  }
+  
+  .the-most img {
+  max-width:100%
+  }
+  
+  .slideshow1 .slider1 .item1 {
+  height:230px;
+  position:relative;
+  overflow:hidden;
+  border:none
+  }
+  
+  .slideshow1 .slick-dots {
+  top:150px
+  }
+  }
  @media (max-width:770px) {
-     
+     /* Popup button start  */
      #showPopup {
 margin-top: 10%!important;
 
@@ -776,6 +1101,7 @@ margin-top: 10%!important;
   font-size: 10.5px;
  padding: 9px 9px 9px;
 } 
+/* Popup button end  */
   .navbar {
   font-size: 10.5px !important;
 }
@@ -790,10 +1116,11 @@ margin-left: 6%;
 
     
 }
+   /* Popup button start  */
      #showPopup {
 margin-top: 12%!important;
   margin-left: 60%;
-
+/* Popup button end  */
      
  }
  
@@ -812,8 +1139,41 @@ color: #ffff;
 
 
 }
+
+@media (min-width: 600px) {
+    .navbar__menu {
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: auto;
+        
+    }
+    .navbar__link {
+        margin-right: 20px;
+    }
+
+    .navbar__link:last-child {
+        margin-right: 0;
+    }
+
+    .navbar__menu--active {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: auto;
+        height: auto;
+        background: transparent;
+    }
+
+    .hamburger {
+        display: none;
+        padding: 5px auto;
+    }
+}
+
 @media (max-width: 600px) {
-    
+       /* navbar start */
     .dropdown-content {
   font-size: 10.5px;
 
@@ -823,6 +1183,7 @@ color: #ffff;
   .navbar {
   font-size: 10.5px !important;
 }
+/* Popup button start  */
 #showPopup {
 
 position: absolute;
@@ -830,7 +1191,7 @@ position: absolute;
   margin-left:5%;
 font-size:14px;
 
-
+/* Popup button end  */
 }
 
 		 input::placeholder {
@@ -850,7 +1211,7 @@ font-size:14px;
   height: 15%;
 
 }
-
+   /* navbar end */
 
 		}
 		
@@ -908,13 +1269,14 @@ border-radius: 5px;
  width: 100%;
     
 }
+/* Popup button start  */
 		    #showPopup {
 
   margin-top: 9% !important;
   padding: 15px 15px 15px;
 
 }
-
+/* Popup button end  */
 
       .navbar {
   font-size: 5px;
@@ -968,37 +1330,7 @@ font-size: 4px;
 
 
 
-@media (min-width: 600px) {
-    .navbar__menu {
-        opacity: 1;
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        top: auto;
-        
-    }
-    .navbar__link {
-        margin-right: 20px;
-    }
 
-    .navbar__link:last-child {
-        margin-right: 0;
-    }
-
-    .navbar__menu--active {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: auto;
-        height: auto;
-        background: transparent;
-    }
-
-    .hamburger {
-        display: none;
-        padding: 5px auto;
-    }
-}
 	@media (max-width: 280px) {
 
 		
@@ -1028,7 +1360,7 @@ form.fluent_form_10 .ff-btn-submit:not(.ff_btn_no_style) {
 
 		}
 
-
+ 
 
   </style>
 
