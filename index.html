@@ -3,6 +3,7 @@
 
 </head>
 <body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- navbar start -->
 <div class="top">
     <div class="navbar">
@@ -205,8 +206,45 @@
     </a>
   </div>
   </div>
+<!-- footer start -->
+<footer>
 
+  <div class="content_footer">
+    <img
+    src="https://parkpaderewskiego.pl/wp-content/uploads/2023/12/cropped-full_trimmed_transparent_customcolor-2048x1107-1-1024x554.png"
+      class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>deweloperem segmentu premium. Tworzymy<br>nieruchomości cechujące się najwyższą jakością,<br> innowacyjnymi technologiami, funkcjonalnością i<br>ponadczasowym designem.</h5>
+      <img
+      src="https://parkpaderewskiego.pl/wp-content/uploads/2021/12/PZFD_jestesmyczlonkiem-bez-tla.png"
+        class="footer_logo">
+    <div class="locations">
+      <h4></h4>
 
+      <div class="content_footer">
+        <img
+       
+    
+        <div class="locations">
+          <h4></h4>
+          <div class="location-1">
+            <div class="line"></div>
+            <h5>Polityka cookies<br>Polityka prywatności<br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+          
+          </div>
+          
+        <div class="locations1">
+          <h4></h4>
+          <div class="location-1">
+       
+            <h5>BIURO SPRZEDAŻY<br>ul.Paderewskiego 63a, 42-400 Zawiercie<br>+48 786 337 302<br>e-mail. biuro@parkpaderewskiego.pl<br>sprzedaz@parkpaderewskiego.pl<br>www.diamond-hill.com.pl<br><br><br><br><br><br>Bądź na bieżąco</h5>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+
+          </div>
+  
+</footer>
+<!-- footer end -->
 
 <script>
   let  tracking,rightTracking,$sliderTwo=$(".slideshowTwo .sliderTwo"),maxItems=$(".itemTwo",$sliderTwo).length,dragging=!1;for($sliderRight=$(".slideshowTwo").clone().addClass("slideshowTwo-right").appendTo($(".split-slideshowTwo")),reverseItems=(rightItems=$(".itemTwo",$sliderRight).toArray()).reverse(),$(".sliderTwo",$sliderRight).html(""),i=0;i<maxItems;i++)$(reverseItems[i]).appendTo($(".sliderTwo",$sliderRight));function changeSlide(){$(".slideshowTwo-left").slick("slickNext")}$sliderTwo.addClass("slideshowTwo-left"),$(".slideshowTwo-left").slick({vertical:!0,verticalSwiping:!0,arrows:!1,infinite:!0,dots:!0,speed:1e3,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}).on("beforeChange",function(s,e,l,t){l>t&&0==t&&l==maxItems-1?($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",-1),$(".slideshowTwo-text").slick("slickGoTo",maxItems)):l<t&&0==l&&t==maxItems-1?($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",maxItems),$(".slideshowTwo-text").slick("slickGoTo",-1)):($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",maxItems-1-t),$(".slideshowTwo-text").slick("slickGoTo",t))}).on("onclick",function(s){s.preventDefault(),s.deltaX>0||s.deltaY<0?$(this).slick("slickNext"):(s.deltaX<0||s.deltaY>0)&&$(this).slick("slickPrev")}).on("onclick",function(){dragging=!0,tracking=parseInt((tracking=$(".slick-track",$sliderTwo).css("transform")).split(",")[5]),rightTracking=parseInt((rightTracking=$(".slideshowTwo-right .slick-track").css("transform")).split(",")[5])}).on("onclick",function(){dragging&&(diffTracking=(newTracking=parseInt((newTracking=$(".slideshowTwo-left .slick-track").css("transform")).split(",")[5]))-tracking,$(".slideshowTwo-right .slick-track").css({transform:"matrix(1, 0, 0, 1, 0, "+(rightTracking-diffTracking)+")"}))}).on("onclick",function(){dragging=!1}),$(".slideshowTwo-right .sliderTwo").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:950,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)",initialSlide:maxItems-1}),$(".slideshowTwo-text").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:900,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}),setInterval(changeSlide,3500);
@@ -1187,6 +1225,108 @@ img
   max-width: 100%;
     height: auto;
 }
+ 
+
+/*
+  FOOTER
+*/
+footer {
+  margin: 0;
+  position: relative;
+  background: #30492b;
+  color: rgb(255, 255, 255);
+  
+}
+
+.footer_logo {
+
+  margin-right: 3%;
+  margin-top: -1%;
+  width: 15%;
+}
+
+
+
+footer h4 {
+  
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+footer h5 {
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+footer .content_footer {
+  padding: 15px 40px !important;
+  font-size: 17px;
+
+  flex-direction: column;
+
+}
+
+
+
+.location-1 {
+
+  margin-bottom: 0px;
+}
+
+.locations {
+margin-left: 350px;
+  display: flex;
+  text-align:center;
+  margin-top: 0%;
+}
+.locations1 {
+margin-left: 380px;
+position: absolute;
+  text-align:right;
+  margin-top:-400px;
+}
+
+.line {
+ 
+    height: 1px; 
+    background-color:  rgb(255, 255, 255);;
+}
+
+.fa {
+
+  padding: 5px;
+  font-size: 17px;
+  width: 15px;
+  height:15px;
+  text-align: center;
+  text-decoration: none;
+  margin: -30px 0px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.fa-linkedin {
+  background:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.fa-youtube {
+  background:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.fa-instagram {
+  background:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
 
 	@media (max-width: 1300px) {
 
@@ -1534,6 +1674,8 @@ margin-top: 10%!important;
 top:2200px;
 
   }
+
+  
   
  }
  
