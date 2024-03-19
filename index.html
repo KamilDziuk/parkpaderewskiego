@@ -208,41 +208,35 @@
   </div>
 <!-- footer start -->
 <footer>
-  <br>
-  <div class="content_footer">
+  <div class="locationsAll">
+  <div class="locationsLeft">
+    
     <img
     src="https://parkpaderewskiego.pl/wp-content/uploads/2023/12/cropped-full_trimmed_transparent_customcolor-2048x1107-1-1024x554.png"
       class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>deweloperem segmentu premium. Tworzymy<br>nieruchomości cechujące się najwyższą jakością,<br> innowacyjnymi technologiami, funkcjonalnością i<br>ponadczasowym designem.</h5>
       <img
       src="https://parkpaderewskiego.pl/wp-content/uploads/2021/12/PZFD_jestesmyczlonkiem-bez-tla.png"
         class="footer_logo">
-    <div class="locations">
-      <h4></h4>
 
-      <div class="content_footer">
-        <img
-       
-    
-        <div class="locations">
-          <h4></h4>
-          <div class="location-1">
-            <div class="line"></div>
-            <h5>Polityka cookies<br>Polityka prywatności<br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+      </div>
+     
           
-          </div>
-          
-        <div class="locations1">
-          <h4></h4>
-          <div class="location-1">
-       
+        <div class="locationsRight">
+         
             <h5>BIURO SPRZEDAŻY<br>ul.Paderewskiego 63a, 42-400 Zawiercie<br>+48 786 337 302<br>e-mail. biuro@parkpaderewskiego.pl<br>sprzedaz@parkpaderewskiego.pl<br>www.diamond-hill.com.pl<br><br><br><br><br><br>Bądź na bieżąco</h5>
+           
             <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-instagram"></a>
-
+       
           </div>
-  
+          
+          <div class="locationsCenter">    
+            <div class="line"></div>
+            <h5>Polityka cookies<br>Polityka prywatności<br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+          </div>
+        </div>
 </footer>
 <!-- footer end -->
 
@@ -327,9 +321,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 body {
-    margin: 0;
-    background-color:#EFEFED;
-  font-family: 'Open Sans', sans-serif;
+
+  background-color: #EFEFED;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden;
 }
 
 
@@ -1231,61 +1228,56 @@ img
 /*
   FOOTER
 */
-footer {
+
+.locationsAll
+{
+  left: 50px;
+  position: relative;
+}
+
+h5{
+  font-weight: 100;
+}
+footer  {
+
+  font-weight: 100;
   margin: 0;
   position: relative;
   background: #30492b;
   color: rgb(255, 255, 255);
-  
+  height: 90%;
+  line-height: 1.5;
+ 
 }
 
 .footer_logo {
 
   margin-right: 3%;
-  margin-top: -1%;
-  width: 15%;
+  margin-top: 1%;
+  width: 17%;
 }
 
-
-
-footer h4 {
-  
-  margin-bottom: 0px;
-  font-weight: 100;
-}
-
-footer h5 {
-  line-height: 1.5;
-  font-weight: 100;
-}
-
-footer .content_footer {
-  margin-left: 13% !important;
-  padding: 15px 40px !important;
+.locationsLeft
+{
+  margin-left: 3%;
+  padding: 15px 40px;
   font-size: 17px;
 
-  flex-direction: column;
-
 }
-
-
-
-.location-1 {
-
-  margin-bottom: 0px;
-}
-
-.locations {
-margin-left: 720px;
+.locationsRight {
+  
+margin-left: 920px;
   display: flex;
-  text-align:center;
+  text-align:right !important;
+  margin-top: -400 !important;
+ 
   margin-top: 0%;
 }
-.locations1 {
-margin-left: 400px;
+.locationsCenter {
+margin-left: 500px;
 position: absolute;
-  text-align:right;
-  margin-top:-400px;
+text-align:center !important;
+  margin-top:100px;
 }
 
 .line {
@@ -1295,15 +1287,18 @@ position: absolute;
 }
 
 .fa {
-
-  padding: 5px;
-  font-size: 17px;
-  width: 15px;
-  height:15px;
+margin-top: 270px !important;
+right: 140px;
+position: relative;
+  padding: 7px;
+  font-size: 25px;
+  width: 25px;
+  height:25px;
   text-align: center;
   text-decoration: none;
-  margin: -30px 0px;
+  margin: 0px 4px;
   border-radius: 100%;
+
 }
 
 .fa:hover {
@@ -1329,6 +1324,9 @@ position: absolute;
   background:  rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
+/*
+  FOOTER end
+*/
 
 	@media (max-width: 1300px) {
 
@@ -1413,18 +1411,66 @@ margin-top: 2.5%!important;
   
 }
 
-.locations {
-margin-left: 280px;
-  display: flex;
-  text-align:center;
+
+
+/*
+  FOOTER
+*/
+.locationsAll
+{
+  left:45px;
+
+}
+
+footer {
+
+  height: 90%;
+
+
+}
+
+.footer_logo {
+
+  margin-right: 3%;
+  margin-top: 1%;
+  width: 17%;
+}
+
+.locationsLeft
+{
+  margin-left: 3%;
+
+}
+.locationsRight {
+  
+margin-left: 620px;
+
+  margin-top: -375px !important; 
+ 
   margin-top: 0%;
 }
-.locations1 {
-margin-left: 380px;
-position: absolute;
-  text-align:right;
-  margin-top:-400px;
+.locationsCenter {
+margin-left: 300px;
+  margin-top:100px;
 }
+
+.line {
+ 
+    height: 1px; 
+
+}
+
+.fa {
+  margin-top: 300px !important;
+right: 140px;
+font-size: 20px;
+  width: 20px;
+  height:20px;
+}
+
+/*
+  FOOTER end
+*/
 }
 @media (max-width:1050px) {
   footer .content_footer {
@@ -1481,20 +1527,70 @@ top:3120px;
 
 }
 /* Popup button end  */
+
+
+
+/*
+  FOOTER
+*/
+
+.locationsAll
+{
+  left:30px;
+
 }
 
-.locations {
-margin-left: 240px;
-  display: flex;
-  text-align:center;
+footer {
+
+  height: 90%;
+
+
+}
+
+.footer_logo {
+
+  margin-right: 3%;
+  margin-top: 1%;
+  width: 17%;
+}
+
+.locationsLeft
+{
+  margin-left: 3%;
+
+}
+.locationsRight {
+  
+margin-left: 620px;
+
+  margin-top: -375px !important; 
+ 
   margin-top: 0%;
 }
-.locations1 {
-margin-left: 340px;
-position: absolute;
-  text-align:right;
-  margin-top:-400px;
+.locationsCenter {
+margin-left: 300px;
+  margin-top:100px;
 }
+
+.line {
+ 
+    height: 1px; 
+
+}
+
+.fa {
+  margin-top: 300px !important;
+right: 140px;
+font-size: 20px;
+  width: 20px;
+  height:20px;
+}
+
+/*
+  FOOTER end
+*/
+}
+
  @media (max-width:950px) {
   .add-padding1 {
   margin-top: 450px;
@@ -1564,20 +1660,128 @@ margin-top: 8.5%!important;
   font-size: 10.5px;
  padding: 9px 9px 9px;
 } 
-.locations {
-margin-left: 160px;
-  display: flex;
-  text-align:center;
-  margin-top: 0%;
-}
-.locations1 {
-margin-left: 260px;
-position: absolute;
-  text-align:right;
-  margin-top:-400px;
-}
+/*
+  FOOTER
+*/
+
+.locationsAll
+{
+  left:0px;
+
 }
 
+footer {
+
+  height: 90%;
+
+
+}
+
+.footer_logo {
+
+  margin-right: 3%;
+  margin-top: 1%;
+  width: 17%;
+}
+
+.locationsLeft
+{
+  margin-left: 3%;
+
+}
+.locationsRight {
+  
+margin-left: 620px;
+
+  margin-top: -360px !important; 
+ 
+  margin-top: 0%;
+}
+.locationsCenter {
+margin-left: 300px;
+  margin-top:100px;
+}
+
+.line {
+ 
+    height: 1px; 
+
+}
+
+.fa {
+  margin-top: 305px !important;
+right: 140px;
+font-size: 15px;
+  width: 15px;
+  height:12px;
+}
+
+/*
+  FOOTER end
+*/
+}
+
+@media (max-width: 880px) {
+/*
+  FOOTER
+*/
+
+.locationsAll
+{
+  left:0px;
+
+}
+
+footer {
+
+  height: 92%;
+
+
+}
+
+.footer_logo {
+
+  margin-right: 3%;
+  margin-top: 1%;
+  width: 17%;
+}
+
+.locationsLeft
+{
+  margin-left: 3%;
+
+}
+.locationsRight {
+  
+margin-left: 520px;
+
+  margin-top: -290px !important; 
+ 
+  margin-top: 0%;
+}
+.locationsCenter {
+margin-left: 230px;
+  margin-top:100px;
+}
+
+.line {
+ 
+    height: 1px; 
+
+}
+
+.fa {
+  margin-top: 305px !important;
+right: 140px;
+font-size: 15px;
+  width: 15px;
+  height:12px;
+}
+
+/*
+  FOOTER end
+*/
+}
 
 @media (max-width: 767px) {
 
@@ -1671,7 +1875,7 @@ top:2100px;
 
   .slideshowTwo-text {
 font-size:20px;
-top:96px
+top:86px !important; 
 }
 
 .the-most {
@@ -1700,11 +1904,16 @@ top:100px
 }
 
 
+/* footer start */
+.locationsAll
+{
+  left: 170px;
+
+}
 footer {
-  margin: 0;
- height: 760px;
-  background: #30492b;
-  color: rgb(255, 255, 255);
+
+ height: 800px;
+
   
 }
 footer .content_footer {
@@ -1717,18 +1926,35 @@ footer .content_footer {
 }
 
 
-.locations {
-margin-left: 0px;
- 
-  text-align:left;
-  margin-top: 0%;
-}
-.locations1 {
+.locationsLeft {
 margin-left: 0px;
 
-  text-align:left;
-  margin-top:0px;
+  padding: 0px 0px;
+
+
 }
+
+  
+
+.locationsCenter {
+  margin-left: 0px;
+
+text-align:left !important;
+  margin-top:11px;
+}
+.locationsRight {
+margin-left: 0px;
+
+text-align:left !important;
+  margin-top:0px !important;
+}
+
+.fa {
+margin-top: 270px !important;
+right: 260px;
+}
+
+/* footer end */
   }
  @media (max-width:770px) {
      /* Popup button start  */
@@ -1745,7 +1971,7 @@ margin-top: 10%!important;
 }
 .slideshowTwo {
 
-top:2200px;
+top:2100px;
 
   }
 
@@ -1969,7 +2195,50 @@ font-size: 12px !important;
     margin-left: 45%!important;
  
 }
+
+.slideshow {
+
+top:1500px;
+
+}
+
+.slideshowTwo {
+
+top:2280px;
+
+}
+footer {
+
+  height: 95%;
+
+
+}
+
+
+
+
+.locationsLeft
+{
+  font-size: 12px;
+}
+.locationsAll
+{
+  left: 65px;
+  font-size: 12px;
+}
+.fa
+{
+  margin-top: 200px !important;
+  right: 190px;
+
+		}
 	
+.footer_logo {
+
+width: 30%;
+}
+
+
 			}
 		
 	    
@@ -2018,18 +2287,52 @@ border-radius: 5px;
 
 .slideshow {
 
-  top:1700px;
+  top:1600px;
 
   }
 
   .slideshowTwo {
 
-top:2500px;
+top:2390px;
 
   }
 
-		}
-		
+
+
+
+
+
+.locationsLeft
+{
+font-size: 12px;
+}
+.locationsAll
+{
+left: 65px;
+font-size: 12px;
+}
+.fa
+{
+margin-top: 200px !important;
+right: 190px;
+
+  }
+  }
+    @media (max-width: 393px) {
+
+.slideshow {
+
+top:1700px;
+
+  }
+
+.slideshowTwo {
+
+top:2500px;
+
+  }
+    }
+
 		
 			@media (max-width:370px) {
 
@@ -2102,24 +2405,81 @@ font-size: 4px;
 }
 .slideshow {
 
-top:1800px;
+top:1700px;
 
   }
 
 .slideshowTwo {
 
-top:2700px;
+top:2500px;
 
   }
 
 
+  footer {
 
+height: 90%;
+
+
+}
+
+
+
+
+.locationsLeft
+{
+font-size: 12px;
+}
+.locationsAll
+{
+left: 30px;
+font-size: 12px;
+}
+.fa
+{
+margin-top: 200px !important;
+right: 190px;
+
+  }
 		}
 		
 		
 		
 		
-	
+    @media (max-width:370px) {
+
+      footer {
+
+height: 90%;
+
+
+}
+
+
+
+
+.locationsLeft
+{
+font-size: 12px;
+}
+.locationsAll
+{
+left: 5px;
+font-size: 12px;
+}
+.fa
+{
+margin-top: 225px !important;
+right: 160px;
+
+  }
+  .footer_logo {
+
+width: 30%;
+}
+
+    }
+      
 
 
 
@@ -2127,7 +2487,7 @@ top:2700px;
 
 	@media (max-width: 280px) {
 
-		
+
 		 input::placeholder {
 
 font-size: 6px;
@@ -2160,6 +2520,8 @@ form.fluent_form_10 .ff-btn-submit:not(.ff_btn_no_style) {
   top:1900px;
 
   }
+
+
 
 		}
 
