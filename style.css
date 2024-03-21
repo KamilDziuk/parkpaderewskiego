@@ -484,39 +484,7 @@ body {
   
   
   
-  .ff-default .ff-el-form-control {
-   background-color: #d6161600;
-      max-width: 60%!important;
-      border: 2px solid #fff ;
-      color: #fff;
-      
-  }
-  
-  .ff-default .ff-el-input--label label {
-      display: inline-block;
-      font-weight: 500;
-      line-height: inherit;
-      margin-bottom: 0;
-      color: #fff;
-  }
-  
-  .fluentform .ff-el-form-check {
-       color: #b1b1b1;
-  }
-  
-  .fluentform .ff-el-form-check-label .ff-el-form-check-input {
-    
-      background-color: #d61616!important;
-      border: 2px solid red!important;
-  }
-  
-  
-  form.fluent_form_10 .ff-btn-submit:not(.ff_btn_no_style) {
-      background-color: #40a0ff00!important;
-      border: 2px solid #ffffff;
-      font-size: 20px;
-  }
-  
+
   
   
   .add-padding {
@@ -544,16 +512,13 @@ body {
   }
   .center-text p {
     margin-top: 0;
-  
+  /* font-size: 15px; */
     line-height: 1.5;
   }
   
   
   
-  #form
-  {
-    margin-top:40px ;
-  }
+
   .close {
       position: absolute;
       top: 10px;
@@ -562,88 +527,8 @@ body {
       cursor: pointer;
       color: #fff;
   }
-  .field {
-    margin-bottom:25px;
-  }
+ 
   
-  .field label {
-    display: block;
-    font-size: 12px;
-    color: #777;
-  }
-  .field input {
-    display: block;
-    width:350px ;
-    line-height: 1.5 ;
-    font-size: 14px;
-    border: none ;
-    border-bottom: 1px solid #000;
-    padding: 2px  ; 
-  }
-  input[type="submit"] {
-    display: block;
-    padding: 6px 30px;
-    font-size: 14px;
-    background-color: #EFEFED;
-    color: #000000;
-    border: none
-  }
-  
-  .allAvailableApartmentsAvailable,
-  .fomrText {
-  
-    color: #fff!important;
-      font-size: 15px!important;
-      font-weight: 500;
-      margin-left: 67%!important;
-      letter-spacing: normal; 
-      word-spacing: normal;
-  }
-  
-  .checkboxMain
-  {
-    position: absolute;
-    top: 100px;
-    font-size: 9px ;
-    font-weight: 300  ;
-    margin-left: 30px;
-   left: 410px;
-   margin-right: 10px;
-  }
-  #button {
-     top: 10px ;
-    background-color:#EFEFED;
-    color: #000000; 
-    border: none;
-    padding: 10px 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-size: 12px;
-  }
-  #button:hover {
-    background-color:#EFEFED;
-  }
-  #error_from_name
-  {
-    font-size: 12px;
-    color: red;
-  }
-  #error_message
-  {
-    font-size: 12px;
-    color: red;
-  }
-  
-  #error_phone
-  {
-    font-size: 12px;
-    color: red;
-  }
-  #error_email_id
-  {
-    font-size: 12px;
-    color: red;
-  }
   
   
    .slideshow {
@@ -900,7 +785,7 @@ body {
     height: auto;
   }
   
-   
+
   
   /*
     FOOTER
@@ -1016,7 +901,7 @@ body {
 
     .locationsAll
     {
-      left:150px;
+      left:125px;
     
     }
   }
@@ -1583,7 +1468,11 @@ body {
 
       font-size:23px;
       }
-
+      .theEntireInvestor
+      {
+        width: 100%;
+          height: auto; 
+      }
   .the-most {
   position:fixed;
   z-index:1;
@@ -1839,7 +1728,7 @@ body {
           
               @media (max-width: 550px) {
          
-  
+             
           .add-padding1 {
     margin-top: 200px;
   
@@ -1949,7 +1838,7 @@ body {
     
   .slideshowTwo-text  {
 
-    top:230px;
+    top:190px;
        }
  
   
@@ -1983,7 +1872,7 @@ body {
           @media (max-width: 450px) {
             .slideshowTwo-text  {
 
-              top:70px;
+              top:170px;
                  }
               .white-border {
    margin-bottom: 0%;
@@ -2474,7 +2363,7 @@ body {
  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
+
 }
 .panel__title {
  font-family: 'Open Sans', sans-serif;
