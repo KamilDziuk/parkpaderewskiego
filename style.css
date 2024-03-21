@@ -870,9 +870,9 @@ body {
   left:0;
   position:absolute
   }
-  
+
   .slideshowTwo-text  {
-  position:absolute;
+  position:relative;
   top:150px;
   left:50%;
   transform:translate(-50%,-50%);
@@ -880,7 +880,7 @@ body {
   font-size:63px;
   width:100vw;
   text-align:center;
-  color: #000000;
+  color: #a7a7a7;
   font-family:'Open Sans',sans-serif;
   font-weight:700;
   pointer-events:none;
@@ -890,8 +890,8 @@ body {
   }
   .theEntireInvestor
   {
-    max-width: 100%;
-      height: auto; 
+    width: 100%;
+      height: 100%; 
   }
   
   img
@@ -1004,8 +1004,34 @@ body {
   /*
     FOOTER end
   */
-  
-      @media (max-width: 1300px) {
+  @media (max-width: 2000px) {
+
+    .locationsAll
+    {
+      left:300px;
+    
+    }
+  }
+  @media (max-width: 1700px) {
+
+    .locationsAll
+    {
+      left:150px;
+    
+    }
+  }
+
+  @media (max-width: 1500px) {
+
+    .locationsAll
+    {
+      left:60px;
+    
+    }
+  }
+
+
+      @media (max-width: 1400px) {
   
       header .center p {
   
@@ -1553,7 +1579,10 @@ body {
     top:120px
     }
   
-  
+    .slideshowTwo-text  {
+
+      font-size:23px;
+      }
 
   .the-most {
   position:fixed;
@@ -1652,7 +1681,11 @@ body {
   
     }
   
-    
+    .slideshowTwo-text  {
+
+      top:100px;
+         }
+   
     
    }
    
@@ -1781,6 +1814,8 @@ body {
      
       
   }
+
+
   .top--scrolling {
     height: 15%;
   
@@ -1803,6 +1838,7 @@ body {
           
           
               @media (max-width: 550px) {
+         
   
           .add-padding1 {
     margin-top: 200px;
@@ -1910,7 +1946,12 @@ body {
   
   }
   
-  
+    
+  .slideshowTwo-text  {
+
+    top:230px;
+       }
+ 
   
   
   .locationsLeft
@@ -1940,6 +1981,10 @@ body {
           
   
           @media (max-width: 450px) {
+            .slideshowTwo-text  {
+
+              top:70px;
+                 }
               .white-border {
    margin-bottom: 0%;
    padding: 1px 1px 1px;
@@ -2029,7 +2074,7 @@ body {
   
   .slideshowTwo {
   
-  top:2500px;
+  top:2600px;
   
     }
   
@@ -2038,6 +2083,10 @@ body {
   left: 70px;
   font-size: 12px;
   }
+  .slideshowTwo-text  {
+
+    top:130px;
+       }
       }
   
                   
