@@ -633,23 +633,7 @@ body {
     position:absolute
     }
     
-    .slideshow-text {
-    position:absolute;
-    top:200px;
-    left:50%;
-    transform:translate(-50%,-50%);
-    z-index:100;
-    font-size:63px;
-    width:100vw;
-    text-align:center;
-    color:#fff;
-    font-family:'Open Sans',sans-serif;
-    font-weight:700;
-    pointer-events:none;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    line-height:1.8
-    }
+
     
   
   
@@ -1375,7 +1359,35 @@ body {
   */
   }
   
-  @media (max-width: 767px) {
+ 
+   @media (max-width:770px) {
+       /* Popup button start  */
+       #showPopup {
+  margin-top: 10%!important;
+  
+    margin-left: 64%;
+    font-size: 10.5px;
+   padding: 9px 9px 9px;
+  } 
+  /* Popup button end  */
+    .navbar {
+    font-size: 10.5px !important;
+  }
+  .slideshowTwo {
+  
+  top:2150px;
+  
+    }
+  
+    .slideshowTwo-text  {
+
+      top:100px;
+         }
+   
+    
+   }
+
+   @media (max-width: 767px) {
   
     header {
     height: 1100px !important;
@@ -1433,26 +1445,8 @@ body {
   top:2100px;
   
     }
-  
-    .slideshow-text {
-    font-size:20px;
-    top:140px
-    }
-    
-    .the-most {
-    position:fixed;
-    z-index:1;
-    bottom:0;
-    left:0;
-    width:50vw;
-    max-width:200px;
-    padding:10px
-    }
-    
-    .the-most img {
-    max-width:100%
-    }
-    
+
+
     .slideshow .slider .item {
     height:230px;
     position:relative;
@@ -1473,20 +1467,7 @@ body {
         width: 100%;
           height: auto; 
       }
-  .the-most {
-  position:fixed;
-  z-index:1;
-  bottom:0;
-  left:0;
-  width:50vw;
-  max-width:200px;
-  padding:10px
-  }
-  
-  .the-most img {
-  max-width:100%
-  }
-  
+
   .slideshowTwo .sliderTwo .itemTwo {
   height:230px;
   position:relative;
@@ -1551,32 +1532,6 @@ body {
   
   /* footer end */
     }
-   @media (max-width:770px) {
-       /* Popup button start  */
-       #showPopup {
-  margin-top: 10%!important;
-  
-    margin-left: 64%;
-    font-size: 10.5px;
-   padding: 9px 9px 9px;
-  } 
-  /* Popup button end  */
-    .navbar {
-    font-size: 10.5px !important;
-  }
-  .slideshowTwo {
-  
-  top:2150px;
-  
-    }
-  
-    .slideshowTwo-text  {
-
-      top:100px;
-         }
-   
-    
-   }
    
     @media (max-width:645px) {
        .navbar__menu{
