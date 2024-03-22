@@ -1636,10 +1636,7 @@ position: absolute;
   /* Popup button end  */
   }
   
-           input::placeholder {
   
-    font-size: 7.5px;
-  }
   
   .logo {
     position: absolute;
@@ -1730,21 +1727,8 @@ position: absolute;
   
   }
                   
-          .ff-default .ff-el-form-control {
-  
-      max-width: 60%!important;
-  
-  
-                  
-                  
-                  
-              }
-              
-                      .ff-default .ff-el-form-control {
-  
-      max-width: 100%!important;
-  
-              }
+
+
           .allAvailableApartmentsAvailable,
   .fomrText {
   
@@ -1821,10 +1805,6 @@ position: absolute;
     font-size: 5px;
   }
       
-           input::placeholder {
-  
-    font-size: 7.5px;
-  }
   
   
   
@@ -1961,10 +1941,6 @@ position: absolute;
       @media (max-width: 280px) {
   
   
-           input::placeholder {
-  
-  font-size: 6px;
-  }
                   .popup-content {
   
       width:230px!important;
@@ -1972,17 +1948,7 @@ position: absolute;
   
   
   }
-  .fomrText
-  {
-      font-size: 12px !important;
-  }
-  .fluentform .ff-el-form-check {
-      font-size: 6.5px !important;
-  }
-  form.fluent_form_10 .ff-btn-submit:not(.ff_btn_no_style) {
-      
-      font-size: 12px;
-  }
+
   
 
   
