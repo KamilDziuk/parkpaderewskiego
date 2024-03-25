@@ -1,0 +1,65 @@
+
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<link rel="icon" href="/favicon.ico" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#000000" />
+<meta name="description" content="Interaktywna Smart Makieta" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js" defer></script>
+<title>Mieszkania</title>
+<!-- navbar start -->
+<div class="top-content">
+
+<div class="navbar">
+<a class="navbar__item logo" href="https://parkpaderewskiego.pl/">  <img class="navbar__item logo" href="https://parkpaderewskiego.pl/"><img class="navbar__item logo"  src="lpp.webp"></a>
+<div class="navbar__menu">
+<a class="navbar__item navbar__link white-border" href="apartments.html">Mieszkania</a>
+<div class="navbar__item navbar__link dropdown">Parkingi
+<div class="dropdown-content">
+<a href="https://parkpaderewskiego.pl/parkingi-naziemne/">Parkingi Naziemne</a>
+<br>
+<a href="https://parkpaderewskiego.pl/budynek-b-garaze-podziemne/">Garaże podziemne B</a>
+<br>
+<a href="https://parkpaderewskiego.pl/budynek-c-garaze-podziemne/">Garaże podziemne C</a>
+</div>
+</div>
+<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/galeria/">Galeria</a>
+<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/o-inwestycji/">O inwestycji</a>
+<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/lifestyle/">Lifestyle</a>
+<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/kontakt/">Kontakt</a>
+<a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
+</div>
+<!-- Popup start -->
+<button id="showPopup">Zapytaj o mieszkania</button>
+<!-- Popup end -->
+<span class="hamburger hamburger--collapse navbar__item" id="js-navbar-toggle">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</span>
+</div>
+</div>
+<div id="popup" class="popup">
+<div class="popup-content">
+<div class="allAvailableApartmentsAvailable"></div>
+<span class="close" id="closePopup">&times;</span>
+</div>
+</div>
+<!-- navbar end -->
+<!-- 3D mockup start -->
+<link href="https://3destatesmartmakietaemb.z6.web.core.windows.net/v1/css/main.css" rel="stylesheet" />
+</head>
+<body>
+<div id="smart-makieta"></div>
+<script src="https://3destatesmartmakietaemb.z6.web.core.windows.net/v1/js/main.js"
+onload="(function(){SM.init('6787541c-d948-430e-bf1d-373c8b94d7b2', 'smart-makieta', {  }, {autoOpenOnMobile: true, forceLang:'pl'}, { }, {})})()">
+</script>
+<!-- 3D mockup end -->
+<!-- Calendesk widget start -->
+<link href="https://media.calendesk.com/external/widget/v3/widget.css" rel="stylesheet">
+<script src="https://media.calendesk.com/external/widget/v3/widget.js" type="text/javascript"></script><script type="text/javascript">Calendesk.initBadgeWidget({ url: 'https://spotkanie.parkpaderewskiego.pl/', text: 'Wybierz termin prezentacji Online', color: '#30492B', textColor: '#ffffff' });</script>
+<!-- Calendesk widget end -->
+</body>
+</html>
