@@ -1,10 +1,23 @@
 .gallery {
+
   width:100%;
   margin-left:0;
   border-radius:5px;
   overflow:hidden
   }
   
+  .galleryOne
+  {
+  width:100%;
+  margin-top:500px !important;
+  margin-left:0;
+  border-radius:5px;
+  overflow:hidden
+    }
+
+
+
+
   .img-c {
   width:350px;
   height:350px;
@@ -58,13 +71,14 @@
   top:0!important;
   transition-delay:50ms
   }
-  
+
+
   @media (max-width: 1700px) {
-  .gallery {
+  .gallery, .galleryOne {
   width:90%;
   margin-left:10%
   }
-  
+
   .img-c {
   width:320px;
   height:320px
@@ -78,7 +92,7 @@
   }
   
   @media (max-width: 1600px) {
-  .gallery {
+  .gallery, .galleryOne {
   width:90%;
   margin-left:5%
   }
@@ -96,7 +110,7 @@
   }
   
   @media (max-width: 1540px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:3%
   }
@@ -114,7 +128,7 @@
   }
   
   @media (max-width: 1440px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:-.5%
   }
@@ -132,7 +146,7 @@
   }
   
   @media (max-width: 1380px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:13%
   }
@@ -150,7 +164,7 @@
   }
   
   @media (max-width: 1240px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:7%
   }
@@ -168,7 +182,7 @@
   }
   
   @media (max-width: 1140px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:3%
   }
@@ -186,7 +200,7 @@
   }
   
   @media (max-width: 1085px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:95%;
   margin-left:0
   }
@@ -204,7 +218,7 @@
   }
   
   @media (max-width: 1075px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:0
   }
@@ -222,7 +236,7 @@
   }
   
   @media (max-width: 1020px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:20%
   }
@@ -240,7 +254,7 @@
   }
   
   @media (max-width: 930px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:15%
   }
@@ -258,7 +272,7 @@
   }
   
   @media (max-width: 880px) {
-  .gallery {
+   .gallery, .galleryOne {
   margin-left:14%
   }
   
@@ -269,7 +283,7 @@
   }
   
   @media (max-width: 800px) {
-  .gallery {
+   .gallery, .galleryOne {
   margin-left:10%
   }
   
@@ -280,10 +294,16 @@
   }
   
   @media (max-width: 785px) {
-  .gallery {
+   .gallery {
   margin-left:5%
   }
-  
+  .galleryOne
+  {
+
+  margin-top:300px !important;
+  margin-left:5%
+    }
+
   .img-c.active {
   width:79%!important;
   margin-top:20%!important
@@ -291,7 +311,7 @@
   }
   
   @media (max-width: 720px) {
-  .gallery {
+   .gallery, .galleryOne {
   margin-left:0
   }
   
@@ -302,7 +322,7 @@
   }
   
   @media (max-width: 671px) {
-  .gallery {
+   .gallery, .galleryOne {
   margin-left:25%
   }
   
@@ -313,7 +333,7 @@
   }
   
   @media (max-width: 560px) {
-  .gallery {
+   .gallery, .galleryOne {
   margin-left:20%
   }
   
@@ -324,7 +344,7 @@
   }
   
   @media (max-width: 450px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:10%
   }
@@ -342,7 +362,7 @@
   }
   
   @media (max-width: 393px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:7%
   }
@@ -360,7 +380,7 @@
   }
   
   @media (max-width: 375px) {
-  .gallery {
+   .gallery, .galleryOne {
   width:100%;
   margin-left:0
   }

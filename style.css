@@ -340,7 +340,7 @@ body {
   text-align:center;
   color:#fff
   }
-  
+
   .text0 {
   margin-top:40%!important
   }
@@ -548,6 +548,7 @@ body {
   }
   
   .center-text {
+  font-size: 20px;
   text-align:left;
   margin-left:15%;
   margin-bottom:40px;
@@ -1540,7 +1541,10 @@ font-weight:100
   font-size:12px!important;
   margin-left:45%!important
   }
-  
+
+  .center-text {
+  font-size: 15px;
+    }
   footer {
   height:84%
   }
