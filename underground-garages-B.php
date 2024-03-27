@@ -35,7 +35,7 @@
 </div>
 <a class="navbar__item navbar__link" href="gallery.html">Galeria</a>
 <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/o-inwestycji/">O inwestycji</a>
-<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/lifestyle/">Lifestyle</a>
+<a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
 <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/kontakt/">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
