@@ -35,7 +35,7 @@
 </div>
 </div>
 <a class="navbar__item navbar__link" href="gallery.html">Galeria</a>
-<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/o-inwestycji/">O inwestycji</a>
+<a class="navbar__item navbar__link" href="aboutInvestment.html">O inwestycji</a>
 <a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
 <a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/kontakt/">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
@@ -274,7 +274,7 @@ class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>dewelo
 <!-- social media end -->
 <div class="locationsCenter">    
 <div class="line"></div>
-<h5><a style="color:  #ffffff;" href="https://parkpaderewskiego.pl/polityka-cookies">Polityka cookies</a><br><a style="color:  #ffffff;" href="https://parkpaderewskiego.pl/polityka-prywatnosci/">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+<h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
 </div>
 </div>
 </footer>
