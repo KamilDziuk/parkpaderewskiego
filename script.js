@@ -42,3 +42,17 @@ let tracking1,rightTracking1,$slider=$(".slideshow .slider"),maxItemsOne=$(".ite
 // slides dwo start
  let tracking,rightTracking,$sliderTwo=$(".slideshowTwo .sliderTwo"),maxItems=$(".itemTwo",$sliderTwo).length,dragging=!1;for($sliderRight=$(".slideshowTwo").clone().addClass("slideshowTwo-right").appendTo($(".split-slideshowTwo")),reverseItems=(rightItems=$(".itemTwo",$sliderRight).toArray()).reverse(),$(".sliderTwo",$sliderRight).html(""),i=0;i<maxItems;i++)$(reverseItems[i]).appendTo($(".sliderTwo",$sliderRight));function changeSlide(){$(".slideshowTwo-left").slick("slickNext")}$sliderTwo.addClass("slideshowTwo-left"),$(".slideshowTwo-left").slick({vertical:!0,verticalSwiping:!0,arrows:!1,infinite:!0,dots:!0,speed:1e3,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}).on("beforeChange",function(s,e,l,t){l>t&&0==t&&l==maxItems-1?($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",-1),$(".slideshowTwo-text").slick("slickGoTo",maxItems)):l<t&&0==l&&t==maxItems-1?($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",maxItems),$(".slideshowTwo-text").slick("slickGoTo",-1)):($(".slideshowTwo-right .sliderTwo").slick("slickGoTo",maxItems-1-t),$(".slideshowTwo-text").slick("slickGoTo",t))}).on("onclick",function(s){s.preventDefault(),s.deltaX>0||s.deltaY<0?$(this).slick("slickNext"):(s.deltaX<0||s.deltaY>0)&&$(this).slick("slickPrev")}).on("onclick",function(){dragging=!0,tracking=parseInt((tracking=$(".slick-track",$sliderTwo).css("transform")).split(",")[5]),rightTracking=parseInt((rightTracking=$(".slideshowTwo-right .slick-track").css("transform")).split(",")[5])}).on("onclick",function(){dragging&&(diffTracking=(newTracking=parseInt((newTracking=$(".slideshowTwo-left .slick-track").css("transform")).split(",")[5]))-tracking,$(".slideshowTwo-right .slick-track").css({transform:"matrix(1, 0, 0, 1, 0, "+(rightTracking-diffTracking)+")"}))}).on("onclick",function(){dragging=!1}),$(".slideshowTwo-right .sliderTwo").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:950,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)",initialSlide:maxItems-1}),$(".slideshowTwo-text").slick({swipe:!1,vertical:!0,arrows:!1,infinite:!0,speed:900,cssEase:"cubic-bezier(0.7, 0, 0.3, 1)"}),setInterval(changeSlide,2500);
 // slides dwo end
+
+ // Map start
+// Map
+let map = L.map('map').setView([50.47837212922883, 19.45183168289603], 17);
+
+L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+ 
+}).addTo(map);
+
+L.marker([50.478224952788814, 19.451750127726374]).addTo(map)
+    .bindPopup('Biuro sprzedaży - Osiedle Park Paderewskiego')
+    .openPopup();
+ // Map end
+
