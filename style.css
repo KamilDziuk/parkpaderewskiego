@@ -137,7 +137,7 @@ body {
   font-weight:500;
  
   width:100%;
-  margin-right:8%;
+  margin-right:6%;
   background-color:#30492B;
   z-index:997
   }
@@ -287,7 +287,17 @@ body {
   background-color:rgba(0,0,0,0.678);
   z-index:999
   }
-  
+  #textAboutus
+  {
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  #textAlexBrush
+  {
+    width: 80%;
+    margin-left: 5%;
+  }
   .popup-content {
   top:5%!important;
   font-size:12px;
@@ -335,6 +345,7 @@ body {
   margin-bottom:40px;
   font-size:50px;
   font-weight:700;
+
   }
   
   header .center {
@@ -429,7 +440,7 @@ input[type="submit"] {
     /* lifestyle header start*/ 
      .lifestyle, .centerLifestyle p {
    
-    margin-top:100px;
+
     margin-bottom:40px;
     font-size:70px;
     font-weight:700;
@@ -440,7 +451,7 @@ input[type="submit"] {
      
     }
      .centerLifestyle {
-  
+
     margin:10%;
     text-align:left;
     color:#fff
@@ -891,15 +902,15 @@ font-weight:100
   }
   
   .slideshowTwo .sliderTwo .itemTwo img {
-  min-width:101%;
-  min-height:101%;
-  overflow:hidden;
-  width:100%;
-  height:100vh;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%)
+    min-width:101%;
+    min-height:101%;
+    overflow:hidden;
+    width:100%;
+    height:100vh;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
   }
   
   .slideshowTwo .slick-dots {
@@ -994,7 +1005,7 @@ font-weight:100
   position:relative;
   background:#30492b;
   color:#fff;
-  height:82.5%;
+
   line-height:1.5
   }
   
@@ -1085,7 +1096,7 @@ font-weight:100
   }
   
   footer {
-  height:75%
+
   }
   }
   
@@ -1229,13 +1240,18 @@ font-weight:100
 
   .lifestyle, .centerLifestyle p {
 
-    top:300px;
+
     margin-bottom:40px;
     font-size:35px;
     font-weight:700;
     }
     #buttomTextLifestyle1 {
-      font-size:25px;
+      font-size:20px;
+      }
+      .centerLifestyle p {
+
+margin-top: 150px;
+
       }
 
   .popup-content {
@@ -1382,13 +1398,14 @@ font-weight:100
 
   .lifestyle, .centerLifestyle p {
    
-    margin-top:-0px;
-    margin-bottom:40px;
+
+
     font-size:35px;
     font-weight:700;
     }
     #buttomTextLifestyle1 {
-      font-size:25px;
+      font-size:20px;
+      margin-top: -20px !important;
       }
 
   
@@ -1685,7 +1702,7 @@ font-weight:100
       background-attachment:scroll !important;
     }
   .centerLifestyle p {
-
+margin-top: 50px;
     font-size:20px;
     margin-left: 20px;
 
@@ -1715,7 +1732,7 @@ font-weight:100
   }
   
   footer {
-  height:80%
+  height:680px;
   }
   
   .locationsAll {
@@ -1874,7 +1891,13 @@ font-weight:100
   }
   
   @media (max-width: 450px) {
-  
+
+
+
+  .fa
+  {
+    margin: 0px !important;
+  }
   .dropdown-content {
   font-size:10.5px;
   width:100%
@@ -1909,6 +1932,7 @@ font-weight:100
   left:90px;
   font-size:12px
   }
+
   
   .fa {
   margin-top:200px!important;
