@@ -1,0 +1,58 @@
+/* gallery start */
+.galleryHeader
+{
+  height: 85%;
+  width: 100%;
+  background: url(/image/theEntireInvestor.webp) center; 
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 250px;
+
+
+}
+
+* {
+  box-sizing: border-box;
+
+}
+.responsive {
+  padding: 6 6px;
+  float: left;
+  width: 24.99999%;
+  
+}
+
+@media only screen and (max-width: 950px) {
+  .galleryHeader
+  {
+    height:50% !important;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* gallery end */
+
