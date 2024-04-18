@@ -45,34 +45,19 @@ let tracking1,rightTracking1,$slider=$(".slideshow .slider"),maxItemsOne=$(".ite
 
  // Map start
 // Map
-let map = L.map('map').setView([50.47837212922883, 19.45183168289603], 17);
+let mapOpp = L.map('map').setView([50.47837212922883, 19.45183168289603], 17);
 
 L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
  
-}).addTo(map);
+}).addTo(mapOpp);
 
-L.marker([50.478224952788814, 19.451750127726374]).addTo(map)
+L.marker([50.478224952788814, 19.451750127726374]).addTo(mapOpp)
     .bindPopup('Biuro sprzedaży - Osiedle Park Paderewskiego')
     .openPopup();
  // Map end
 
- const btn = document.getElementById('button');
 
- document.getElementById('form')
-  .addEventListener('submit', function(event) {
-    event.preventDefault();
- 
-    btn.value = 'Sending...';
- 
-    const serviceID = 'default_service';
-    const templateID = 'template_vby05s7';
- 
-    emailjs.sendForm(serviceID, templateID, this)
-     .then(() => {
-       btn.value = 'Send Email';
-       alert('Sent!');
-     }, (err) => {
-       btn.value = 'Send Email';
-       alert(JSON.stringify(err));
-     });
- })
+
+
+
+
