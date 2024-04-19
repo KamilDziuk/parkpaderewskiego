@@ -1,20 +1,14 @@
-<?php
 
-  /**
- * Template Name: above-ground-parking-lot
- */
-?>
-
-
-<html lang = "pl">
+<html lang="pl">
 <head>
-  <meta charset = "UTF-8">
-  <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
-  <script src="js/script.js" defer></script>
-  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
+<script src="js/script.js" defer></script>
+
   <title>Parkingi Naziemne</title>
 </head>
 

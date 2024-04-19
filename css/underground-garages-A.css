@@ -80,7 +80,7 @@
     
     #columns {
     column-width:300px;
-    column-gap:100px;
+    column-gap:0px;
     position:relative;
     width:100%;
     display:flex;
@@ -129,39 +129,32 @@
         margin-left: 5%;
         }
 
-    #columns {
-    
-        column-width:330;
-       top: 5%;
-   
-        position: relative;
-   margin-left: 40% !important;
-        column-gap:100px;
-        width:100%;
-   
-        display:inline-table;
-        margin:1px auto
-        }
+
         
     }
     
-    @media (max-width: 600px),(max-width: 450px),(max-width: 350px),(max-width: 250px) {
+    @media (max-width: 1200px),(max-width: 450px),(max-width: 350px),(max-width: 250px) {
+
+
+
+   
     .buttomPPB {
     font-size:12px!important
     }
     
     #columns {
-    
-        column-width:330;
+
+        column-width:330px;
        top: 5%;
-   
+
         position: relative;
    margin-left: 0% !important;
         column-gap:100px;
         width:100%;
-   
+
         display:inline-table;
-        margin:1px auto
+        margin:1px auto;
+
         }
         
     
@@ -175,7 +168,7 @@
     .premiseStatus01PPB {
     font-size:9px
     }
-    
+
 
     
 
