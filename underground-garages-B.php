@@ -67,7 +67,7 @@
     <span id    = "closePopupImageMap"></span>
   </div>
   <div id = "columns">
-  <a href="BUDYNEK-B-GARAZE-PODZIEMNE.pdf" class="buttomPPB" >POBIERZ RZUT W PDF</a>
+  <a href="image/BUDYNEK-B-GARAZE-PODZIEMNE.pdf" class="buttomPPB" >POBIERZ RZUT W PDF</a>
   </div>
   <div id = "columns">
     <figure>
@@ -201,6 +201,7 @@
     </figure>
   </div>
   </div>
+  <br>
 <!-- footer start -->
 <footer>
 <div class="locationsAll">

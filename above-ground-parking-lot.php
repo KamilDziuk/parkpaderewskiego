@@ -255,6 +255,7 @@
 
     </figure>
   </div>
+  <br>
 <!-- footer start -->
 <footer>
 <div class="locationsAll">
