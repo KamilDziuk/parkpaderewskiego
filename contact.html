@@ -11,6 +11,9 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel='stylesheet' href='https://unpkg.com/leaflet@1.4.0/dist/leaflet.css'>
+<!-- email  connect start -->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<!-- email  connect end -->
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://unpkg.com/leaflet@1.4.0/dist/leaflet.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>  <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -100,13 +103,26 @@
 <div class="containerLifestyle">
   <div>
     <div class="textContainerContact">
+<!-- email  start -->
+      <form id="form" class="topBefore" method="post">
+        <input id="test" class="firstName" type="text" placeholder="NAME" >
+        <input class="email" type="email" placeholder="E-MAIL">
+        <input class="phone" type="number" placeholder="PHONE">
+        <textarea class="message" type="text" placeholder="MESSAGE"></textarea>
+        <input class="send" id="submit" type="button" value="GO!"> 
+        <input class="checkbox0"  type="checkbox">Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.
+        <input class="checkbox1"  type="checkbox">Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.
+        <input class="checkbox2"  type="checkbox">Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.
+        <div class="textValue"></div>
+        <div class="text"></div>
+        
+        </form>
+        <div class="test"></div>
+<!-- email  end -->
 
 
 
-
-
-
-      </script>
+    
     </div>
   </div>
 
