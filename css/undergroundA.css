@@ -13,11 +13,12 @@
     padding:20px 40px;
     margin-top:20px;
     margin-bottom:20px;
+    margin-left: 0%;
     text-decoration:none;
     }
     
     .garage,.storageRooms {
-    font-size:19px!important;
+    font-size:20px!important;
     margin-bottom:22px;
     font-weight:700;
     }
@@ -82,7 +83,7 @@
     column-width:300px;
     column-gap:50px;
     position:relative;
-    width:60%;
+    width:50%;
     display:flex;
     justify-content:center;
     margin:0 auto
@@ -112,22 +113,110 @@
     z-index:100
     }
 
-    @media (max-width:1100px) ,(max-width: 450px),(max-width: 350px),(max-width: 250px) {
-    .buttomPPB {
-    font-size:12px!important
-    }
-    #columns {
-
-        display:table !important;
-        column-gap:0px;
-
-        }
-        .map {
-            width:70%;
-            height:auto
+    @media (max-width:1100px)
+    {
+        .buttomPPB {
+            font-size:12px!important
             }
-    
-
-
+            #columns {
+        
+                display:table !important;
+             
+                column-gap:0px;
+                margin-left: 400px !important;
+                }
+                .map {
+                    width:70%;
+                    height:auto
+                    }
+            
     }
+    
+    @media (max-width:970px)
+    {
+        #columns {
+    
+            margin-left: 350px !important;
+            }  
+    }
+
+    @media (max-width:840px)
+    {
+        #columns {
+            margin-left: 300px !important;
+            }  
+    }
+
+    @media (max-width:750px)
+    {
+        #columns {
+            margin-left: 250px !important;
+            }  
+            .buttomPPB {
+
+                font-size:15px;
+                padding:10px 10px;
+                margin-top:10px;
+                margin-bottom:10px
+                }
+    }
+
+    @media (max-width:650px)
+    {
+        #columns {
+            margin-left: 150px !important;
+            }  
+    }
+
+    @media (max-width:550px)
+    {
+        #columns {
+            margin-left: 100px !important;
+            }  
+    }
+
+    @media (max-width:450px)
+    {
+        .garage,.storageRooms {
+            font-size:17px!important;
+        
+          
+            }
+        #columns {
+            margin-left: 80px !important;
+            } 
+    }
+    @media (max-width:400px)
+    {
+        .buttomPPB {
+            font-size:9px!important
+            }
+        #columns {
+            margin-left: 50px !important;
+            } 
+    }
+    .buttomPPB {
+
+
+        margin-left: 13% !important;
+        }
+    @media (max-width:310px)
+    {
+     
+
+            .buttomPPB {
+
+                font-size:9px;
+                padding:10px 10px;
+                margin-top:10px;
+                margin-bottom:10px;
+                margin-left: 30% !important;
+                }
+        #columns {
+            margin-left: 20px !important;
+            } 
+    }
+
+
+
     /* underground-garages-A end */

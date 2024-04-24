@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+
 <link rel="stylesheet" type="text/css" href="css/undergroundA.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/script.js" defer></script>
   <title>Garaże podziemne A</title>
 </head>
@@ -60,9 +61,12 @@
     <img  class = "popupContentImageMap"></img>
     <span id    = "closePopupImageMap"></span>
   </div>
+  <br>
+  <br>
   <div id = "columns">
   <a href="image/BUDYNEK-A-GARAZE-PODZIEMNE.pdf" class="buttomPPB" >POBIERZ RZUT W PDF</a>
   </div>
+  <br>
   <div id = "columns">
     <figure>
     <figcaption class="storageRooms">Komórki lokatorskie: 25</figcaption>
@@ -436,12 +440,13 @@
   </div>
   <br> <br> <br> <br>
 <!-- footer start -->
+
 <footer>
 <div class="locationsAll">
 <div class="locationsLeft"> 
 <img src="image/dhd.webp"
 class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>deweloperem segmentu premium. Tworzymy<br>nieruchomości cechujące się najwyższą jakością,<br> innowacyjnymi technologiami, funkcjonalnością i<br>ponadczasowym designem.</h5>
-<img src="image/pzfd.webp" class="footer_logo">
+<img src="image/pzfd.webp" class="footer_logo" id = "footer_logoPzdf">
 </div>       
 <div class="locationsRight">  
 <h5>BIURO SPRZEDAŻY<br>ul.Paderewskiego 63a, 42-400 Zawiercie<br><a href="tel:+48 786 337 302 " style="color: #ffffff;">+48 786 337 302 </a><br>e-mail.<a href="mailto:biuro@parkpaderewskiego.pl" style="color:  #ffffff;"> biuro@parkpaderewskiego.pl</a><br>  <a href="mailto:sprzedaz@parkpaderewskiego.pl" style="color:  #ffffff;"> sprzedaz@parkpaderewskiego.pl</a><br>www.diamond-hill.com.pl<br><br><br><br><br><br>Bądź na bieżąco</h5>                                                                           
