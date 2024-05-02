@@ -73,9 +73,9 @@ let email = document.querySelector('.email');
 let firstName = document.querySelector('.firstName');
 let message = document.querySelector('.message');
 let phone = document.querySelector('.phone');
-let checkbox0 = document.querySelector('.checkbox0');
-let checkbox1 = document.querySelector('.checkbox1');
-let checkbox2 = document.querySelector('.checkbox2');
+let checkbox0 = document.getElementById('checkbox-32');
+let checkbox1 = document.getElementById('checkbox-33');
+let checkbox2 = document.getElementById('checkbox-34');
 
 
 checkbox0.addEventListener('click', () => {
