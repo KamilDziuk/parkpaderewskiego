@@ -2,10 +2,7 @@
 body {
   background-color:#EFEFED;
   font-family:'Open Sans',sans-serif;
-
   padding:0;
-
-
   }
   
   /* navbar start */
@@ -428,12 +425,9 @@ input[type="submit"] {
   color: #fff;
   border: none
 }
-
-
     /* lifestyle header start*/ 
      .lifestyle, .centerLifestyle p {
-   
-
+  
     margin-bottom:40px;
     font-size:70px;
     font-weight:700;
@@ -1088,8 +1082,8 @@ height: 60% !important;
 
 /* 3D mockup start */
 #smart-makieta {
-  top:14.5%;
-  width: 100%;
+  top:15%;
+  width: 100% !important;
   height: 86.5%;
   position: fixed;
 }

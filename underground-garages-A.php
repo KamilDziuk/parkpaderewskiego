@@ -17,7 +17,7 @@
 <!-- navbar start -->
 <div class="top">
 <div class="navbar">
-<a class="navbar__item logo" href="https://parkpaderewskiego.pl/">  <img class="navbar__item logo" href="https://parkpaderewskiego.pl/"><img class="navbar__item logo"  src="image/lpp.webp"></a>
+<a class="navbar__item logo" href="index.html">  <img class="navbar__item logo" href="index.html"><img class="navbar__item logo"  src="image/lpp.webp"></a>
 <div class="navbar__menu">
 <a class="navbar__item navbar__link white-border" href="apartments.html">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
@@ -31,8 +31,8 @@
 </div>
 <a class="navbar__item navbar__link" href="gallery.html">Galeria</a>
 <a class="navbar__item navbar__link" href="investmentoffer.html">Oferta inwestycyjna</a>
-<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/lifestyle/">Lifestyle</a>
-<a class="navbar__item navbar__link" href="https://parkpaderewskiego.pl/kontakt/">Kontakt</a>
+<a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
+<a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
