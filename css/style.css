@@ -3,6 +3,7 @@ body {
   background-color:#EFEFED;
   font-family:'Open Sans',sans-serif;
   padding:0;
+  overflow-x: hidden
   }
   
   /* navbar start */
@@ -302,8 +303,8 @@ body {
   font-size:12px;
   background-color:rgba(255,255,255,0.098)!important;
   border:2px solid #ccc;
-  width:900px;
-  height:400px!important;
+  max-width:850px;
+  max-height:455px!important;
   margin:10px auto;
   padding:20px;
   border-radius:5px;
@@ -795,8 +796,8 @@ font-weight:100
   min-width:101%;
   min-height:101%;
   overflow:hidden;
-  width:100%;
-  height:100vh;
+  max-width:100%;
+  max-height:100vh !important;
   position:absolute;
   top:50%;
   left:50%;
@@ -969,7 +970,20 @@ font-weight:100
   left:0;
   position:absolute
   }
-  
+  .text
+{
+  display: none;
+}
+.text1
+{
+  display: none;
+}
+
+
+
+
+
+
   .slideshowTwo-text {
   position:relative;
   margin-top:14%;
@@ -1195,8 +1209,8 @@ input {
 }
 
 input:hover {
-  background: #ffffff;
-  color: #ffffff;
+  background:  #ffffff66;
+  color: #000000;
 }
 
 textarea {
@@ -1222,8 +1236,8 @@ textarea {
 }
 
 textarea:hover {
-  background: #ffffff;
-  color: #ffffff;
+  background: #ffffff66;
+  color: #000000;
 }
 
 #submit {
@@ -1486,7 +1500,7 @@ margin-top: 150px;
     top: 100px !important;
   font-size:9px;
   width:500px;
-  height:610px
+  height:620px
   }
   
   .allAvailableApartmentsAvailable,.navbar {
@@ -1700,7 +1714,7 @@ top: 0px !important;
       height: 700px !important;
     }
   header {
-  height:110px!important
+  height:1100px!important
   }
   
   header .center p {
@@ -1946,7 +1960,7 @@ margin-top: 50px;
   .popup-content {
     top: 100px !important;
   width:300px;
-  height:450px!important
+  height:460px!important
   }
   
   .allAvailableApartmentsAvailable,.fomrText {
