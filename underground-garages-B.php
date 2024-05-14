@@ -111,8 +111,12 @@
   </div>
 <!-- navbar end -->
 
-
-  <img class = "banner" src          = "image/background-underground-garages-B.webp">
+<header class="contact">
+    <!-- top and middle of the page start -->
+    <div class="centerLifestyle">
+      <p class="titleTextGallery">Garaże podziemne <br><br> Budynek B</p>
+  
+    </header>
   <img class = "map" src             = "image/basement-underground-garages-B.webp">
   <div id    = "popupImageMap" class = "popupImageMap">
 

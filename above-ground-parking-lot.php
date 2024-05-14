@@ -112,7 +112,12 @@
   </div>
 <!-- navbar end -->
 
-  <img class = "banner" src          = "image/above-ground-parking-lot.webp">
+<header class="contact">
+    <!-- top and middle of the page start -->
+    <div class="centerLifestyle">
+      <p class="titleTextGallery">Parkingi naziemne</p>
+  
+    </header>
   <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
   <div id    = "popupImageMap" class = "popupImageMap">
 
