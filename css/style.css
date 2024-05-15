@@ -507,6 +507,14 @@ input[type="submit"] {
            color:#5D5455;;
           }
 
+
+          .textContainerContact p
+          {
+       
+           margin-bottom: -10px ;
+       
+          }
+
 /* Container contact  end */
   .text0 {
   margin-top:20%!important
