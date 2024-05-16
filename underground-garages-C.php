@@ -696,6 +696,149 @@ class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>dewelo
   ?>
   <script>
   let premiseStatus01PPC=document.getElementsByClassName("premiseStatus01PPC")[0];premiseStatus01PPC.innerHTML="<?php echo $premiseStatusText01PPC; ?>",premiseStatus01PPC.style.color="<?php echo $premiseStatusColor01PPC; ?>";let premiseStatus02PPC=document.getElementsByClassName("premiseStatus02PPC")[0];premiseStatus02PPC.innerHTML="<?php echo $premiseStatusText02PPC; ?>",premiseStatus02PPC.style.color="<?php echo $premiseStatusColor02PPC; ?>";let premiseStatus03PPC=document.getElementsByClassName("premiseStatus03PPC")[0];premiseStatus03PPC.innerHTML="<?php echo $premiseStatusText03PPC; ?>",premiseStatus03PPC.style.color="<?php echo $premiseStatusColor03PPC; ?>";let premiseStatus04PPC=document.getElementsByClassName("premiseStatus04PPC")[0];premiseStatus04PPC.innerHTML="<?php echo $premiseStatusText04PPC; ?>",premiseStatus04PPC.style.color="<?php echo $premiseStatusColor04PPC; ?>";let premiseStatus05PPC=document.getElementsByClassName("premiseStatus05PPC")[0];premiseStatus05PPC.innerHTML="<?php echo $premiseStatusText05PPC; ?>",premiseStatus05PPC.style.color="<?php echo $premiseStatusColor05PPC; ?>";let premiseStatus06PPC=document.getElementsByClassName("premiseStatus06PPC")[0];premiseStatus06PPC.innerHTML="<?php echo $premiseStatusText06PPC; ?>",premiseStatus06PPC.style.color="<?php echo $premiseStatusColor06PPC; ?>";let premiseStatus07PPC=document.getElementsByClassName("premiseStatus07PPC")[0];premiseStatus07PPC.innerHTML="<?php echo $premiseStatusText07PPC; ?>",premiseStatus07PPC.style.color="<?php echo $premiseStatusColor07PPC; ?>";let premiseStatus08PPC=document.getElementsByClassName("premiseStatus08PPC")[0];premiseStatus08PPC.innerHTML="<?php echo $premiseStatusText08PPC; ?>",premiseStatus08PPC.style.color="<?php echo $premiseStatusColor08PPC; ?>";let premiseStatus09PPC=document.getElementsByClassName("premiseStatus09PPC")[0];premiseStatus09PPC.innerHTML="<?php echo $premiseStatusText09PPC; ?>",premiseStatus09PPC.style.color="<?php echo $premiseStatusColor09PPC; ?>";let premiseStatus10PPC=document.getElementsByClassName("premiseStatus10PPC")[0];premiseStatus10PPC.innerHTML="<?php echo $premiseStatusText10PPC; ?>",premiseStatus10PPC.style.color="<?php echo $premiseStatusColor10PPC; ?>";let premiseStatus11PPC=document.getElementsByClassName("premiseStatus11PPC")[0];premiseStatus11PPC.innerHTML="<?php echo $premiseStatusText11PPC; ?>",premiseStatus11PPC.style.color="<?php echo $premiseStatusColor11PPC; ?>";let premiseStatus12PPC=document.getElementsByClassName("premiseStatus12PPC")[0];premiseStatus12PPC.innerHTML="<?php echo $premiseStatusText12PPC; ?>",premiseStatus12PPC.style.color="<?php echo $premiseStatusColor12PPC; ?>";let premiseStatus13PPC=document.getElementsByClassName("premiseStatus13PPC")[0];premiseStatus13PPC.innerHTML="<?php echo $premiseStatusText13PPC; ?>",premiseStatus13PPC.style.color="<?php echo $premiseStatusColor13PPC; ?>";let premiseStatus14PPC=document.getElementsByClassName("premiseStatus14PPC")[0];premiseStatus14PPC.innerHTML="<?php echo $premiseStatusText14PPC; ?>",premiseStatus14PPC.style.color="<?php echo $premiseStatusColor14PPC; ?>";let premiseStatus15PPC=document.getElementsByClassName("premiseStatus15PPC")[0];premiseStatus15PPC.innerHTML="<?php echo $premiseStatusText15PPC; ?>",premiseStatus15PPC.style.color="<?php echo $premiseStatusColor15PPC; ?>";let premiseStatus16PPC=document.getElementsByClassName("premiseStatus16PPC")[0];premiseStatus16PPC.innerHTML="<?php echo $premiseStatusText16PPC; ?>",premiseStatus16PPC.style.color="<?php echo $premiseStatusColor16PPC; ?>";let premiseStatus17PPC=document.getElementsByClassName("premiseStatus17PPC")[0];premiseStatus17PPC.innerHTML="<?php echo $premiseStatusText17PPC; ?>",premiseStatus17PPC.style.color="<?php echo $premiseStatusColor17PPC; ?>";let premiseStatus18PPC=document.getElementsByClassName("premiseStatus18PPC")[0];premiseStatus18PPC.innerHTML="<?php echo $premiseStatusText18PPC; ?>",premiseStatus18PPC.style.color="<?php echo $premiseStatusColor18PPC; ?>";let premiseStatus19PPC=document.getElementsByClassName("premiseStatus19PPC")[0];premiseStatus19PPC.innerHTML="<?php echo $premiseStatusText19PPC; ?>",premiseStatus19PPC.style.color="<?php echo $premiseStatusColor19PPC; ?>";let premiseStatus20PPC=document.getElementsByClassName("premiseStatus20PPC")[0];premiseStatus20PPC.innerHTML="<?php echo $premiseStatusText20PPC; ?>",premiseStatus20PPC.style.color="<?php echo $premiseStatusColor20PPC; ?>";let premiseStatus21PPC=document.getElementsByClassName("premiseStatus21PPC")[0];premiseStatus21PPC.innerHTML="<?php echo $premiseStatusText21PPC; ?>",premiseStatus21PPC.style.color="<?php echo $premiseStatusColor21PPC; ?>";let premiseStatus22PPC=document.getElementsByClassName("premiseStatus22PPC")[0];premiseStatus22PPC.innerHTML="<?php echo $premiseStatusText22PPC; ?>",premiseStatus22PPC.style.color="<?php echo $premiseStatusColor22PPC; ?>";let premiseStatus23PPC=document.getElementsByClassName("premiseStatus23PPC")[0];premiseStatus23PPC.innerHTML="<?php echo $premiseStatusText23PPC; ?>",premiseStatus23PPC.style.color="<?php echo $premiseStatusColor23PPC; ?>";let premiseStatus24PPC=document.getElementsByClassName("premiseStatus24PPC")[0];premiseStatus24PPC.innerHTML="<?php echo $premiseStatusText24PPC; ?>",premiseStatus24PPC.style.color="<?php echo $premiseStatusColor24PPC; ?>";let premiseStatus25PPC=document.getElementsByClassName("premiseStatus25PPC")[0];premiseStatus25PPC.innerHTML="<?php echo $premiseStatusText25PPC; ?>",premiseStatus25PPC.style.color="<?php echo $premiseStatusColor25PPC; ?>";let premiseStatus26PPC=document.getElementsByClassName("premiseStatus26PPC")[0];premiseStatus26PPC.innerHTML="<?php echo $premiseStatusText26PPC; ?>",premiseStatus26PPC.style.color="<?php echo $premiseStatusColor26PPC; ?>";let premiseStatus27PPC=document.getElementsByClassName("premiseStatus27PPC")[0];premiseStatus27PPC.innerHTML="<?php echo $premiseStatusText27PPC; ?>",premiseStatus27PPC.style.color="<?php echo $premiseStatusColor27PPC; ?>";let premiseStatus28PPC=document.getElementsByClassName("premiseStatus28PPC")[0];premiseStatus28PPC.innerHTML="<?php echo $premiseStatusText28PPC; ?>",premiseStatus28PPC.style.color="<?php echo $premiseStatusColor28PPC; ?>";let premiseStatus29PPC=document.getElementsByClassName("premiseStatus29PPC")[0];premiseStatus29PPC.innerHTML="<?php echo $premiseStatusText29PPC; ?>",premiseStatus29PPC.style.color="<?php echo $premiseStatusColor29PPC; ?>";let premiseStatus30PPC=document.getElementsByClassName("premiseStatus30PPC")[0];premiseStatus30PPC.innerHTML="<?php echo $premiseStatusText30PPC; ?>",premiseStatus30PPC.style.color="<?php echo $premiseStatusColor30PPC; ?>";let premiseStatus31PPC=document.getElementsByClassName("premiseStatus31PPC")[0];premiseStatus31PPC.innerHTML="<?php echo $premiseStatusText31PPC; ?>",premiseStatus31PPC.style.color="<?php echo $premiseStatusColor31PPC; ?>";let premiseStatus32PPC=document.getElementsByClassName("premiseStatus32PPC")[0];premiseStatus32PPC.innerHTML="<?php echo $premiseStatusText32PPC; ?>",premiseStatus32PPC.style.color="<?php echo $premiseStatusColor32PPC; ?>";let premiseStatus33PPC=document.getElementsByClassName("premiseStatus33PPC")[0];premiseStatus33PPC.innerHTML="<?php echo $premiseStatusText33PPC; ?>",premiseStatus33PPC.style.color="<?php echo $premiseStatusColor33PPC; ?>";let premiseStatus34PPC=document.getElementsByClassName("premiseStatus34PPC")[0];premiseStatus34PPC.innerHTML="<?php echo $premiseStatusText34PPC; ?>",premiseStatus34PPC.style.color="<?php echo $premiseStatusColor34PPC; ?>";let premiseStatus35PPC=document.getElementsByClassName("premiseStatus35PPC")[0];premiseStatus35PPC.innerHTML="<?php echo $premiseStatusText35PPC; ?>",premiseStatus35PPC.style.color="<?php echo $premiseStatusColor35PPC; ?>";let premiseStatus36PPC=document.getElementsByClassName("premiseStatus36PPC")[0];premiseStatus36PPC.innerHTML="<?php echo $premiseStatusText36PPC; ?>",premiseStatus36PPC.style.color="<?php echo $premiseStatusColor36PPC; ?>";let premiseStatus37PPC=document.getElementsByClassName("premiseStatus37PPC")[0];premiseStatus37PPC.innerHTML="<?php echo $premiseStatusText37PPC; ?>",premiseStatus37PPC.style.color="<?php echo $premiseStatusColor37PPC; ?>";let premiseStatus40PPC=document.getElementsByClassName("premiseStatus40PPC")[0];premiseStatus40PPC.innerHTML="<?php echo $premiseStatusText40PPC; ?>",premiseStatus40PPC.style.color="<?php echo $premiseStatusColor40PPC; ?>";let premiseStatus41PPC=document.getElementsByClassName("premiseStatus41PPC")[0];premiseStatus41PPC.innerHTML="<?php echo $premiseStatusText41PPC; ?>",premiseStatus41PPC.style.color="<?php echo $premiseStatusColor41PPC; ?>";let popupContentImageMap=document.getElementsByClassName("popupContentImageMap")[0],map=document.getElementsByClassName("map")[0];map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/basement-underground-garages-C.webp"}),closePopupImageMap.addEventListener("click",()=>{}),window.addEventListener("click",e=>{e.target===popupImageMap&&(popupImageMap.style.display="none")});
+
+
+
+// email  start 
+
+let send = document.querySelector('.send');
+let text = document.querySelector('.text');
+let text1 = document.querySelector('.text1');
+let textValue = document.querySelector('.textValue');
+let email = document.querySelector('.email');
+let firstName = document.querySelector('.firstName');
+let message = document.querySelector('.message');
+let phone = document.querySelector('.phone');
+let checkbox0 = document.querySelector('.checkbox0');
+let checkbox1 = document.querySelector('.checkbox1');
+let checkbox2 = document.querySelector('.checkbox2');
+
+// conditions for marking checkboxes start
+checkbox0.addEventListener('click', () => {
+
+    text1.innerHTML ="Accepted";
+
+
+if(text1.textContent =="Accepted")
+{
+    checkbox0.value = "ZGODA_MARKETING Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.";
+}
+else 
+{
+    checkbox0.value= "Not accepted";
+}
+});
+
+
+
+checkbox1.addEventListener('click', () => {
+
+    text1.innerHTML ="Accepted";
+
+
+if(text1.textContent =="Accepted")
+{
+    checkbox1.value= "ZGODA_MAIL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.";
+}
+else 
+{
+    checkbox1.value= "Not accepted";
+}
+});
+
+checkbox2.addEventListener('click', () => {
+
+    text1.innerHTML ="Accepted";
+
+
+if(text1.textContent =="Accepted")
+{
+    checkbox2.value = "ZGODA_TEL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.";
+}
+else 
+{
+    checkbox2.value= "Not accepted";
+}
+});
+
+checkbox0.value= "Not accepted";
+checkbox1.value= "Not accepted";
+checkbox2.value= "Not accepted";
+// conditions for marking checkboxes end
+
+
+send.addEventListener('click', () => {
+
+  // form submission method start
+sendEamil = () => {
+
+
+// conditions for completing the form fields and sending a request to submit the contact form start
+if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
+{
+    firstName.placeholder = " pole Imie";
+}
+
+else
+{
+
+
+    
+Email.send({
+  SecureToken : '',
+To : '',
+From : '',
+
+Subject : `strona www - ${firstName.value}`,
+Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  
+EMAIL: ${email.value}<br><br>
+TELEFON: ${phone.value}<br><br> 
+OPIS: ${message.value} <br><br>
+ZGODY: <br>${checkbox0.value} <br><br>
+${checkbox1.value} <br><br>
+${checkbox2.value}`
+}).then(
+  // form submission method end
+message =>  
+{
+text.innerHTML = message
+if(text.textContent === "OK")
+{
+
+  setTimeout(() =>
+    {
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
+        textValue.style.color = "#ffff";
+    textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
+    }
+    else 
+    {
+      formPopup.style.display = "none";
+      textValue.style.color = "red"
+    textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
+      setTimeout(() => {
+        formPopup.style.display = "block";
+        textValue.style.display = "none";
+       
+    }, 5000);
+     
+    }
+    
+    
+    }); 
+    
+    };
+    };
+    sendEamil();
+
+});
+// conditions for completing the form fields and sending a request to submit the contact form start
+// email  end 
+
+
   </script>
 </body>
 </html>

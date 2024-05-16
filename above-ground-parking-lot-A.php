@@ -1323,7 +1323,7 @@ send.addEventListener('click', () => {
 sendEamil = () => {
 
 
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for completing the form fields and sending a request to submit the contact form start
 if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
 {
     firstName.placeholder = " pole Imie";
@@ -1355,37 +1355,37 @@ text.innerHTML = message
 if(text.textContent === "OK")
 {
 
-setTimeout(() =>
-{
-  formPopup.style.display = "none";
-    textValue.style.color = "#ffff";
-textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
-}, 3000)
-formPopup.style.display = "block";
-    textValue.style.display = "none";
-}
-else 
-{
-  formPopup.style.display = "none";
-  textValue.style.color = "red"
-textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
-  setTimeout(() => {
-    formPopup.style.display = "block";
-    textValue.style.display = "none";
-   
-}, 5000);
- 
-}
-
-
-}); 
-
-};
-};
-sendEamil();
+  setTimeout(() =>
+    {
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
+        textValue.style.color = "#ffff";
+    textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
+    }
+    else 
+    {
+      formPopup.style.display = "none";
+      textValue.style.color = "red"
+    textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
+      setTimeout(() => {
+        formPopup.style.display = "block";
+        textValue.style.display = "none";
+       
+    }, 5000);
+     
+    }
+    
+    
+    }); 
+    
+    };
+    };
+    sendEamil();
 
 });
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for completing the form fields and sending a request to submit the contact form start
 // email  end 
 </script>
 </body>

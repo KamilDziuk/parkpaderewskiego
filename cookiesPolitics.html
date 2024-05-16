@@ -364,14 +364,14 @@
     if(text.textContent === "OK")
     {
     
-    setTimeout(() =>
+      setTimeout(() =>
     {
-      formPopup.style.display = "none";
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
         textValue.style.color = "#ffff";
     textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
-    }, 3000)
-    formPopup.style.display = "block";
-        textValue.style.display = "none";
     }
     else 
     {

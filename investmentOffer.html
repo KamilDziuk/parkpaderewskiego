@@ -289,8 +289,8 @@
         
     Email.send({
       SecureToken : '',
-    To : '',
-    From : '',
+    To : 'sprzedaz@parkpaderewskiego.pl',
+    From : 'sprzedaz@parkpaderewskiego.pl',
     
     Subject : `strona www - ${firstName.value}`,
     Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  
@@ -308,14 +308,14 @@
     if(text.textContent === "OK")
     {
     
-    setTimeout(() =>
+      setTimeout(() =>
     {
-      formPopup.style.display = "none";
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
         textValue.style.color = "#ffff";
     textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
-    }, 3000)
-    formPopup.style.display = "block";
-        textValue.style.display = "none";
     }
     else 
     {

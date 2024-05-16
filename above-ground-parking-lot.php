@@ -913,34 +913,34 @@ class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>dewelo
   if(text.textContent === "OK")
   {
   
-  setTimeout(() =>
-  {
-    formPopup.style.display = "none";
-      textValue.style.color = "#ffff";
-  textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
-  }, 3000)
-  formPopup.style.display = "block";
-      textValue.style.display = "none";
-  }
-  else 
-  {
-    formPopup.style.display = "none";
-    textValue.style.color = "red"
-  textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
-    setTimeout(() => {
+    setTimeout(() =>
+    {
       formPopup.style.display = "block";
-      textValue.style.display = "none";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
+        textValue.style.color = "#ffff";
+    textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
+    }
+    else 
+    {
+      formPopup.style.display = "none";
+      textValue.style.color = "red"
+    textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
+      setTimeout(() => {
+        formPopup.style.display = "block";
+        textValue.style.display = "none";
+       
+    }, 5000);
      
-  }, 5000);
-   
-  }
-  
-  
-  }); 
-  
-  };
-  };
-  sendEamil();
+    }
+    
+    
+    }); 
+    
+    };
+    };
+    sendEamil();
   
   });
   // warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
