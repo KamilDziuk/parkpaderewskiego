@@ -119,7 +119,7 @@
       <p class="titleTextGallery">Parkingi naziemne <br><br> Budynek A</p>
   
     </header>
-  <img class = "map" src             = "image/basement-underground-garages-A.webp">
+  <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
   <div id    = "popupImageMap" class = "popupImageMap">
 
     <img  class = "popupContentImageMap"></img>
@@ -1239,7 +1239,7 @@ class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>dewelo
 
  
  let popupContentImageMap=document.getElementsByClassName("popupContentImageMap")[0],map=document.getElementsByClassName("map")[0];
- map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/basement-underground-garages-A.webp"}),
+ map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/above-ground-parking-lot-map.webp"}),
  closePopupImageMap.addEventListener("click",()=>{}),window.addEventListener("click",e=>{e.target===popupImageMap&&(popupImageMap.style.display="none")});
   </script>
 
