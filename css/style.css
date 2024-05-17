@@ -67,6 +67,7 @@ body {
 
   }
 
+
   .top:hover {
   backdrop-filter:blur(15px);
   background-color:rgba(0,0,0,0.242);
@@ -498,11 +499,12 @@ input[type="submit"] {
           /* Container contact  start */
           .textContainerContact
           {
+            position: relative;
            font-size: 20px;
            text-align:left;
-           margin-left:16%;
+           margin-left:40%;
            margin-right:3%;
-           margin-bottom:5%;
+        
            margin-top:0%;
            color:#5D5455;;
           }
@@ -751,7 +753,7 @@ padding-right: 15%;
   }
   
   .center-text p {
-  margin-top:0;
+  margin-top:5px;
   line-height:1.5
   }
 
@@ -884,14 +886,14 @@ font-weight:100
   z-index:1;
   top:0;
   left:0;
-  width:98.9vw;
-  height:100vh;
+  width:100%;
+  height:550px;
   overflow:hidden
   }
   
   .slideshowTwo .sliderTwo {
-  width:98.9vw;
-  height:100vw;
+    width:99vw;
+    height:100vw;
   z-index:2
   }
   
@@ -914,8 +916,8 @@ font-weight:100
     min-width:101%;
     min-height:101%;
     overflow:hidden;
-    width:100%;
-    height:100vh;
+    max-width:100%;
+    max-height:100vh !important;
     position:absolute;
     top:50%;
     left:50%;
@@ -1290,7 +1292,12 @@ input[type=checkbox] {
 /* email  end  */
 
 
+.leaflet-container
 
+{
+
+z-index: 1;
+}
 
 
 /* 3D mockup end */
@@ -1300,6 +1307,18 @@ input[type=checkbox] {
   left:300px;
   
   }
+
+  .add-padding1 {
+    padding-top: 25%;
+    padding-bottom: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  }
+  
+
+
+
+
 footer
 {
   height: 47% !important;
@@ -1309,7 +1328,9 @@ footer
   
   @media (max-width: 1700px) {
   .add-padding1 {
-  margin-top:450px
+  margin-top:450px;
+  padding-top: 5%;
+  padding-bottom: 2%;
   }
   
   .locationsAll {
@@ -1670,14 +1691,9 @@ top: 0px !important;
            .textContainerContact
            {
 
-            font-size: 20px;
-           width: 100% ;
-            text-align:left;
-            margin-left:3%;
-            margin-right:3%;
-            margin-bottom:5%;
-            margin-top:5%;
-            color:#5D5455;
+       
+            margin-left:40%;
+   
            }
 
  /* Container contact  end */
@@ -1786,7 +1802,16 @@ top: 0px !important;
   .slideshowTwo .slick-dots {
   top:100px
   }
-  
+   /* Container contact  start */
+   .textContainerContact
+   {
+
+
+    margin-left:23%;
+
+   }
+
+/* Container contact  end */
 
   }
   
@@ -2018,13 +2043,20 @@ margin-top: 50px;
   }
   @media (max-width: 450px) {
 
-
+    .textContainerContact
+    {
+ 
+ 
+     margin-left:10%;
+ 
+    }
 
   .fa
   {
-    top:10px!important;
-
-    margin: 0px !important;
+  position: relative;
+    top:9px!important;
+    margin-bottom: 34px !important;
+    margin: 0.8px !important;
   }
   .dropdown-content {
   font-size:10.5px;
@@ -2049,6 +2081,8 @@ margin-top: 50px;
   }
   
   .slideshowTwo-text {
+
+  top: 50px;
   font-size:20px
   }
   
