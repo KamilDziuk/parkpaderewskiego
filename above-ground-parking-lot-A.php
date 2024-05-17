@@ -1,17 +1,16 @@
-
-
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/jpg" href="image/icone.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="icon" type="image/jpg" href="image/icone.jpg">
+
 <link rel="stylesheet" type="text/css" href="css/undergroundA.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/script.js" defer></script>
-  <title>Parkingi naziemne A</title>
+  <title>Parkingi naziemne budynek A</title>
 </head>
 
 <body>
@@ -31,7 +30,7 @@
 </div>
 </div>
 <a class="navbar__item navbar__link" href="gallery.html">Galeria</a>
-<a class="navbar__item navbar__link" href="investmentoffer.html">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="investmentOffer.html">Oferta inwestycyjna</a>
 <a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
 <a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>

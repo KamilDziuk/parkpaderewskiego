@@ -11,7 +11,7 @@
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/script.js" defer></script>
 
-  <title>Parkingi Naziemne</title>
+  <title>Parkingi Naziemne B/C</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 </div>
 </div>
 <a class="navbar__item navbar__link" href="gallery.html">Galeria</a>
-<a class="navbar__item navbar__link" href="investmentoffer.html">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="investmentOffer.html">Oferta inwestycyjna</a>
 <a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
 <a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
@@ -116,7 +116,7 @@
 <header class="contact">
     <!-- top and middle of the page start -->
     <div class="centerLifestyle">
-      <p class="titleTextGallery">Parkingi naziemne</p>
+      <p class="titleTextGallery">Parkingi naziemne C/B</p>
   
     </header>
   <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
