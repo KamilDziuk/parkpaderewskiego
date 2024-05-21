@@ -3,7 +3,7 @@ body {
   background-color:#EFEFED;
   font-family:'Open Sans',sans-serif;
   padding:0;
-  overflow-x: hidden
+  overflow-x: hidden !important;
   }
   
   /* navbar start */
@@ -770,7 +770,7 @@ position:absolute;
 }
     
 h5 {
-font-weight:100
+font-weight:500;
 }
     
 /* top and middle of the page start */
@@ -1078,7 +1078,8 @@ height: 60% !important;
   text-align:center;
   text-decoration:none;
   margin:270px 4px 0!important;
-  border-radius:100%
+  border-radius:100%;
+
   }
   
   .fa:hover {
@@ -2029,8 +2030,9 @@ margin-top: 50px;
   
   .fa {
   margin-top:220px!important;
-  right:190px
+  right:190px;
   }
+  
   
   .footer_logo {
   width:30% !important;
@@ -2064,7 +2066,7 @@ margin-top: 50px;
   position: relative;
     top:9px!important;
     margin-bottom: 34px !important;
-    margin: 0.8px !important;
+    margin: 0.2px !important;
   }
   .dropdown-content {
   font-size:10.5px;
@@ -2116,7 +2118,7 @@ font-size: 10.2px;
   }
   }
   
-  @media (max-width: 393px) {
+  @media (max-width: 395px) {
     #showPopup
     {
     font-size: 10px;
@@ -2128,6 +2130,10 @@ font-size: 10.2px;
   .locationsAll {
   left:70px;
   font-size:12px
+  }
+  .fa
+  {
+    top: 1px !important;
   }
   }
   
@@ -2146,6 +2152,7 @@ font-size: 10.2px;
   }
   
   .fa {
+
   margin-top:225px!important;
   right:160px
   }
