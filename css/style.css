@@ -1072,12 +1072,13 @@ height: 60% !important;
   right:140px;
   position:relative;
   padding:7px;
-  font-size:25px;
+  font-size:22px;
   width:25px;
-  height:25px;
+  height:20px;
   text-align:center;
   text-decoration:none;
-  margin:270px 4px 0!important;
+  margin:270px 2px 0!important;
+
   border-radius:100%;
 
   }
@@ -2063,10 +2064,12 @@ margin-top: 50px;
 
   .fa
   {
+
   position: relative;
     top:9px!important;
     margin-bottom: 34px !important;
-    margin: 0.2px !important;
+    margin: 2px !important;
+
   }
   .dropdown-content {
   font-size:10.5px;
