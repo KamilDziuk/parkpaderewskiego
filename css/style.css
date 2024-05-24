@@ -532,7 +532,7 @@ input[type="submit"] {
   
   .text3 {
   font-size:23px!important;
-  margin-top:6%!important
+  margin-top:0%!important
   }
 
 
@@ -1028,18 +1028,24 @@ font-weight:500;
   footer {
   font-weight:100;
   margin:0;
-bottom:0px !important;
+   bottom:0;
   position:relative;
   background:#30492b;
   color:#fff;
 height: 60% !important;
   line-height:1.5
   }
-  
+  .smollText
+  {
+   position: fixed;
+   top: 75%;
+   right: 12%;
+   text-align: left;
+  }
   .footer_logo {
   margin-right:3%;
   margin-top:1%;
-  width:17%
+  width:17% !important;
   }
   
   .locationsLeft {
@@ -1060,9 +1066,10 @@ height: 60% !important;
   margin-left:500px;
   position:absolute;
   text-align:center!important;
-  margin-top:0px
+  margin-top:0px;
+  text-wrap: pretty !important;
   }
-  
+
   .line {
   height:1px;
   background-color:#fff
@@ -1351,10 +1358,7 @@ footer
 
   
   @media (max-width: 1500px) {
-  .locationsAll {
 
-
-  }
 
 
   }
@@ -1411,8 +1415,11 @@ footer
   font-size:12.5px
   }
   
-  .locationsAll {
- 
+  .smollText
+  {
+
+   top: 75%;
+   right: 15%;
 
   }
   
@@ -1465,8 +1472,11 @@ top: 850px !important;
     footer {
       height: 759px !important;
       }
-    .locationsAll {
-      
+      .smollText
+      {
+    
+       top: 81%;
+       right: 80%;
     
       }
       
@@ -1497,7 +1507,7 @@ top: 850px !important;
       
       .fa {
       margin-top:270px!important;
-      right:260px
+      right:45%;
       }
   
   header .center p {
@@ -1567,14 +1577,29 @@ top: 0px !important;
   margin: 0px auto 0px 0px;
 
 }
+
+.footer_logo
+{
+  width: 25% !important;
+}
 /* email  end  */
 
   }
   
   @media (max-width:950px) {
 
-
-
+    .smollText
+    {
+  
+     top: 81%;
+     right: 79%;
+  
+    }
+    
+.locationsAll
+{
+  top: 42% !important;
+}
     .footer_logo{
       width:17%;
     }
@@ -1609,6 +1634,20 @@ top: 0px !important;
   margin-top:15%!important
   }
   
+  .smollText
+
+{
+  top: 85%;
+  left: 0%;
+  width: 100%;
+}
+
+  .fa {
+
+    right:51%;
+    }
+
+
   .text1 {
   font-size:28px!important;
   margin-top:15%!important
@@ -1708,7 +1747,10 @@ top: 0px !important;
 
   }
   
-
+  .footer_logo
+  {
+    width: 30%;
+  }
   
   @media (max-width:770px) {
 
@@ -1743,8 +1785,13 @@ top: 0px !important;
   
   @media (max-width: 767px) {
 
+
+    .fa
+    {
+      right:60%;
+    }
     footer {
-      height: 700px !important;
+      height: 760px !important;
     }
   header {
   height:1100px!important
@@ -1920,7 +1967,7 @@ margin-top: 50px;
   
   @media (max-width: 600px) {
     footer {
-      height: 700px !important;
+      height: 780px !important;
     }
     .white-border {
       padding:0 1px !important;
@@ -1957,10 +2004,10 @@ margin-top: 50px;
   
 
   
-  .locationsAll {
-   
- 
-  }
+.footer_logo
+{
+  width: 40%;
+}
   }
   
   @media (max-width: 550px) {
@@ -1997,8 +2044,9 @@ margin-top: 50px;
   }
   
   .text3 {
-  font-size:12px!important;
-  margin-top:6%!important
+  font-size:15px!important;
+  margin-top:-7%!important;
+  font-weight: 200 !important;
   }
   
   .popup-content {
@@ -2008,7 +2056,9 @@ margin-top: 50px;
   }
   
   .allAvailableApartmentsAvailable,.fomrText {
-  font-size:12px!important;
+  
+    text-align: center !important;
+    font-size:15px;
   margin-left:45%!important
   }
 
@@ -2016,27 +2066,36 @@ margin-top: 50px;
   font-size: 15px;
     }
     footer {
-      height: 600px !important;
+    
+      height: 750px !important;
+      text-align: center !important;
     }
   
   .locationsLeft {
-  font-size:12px
-  }
+    font-size:15px;
+  text-align: center !important;
   
+  }
+  .locationsCenter {
+    left:0% !important;
+      text-wrap: pretty !important;
+    }
   .locationsAll {
-    
-
-  font-size:12px
+    text-align: center !important;
+top:45%;
+  font-size:15px;
   }
   
-  .fa {
-  margin-top:220px!important;
-  right:190px;
-  }
+.smollText
+{
+  top: 87%;
+  left: 0%;
+}
   
   
   .footer_logo {
-  width:30% !important;
+  width:50% !important;
+  left: 0;
   }
     /* email  start  */
     input {
@@ -2044,13 +2103,34 @@ margin-top: 50px;
       width: 300px;
     }
 
+    .locationsRight
+{
+  text-align: center !important;
+  margin-left:22% !important;
+  
+}
+h5
+{
+  text-align: center !important 
+}
+
+.fa {
+  
+ margin-top: 80% !important;
+  right:156px;
+  }
+
 
     textarea {
       width: 300px;
       max-width: 300px;
     }    
 /* email  end  */
-
+.line
+{
+  width: 100px;
+  margin-left:35% !important;
+}
   }
   @media (max-width: 450px) {
 
@@ -2062,15 +2142,6 @@ margin-top: 50px;
  
     }
 
-  .fa
-  {
-
-  position: relative;
-    top:9px!important;
-    margin-bottom: 34px !important;
-    margin: 2px !important;
-
-  }
   .dropdown-content {
   font-size:10.5px;
   width:100%
@@ -2099,29 +2170,6 @@ margin-top: 50px;
   font-size:20px
   }
   
-  .locationsLeft {
-  font-size:12px
-  }
-  .locationsRight {
-        
-    margin-left: -3px;
-    }
-  .locationsAll {
-
-
- 
-  font-size: 10.2px;
-  }
-  h5
-  {
-font-size: 10.2px;
-
-  }
-  
-  .fa {
-  margin-top:200px!important;
-  right:190px
-  }
   }
   
   @media (max-width: 395px) {
@@ -2129,67 +2177,12 @@ font-size: 10.2px;
     {
     font-size: 10px;
     }
-  footer {
+  
+  }
+  
 
-  }
-  
-  .locationsAll {
-
-  font-size:12px
-  }
-  .fa
-  {
-    top: 1px !important;
-  }
-  }
-  
-  @media (max-width:370px) {
-    footer {
-     
-      }
-      
-  .locationsLeft {
-  font-size:12px
-  }
-  
-  .locationsAll {
-
-  font-size:12px
-  }
-  
-  .fa {
-
-  margin-top:225px!important;
-  right:160px
-  }
-  
-  .footer_logo {
-    width:30% !important;
-  }
-  }
   
   @media (max-width:340px) {
-
-  .locationsLeft {
-  font-size:12px
-  }
-  
-  .locationsAll {
- 
-  font-size:12px
-  }
-  
-  .fa {
-  margin-top:225px!important;
-  right:160px
-  }
-  
-  .footer_logo {
-    width:27% !important;
-
-
-  
-  }
 
   header .center p {
 

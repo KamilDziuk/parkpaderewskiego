@@ -318,27 +318,30 @@
   <br>
 <!-- footer start -->
 <footer>
-<div class="locationsAll">
-<div class="locationsLeft"> 
-<img src="image/dhd.webp"
-class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>deweloperem segmentu premium. Tworzymy<br>nieruchomości cechujące się najwyższą jakością,<br> innowacyjnymi technologiami, funkcjonalnością i<br>ponadczasowym designem.</h5>
-<img src="image/pzfd.webp" class="footer_logo">
-</div>       
-<div class="locationsRight">  
-<h5>BIURO SPRZEDAŻY<br>ul.Paderewskiego 63a, 42-400 Zawiercie<br><a href="tel:+48 786 337 302 " style="color: #ffffff;">+48 786 337 302 </a><br>e-mail.<a href="mailto:biuro@parkpaderewskiego.pl" style="color:  #ffffff;"> biuro@parkpaderewskiego.pl</a><br>  <a href="mailto:sprzedaz@parkpaderewskiego.pl" style="color:  #ffffff;"> sprzedaz@parkpaderewskiego.pl</a><br>www.diamond-hill.com.pl<br><br><br><br>Bądź na bieżąco</h5>                                                                           
-<!-- social media start -->
-<a href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
-<a href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
-<a href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
-</div>
-<!-- social media end -->
-<div class="locationsCenter">    
-<div class="line"></div>
-<h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
-</div>
-</div>
-</footer>
+    <div class="locationsAll">
+    <div class="locationsLeft"> 
+    <img src="image/dhd.webp"
+    class="footer_logo">  <h5>DIAMOND HILL DEVELOPMENT jest ogólnopolskim<br>deweloperem segmentu premium. Tworzymy<br>nieruchomości cechujące się najwyższą jakością,<br> innowacyjnymi technologiami, funkcjonalnością i<br>ponadczasowym designem.</h5>
+    <img src="image/pzfd.webp" class="footer_logo">
+    </div>       
+    <div class="locationsRight">  
+    <h5>BIURO SPRZEDAŻY<br>ul.Paderewskiego 63a, 42-400 Zawiercie<br><a href="tel:+48 786 337 302 " style="color: #ffffff;">+48 786 337 302 </a><br>e-mail.<a href="mailto:biuro@parkpaderewskiego.pl" style="color:  #ffffff;"> biuro@parkpaderewskiego.pl</a><br>  <a href="mailto:sprzedaz@parkpaderewskiego.pl" style="color:  #ffffff;"> sprzedaz@parkpaderewskiego.pl</a><br>www.diamond-hill.com.pl</h5>                                                                           
+    <!-- social media start -->
+  <h5 class="smollText">   Bądź na bieżąco </h5>
+    <a href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+    <a href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
+  
+  </div>
+    <!-- social media end -->
+    <div class="locationsCenter">    
+    <div class="line"></div>
+    <h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+    </div>
+    </div>
+    </footer>
+    <!-- footer end -->
 <!-- footer end -->
   <?php
   $url         = "";
