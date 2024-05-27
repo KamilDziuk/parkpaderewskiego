@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/underground-garages-B.css">
+<link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="js/popupAndMenu.js" async></script>
   <title>Garaże podziemne B</title>
 </head>
 

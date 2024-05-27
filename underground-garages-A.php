@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="css/undergroundA.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="js/script.js" defer></script>
+<script src="js/script.js" async></script>
   <title>Garaże podziemne budynek A</title>
 </head>
 

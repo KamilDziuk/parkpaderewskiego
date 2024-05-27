@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="js/script.js" defer></script>
+<script src="js/popupAndMenu.js" async></script>
 
   <title>Parkingi Naziemne B/C</title>
 </head>
