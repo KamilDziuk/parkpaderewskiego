@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="css/undergroundA.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="js/script.js" async></script>
+<script src="js/popupMenu.js" async></script>
   <title>Garaże podziemne budynek A</title>
 </head>
 
@@ -111,7 +111,7 @@
             <!-- email  end -->
    
   <div class="allAvailableApartmentsAvailable"></div>
-  <span class="close" id="closePopup"></span>
+  <span class="close" id="closePopup">X</span>
   
   </div>
   </div>
@@ -132,10 +132,10 @@
   </div>
   <br>
   <br>
-  <div id = "columns">
+
   <a href="image/BUDYNEK-A-GARAZE-PODZIEMNE.pdf" class="buttomPPB" >POBIERZ RZUT W PDF</a>
-  </div>
-  <br>
+
+  <br>  <br>
   <div id = "columns">
     <figure>
     <figcaption class="storageRooms">Komórki lokatorskie: 25</figcaption>

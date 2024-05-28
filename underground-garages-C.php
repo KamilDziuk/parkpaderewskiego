@@ -11,9 +11,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
-<script src="js/popupAndMenu.js" async></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/popupMenu.js" async></script>
   <title>Garaże podziemne C</title>
 </head>
 
@@ -111,7 +112,7 @@
             <!-- email  end -->
    
   <div class="allAvailableApartmentsAvailable"></div>
-  <!-- <span class="close" id="closePopup">&times;</span> -->
+  <span class="close" id="closePopup">X</span>
   
   </div>
   </div>
@@ -129,9 +130,9 @@
     <img  class = "popupContentImageMap"></img>
     <span id    = "closePopupImageMap"></span>
   </div>
-  <div id = "columns">
+ 
   <a href="BUDYNEK-C-GARAZE-PODZIEMNE.pdf" class="buttomPPB" >POBIERZ RZUT W PDF</a>
-  </div>
+
   <div id = "columns">
     <figure>
     <figcaption class="garage">Garaże: 25</figcaption>

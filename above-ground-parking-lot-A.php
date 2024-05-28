@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="js/popupAndMenu.js" async></script>
+<script src="js/popupMenu.js" async></script>
   <title>Parkingi naziemne budynek A</title>
 </head>
 
@@ -106,7 +106,7 @@
             <!-- email  end -->
    
   <div class="allAvailableApartmentsAvailable"></div>
-  <span class="close" id="closePopup"></span>
+  <span class="close" id="closePopup">X</span>
   
   </div>
   </div>
