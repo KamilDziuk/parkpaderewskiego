@@ -168,10 +168,11 @@
     {
         #columns
         {
+      
             display:grid;
             left: 50% ;
                top: 730px !important;
-            transform: translate(-50%, -50%) !important;
+         
         }
 
         
@@ -199,7 +200,11 @@
     margin-bottom:13px
     }
 
-
+    div#columns figure {
+     
+        max-width:100px;
+        }
+        
 
     }
     /* above-ground-parking-lot start */

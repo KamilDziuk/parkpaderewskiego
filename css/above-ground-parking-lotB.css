@@ -200,6 +200,10 @@
     }
 
 
+    div#columns figure {
+     
+        max-width:100px;
+        }
 
     }
     /* above-ground-parking-lot start */
