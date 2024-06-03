@@ -13,7 +13,8 @@
     padding:20px 40px;
     margin-top:20px;
     margin-bottom:20px;
-    text-decoration:none
+    text-decoration:none;
+    z-index: 30;
     }
     
     .garage,.storageRooms {
@@ -111,7 +112,11 @@
     transform:translate(-50%,-50%);
     z-index:100
     }
-    
+    @media (max-width: 2000px) {
+    #columns {
+        top: 66% !important;
+    }
+    }
     @media (max-width: 1050px) {
     .map {
     width:80%;

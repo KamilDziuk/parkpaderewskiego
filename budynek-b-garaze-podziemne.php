@@ -265,7 +265,7 @@
     </figure>
   </div>
   </div>
-
+  
 <!-- footer start -->
 <footer>
     <div class="locationsAll">
