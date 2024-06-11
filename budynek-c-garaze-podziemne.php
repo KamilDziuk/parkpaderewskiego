@@ -419,7 +419,12 @@
     } else if ($idValue === "2200"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText10PPC  = "Sprzedane";
       $premiseStatusColor10PPC = "red";
-    } else if ($idValue === "2201"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    }
+   else if ($idValue === "2201"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    $premiseStatusText10PPC  = "Sprzedane";
+    $premiseStatusColor10PPC = "red";
+   }
+    else if ($idValue === "2201"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText10PPC  = "Zarezerwowane";
       $premiseStatusColor10PPC = "#e6b800";
     } else if ($idValue === "2201"  && $statusNameValue === "Dostępne") {

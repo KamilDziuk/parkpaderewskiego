@@ -2,25 +2,27 @@
 /* above-ground-parking-lot start */
 
 .buttomPPB {
-    position: absolute;
-    font-weight:500;
-    fill:#000;
-    color:#000;
-    background-color:#FFF;
-    border-style:solid;
-    border-width:1px;
-    border-color:#9A9A9A;
-    border-radius:0 0 0 0;
-    font-size:18px;
-    padding:20px 40px;
-    margin-top:20px;
-    margin-bottom:20px;
-    text-decoration:none;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 200px;
+    position: relative;
+    font-weight: 500;
+    fill: #000;
+    color: #000;
+    background-color: #FFF;
+    border: solid 1px #9A9A9A;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
     z-index: 30;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+    left:50%;
+    transform:translate(-50%,-50%);
     }
-
+    .map, .buttomPPB {
+        margin: 5px;
+    }
 
 .garage,.storageRooms {
     font-size:19px!important;
@@ -83,28 +85,28 @@
     }
     
     .map {
-    width:60%;
-    height:auto;
-    border:none;
-    display:block;
-    margin:0 auto;
-    margin-bottom:20px
+        width: 60%;
+        height: auto;
+        border: none;
+        display: block;
+        margin: 20px auto 0 ; 
     }
     
     #columns {
-        top: 65%;
-    column-width:400px;
-    column-gap:15px;
-    position:relative;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    margin:0 auto;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-bottom: 5%;
-    padding-top: 5%;
+        column-width: 400px;
+        column-gap: 15px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%);
+       
+     
+  
     }
+    
     
     .popupImageMap {
     display:none;
@@ -131,9 +133,7 @@
     }
 
     @media (max-width: 2000px) {
-    #columns {
-        top: 66% !important;
-    }
+ 
 
     }
     @media (max-width: 1050px) {
@@ -155,7 +155,7 @@
     {
         #columns
         {
-            top: 53%;
+            
         }
     }
 
@@ -163,7 +163,7 @@
     {
         #columns
         {
-            top: 70%;
+          
         }
 
         
@@ -178,7 +178,7 @@
       
             display:grid;
             left: 50% ;
-               top: 730px !important;
+             
          
         }
 
@@ -191,9 +191,7 @@
    .buttomPPB {
 
                 font-size:15px;
-                padding:10px 10px;
-                margin-top:10px;
-                margin-bottom:10px
+          
                 }
 
    .bannerGallery
