@@ -83,23 +83,24 @@
     }
     
     .map {
-    width:90%;
-    height:90%;
-    border:none;
-    display:block;
-    margin:0 auto;
-    margin-bottom:0
+        width: 60%;
+        height: auto;
+        border: none;
+        display: block;
+        margin: 20px auto 0 ; 
     }
     
     #columns {
-        top: 65%;
+        column-width: 400px;
+        column-gap: 15px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
         left: 50%;
-        transform: translate(-50%, -50%);
-    position:relative;
-    width:100%;
-  
-    justify-content:center;
-    margin:0 auto
+        transform: translateX(-50%);
+       
     
     }
     
