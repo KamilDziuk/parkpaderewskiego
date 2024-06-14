@@ -1,0 +1,73 @@
+
+.containerCookie {
+  position: fixed;
+  bottom: 50px;
+  right: -410px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 70;
+}
+.containerCookie.show {
+  right: 20px;
+}
+.containerCookie .headerCookie {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.headerCookie i {
+  color:#5d5455;;
+  font-size: 32px;
+}
+.headerCookie h2 {
+  color:#5d5455;
+  font-weight: 500;
+}
+.containerCookie .textCookie {
+  margin-top: 16px;
+}
+.containerCookie .textCookie p {
+  color: #333;
+  font-size: 16px;
+}
+.textCookie p a {
+  color:  #5d5455;
+  textCookie-decoration: none;
+}
+.textCookie p a:hover {
+  textCookie-decoration: underline;
+}
+.containerCookie .buttonsCookie {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonsCookie .button {
+  border: none;
+  color: #5d5455;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: #EFEFED;
+  cursor: pointer;
+  width: calc(100% / 2 - 10px);
+  transition: all 0.2s ease;
+}
+.buttonsCookie #acceptBtn:hover {
+  background-color:  #EFEFED;
+}
+#declineBtn {
+  border: 2px solid #5d5455;
+  background-color: #fff;
+  color: #5d5455;
+}
+#declineBtn:hover {
+  background-color:  #EFEFED;
+  color:#5d5455;
+}

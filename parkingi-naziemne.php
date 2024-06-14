@@ -6,11 +6,13 @@
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/popupMenu.js" async></script>
 
+<script src="js/popupCookie.js" defer></script>
   <title>Parkingi Naziemne B/C</title>
 </head>
 
@@ -342,7 +344,24 @@
     </div>
     </footer>
     <!-- footer end -->
-<!-- footer end -->
+
+    <!-- popup cookie  start -->
+    <div class="containerCookie">
+      <div class="headerCookie">
+        <i class="bx bx-cookie"></i>
+        <h2>Cenimy Twoją prywatność</h2>
+      </div>
+
+      <div class="textCookie">
+        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics.html"> Czytaj więcej...</a></p>
+      </div>
+
+      <div class="buttonsCookie">
+        <button class="button" id="acceptBtn">Akceptuj wszystkie</button>
+        <button class="button" id="declineBtn">Odrzuć wszystko</button>
+      </div>
+    </div>
+   <!-- popup cookie  start -->
   <?php
   $url         = "";
   $response    = file_get_contents($url);
@@ -898,8 +917,8 @@
       
   Email.send({
     SecureToken : '',
-  To : '',
-  From : '',
+To : 'sprzedaz@parkpaderewskiego.pl ',
+From : 'sprzedaz@parkpaderewskiego.pl ',
   
   Subject : `strona www - ${firstName.value}`,
   Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  
