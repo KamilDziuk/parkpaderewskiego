@@ -55,7 +55,7 @@ body {
     position:fixed;
     top:0;
     background-color:transparent;
-    height:125px;
+    height:112px;
     width:100%;
     backdrop-filter:blur(15px);
     background-color:rgba(0,0,0,0.242);
@@ -1114,7 +1114,7 @@ height: 60% !important;
 
 /* 3D mockup start */
 #smart-makieta {
-  top:15%;
+  top:15.5%;
   width: 100% !important;
   height: 86.5%;
   position: fixed;
