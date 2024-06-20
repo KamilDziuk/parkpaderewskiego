@@ -6,10 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<link rel="icon" type="image/jpg" href="image/icone.jpg">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
@@ -17,29 +13,35 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/popupMenu.js" async></script>
 <script src="js/popupCookie.js" defer></script>
-  <title>Garaże podziemne C</title>
+  <title>Garaże podziemne C - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 
 <body>
+  
+
 <!-- navbar start -->
 <div class="top">
 <div class="navbar">
-<a class="navbar__item logo" href="index.html">  <img class="navbar__item logo" href="index.html"><img class="navbar__item logo"  src="image/lpp.webp"></a>
+<a class="navbar__item logo" href="./">  <img class="navbar__item logo" href="./"><img class="navbar__item logo"  src="image/lpp.webp"></a>
 <div class="navbar__menu">
-<a class="navbar__item navbar__link white-border" href="mieszkania.html">Mieszkania</a>
+<a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<a href="parkingi-naziemne.php">Parkingi Naziemne</a>
+<a href="parkingi-naziemne.php">Parkingi Naziemne B/C</a>
 <br>
+  <a href="parkingi-naziemneA.php">Parkingi Naziemne A</a>
+  <br>
 <a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
 <br>
 <a href="budynek-c-garaze-podziemne.php">Garaże podziemne C</a>
+<br>
+<a href="budynek-a-garaze-podziemne.php">Garaże podziemne A</a>
 </div>
 </div>
-<a class="navbar__item navbar__link" href="galeria.html">Galeria</a>
-<a class="navbar__item navbar__link" href="oferta-inwestycyjna.html">Oferta inwestycyjna</a>
-<a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
+<a class="navbar__item navbar__link" href="galeria">Galeria</a>
+<a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
+<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -322,7 +324,7 @@
     <!-- social media end -->
     <div class="locationsCenter">    
     <div class="line"></div>
-    <h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+    <h5><a style="color:  #ffffff;" href="cookiesPolitics">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
     </div>
     </div>
     </footer>
@@ -336,7 +338,7 @@
       </div>
 
       <div class="textCookie">
-        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics.html"> Czytaj więcej...</a></p>
+        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics"> Czytaj więcej...</a></p>
       </div>
 
       <div class="buttonsCookie">
@@ -366,6 +368,7 @@
     if ($idValue === "2192"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
       $premiseStatusText01PPC  = "Sprzedane";
+      
       $premiseStatusColor01PPC = "red";
     } else if ($idValue === "2192"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText01PPC  = "Zarezerwowane";

@@ -35,7 +35,7 @@ body {
   min-width:220px;
   top:0;
   left:50%;
-  transform:translate(-50%,23%)
+  transform:translate(-50%,13%)
   }
   
   .dropdown:hover .dropdown-content {
@@ -378,7 +378,30 @@ body {
   flex-direction: column;
 }
 
+   @media (max-width: 500px) { 
+      @supports (-webkit-appearance:none) {
+        header {
+         
+  
+          background: url(/image/parkpaderewskiegoBackground.webp) center ;
+          background-size: cover;
+          background-attachment:local;
+          display: flex;
+          flex-direction: column;
+        }
 
+      .contact
+        {
+          height: 80%;
+          width: 100%;
+          background: url(/image/theEntireInvestor.webp) center; 
+          background-size: cover;
+          background-attachment: local;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
 
 
 
@@ -392,6 +415,30 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
+
+  @media (max-width: 500px) { 
+    @supports (-webkit-appearance:none) {
+      .contact
+      {
+        height: 80%;
+        width: 100%;
+        background: url(/image/theEntireInvestor.webp) center; 
+        background-size: cover;
+        background-attachment: local;
+        display: flex;
+        flex-direction: column;
+      }
+
+
+
+    
+    }
+  }
+
+
+
 
 #form
 {

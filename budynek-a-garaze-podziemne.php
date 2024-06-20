@@ -4,42 +4,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
-<link rel="stylesheet" type="text/css" href="css/undergroundA.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <script src="js/popupCookie.js" defer></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/popupMenu.js" async></script>
-  <title>Garaże podziemne budynek A</title>
+<title>Garaże podziemne budynek A - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 
 <body>
 <!-- navbar start -->
 <div class="top">
 <div class="navbar">
-<a class="navbar__item logo" href="index.html">  <img class="navbar__item logo" href="index.html"><img class="navbar__item logo"  src="image/lpp.webp"></a>
+<a class="navbar__item logo" href="./">  <img class="navbar__item logo" href="./"><img class="navbar__item logo"  src="image/lpp.webp"></a>
 <div class="navbar__menu">
-<a class="navbar__item navbar__link white-border" href="mieszkania.html">Mieszkania</a>
+<a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<a href="parkingi-naziemne.php">Parkingi Naziemne</a>
+<a href="parkingi-naziemne.php">Parkingi Naziemne B/C</a>
 <br>
+  <a href="parkingi-naziemneA.php">Parkingi Naziemne A</a>
+  <br>
 <a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
 <br>
 <a href="budynek-c-garaze-podziemne.php">Garaże podziemne C</a>
+<br>
+<a href="budynek-a-garaze-podziemne.php">Garaże podziemne A</a>
 </div>
 </div>
-<a class="navbar__item navbar__link" href="galeria.html">Galeria</a>
-<a class="navbar__item navbar__link" href="oferta-inwestycyjna.html">Oferta inwestycyjna</a>
-<a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
+<a class="navbar__item navbar__link" href="galeria">Galeria</a>
+<a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
+<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -532,7 +532,7 @@
     <!-- social media end -->
     <div class="locationsCenter">    
     <div class="line"></div>
-    <h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+    <h5><a style="color:  #ffffff;" href="cookiesPolitics">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
     </div>
     </div>
     </footer>
@@ -546,7 +546,7 @@
       </div>
 
       <div class="textCookie">
-        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics.html"> Czytaj więcej...</a></p>
+        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics"> Czytaj więcej...</a></p>
       </div>
 
       <div class="buttonsCookie">
@@ -1712,7 +1712,7 @@ send.addEventListener('click', () => {
 sendEamil = () => {
 
 
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for filling out the form fields and sending a request to submit the contact form start
 if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
 {
     firstName.placeholder = " pole Imie";
@@ -1774,7 +1774,7 @@ if(text.textContent === "OK")
     sendEamil();
 
 });
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for filling out the form fields and sending a request to submit the contact form start
 // email  end 
 </script>
 </body>

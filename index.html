@@ -16,32 +16,40 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <script src="js/script.js" defer></script>
+
 <script src="js/popupCookie.js" defer></script>
+
 <title>Park Paderewskiego - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 <body>
+
 <!-- navbar start -->
 <div class="top">
 <div class="navbar">
-<a class="navbar__item logo" href="index.html">  <img class="navbar__item logo" href="index.html"><img class="navbar__item logo"  src="image/lpp.webp"></a>
+<a class="navbar__item logo" href="./">  <img class="navbar__item logo" href="./"><img class="navbar__item logo"  src="image/lpp.webp"></a>
 <div class="navbar__menu">
-<a class="navbar__item navbar__link white-border" href="mieszkania.html">Mieszkania</a>
+<a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<a href="parkingi-naziemne.php">Parkingi Naziemne</a>
+<a href="parkingi-naziemne.php">Parkingi Naziemne B/C</a>
 <br>
+  <a href="parkingi-naziemneA.php">Parkingi Naziemne A</a>
+  <br>
 <a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
 <br>
 <a href="budynek-c-garaze-podziemne.php">Garaże podziemne C</a>
+<br>
+<a href="budynek-a-garaze-podziemne.php">Garaże podziemne A</a>
 </div>
 </div>
-<a class="navbar__item navbar__link" href="galeria.html">Galeria</a>
-<a class="navbar__item navbar__link" href="oferta-inwestycyjna.html">Oferta inwestycyjna</a>
-<a class="navbar__item navbar__link" href="lifestyle.html">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt.html">Kontakt</a>
+<a class="navbar__item navbar__link" href="galeria">Galeria</a>
+<a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
+<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -131,7 +139,7 @@
 </svg>
 <!-- arrows one end -->
 <p class="text0">NOWOCZESNE MIESZKANIA</p>
-<a href="mieszkania.html"><button id="buttomText0">SPRAWDŹ MIESZKANIA</button></a>
+<a href="mieszkania"><button id="buttomText0">SPRAWDŹ MIESZKANIA</button></a>
 <p class="text1">PONADCZASOWY DESIGN ARCHITEKTONICZNY</p>
 <!-- arrows two start -->
 <svg class="arrows1">
@@ -142,7 +150,7 @@
   <!-- arrows two end -->
 <p class="text2">WYJĄTKOWE CZĘŚCI WSPÓLNE</p>
 <p class="text3">DOSTĘPNE DLA MIESZKAŃCÓW</p>
-<a href="lifestyle.html"><button id="buttomText1">LIFESTYLE</button></a> 
+<a href="lifestyle"><button id="buttomText1">LIFESTYLE</button></a> 
 </div>
 </header>
 
@@ -201,7 +209,7 @@ dla tych, którzy szukają wyjątkowego miejsca do życia.</p>
 przestrzenie idealne do relaksu, realizacji pasji, rekreacji i spotkań z przyjaciółmi. Każda z tych
 przestrzeni została starannie zaprojektowana, aby zapewnić komfort i funkcjonalność. Naszym
  głównym celem jest dostarczenie Ci czegoś więcej, niż mógłbyś się spodziewać</p>
-<a href="lifestyle.html"><button id="buttomText2">ODKRYWAJ CZĘŚCI WSPÓLNE</button></a>
+<a href="lifestyle"><button id="buttomText2">ODKRYWAJ CZĘŚCI WSPÓLNE</button></a>
 </section>
 <!-- text one end -->
 <!-- slides two start -->
@@ -291,7 +299,7 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
     <!-- social media end -->
     <div class="locationsCenter">    
     <div class="line"></div>
-    <h5><a style="color:  #ffffff;" href="cookiesPolitics.html">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy.html">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
+    <h5><a style="color:  #ffffff;" href="cookiesPolitics">Polityka cookies</a><br><a style="color:  #ffffff;" href="privacyPolicy">Polityka prywatności</a><br>Copyright © Diamond Hill Development, All Rights Reserved.</h5>
     </div>
     </div>
     </footer>
@@ -307,7 +315,7 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
       </div>
 
       <div class="textCookie">
-        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics.html"> Czytaj więcej...</a></p>
+        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics"> Czytaj więcej...</a></p>
       </div>
 
       <div class="buttonsCookie">
@@ -394,7 +402,7 @@ send.addEventListener('click', () => {
 sendEamil = () => {
 
 
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for filling out the form fields and sending a request to submit the contact form start
 if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
 {
     firstName.placeholder = " pole Imie";
@@ -456,7 +464,7 @@ if(text.textContent === "OK")
     sendEamil();
 
 });
-// warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for filling out the form fields and sending a request to submit the contact form start
 // email  end 
 </script>
   
