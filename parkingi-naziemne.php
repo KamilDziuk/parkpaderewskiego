@@ -1053,7 +1053,7 @@
   sendEamil = () => {
   
   
-  // warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+// conditions for filling out the form fields and sending a request to submit the contact form start
   if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
   {
       firstName.placeholder = " pole Imie";
@@ -1065,7 +1065,7 @@
   
       
   Email.send({
-    SecureToken : 'c80105b4-31ee-4ccd-a664-f984f06d0f49',
+    SecureToken : '',
 To : 'sprzedaz@parkpaderewskiego.pl ',
 From : 'sprzedaz@parkpaderewskiego.pl ',
   
@@ -1115,7 +1115,7 @@ From : 'sprzedaz@parkpaderewskiego.pl ',
     sendEamil();
   
   });
-  // warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
+  // conditions for filling out the form fields and sending a request to submit the contact form end
   // email  end 
   </script>
 </body>
