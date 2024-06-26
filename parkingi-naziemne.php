@@ -14,11 +14,11 @@
 
 <script src="js/popupCookie.js" defer></script>
 
+
   <title>Parkingi Naziemne B/C  - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 
 <body>
-  
 
 <!-- navbar start -->
 <div class="top">
@@ -320,6 +320,59 @@
         <figcaption>61: </figcaption>
         <figcaption class = "premiseStatus61PN"></figcaption>
       </figcaption>
+
+      <figcaption>
+        <figcaption>74: </figcaption>
+        <figcaption class = "premiseStatus74PN"></figcaption>
+      </figcaption>
+
+      <figcaption>
+        <figcaption>75: </figcaption>
+        <figcaption class = "premiseStatus75PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>76: </figcaption>
+        <figcaption class = "premiseStatus76PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>77: </figcaption>
+        <figcaption class = "premiseStatus77PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>78: </figcaption>
+        <figcaption class = "premiseStatus78PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>93: </figcaption>
+        <figcaption class = "premiseStatus93PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>94: </figcaption>
+        <figcaption class = "premiseStatus94PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>95: </figcaption>
+        <figcaption class = "premiseStatus95PN"></figcaption>
+      </figcaption>
+
+
+      <figcaption>
+        <figcaption>96: </figcaption>
+        <figcaption class = "premiseStatus96PN"></figcaption>
+      </figcaption>
+
 
 
     </figure>
@@ -826,12 +879,101 @@
     } else if ($idValue === "2277"  && $statusNameValue === "Dostępne") {
       $premiseStatusText61PN  = "Dostępne";
       $premiseStatusColor61PN = "darkgreen";
-
     }
-  }
+  // } else if ($idValue === "2245"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText74PN  = "Sprzedane";
+  //   $premiseStatusColor74PN = "red";
+  // } else if ($idValue === "2245"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText74PN  = "Zarezerwowane";
+  //   $premiseStatusColor74PN = "#e6b800";
+  // } else if ($idValue === "2245"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText74PN  = "Dostępne";
+  //   $premiseStatusColor74PN = "darkgreen";
+  // } else if ($idValue === "2246"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText75PN  = "Sprzedane";
+  //   $premiseStatusColor75PN = "red";
+  // } else if ($idValue === "2246"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText75PN  = "Zarezerwowane";
+  //   $premiseStatusColor75PN = "#e6b800";
+  // } else if ($idValue === "2246"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText75PN  = "Dostępne";
+  //   $premiseStatusColor75PN = "darkgreen";
+  // } else if ($idValue === "2247"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText76PN  = "Sprzedane";
+  //   $premiseStatusColor76PN = "red";
+  // } else if ($idValue === "2247"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText76PN  = "Zarezerwowane";
+  //   $premiseStatusColor76PN = "#e6b800";
+  // } else if ($idValue === "2247"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText76PN  = "Dostępne";
+  //   $premiseStatusColor76PN = "darkgreen";
+
+
+  // } else if ($idValue === "2248"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText77PN  = "Sprzedane";
+  //   $premiseStatusColor77PN = "red";
+  // } else if ($idValue === "2248"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText77PN  = "Zarezerwowane";
+  //   $premiseStatusColor77PN = "#e6b800";
+  // } else if ($idValue === "2248"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText77PN  = "Dostępne";
+  //   $premiseStatusColor77PN = "darkgreen";
+
+  // } else if ($idValue === "2249"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText78PN  = "Sprzedane";
+  //   $premiseStatusColor78PN = "red";
+  // } else if ($idValue === "2249"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText78PN  = "Zarezerwowane";
+  //   $premiseStatusColor78PN = "#e6b800";
+  // } else if ($idValue === "2249"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText78PN  = "Dostępne";
+  //   $premiseStatusColor78PN = "darkgreen";
+  // } else if ($idValue === "2250"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText93PN  = "Sprzedane";
+  //   $premiseStatusColor93PN = "red";
+  // } else if ($idValue === "2250"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText93PN  = "Zarezerwowane";
+  //   $premiseStatusColor93PN = "#e6b800";
+  // } else if ($idValue === "2250"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText93PN  = "Dostępne";
+  //   $premiseStatusColor93PN = "darkgreen";
+  // } else if ($idValue === "2251"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText94PN  = "Sprzedane";
+  //   $premiseStatusColor94PN = "red";
+  // } else if ($idValue === "2251"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText94PN  = "Zarezerwowane";
+  //   $premiseStatusColor94PN = "#e6b800";
+  // } else if ($idValue === "2251"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText94PN  = "Dostępne";
+  //   $premiseStatusColor94PN = "darkgreen";
+  // } else if ($idValue === "2252"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText95PN  = "Sprzedane";
+  //   $premiseStatusColor95PN = "red";
+  // } else if ($idValue === "2252"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText95PN  = "Zarezerwowane";
+  //   $premiseStatusColor95PN = "#e6b800";
+  // } else if ($idValue === "2252"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText95PN  = "Dostępne";
+  //   $premiseStatusColor95PN = "darkgreen";
+  // } else if ($idValue === "2253"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText96PN  = "Sprzedane";
+  //   $premiseStatusColor96PN = "red";
+  // } else if ($idValue === "2253"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  //   $premiseStatusText96PN  = "Zarezerwowane";
+  //   $premiseStatusColor96PN = "#e6b800";
+  // } else if ($idValue === "2253"  && $statusNameValue === "Dostępne") {
+  //   $premiseStatusText96PN  = "Dostępne";
+  //   $premiseStatusColor96PN = "darkgreen";
+  
+  // }
+}
   ?>
   <script>
- let premiseStatus01PN=document.getElementsByClassName("premiseStatus01PN")[0];premiseStatus01PN.innerHTML="<?php echo $premiseStatusText01PN; ?>",premiseStatus01PN.style.color="<?php echo $premiseStatusColor01PN; ?>";let premiseStatus02PN=document.getElementsByClassName("premiseStatus02PN")[0];premiseStatus02PN.innerHTML="<?php echo $premiseStatusText02PN; ?>",premiseStatus02PN.style.color="<?php echo $premiseStatusColor02PN; ?>";let premiseStatus03PN=document.getElementsByClassName("premiseStatus03PN")[0];premiseStatus03PN.innerHTML="<?php echo $premiseStatusText03PN; ?>",premiseStatus03PN.style.color="<?php echo $premiseStatusColor03PN; ?>";let premiseStatus04PN=document.getElementsByClassName("premiseStatus04PN")[0];premiseStatus04PN.innerHTML="<?php echo $premiseStatusText04PN; ?>",premiseStatus04PN.style.color="<?php echo $premiseStatusColor04PN; ?>";let premiseStatus05PN=document.getElementsByClassName("premiseStatus05PN")[0];premiseStatus05PN.innerHTML="<?php echo $premiseStatusText05PN; ?>",premiseStatus05PN.style.color="<?php echo $premiseStatusColor05PN; ?>";let premiseStatus06PN=document.getElementsByClassName("premiseStatus06PN")[0];premiseStatus06PN.innerHTML="<?php echo $premiseStatusText06PN; ?>",premiseStatus06PN.style.color="<?php echo $premiseStatusColor06PN; ?>";let premiseStatus07PN=document.getElementsByClassName("premiseStatus07PN")[0];premiseStatus07PN.innerHTML="<?php echo $premiseStatusText07PN; ?>",premiseStatus07PN.style.color="<?php echo $premiseStatusColor07PN; ?>";let premiseStatus08PN=document.getElementsByClassName("premiseStatus08PN")[0];premiseStatus08PN.innerHTML="<?php echo $premiseStatusText08PN; ?>",premiseStatus08PN.style.color="<?php echo $premiseStatusColor08PN; ?>";let premiseStatus09PN=document.getElementsByClassName("premiseStatus09PN")[0];premiseStatus09PN.innerHTML="<?php echo $premiseStatusText09PN; ?>",premiseStatus09PN.style.color="<?php echo $premiseStatusColor09PN; ?>";let premiseStatus10PN=document.getElementsByClassName("premiseStatus10PN")[0];premiseStatus10PN.innerHTML="<?php echo $premiseStatusText10PN; ?>",premiseStatus10PN.style.color="<?php echo $premiseStatusColor10PN; ?>";let premiseStatus11PN=document.getElementsByClassName("premiseStatus11PN")[0];premiseStatus11PN.innerHTML="<?php echo $premiseStatusText11PN; ?>",premiseStatus11PN.style.color="<?php echo $premiseStatusColor11PN; ?>";let premiseStatus12PN=document.getElementsByClassName("premiseStatus12PN")[0];premiseStatus12PN.innerHTML="<?php echo $premiseStatusText12PN; ?>",premiseStatus12PN.style.color="<?php echo $premiseStatusColor12PN; ?>";let premiseStatus13PN=document.getElementsByClassName("premiseStatus13PN")[0];premiseStatus13PN.innerHTML="<?php echo $premiseStatusText13PN; ?>",premiseStatus13PN.style.color="<?php echo $premiseStatusColor13PN; ?>";let premiseStatus14PN=document.getElementsByClassName("premiseStatus14PN")[0];premiseStatus14PN.innerHTML="<?php echo $premiseStatusText14PN; ?>",premiseStatus14PN.style.color="<?php echo $premiseStatusColor14PN; ?>";let premiseStatus15PN=document.getElementsByClassName("premiseStatus15PN")[0];premiseStatus15PN.innerHTML="<?php echo $premiseStatusText15PN; ?>",premiseStatus15PN.style.color="<?php echo $premiseStatusColor15PN; ?>";let premiseStatus16PN=document.getElementsByClassName("premiseStatus16PN")[0];premiseStatus16PN.innerHTML="<?php echo $premiseStatusText16PN; ?>",premiseStatus16PN.style.color="<?php echo $premiseStatusColor16PN; ?>";let premiseStatus17PN=document.getElementsByClassName("premiseStatus17PN")[0];premiseStatus17PN.innerHTML="<?php echo $premiseStatusText17PN; ?>",premiseStatus17PN.style.color="<?php echo $premiseStatusColor17PN; ?>";let premiseStatus18PN=document.getElementsByClassName("premiseStatus18PN")[0];premiseStatus18PN.innerHTML="<?php echo $premiseStatusText18PN; ?>",premiseStatus18PN.style.color="<?php echo $premiseStatusColor18PN; ?>";let premiseStatus19PN=document.getElementsByClassName("premiseStatus19PN")[0];premiseStatus19PN.innerHTML="<?php echo $premiseStatusText19PN; ?>",premiseStatus19PN.style.color="<?php echo $premiseStatusColor19PN; ?>";let premiseStatus20PN=document.getElementsByClassName("premiseStatus20PN")[0];premiseStatus20PN.innerHTML="<?php echo $premiseStatusText20PN; ?>",premiseStatus20PN.style.color="<?php echo $premiseStatusColor20PN; ?>";let premiseStatus21PN=document.getElementsByClassName("premiseStatus21PN")[0];premiseStatus21PN.innerHTML="<?php echo $premiseStatusText21PN; ?>",premiseStatus21PN.style.color="<?php echo $premiseStatusColor21PN; ?>";let premiseStatus22PN=document.getElementsByClassName("premiseStatus22PN")[0];premiseStatus22PN.innerHTML="<?php echo $premiseStatusText22PN; ?>",premiseStatus22PN.style.color="<?php echo $premiseStatusColor22PN; ?>";let premiseStatus23PN=document.getElementsByClassName("premiseStatus23PN")[0];premiseStatus23PN.innerHTML="<?php echo $premiseStatusText23PN; ?>",premiseStatus23PN.style.color="<?php echo $premiseStatusColor23PN; ?>";let premiseStatus24PN=document.getElementsByClassName("premiseStatus24PN")[0];premiseStatus24PN.innerHTML="<?php echo $premiseStatusText24PN; ?>",premiseStatus24PN.style.color="<?php echo $premiseStatusColor24PN; ?>";let premiseStatus25PN=document.getElementsByClassName("premiseStatus25PN")[0];premiseStatus25PN.innerHTML="<?php echo $premiseStatusText25PN; ?>",premiseStatus25PN.style.color="<?php echo $premiseStatusColor25PN; ?>";let premiseStatus26PN=document.getElementsByClassName("premiseStatus26PN")[0];premiseStatus26PN.innerHTML="<?php echo $premiseStatusText26PN; ?>",premiseStatus26PN.style.color="<?php echo $premiseStatusColor26PN; ?>";let premiseStatus27PN=document.getElementsByClassName("premiseStatus27PN")[0];premiseStatus27PN.innerHTML="<?php echo $premiseStatusText27PN; ?>",premiseStatus27PN.style.color="<?php echo $premiseStatusColor27PN; ?>";let premiseStatus28PN=document.getElementsByClassName("premiseStatus28PN")[0];premiseStatus28PN.innerHTML="<?php echo $premiseStatusText28PN; ?>",premiseStatus28PN.style.color="<?php echo $premiseStatusColor28PN; ?>";let premiseStatus29PN=document.getElementsByClassName("premiseStatus29PN")[0];premiseStatus29PN.innerHTML="<?php echo $premiseStatusText29PN; ?>",premiseStatus29PN.style.color="<?php echo $premiseStatusColor29PN; ?>";let premiseStatus30PN=document.getElementsByClassName("premiseStatus30PN")[0];premiseStatus30PN.innerHTML="<?php echo $premiseStatusText30PN; ?>",premiseStatus30PN.style.color="<?php echo $premiseStatusColor30PN; ?>";let premiseStatus31PN=document.getElementsByClassName("premiseStatus31PN")[0];premiseStatus31PN.innerHTML="<?php echo $premiseStatusText31PN; ?>",premiseStatus31PN.style.color="<?php echo $premiseStatusColor31PN; ?>";let premiseStatus32PN=document.getElementsByClassName("premiseStatus32PN")[0];premiseStatus32PN.innerHTML="<?php echo $premiseStatusText32PN; ?>",premiseStatus32PN.style.color="<?php echo $premiseStatusColor32PN; ?>";let premiseStatus33PN=document.getElementsByClassName("premiseStatus33PN")[0];premiseStatus33PN.innerHTML="<?php echo $premiseStatusText33PN; ?>",premiseStatus33PN.style.color="<?php echo $premiseStatusColor33PN; ?>";let premiseStatus34PN=document.getElementsByClassName("premiseStatus34PN")[0];premiseStatus34PN.innerHTML="<?php echo $premiseStatusText34PN; ?>",premiseStatus34PN.style.color="<?php echo $premiseStatusColor34PN; ?>";let premiseStatus36PN=document.getElementsByClassName("premiseStatus36PN")[0];premiseStatus36PN.innerHTML="<?php echo $premiseStatusText36PN; ?>",premiseStatus36PN.style.color="<?php echo $premiseStatusColor36PN; ?>";let premiseStatus37PN=document.getElementsByClassName("premiseStatus37PN")[0];premiseStatus37PN.innerHTML="<?php echo $premiseStatusText37PN; ?>",premiseStatus37PN.style.color="<?php echo $premiseStatusColor37PN; ?>";let premiseStatus38PN=document.getElementsByClassName("premiseStatus38PN")[0];premiseStatus38PN.innerHTML="<?php echo $premiseStatusText38PN; ?>",premiseStatus38PN.style.color="<?php echo $premiseStatusColor38PN; ?>";let premiseStatus39PN=document.getElementsByClassName("premiseStatus39PN")[0];premiseStatus39PN.innerHTML="<?php echo $premiseStatusText39PN; ?>",premiseStatus39PN.style.color="<?php echo $premiseStatusColor39PN; ?>";let premiseStatus42PN=document.getElementsByClassName("premiseStatus42PN")[0];premiseStatus42PN.innerHTML="<?php echo $premiseStatusText42PN; ?>",premiseStatus42PN.style.color="<?php echo $premiseStatusColor42PN; ?>";let premiseStatus45PN=document.getElementsByClassName("premiseStatus45PN")[0];premiseStatus45PN.innerHTML="<?php echo $premiseStatusText45PN; ?>",premiseStatus45PN.style.color="<?php echo $premiseStatusColor45PN; ?>";let premiseStatus46PN=document.getElementsByClassName("premiseStatus46PN")[0];premiseStatus46PN.innerHTML="<?php echo $premiseStatusText46PN; ?>",premiseStatus46PN.style.color="<?php echo $premiseStatusColor46PN; ?>";let premiseStatus47PN=document.getElementsByClassName("premiseStatus47PN")[0];premiseStatus47PN.innerHTML="<?php echo $premiseStatusText47PN; ?>",premiseStatus47PN.style.color="<?php echo $premiseStatusColor47PN; ?>";let premiseStatus48PN=document.getElementsByClassName("premiseStatus48PN")[0];premiseStatus48PN.innerHTML="<?php echo $premiseStatusText48PN; ?>",premiseStatus48PN.style.color="<?php echo $premiseStatusColor48PN; ?>";let premiseStatus61PN=document.getElementsByClassName("premiseStatus61PN")[0];premiseStatus61PN.innerHTML="<?php echo $premiseStatusText61PN; ?>",premiseStatus61PN.style.color="<?php echo $premiseStatusColor61PN; ?>";let popupContentImageMap=document.getElementsByClassName("popupContentImageMap")[0],map=document.getElementsByClassName("map")[0];map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/above-ground-parking-lot-map.webp"}),closePopupImageMap.addEventListener("click",()=>{}),window.addEventListener("click",e=>{e.target===popupImageMap&&(popupImageMap.style.display="none")});
+ let premiseStatus01PN=document.getElementsByClassName("premiseStatus01PN")[0];
+ premiseStatus01PN.innerHTML="<?php echo $premiseStatusText01PN; ?>",
+ premiseStatus01PN.style.color="<?php echo $premiseStatusColor01PN; ?>";
+
+ let premiseStatus02PN=document.getElementsByClassName("premiseStatus02PN")[0];premiseStatus02PN.innerHTML="<?php echo $premiseStatusText02PN; ?>",premiseStatus02PN.style.color="<?php echo $premiseStatusColor02PN; ?>";let premiseStatus03PN=document.getElementsByClassName("premiseStatus03PN")[0];premiseStatus03PN.innerHTML="<?php echo $premiseStatusText03PN; ?>",premiseStatus03PN.style.color="<?php echo $premiseStatusColor03PN; ?>";let premiseStatus04PN=document.getElementsByClassName("premiseStatus04PN")[0];premiseStatus04PN.innerHTML="<?php echo $premiseStatusText04PN; ?>",premiseStatus04PN.style.color="<?php echo $premiseStatusColor04PN; ?>";let premiseStatus05PN=document.getElementsByClassName("premiseStatus05PN")[0];premiseStatus05PN.innerHTML="<?php echo $premiseStatusText05PN; ?>",premiseStatus05PN.style.color="<?php echo $premiseStatusColor05PN; ?>";let premiseStatus06PN=document.getElementsByClassName("premiseStatus06PN")[0];premiseStatus06PN.innerHTML="<?php echo $premiseStatusText06PN; ?>",premiseStatus06PN.style.color="<?php echo $premiseStatusColor06PN; ?>";let premiseStatus07PN=document.getElementsByClassName("premiseStatus07PN")[0];premiseStatus07PN.innerHTML="<?php echo $premiseStatusText07PN; ?>",premiseStatus07PN.style.color="<?php echo $premiseStatusColor07PN; ?>";let premiseStatus08PN=document.getElementsByClassName("premiseStatus08PN")[0];premiseStatus08PN.innerHTML="<?php echo $premiseStatusText08PN; ?>",premiseStatus08PN.style.color="<?php echo $premiseStatusColor08PN; ?>";let premiseStatus09PN=document.getElementsByClassName("premiseStatus09PN")[0];premiseStatus09PN.innerHTML="<?php echo $premiseStatusText09PN; ?>",premiseStatus09PN.style.color="<?php echo $premiseStatusColor09PN; ?>";let premiseStatus10PN=document.getElementsByClassName("premiseStatus10PN")[0];premiseStatus10PN.innerHTML="<?php echo $premiseStatusText10PN; ?>",premiseStatus10PN.style.color="<?php echo $premiseStatusColor10PN; ?>";let premiseStatus11PN=document.getElementsByClassName("premiseStatus11PN")[0];premiseStatus11PN.innerHTML="<?php echo $premiseStatusText11PN; ?>",premiseStatus11PN.style.color="<?php echo $premiseStatusColor11PN; ?>";let premiseStatus12PN=document.getElementsByClassName("premiseStatus12PN")[0];premiseStatus12PN.innerHTML="<?php echo $premiseStatusText12PN; ?>",premiseStatus12PN.style.color="<?php echo $premiseStatusColor12PN; ?>";let premiseStatus13PN=document.getElementsByClassName("premiseStatus13PN")[0];premiseStatus13PN.innerHTML="<?php echo $premiseStatusText13PN; ?>",premiseStatus13PN.style.color="<?php echo $premiseStatusColor13PN; ?>";let premiseStatus14PN=document.getElementsByClassName("premiseStatus14PN")[0];premiseStatus14PN.innerHTML="<?php echo $premiseStatusText14PN; ?>",premiseStatus14PN.style.color="<?php echo $premiseStatusColor14PN; ?>";let premiseStatus15PN=document.getElementsByClassName("premiseStatus15PN")[0];premiseStatus15PN.innerHTML="<?php echo $premiseStatusText15PN; ?>",premiseStatus15PN.style.color="<?php echo $premiseStatusColor15PN; ?>";let premiseStatus16PN=document.getElementsByClassName("premiseStatus16PN")[0];premiseStatus16PN.innerHTML="<?php echo $premiseStatusText16PN; ?>",premiseStatus16PN.style.color="<?php echo $premiseStatusColor16PN; ?>";let premiseStatus17PN=document.getElementsByClassName("premiseStatus17PN")[0];premiseStatus17PN.innerHTML="<?php echo $premiseStatusText17PN; ?>",premiseStatus17PN.style.color="<?php echo $premiseStatusColor17PN; ?>";let premiseStatus18PN=document.getElementsByClassName("premiseStatus18PN")[0];premiseStatus18PN.innerHTML="<?php echo $premiseStatusText18PN; ?>",premiseStatus18PN.style.color="<?php echo $premiseStatusColor18PN; ?>";let premiseStatus19PN=document.getElementsByClassName("premiseStatus19PN")[0];premiseStatus19PN.innerHTML="<?php echo $premiseStatusText19PN; ?>",premiseStatus19PN.style.color="<?php echo $premiseStatusColor19PN; ?>";let premiseStatus20PN=document.getElementsByClassName("premiseStatus20PN")[0];premiseStatus20PN.innerHTML="<?php echo $premiseStatusText20PN; ?>",premiseStatus20PN.style.color="<?php echo $premiseStatusColor20PN; ?>";let premiseStatus21PN=document.getElementsByClassName("premiseStatus21PN")[0];premiseStatus21PN.innerHTML="<?php echo $premiseStatusText21PN; ?>",premiseStatus21PN.style.color="<?php echo $premiseStatusColor21PN; ?>";let premiseStatus22PN=document.getElementsByClassName("premiseStatus22PN")[0];premiseStatus22PN.innerHTML="<?php echo $premiseStatusText22PN; ?>",premiseStatus22PN.style.color="<?php echo $premiseStatusColor22PN; ?>";let premiseStatus23PN=document.getElementsByClassName("premiseStatus23PN")[0];premiseStatus23PN.innerHTML="<?php echo $premiseStatusText23PN; ?>",premiseStatus23PN.style.color="<?php echo $premiseStatusColor23PN; ?>";let premiseStatus24PN=document.getElementsByClassName("premiseStatus24PN")[0];premiseStatus24PN.innerHTML="<?php echo $premiseStatusText24PN; ?>",premiseStatus24PN.style.color="<?php echo $premiseStatusColor24PN; ?>";let premiseStatus25PN=document.getElementsByClassName("premiseStatus25PN")[0];premiseStatus25PN.innerHTML="<?php echo $premiseStatusText25PN; ?>",premiseStatus25PN.style.color="<?php echo $premiseStatusColor25PN; ?>";let premiseStatus26PN=document.getElementsByClassName("premiseStatus26PN")[0];premiseStatus26PN.innerHTML="<?php echo $premiseStatusText26PN; ?>",premiseStatus26PN.style.color="<?php echo $premiseStatusColor26PN; ?>";let premiseStatus27PN=document.getElementsByClassName("premiseStatus27PN")[0];premiseStatus27PN.innerHTML="<?php echo $premiseStatusText27PN; ?>",premiseStatus27PN.style.color="<?php echo $premiseStatusColor27PN; ?>";let premiseStatus28PN=document.getElementsByClassName("premiseStatus28PN")[0];premiseStatus28PN.innerHTML="<?php echo $premiseStatusText28PN; ?>",premiseStatus28PN.style.color="<?php echo $premiseStatusColor28PN; ?>";let premiseStatus29PN=document.getElementsByClassName("premiseStatus29PN")[0];premiseStatus29PN.innerHTML="<?php echo $premiseStatusText29PN; ?>",premiseStatus29PN.style.color="<?php echo $premiseStatusColor29PN; ?>";let premiseStatus30PN=document.getElementsByClassName("premiseStatus30PN")[0];premiseStatus30PN.innerHTML="<?php echo $premiseStatusText30PN; ?>",premiseStatus30PN.style.color="<?php echo $premiseStatusColor30PN; ?>";let premiseStatus31PN=document.getElementsByClassName("premiseStatus31PN")[0];premiseStatus31PN.innerHTML="<?php echo $premiseStatusText31PN; ?>",premiseStatus31PN.style.color="<?php echo $premiseStatusColor31PN; ?>";let premiseStatus32PN=document.getElementsByClassName("premiseStatus32PN")[0];premiseStatus32PN.innerHTML="<?php echo $premiseStatusText32PN; ?>",premiseStatus32PN.style.color="<?php echo $premiseStatusColor32PN; ?>";let premiseStatus33PN=document.getElementsByClassName("premiseStatus33PN")[0];premiseStatus33PN.innerHTML="<?php echo $premiseStatusText33PN; ?>",premiseStatus33PN.style.color="<?php echo $premiseStatusColor33PN; ?>";let premiseStatus34PN=document.getElementsByClassName("premiseStatus34PN")[0];premiseStatus34PN.innerHTML="<?php echo $premiseStatusText34PN; ?>",premiseStatus34PN.style.color="<?php echo $premiseStatusColor34PN; ?>";let premiseStatus36PN=document.getElementsByClassName("premiseStatus36PN")[0];premiseStatus36PN.innerHTML="<?php echo $premiseStatusText36PN; ?>",premiseStatus36PN.style.color="<?php echo $premiseStatusColor36PN; ?>";let premiseStatus37PN=document.getElementsByClassName("premiseStatus37PN")[0];premiseStatus37PN.innerHTML="<?php echo $premiseStatusText37PN; ?>",premiseStatus37PN.style.color="<?php echo $premiseStatusColor37PN; ?>";let premiseStatus38PN=document.getElementsByClassName("premiseStatus38PN")[0];premiseStatus38PN.innerHTML="<?php echo $premiseStatusText38PN; ?>",premiseStatus38PN.style.color="<?php echo $premiseStatusColor38PN; ?>";let premiseStatus39PN=document.getElementsByClassName("premiseStatus39PN")[0];premiseStatus39PN.innerHTML="<?php echo $premiseStatusText39PN; ?>",premiseStatus39PN.style.color="<?php echo $premiseStatusColor39PN; ?>";let premiseStatus42PN=document.getElementsByClassName("premiseStatus42PN")[0];premiseStatus42PN.innerHTML="<?php echo $premiseStatusText42PN; ?>",premiseStatus42PN.style.color="<?php echo $premiseStatusColor42PN; ?>";let premiseStatus45PN=document.getElementsByClassName("premiseStatus45PN")[0];premiseStatus45PN.innerHTML="<?php echo $premiseStatusText45PN; ?>",premiseStatus45PN.style.color="<?php echo $premiseStatusColor45PN; ?>";let premiseStatus46PN=document.getElementsByClassName("premiseStatus46PN")[0];premiseStatus46PN.innerHTML="<?php echo $premiseStatusText46PN; ?>",premiseStatus46PN.style.color="<?php echo $premiseStatusColor46PN; ?>";let premiseStatus47PN=document.getElementsByClassName("premiseStatus47PN")[0];premiseStatus47PN.innerHTML="<?php echo $premiseStatusText47PN; ?>",premiseStatus47PN.style.color="<?php echo $premiseStatusColor47PN; ?>";let premiseStatus48PN=document.getElementsByClassName("premiseStatus48PN")[0];premiseStatus48PN.innerHTML="<?php echo $premiseStatusText48PN; ?>",premiseStatus48PN.style.color="<?php echo $premiseStatusColor48PN; ?>";let premiseStatus61PN=document.getElementsByClassName("premiseStatus61PN")[0];premiseStatus61PN.innerHTML="<?php echo $premiseStatusText61PN; ?>",premiseStatus61PN.style.color="<?php echo $premiseStatusColor61PN; ?>";let popupContentImageMap=document.getElementsByClassName("popupContentImageMap")[0],map=document.getElementsByClassName("map")[0];map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/above-ground-parking-lot-map.webp"}),closePopupImageMap.addEventListener("click",()=>{}),window.addEventListener("click",e=>{e.target===popupImageMap&&(popupImageMap.style.display="none")});
   </script>
 <script>
   
@@ -911,7 +1053,7 @@
   sendEamil = () => {
   
   
-  // conditions for filling out the form fields and sending a request to submit the contact form start
+  // warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
   if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
   {
       firstName.placeholder = " pole Imie";
@@ -923,7 +1065,7 @@
   
       
   Email.send({
-    SecureToken : '',
+    SecureToken : 'c80105b4-31ee-4ccd-a664-f984f06d0f49',
 To : 'sprzedaz@parkpaderewskiego.pl ',
 From : 'sprzedaz@parkpaderewskiego.pl ',
   
@@ -973,7 +1115,7 @@ From : 'sprzedaz@parkpaderewskiego.pl ',
     sendEamil();
   
   });
-  // conditions for filling out the form fields and sending a request to submit the contact form start
+  // warunki wypełnienia pól formularza oraz wysyłania żądania przesłania formularza kontaktowego start
   // email  end 
   </script>
 </body>
