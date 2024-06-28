@@ -333,7 +333,7 @@ body {
   header {
   height:1800px;
 
-  background: url(/image/parkpaderewskiegoBackground.webp) center ;
+  background: url(/image/visualization33.webp) center ;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -370,8 +370,7 @@ body {
 .aboutInvestment {
   height: 100%;
   width: 100%;
-  
-  background: url(/image/parkpaderewskiegoBackground.webp) center;
+  background: url(/image/visualization33.webp) center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -383,7 +382,7 @@ body {
         header {
          
   
-          background: url(/image/parkpaderewskiegoBackground.webp) center ;
+          background: url(/image/visualization33.webp) center ;
           background-size: cover;
           background-attachment:local;
           display: flex;
