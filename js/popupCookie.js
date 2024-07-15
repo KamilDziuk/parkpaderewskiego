@@ -1,8 +1,4 @@
 
-
-
-
-
 let cookieBox = document.querySelector(".containerCookie");
 let acceptBtn = document.querySelector("#acceptBtn");
 let declineBtn = document.querySelector("#declineBtn");
