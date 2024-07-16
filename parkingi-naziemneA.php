@@ -15,11 +15,18 @@
 <script src="js/sendingEmail.js" defer></script>
 <script src="js/popupMenu.js" async></script>
 <script src="js/popupCookie.js" defer></script>
+<!-- Google tag (gtag.js) start -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<!-- Google tag (gtag.js) end -->
 <title>Parkingi naziemne budynek A - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 
 <body>
-  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <!-- navbar start -->
 <div class="top">
 <div class="navbar">
