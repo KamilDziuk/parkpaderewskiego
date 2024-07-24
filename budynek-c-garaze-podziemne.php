@@ -5,7 +5,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');</script>
+<!-- End Google Tag Manager -->
 
+<link rel="icon" type="image/jpg" href="image/icone.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lot.css">
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
@@ -13,14 +32,11 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/popupMenu.js" async></script>
 <script src="js/popupCookie.js" defer></script>
-<script src="js/sendingEmail.js" defer></script>
-<!-- Google tag (gtag.js) start -->
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
-<!-- Google tag (gtag.js) end -->
   <title>Garaże podziemne C - Nowoczesne Osiedle w Zawierciu</title>
 </head>
 
 <body>
+  
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
