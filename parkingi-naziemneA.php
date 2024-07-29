@@ -386,6 +386,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <figcaption>96: </figcaption>
         <figcaption class = "premiseStatus96PNA"></figcaption>
       </figcaption>
+      <figcaption>
+        <figcaption>99: </figcaption>
+        <figcaption class = "premiseStatus99PNA"></figcaption>
+      </figcaption>
+
+
+      
+      <figcaption>
+        <figcaption>100: </figcaption>
+        <figcaption class = "premiseStatus100PNA"></figcaption>
+      </figcaption>
+
+
+      
+      <figcaption>
+        <figcaption>101: </figcaption>
+        <figcaption class = "premiseStatus101PNA"></figcaption>
+      </figcaption>
+
+
+      
+      <figcaption>
+        <figcaption>102: </figcaption>
+        <figcaption class = "premiseStatus102PNA"></figcaption>
+      </figcaption>
+
+
+
+      
+      <figcaption>
+        <figcaption>103: </figcaption>
+        <figcaption class = "premiseStatus103PNA"></figcaption>
+      </figcaption>
+
+
+
+      
+      <figcaption>
+        <figcaption>104: </figcaption>
+        <figcaption class = "premiseStatus104PNA"></figcaption>
+      </figcaption>
+
+
+      
+
+      
+      <figcaption>
+        <figcaption>105: </figcaption>
+        <figcaption class = "premiseStatus105PNA"></figcaption>
+      </figcaption>
+
+
+
+
+      
+      <figcaption>
+        <figcaption>106: </figcaption>
+        <figcaption class = "premiseStatus106PNA"></figcaption>
+      </figcaption>
+
+
+
+
+
     </figure>
   </div>
   </div>
@@ -1198,6 +1262,119 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       $premiseStatusText96PNA  = "Dostępne";
       $premiseStatusColor96PNA = "darkgreen";
     } 
+
+    
+    else if ($idValue === "2315"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText99PNA  = "Sprzedane";
+      $premiseStatusColor99PNA = "red";
+    } else if ($idValue === "2315"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText99PNA  = "Zarezerwowane";
+      $premiseStatusColor99PNA = "#e6b800";
+    } else if ($idValue === "2315"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText99PNA  = "Dostępne";
+      $premiseStatusColor99PNA = "darkgreen";
+    } 
+
+
+    else if ($idValue === "2316"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText100PNA  = "Sprzedane";
+      $premiseStatusColor100PNA = "red";
+    } else if ($idValue === "2316"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText100PNA  = "Zarezerwowane";
+      $premiseStatusColor100PNA = "#e6b800";
+    } else if ($idValue === "2316"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText100PNA  = "Dostępne";
+      $premiseStatusColor100PNA = "darkgreen";
+    } 
+
+
+
+    else if ($idValue === "2317"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText101PNA  = "Sprzedane";
+      $premiseStatusColor101PNA = "red";
+    } else if ($idValue === "2317"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText101PNA  = "Zarezerwowane";
+      $premiseStatusColor101PNA = "#e6b800";
+    } else if ($idValue === "2317"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText101PNA  = "Dostępne";
+      $premiseStatusColor101PNA = "darkgreen";
+    } 
+
+
+
+    else if ($idValue === "2318"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText102PNA  = "Sprzedane";
+      $premiseStatusColor102PNA = "red";
+    } else if ($idValue === "2318"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText102PNA  = "Zarezerwowane";
+      $premiseStatusColor102PNA = "#e6b800";
+    } else if ($idValue === "2318"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText102PNA  = "Dostępne";
+      $premiseStatusColor102PNA = "darkgreen";
+    } 
+
+
+
+    else if ($idValue === "2319"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText103PNA  = "Sprzedane";
+      $premiseStatusColor103PNA = "red";
+    } else if ($idValue === "2319"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText103PNA  = "Zarezerwowane";
+      $premiseStatusColor103PNA = "#e6b800";
+    } else if ($idValue === "2319"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText103PNA  = "Dostępne";
+      $premiseStatusColor103PNA = "darkgreen";
+    } 
+
+
+
+
+    else if ($idValue === "2320"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText104PNA  = "Sprzedane";
+      $premiseStatusColor104PNA = "red";
+    } else if ($idValue === "2320"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText104PNA  = "Zarezerwowane";
+      $premiseStatusColor104PNA = "#e6b800";
+    } else if ($idValue === "2320"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText104PNA  = "Dostępne";
+      $premiseStatusColor104PNA = "darkgreen";
+    } 
+
+
+
+
+    else if ($idValue === "2321"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText105PNA  = "Sprzedane";
+      $premiseStatusColor105PNA = "red";
+    } else if ($idValue === "2321"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText105PNA  = "Zarezerwowane";
+      $premiseStatusColor105PNA = "#e6b800";
+    } else if ($idValue === "2321"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText105PNA  = "Dostępne";
+      $premiseStatusColor105PNA = "darkgreen";
+    } 
+
+
+
+    else if ($idValue === "2322"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+      $premiseStatusText106PNA  = "Sprzedane";
+      $premiseStatusColor106PNA = "red";
+    } else if ($idValue === "2322"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+      $premiseStatusText106PNA  = "Zarezerwowane";
+      $premiseStatusColor106PNA = "#e6b800";
+    } else if ($idValue === "2322"  && $statusNameValue === "Dostępne") {
+      $premiseStatusText106PNA  = "Dostępne";
+      $premiseStatusColor106PNA = "darkgreen";
+    } 
+
   // Above-ground parking space condition end
 }
   
@@ -1409,8 +1586,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  premiseStatus96PNA.innerHTML="<?php echo $premiseStatusText96PNA; ?>",premiseStatus96PNA.style.color="<?php echo $premiseStatusColor96PNA; ?>";
    // Above-ground parking space script end
 
+   let premiseStatus99PNA=document.getElementsByClassName("premiseStatus99PNA")[0];
+ premiseStatus99PNA.innerHTML="<?php echo $premiseStatusText99PNA; ?>",premiseStatus99PNA.style.color="<?php echo $premiseStatusColor99PNA; ?>";
+
+ let premiseStatus100PNA=document.getElementsByClassName("premiseStatus100PNA")[0];
+ premiseStatus100PNA.innerHTML="<?php echo $premiseStatusText100PNA; ?>",premiseStatus100PNA.style.color="<?php echo $premiseStatusColor100PNA; ?>";
 
 
+ let premiseStatus101PNA=document.getElementsByClassName("premiseStatus101PNA")[0];
+ premiseStatus101PNA.innerHTML="<?php echo $premiseStatusText101PNA; ?>",premiseStatus101PNA.style.color="<?php echo $premiseStatusColor101PNA; ?>";
+
+
+ let premiseStatus102PNA=document.getElementsByClassName("premiseStatus102PNA")[0];
+ premiseStatus102PNA.innerHTML="<?php echo $premiseStatusText102PNA; ?>",premiseStatus102PNA.style.color="<?php echo $premiseStatusColor102PNA; ?>";
+
+
+ let premiseStatus103PNA=document.getElementsByClassName("premiseStatus103PNA")[0];
+ premiseStatus103PNA.innerHTML="<?php echo $premiseStatusText103PNA; ?>",premiseStatus103PNA.style.color="<?php echo $premiseStatusColor103PNA; ?>";
+
+
+ let premiseStatus104PNA=document.getElementsByClassName("premiseStatus104PNA")[0];
+ premiseStatus104PNA.innerHTML="<?php echo $premiseStatusText104PNA; ?>",premiseStatus104PNA.style.color="<?php echo $premiseStatusColor104PNA; ?>";
+
+
+
+ let premiseStatus105PNA=document.getElementsByClassName("premiseStatus105PNA")[0];
+ premiseStatus105PNA.innerHTML="<?php echo $premiseStatusText105PNA; ?>",premiseStatus105PNA.style.color="<?php echo $premiseStatusColor105PNA; ?>";
+
+
+ let premiseStatus106PNA=document.getElementsByClassName("premiseStatus106PNA")[0];
+ premiseStatus106PNA.innerHTML="<?php echo $premiseStatusText106PNA; ?>",premiseStatus106PNA.style.color="<?php echo $premiseStatusColor106PNA; ?>";
+   // Above-ground parking space script end
  
  let popupContentImageMap=document.getElementsByClassName("popupContentImageMap")[0],map=document.getElementsByClassName("map")[0];
  map.addEventListener("click",()=>{popupImageMap.style.display="block",popupContentImageMap.src="image/above-ground-parking-lot-map.webp"}),
