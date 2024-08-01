@@ -66,87 +66,11 @@
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
-<button id="showPopup">Zapytaj o mieszkania</button>
-<!-- Popup end -->
-<span class="hamburger hamburger--collapse navbar__item" id="js-navbar-toggle">
-<span class="hamburger-box">
-<span class="hamburger-inner"></span>
-</span>
-</span>
-</div>
-</div>
-<div id="popup" class="popup">
-<div class="popup-content">
-  <!-- email  start -->
-    <!-- View information about the sending status start -->
-    <div class="textValue"></div>
-
-       <!-- View information about the sending status end -->
-    <form id="formPopup" class="topBefore" method="post">
-        <input id="text1" class="firstName" type="text" placeholder="Imie" >
-        <input class="email" type="email" placeholder="Emial">
-        <input class="phone" type="number" placeholder="Telefon">
-        <textarea class="message" type="text" placeholder="Dotyczy mieszkania"></textarea>
-        <!-- send request start -->
-        <input class="send" id="submit" type="button" value="Wyślij zapytanie"> 
-          <!-- send request end -->
-          <!-- checkbox start   -->
-          <div class="checkbox-wrapper-32">
-            <input type="checkbox" name="checkbox-32" id="checkbox-32"  class="checkbox0">
-            <label for="checkbox-32">
-            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.
-            </label>
-     
-            <svg viewBox="0 0 100 100">
-              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-            </svg>
-          </div>
-    
-          <div class="checkbox-wrapper-33">
-            <input type="checkbox" name="checkbox-33" id="checkbox-33"  class="checkbox1">
-            <label for="checkbox-33">
-            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.
-            </label>
-     
-            <svg viewBox="0 0 100 100">
-              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-            </svg>
-          </div>
-    
-    
-    
-          <div class="checkbox-wrapper-34">
-            <input type="checkbox" name="checkbox-34" id="checkbox-34"  class="checkbox2">
-            <label for="checkbox-34">
-            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.
-            </label>
-     
-            <svg viewBox="0 0 100 100">
-              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
-            </svg>
-          </div>
-          <!-- checkbox end   -->
-        
-          <div class="text"></div>
-          <div class="text1"></div>
-          </form>
-            <!-- email  end -->
-   
-  <div class="allAvailableApartmentsAvailable"></div>
-  <span class="close" id="closePopup">X</span>
-  
-  </div>
-  </div>
-<!-- navbar end -->
-
 <header class="contact">
     <!-- top and middle of the page start -->
     <div class="centerLifestyle">
       <p class="titleTextGallery">Parkingi naziemne C/B</p>
-  
+      <div class="description"></div>
     </header>
     <div class="mapContener" >
   <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
@@ -156,10 +80,13 @@
 
 <g transform="translate(0.000000,829.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
-<path class="parking79"d="M3790 8237 c-10 -23 -32 -73 -49 -112 l-30 -70 47 -22 c26 -12 50
--19 54 -15 4 4 27 55 51 114 l45 106 -50 21 -49 20 -19 -42z"/>
-<path class="parking80"d="M3879 8123 c-24 -59 -45 -110 -47 -113 -3 -8 98 -54 103 -48 5 5 95
+<path class="parking79"  d="M3790 8237 c-10 -23 -32 -73 -49 -112 l-30 -70 47 -22 c26 -12 50
+-19 54 -15 4 4 27 55 51 114 l45 106 -50 21 -49 20 -19 -42z"/> 
+
+
+<path class="parking80" d="M3879 8123 c-24 -59 -45 -110 -47 -113 -3 -8 98 -54 103 -48 5 5 95
 215 95 221 0 3 -8 7 -17 10 -10 3 -34 12 -54 20 l-36 16 -44 -106z"/>
+
 <path class="parking81"d="M4001 8078 c-24 -57 -45 -108 -48 -114 -3 -10 95 -61 101 -52 7 10
 96 222 94 223 -3 3 -100 45 -102 45 -1 0 -21 -46 -45 -102z"/>
 <path class="parking82"d="M4115 8020 c-26 -61 -46 -112 -44 -113 16 -11 90 -39 94 -35 7 6 95
@@ -1101,6 +1028,7 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
   <div class="parkingBody">
     <div id="parkingNumber" class="parkingNumber79">79</div>
     <div class = "premiseStatus79"></div>
+    
     </div>
     </div>
    
@@ -2380,9 +2308,10 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
       $premiseStatusColor79= "#e6b800";   $parkingColor79= '#ffcc006a';
       $parkingColor79= '#ffcc006a';	
     } else if ($idValue === "2875"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText79 = "Dostępne";
-      $premiseStatusColor79= "darkgreen";   $parkingColor79 = 'rgba(0, 100, 0, 0.424) ';
-      $parkingColor79= 'rgba(0, 100, 0, 0.424) ';	
+      $premiseStatusText79 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 79</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
+      $premiseStatusColor79= "darkgreen";  
+       $parkingColor79 = 'rgba(0, 100, 0, 0.424) ';
+    
     } 
 
 
@@ -2786,34 +2715,18 @@ let parking1 = document.querySelector(".parking1");
  parking1.setAttribute("style", "fill:<?php echo $parkingColor1; ?>;");
  premiseStatus1.innerHTML="<?php echo $premiseStatusText1; ?>",premiseStatus1.style.color="<?php echo $premiseStatusColor1; ?>";
 
- parking1.addEventListener('click', () => 
-{
-  parking1.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
-  parkingNumber1.style ="font-size:27px;"
-  // parkingII.setAttribute("style", "fill: #ffff;  animation: pulsate 1s infinite;");
-    parkingNumber1.style =" font-weight: 900;"
-})
-
-parkingNumber1.addEventListener('click', () => 
-{
-  parking1.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
-  parkingNumber1.style ="font-size:27px;"
-  // parkingII.setAttribute("style", "fill:  #ffff;;  animation: pulsate 1s infinite;");
-    parkingNumber1.style =" font-weight: 900;"
-})
-
-parking1.addEventListener('mouseover', ()=>
+ parking1.addEventListener('mouseover', ()=>
   {
     
-  parking1.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking1.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber1.style ="font-size:27px; "
-  // parkingII.setAttribute("style", "fill:  #ffff;  animation: pulsate 1s infinite;");
+ parkingNumber1.style =" font-weight: 900;"
   })
 
   parking1.addEventListener('mouseout', ()=>
   {
-    // parkingII.setAttribute("style", "fill: #ffff;  animation: pulsate 1s infinite;");
-     parkingNumber1.style ="font-size:17px; "
+      parkingNumber1.style ="font-size:17px; "
+ parkingNumber1.style =" font-weight: 500;"
     parking1.setAttribute("style", "fill:<?php echo $parkingColor1; ?>;");
   })
 
@@ -2830,14 +2743,14 @@ parking1.addEventListener('mouseover', ()=>
 
  parking2.addEventListener('click', () => 
 {
-  parking2.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber2.style ="font-size:27px;"
      parkingNumber2.style =" font-weight: 900;"
 })
 
 parkingNumber2.addEventListener('click', () => 
 {
-  parking2.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber2.style ="font-size:27px;"
     parkingNumber2.style =" font-weight: 900;"
 })
@@ -2845,14 +2758,15 @@ parkingNumber2.addEventListener('click', () =>
 parking2.addEventListener('mouseover', ()=>
   {
     
-  parking2.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber2.style ="font-size:27px; "
-
+ parkingNumber2.style =" font-weight: 900;"
   })
 
   parking2.addEventListener('mouseout', ()=>
   {
-    
+      parkingNumber2.style ="font-size:17px; "
+ parkingNumber2.style =" font-weight: 500;"
     parking2.setAttribute("style", "fill:<?php echo $parkingColor2; ?>;");
   })
 
@@ -2873,14 +2787,14 @@ parking2.addEventListener('mouseover', ()=>
 
  parking3.addEventListener('click', () => 
 {
-  parking3.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber3.style ="font-size:27px;"
      parkingNumber3.style =" font-weight: 900;"
 })
 
 parkingNumber3.addEventListener('click', () => 
 {
-  parking3.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber3.style ="font-size:27px;"
     parkingNumber3.style =" font-weight: 900;"
 })
@@ -2888,7 +2802,7 @@ parkingNumber3.addEventListener('click', () =>
 parking3.addEventListener('mouseover', ()=>
   {
     
-  parking3.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber3.style ="font-size:27px; "
 
   })
@@ -2916,14 +2830,14 @@ parking3.addEventListener('mouseover', ()=>
 
  parking4.addEventListener('click', () => 
 {
-  parking4.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber4.style ="font-size:27px;"
      parkingNumber4.style =" font-weight: 900;"
 })
 
 parkingNumber4.addEventListener('click', () => 
 {
-  parking4.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber4.style ="font-size:27px;"
     parkingNumber4.style =" font-weight: 900;"
 })
@@ -2931,7 +2845,7 @@ parkingNumber4.addEventListener('click', () =>
 parking4.addEventListener('mouseover', ()=>
   {
     
-  parking4.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber4.style ="font-size:27px; "
 
   })
@@ -2958,14 +2872,14 @@ parking4.addEventListener('mouseover', ()=>
 
  parking5.addEventListener('click', () => 
 {
-  parking5.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber5.style ="font-size:27px;"
      parkingNumber5.style =" font-weight: 900;"
 })
 
 parkingNumber5.addEventListener('click', () => 
 {
-  parking5.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber5.style ="font-size:27px;"
     parkingNumber5.style =" font-weight: 900;"
 })
@@ -2973,7 +2887,7 @@ parkingNumber5.addEventListener('click', () =>
 parking5.addEventListener('mouseover', ()=>
   {
     
-  parking5.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber5.style ="font-size:27px; "
 
   })
@@ -3000,14 +2914,14 @@ parking5.addEventListener('mouseover', ()=>
 
  parking6.addEventListener('click', () => 
 {
-  parking6.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber6.style ="font-size:27px;"
      parkingNumber6.style =" font-weight: 900;"
 })
 
 parkingNumber6.addEventListener('click', () => 
 {
-  parking6.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber6.style ="font-size:27px;"
     parkingNumber6.style =" font-weight: 900;"
 })
@@ -3015,7 +2929,7 @@ parkingNumber6.addEventListener('click', () =>
 parking6.addEventListener('mouseover', ()=>
   {
     
-  parking6.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber6.style ="font-size:27px; "
 
   })
@@ -3042,14 +2956,14 @@ parking6.addEventListener('mouseover', ()=>
 
  parking7.addEventListener('click', () => 
 {
-  parking7.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber7.style ="font-size:27px;"
      parkingNumber7.style =" font-weight: 900;"
 })
 
 parkingNumber7.addEventListener('click', () => 
 {
-  parking7.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber7.style ="font-size:27px;"
     parkingNumber7.style =" font-weight: 900;"
 })
@@ -3057,7 +2971,7 @@ parkingNumber7.addEventListener('click', () =>
 parking7.addEventListener('mouseover', ()=>
   {
     
-  parking7.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber7.style ="font-size:27px; "
 
   })
@@ -3084,14 +2998,14 @@ parking7.addEventListener('mouseover', ()=>
 
  parking8.addEventListener('click', () => 
 {
-  parking8.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber8.style ="font-size:27px;"
      parkingNumber8.style =" font-weight: 900;"
 })
 
 parkingNumber8.addEventListener('click', () => 
 {
-  parking8.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber8.style ="font-size:27px;"
     parkingNumber8.style =" font-weight: 900;"
 })
@@ -3099,7 +3013,7 @@ parkingNumber8.addEventListener('click', () =>
 parking8.addEventListener('mouseover', ()=>
   {
     
-  parking8.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber8.style ="font-size:27px; "
 
   })
@@ -3126,14 +3040,14 @@ parking8.addEventListener('mouseover', ()=>
 
  parking9.addEventListener('click', () => 
 {
-  parking9.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber9.style ="font-size:27px;"
      parkingNumber9.style =" font-weight: 900;"
 })
 
 parkingNumber9.addEventListener('click', () => 
 {
-  parking9.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber9.style ="font-size:27px;"
     parkingNumber9.style =" font-weight: 900;"
 })
@@ -3141,7 +3055,7 @@ parkingNumber9.addEventListener('click', () =>
 parking9.addEventListener('mouseover', ()=>
   {
     
-  parking9.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber9.style ="font-size:27px; "
 
   })
@@ -3168,14 +3082,14 @@ parking9.addEventListener('mouseover', ()=>
 
  parking10.addEventListener('click', () => 
 {
-  parking10.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber10.style ="font-size:27px;"
      parkingNumber10.style =" font-weight: 900;"
 })
 
 parkingNumber10.addEventListener('click', () => 
 {
-  parking10.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber10.style ="font-size:27px;"
     parkingNumber10.style =" font-weight: 900;"
 })
@@ -3183,7 +3097,7 @@ parkingNumber10.addEventListener('click', () =>
 parking10.addEventListener('mouseover', ()=>
   {
     
-  parking10.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber10.style ="font-size:27px; "
 
   })
@@ -3210,14 +3124,14 @@ parking10.addEventListener('mouseover', ()=>
 
  parking11.addEventListener('click', () => 
 {
-  parking11.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber11.style ="font-size:27px;"
      parkingNumber11.style =" font-weight: 900;"
 })
 
 parkingNumber11.addEventListener('click', () => 
 {
-  parking11.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber11.style ="font-size:27px;"
     parkingNumber11.style =" font-weight: 900;"
 })
@@ -3225,7 +3139,7 @@ parkingNumber11.addEventListener('click', () =>
 parking11.addEventListener('mouseover', ()=>
   {
     
-  parking11.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber11.style ="font-size:27px; "
 
   })
@@ -3252,14 +3166,14 @@ parking11.addEventListener('mouseover', ()=>
 
  parking12.addEventListener('click', () => 
 {
-  parking12.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber12.style ="font-size:27px;"
      parkingNumber12.style =" font-weight: 900;"
 })
 
 parkingNumber12.addEventListener('click', () => 
 {
-  parking12.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber12.style ="font-size:27px;"
     parkingNumber12.style =" font-weight: 900;"
 })
@@ -3267,7 +3181,7 @@ parkingNumber12.addEventListener('click', () =>
 parking12.addEventListener('mouseover', ()=>
   {
     
-  parking12.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber12.style ="font-size:27px; "
 
   })
@@ -3294,14 +3208,14 @@ parking12.addEventListener('mouseover', ()=>
 
  parking13.addEventListener('click', () => 
 {
-  parking13.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber13.style ="font-size:27px;"
      parkingNumber13.style =" font-weight: 900;"
 })
 
 parkingNumber13.addEventListener('click', () => 
 {
-  parking13.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber13.style ="font-size:27px;"
     parkingNumber13.style =" font-weight: 900;"
 })
@@ -3309,7 +3223,7 @@ parkingNumber13.addEventListener('click', () =>
 parking13.addEventListener('mouseover', ()=>
   {
     
-  parking13.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber13.style ="font-size:27px; "
 
   })
@@ -3336,14 +3250,14 @@ parking13.addEventListener('mouseover', ()=>
 
  parking14.addEventListener('click', () => 
 {
-  parking14.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber14.style ="font-size:27px;"
      parkingNumber14.style =" font-weight: 900;"
 })
 
 parkingNumber14.addEventListener('click', () => 
 {
-  parking14.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber14.style ="font-size:27px;"
     parkingNumber14.style =" font-weight: 900;"
 })
@@ -3351,7 +3265,7 @@ parkingNumber14.addEventListener('click', () =>
 parking14.addEventListener('mouseover', ()=>
   {
     
-  parking14.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber14.style ="font-size:27px; "
 
   })
@@ -3378,14 +3292,14 @@ parking14.addEventListener('mouseover', ()=>
 
  parking15.addEventListener('click', () => 
 {
-  parking15.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber15.style ="font-size:27px;"
      parkingNumber15.style =" font-weight: 900;"
 })
 
 parkingNumber15.addEventListener('click', () => 
 {
-  parking15.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber15.style ="font-size:27px;"
     parkingNumber15.style =" font-weight: 900;"
 })
@@ -3393,7 +3307,7 @@ parkingNumber15.addEventListener('click', () =>
 parking15.addEventListener('mouseover', ()=>
   {
     
-  parking15.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber15.style ="font-size:27px; "
 
   })
@@ -3420,14 +3334,14 @@ parking15.addEventListener('mouseover', ()=>
 
  parking16.addEventListener('click', () => 
 {
-  parking16.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber16.style ="font-size:27px;"
      parkingNumber16.style =" font-weight: 900;"
 })
 
 parkingNumber16.addEventListener('click', () => 
 {
-  parking16.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber16.style ="font-size:27px;"
     parkingNumber16.style =" font-weight: 900;"
 })
@@ -3435,7 +3349,7 @@ parkingNumber16.addEventListener('click', () =>
 parking16.addEventListener('mouseover', ()=>
   {
     
-  parking16.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber16.style ="font-size:27px; "
 
   })
@@ -3462,14 +3376,14 @@ parking16.addEventListener('mouseover', ()=>
 
  parking17.addEventListener('click', () => 
 {
-  parking17.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber17.style ="font-size:27px;"
      parkingNumber17.style =" font-weight: 900;"
 })
 
 parkingNumber17.addEventListener('click', () => 
 {
-  parking17.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber17.style ="font-size:27px;"
     parkingNumber17.style =" font-weight: 900;"
 })
@@ -3477,7 +3391,7 @@ parkingNumber17.addEventListener('click', () =>
 parking17.addEventListener('mouseover', ()=>
   {
     
-  parking17.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber17.style ="font-size:27px; "
 
   })
@@ -3504,14 +3418,14 @@ parking17.addEventListener('mouseover', ()=>
 
  parking18.addEventListener('click', () => 
 {
-  parking18.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber18.style ="font-size:27px;"
      parkingNumber18.style =" font-weight: 900;"
 })
 
 parkingNumber18.addEventListener('click', () => 
 {
-  parking18.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber18.style ="font-size:27px;"
     parkingNumber18.style =" font-weight: 900;"
 })
@@ -3519,7 +3433,7 @@ parkingNumber18.addEventListener('click', () =>
 parking18.addEventListener('mouseover', ()=>
   {
     
-  parking18.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber18.style ="font-size:27px; "
 
   })
@@ -3546,14 +3460,14 @@ parking18.addEventListener('mouseover', ()=>
 
  parking19.addEventListener('click', () => 
 {
-  parking19.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber19.style ="font-size:27px;"
      parkingNumber19.style =" font-weight: 900;"
 })
 
 parkingNumber19.addEventListener('click', () => 
 {
-  parking19.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber19.style ="font-size:27px;"
     parkingNumber19.style =" font-weight: 900;"
 })
@@ -3561,7 +3475,7 @@ parkingNumber19.addEventListener('click', () =>
 parking19.addEventListener('mouseover', ()=>
   {
     
-  parking19.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber19.style ="font-size:27px; "
 
   })
@@ -3588,14 +3502,14 @@ parking19.addEventListener('mouseover', ()=>
 
  parking20.addEventListener('click', () => 
 {
-  parking20.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber20.style ="font-size:27px;"
      parkingNumber20.style =" font-weight: 900;"
 })
 
 parkingNumber20.addEventListener('click', () => 
 {
-  parking20.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber20.style ="font-size:27px;"
     parkingNumber20.style =" font-weight: 900;"
 })
@@ -3603,7 +3517,7 @@ parkingNumber20.addEventListener('click', () =>
 parking20.addEventListener('mouseover', ()=>
   {
     
-  parking20.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber20.style ="font-size:27px; "
 
   })
@@ -3630,14 +3544,14 @@ parking20.addEventListener('mouseover', ()=>
 
  parking21.addEventListener('click', () => 
 {
-  parking21.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber21.style ="font-size:27px;"
      parkingNumber21.style =" font-weight: 900;"
 })
 
 parkingNumber21.addEventListener('click', () => 
 {
-  parking21.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber21.style ="font-size:27px;"
     parkingNumber21.style =" font-weight: 900;"
 })
@@ -3645,7 +3559,7 @@ parkingNumber21.addEventListener('click', () =>
 parking21.addEventListener('mouseover', ()=>
   {
     
-  parking21.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber21.style ="font-size:27px; "
 
   })
@@ -3672,14 +3586,14 @@ parking21.addEventListener('mouseover', ()=>
 
  parking22.addEventListener('click', () => 
 {
-  parking22.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber22.style ="font-size:27px;"
      parkingNumber22.style =" font-weight: 900;"
 })
 
 parkingNumber22.addEventListener('click', () => 
 {
-  parking22.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber22.style ="font-size:27px;"
     parkingNumber22.style =" font-weight: 900;"
 })
@@ -3687,7 +3601,7 @@ parkingNumber22.addEventListener('click', () =>
 parking22.addEventListener('mouseover', ()=>
   {
     
-  parking22.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber22.style ="font-size:27px; "
 
   })
@@ -3714,14 +3628,14 @@ parking22.addEventListener('mouseover', ()=>
 
  parking23.addEventListener('click', () => 
 {
-  parking23.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber23.style ="font-size:27px;"
      parkingNumber23.style =" font-weight: 900;"
 })
 
 parkingNumber23.addEventListener('click', () => 
 {
-  parking23.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber23.style ="font-size:27px;"
     parkingNumber23.style =" font-weight: 900;"
 })
@@ -3729,7 +3643,7 @@ parkingNumber23.addEventListener('click', () =>
 parking23.addEventListener('mouseover', ()=>
   {
     
-  parking23.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber23.style ="font-size:27px; "
 
   })
@@ -3756,14 +3670,14 @@ parking23.addEventListener('mouseover', ()=>
 
  parking24.addEventListener('click', () => 
 {
-  parking24.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber24.style ="font-size:27px;"
      parkingNumber24.style =" font-weight: 900;"
 })
 
 parkingNumber24.addEventListener('click', () => 
 {
-  parking24.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber24.style ="font-size:27px;"
     parkingNumber24.style =" font-weight: 900;"
 })
@@ -3771,7 +3685,7 @@ parkingNumber24.addEventListener('click', () =>
 parking24.addEventListener('mouseover', ()=>
   {
     
-  parking24.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber24.style ="font-size:27px; "
 
   })
@@ -3798,14 +3712,14 @@ parking24.addEventListener('mouseover', ()=>
 
  parking25.addEventListener('click', () => 
 {
-  parking25.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber25.style ="font-size:27px;"
      parkingNumber25.style =" font-weight: 900;"
 })
 
 parkingNumber25.addEventListener('click', () => 
 {
-  parking25.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber25.style ="font-size:27px;"
     parkingNumber25.style =" font-weight: 900;"
 })
@@ -3813,7 +3727,7 @@ parkingNumber25.addEventListener('click', () =>
 parking25.addEventListener('mouseover', ()=>
   {
     
-  parking25.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber25.style ="font-size:27px; "
 
   })
@@ -3840,14 +3754,14 @@ parking25.addEventListener('mouseover', ()=>
 
  parking26.addEventListener('click', () => 
 {
-  parking26.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber26.style ="font-size:27px;"
      parkingNumber26.style =" font-weight: 900;"
 })
 
 parkingNumber26.addEventListener('click', () => 
 {
-  parking26.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber26.style ="font-size:27px;"
     parkingNumber26.style =" font-weight: 900;"
 })
@@ -3855,7 +3769,7 @@ parkingNumber26.addEventListener('click', () =>
 parking26.addEventListener('mouseover', ()=>
   {
     
-  parking26.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber26.style ="font-size:27px; "
 
   })
@@ -3882,14 +3796,14 @@ parking26.addEventListener('mouseover', ()=>
 
  parking27.addEventListener('click', () => 
 {
-  parking27.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber27.style ="font-size:27px;"
      parkingNumber27.style =" font-weight: 900;"
 })
 
 parkingNumber27.addEventListener('click', () => 
 {
-  parking27.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber27.style ="font-size:27px;"
     parkingNumber27.style =" font-weight: 900;"
 })
@@ -3897,7 +3811,7 @@ parkingNumber27.addEventListener('click', () =>
 parking27.addEventListener('mouseover', ()=>
   {
     
-  parking27.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber27.style ="font-size:27px; "
 
   })
@@ -3924,14 +3838,14 @@ parking27.addEventListener('mouseover', ()=>
 
  parking28.addEventListener('click', () => 
 {
-  parking28.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber28.style ="font-size:27px;"
      parkingNumber28.style =" font-weight: 900;"
 })
 
 parkingNumber28.addEventListener('click', () => 
 {
-  parking28.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber28.style ="font-size:27px;"
     parkingNumber28.style =" font-weight: 900;"
 })
@@ -3939,7 +3853,7 @@ parkingNumber28.addEventListener('click', () =>
 parking28.addEventListener('mouseover', ()=>
   {
     
-  parking28.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber28.style ="font-size:27px; "
 
   })
@@ -3965,14 +3879,14 @@ parking28.addEventListener('mouseover', ()=>
 
  parking29.addEventListener('click', () => 
 {
-  parking29.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber29.style ="font-size:27px;"
      parkingNumber29.style =" font-weight: 900;"
 })
 
 parkingNumber29.addEventListener('click', () => 
 {
-  parking29.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber29.style ="font-size:27px;"
     parkingNumber29.style =" font-weight: 900;"
 })
@@ -3980,7 +3894,7 @@ parkingNumber29.addEventListener('click', () =>
 parking29.addEventListener('mouseover', ()=>
   {
     
-  parking29.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber29.style ="font-size:27px; "
 
   })
@@ -4007,14 +3921,14 @@ parking29.addEventListener('mouseover', ()=>
 
  parking30.addEventListener('click', () => 
 {
-  parking30.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber30.style ="font-size:27px;"
      parkingNumber30.style =" font-weight: 900;"
 })
 
 parkingNumber30.addEventListener('click', () => 
 {
-  parking30.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber30.style ="font-size:27px;"
     parkingNumber30.style =" font-weight: 900;"
 })
@@ -4022,7 +3936,7 @@ parkingNumber30.addEventListener('click', () =>
 parking30.addEventListener('mouseover', ()=>
   {
     
-  parking30.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber30.style ="font-size:27px; "
 
   })
@@ -4049,14 +3963,14 @@ parking30.addEventListener('mouseover', ()=>
 
  parking31.addEventListener('click', () => 
 {
-  parking31.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber31.style ="font-size:27px;"
      parkingNumber31.style =" font-weight: 900;"
 })
 
 parkingNumber31.addEventListener('click', () => 
 {
-  parking31.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber31.style ="font-size:27px;"
     parkingNumber31.style =" font-weight: 900;"
 })
@@ -4064,7 +3978,7 @@ parkingNumber31.addEventListener('click', () =>
 parking31.addEventListener('mouseover', ()=>
   {
     
-  parking31.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber31.style ="font-size:27px; "
 
   })
@@ -4091,14 +4005,14 @@ parking31.addEventListener('mouseover', ()=>
 
  parking32.addEventListener('click', () => 
 {
-  parking32.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber32.style ="font-size:27px;"
      parkingNumber32.style =" font-weight: 900;"
 })
 
 parkingNumber32.addEventListener('click', () => 
 {
-  parking32.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber32.style ="font-size:27px;"
     parkingNumber32.style =" font-weight: 900;"
 })
@@ -4106,7 +4020,7 @@ parkingNumber32.addEventListener('click', () =>
 parking32.addEventListener('mouseover', ()=>
   {
     
-  parking32.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber32.style ="font-size:27px; "
 
   })
@@ -4133,14 +4047,14 @@ parking32.addEventListener('mouseover', ()=>
 
  parking33.addEventListener('click', () => 
 {
-  parking33.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber33.style ="font-size:27px;"
      parkingNumber33.style =" font-weight: 900;"
 })
 
 parkingNumber33.addEventListener('click', () => 
 {
-  parking33.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber33.style ="font-size:27px;"
     parkingNumber33.style =" font-weight: 900;"
 })
@@ -4148,7 +4062,7 @@ parkingNumber33.addEventListener('click', () =>
 parking33.addEventListener('mouseover', ()=>
   {
     
-  parking33.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber33.style ="font-size:27px; "
 
   })
@@ -4175,14 +4089,14 @@ parking33.addEventListener('mouseover', ()=>
 
  parking34.addEventListener('click', () => 
 {
-  parking34.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber34.style ="font-size:27px;"
      parkingNumber34.style =" font-weight: 900;"
 })
 
 parkingNumber34.addEventListener('click', () => 
 {
-  parking34.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber34.style ="font-size:27px;"
     parkingNumber34.style =" font-weight: 900;"
 })
@@ -4190,7 +4104,7 @@ parkingNumber34.addEventListener('click', () =>
 parking34.addEventListener('mouseover', ()=>
   {
     
-  parking34.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber34.style ="font-size:27px; "
 
   })
@@ -4217,14 +4131,14 @@ parking34.addEventListener('mouseover', ()=>
 
  parking35.addEventListener('click', () => 
 {
-  parking35.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber35.style ="font-size:27px;"
      parkingNumber35.style =" font-weight: 900;"
 })
 
 parkingNumber35.addEventListener('click', () => 
 {
-  parking35.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber35.style ="font-size:27px;"
     parkingNumber35.style =" font-weight: 900;"
 })
@@ -4232,7 +4146,7 @@ parkingNumber35.addEventListener('click', () =>
 parking35.addEventListener('mouseover', ()=>
   {
     
-  parking35.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber35.style ="font-size:27px; "
 
   })
@@ -4259,14 +4173,14 @@ parking35.addEventListener('mouseover', ()=>
 
  parking36.addEventListener('click', () => 
 {
-  parking36.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber36.style ="font-size:27px;"
      parkingNumber36.style =" font-weight: 900;"
 })
 
 parkingNumber36.addEventListener('click', () => 
 {
-  parking36.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber36.style ="font-size:27px;"
     parkingNumber36.style =" font-weight: 900;"
 })
@@ -4274,7 +4188,7 @@ parkingNumber36.addEventListener('click', () =>
 parking36.addEventListener('mouseover', ()=>
   {
     
-  parking36.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber36.style ="font-size:27px; "
 
   })
@@ -4300,14 +4214,14 @@ parking36.addEventListener('mouseover', ()=>
 
  parking37.addEventListener('click', () => 
 {
-  parking37.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber37.style ="font-size:27px;"
      parkingNumber37.style =" font-weight: 900;"
 })
 
 parkingNumber37.addEventListener('click', () => 
 {
-  parking37.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber37.style ="font-size:27px;"
     parkingNumber37.style =" font-weight: 900;"
 })
@@ -4315,7 +4229,7 @@ parkingNumber37.addEventListener('click', () =>
 parking37.addEventListener('mouseover', ()=>
   {
     
-  parking37.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber37.style ="font-size:27px; "
 
   })
@@ -4342,14 +4256,14 @@ parking37.addEventListener('mouseover', ()=>
 
  parking38.addEventListener('click', () => 
 {
-  parking38.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber38.style ="font-size:27px;"
      parkingNumber38.style =" font-weight: 900;"
 })
 
 parkingNumber38.addEventListener('click', () => 
 {
-  parking38.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber38.style ="font-size:27px;"
     parkingNumber38.style =" font-weight: 900;"
 })
@@ -4357,7 +4271,7 @@ parkingNumber38.addEventListener('click', () =>
 parking38.addEventListener('mouseover', ()=>
   {
     
-  parking38.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber38.style ="font-size:27px; "
 
   })
@@ -4384,14 +4298,14 @@ parking38.addEventListener('mouseover', ()=>
 
  parking39.addEventListener('click', () => 
 {
-  parking39.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber39.style ="font-size:27px;"
      parkingNumber39.style =" font-weight: 900;"
 })
 
 parkingNumber39.addEventListener('click', () => 
 {
-  parking39.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber39.style ="font-size:27px;"
     parkingNumber39.style =" font-weight: 900;"
 })
@@ -4399,7 +4313,7 @@ parkingNumber39.addEventListener('click', () =>
 parking39.addEventListener('mouseover', ()=>
   {
     
-  parking39.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber39.style ="font-size:27px; "
 
   })
@@ -4425,14 +4339,14 @@ parking39.addEventListener('mouseover', ()=>
 
  parking40.addEventListener('click', () => 
 {
-  parking40.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber40.style ="font-size:27px;"
      parkingNumber40.style =" font-weight: 900;"
 })
 
 parkingNumber40.addEventListener('click', () => 
 {
-  parking40.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber40.style ="font-size:27px;"
     parkingNumber40.style =" font-weight: 900;"
 })
@@ -4440,7 +4354,7 @@ parkingNumber40.addEventListener('click', () =>
 parking40.addEventListener('mouseover', ()=>
   {
     
-  parking40.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber40.style ="font-size:27px; "
 
   })
@@ -4466,14 +4380,14 @@ parking40.addEventListener('mouseover', ()=>
 
  parking41.addEventListener('click', () => 
 {
-  parking41.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber41.style ="font-size:27px;"
      parkingNumber41.style =" font-weight: 900;"
 })
 
 parkingNumber41.addEventListener('click', () => 
 {
-  parking41.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber41.style ="font-size:27px;"
     parkingNumber41.style =" font-weight: 900;"
 })
@@ -4481,7 +4395,7 @@ parkingNumber41.addEventListener('click', () =>
 parking41.addEventListener('mouseover', ()=>
   {
     
-  parking41.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber41.style ="font-size:27px; "
 
   })
@@ -4508,14 +4422,14 @@ parking41.addEventListener('mouseover', ()=>
 
  parking42.addEventListener('click', () => 
 {
-  parking42.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber42.style ="font-size:27px;"
      parkingNumber42.style =" font-weight: 900;"
 })
 
 parkingNumber42.addEventListener('click', () => 
 {
-  parking42.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber42.style ="font-size:27px;"
     parkingNumber42.style =" font-weight: 900;"
 })
@@ -4523,7 +4437,7 @@ parkingNumber42.addEventListener('click', () =>
 parking42.addEventListener('mouseover', ()=>
   {
     
-  parking42.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber42.style ="font-size:27px; "
 
   })
@@ -4549,14 +4463,14 @@ parking42.addEventListener('mouseover', ()=>
 
  parking43.addEventListener('click', () => 
 {
-  parking43.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber43.style ="font-size:27px;"
      parkingNumber43.style =" font-weight: 900;"
 })
 
 parkingNumber43.addEventListener('click', () => 
 {
-  parking43.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber43.style ="font-size:27px;"
     parkingNumber43.style =" font-weight: 900;"
 })
@@ -4564,7 +4478,7 @@ parkingNumber43.addEventListener('click', () =>
 parking43.addEventListener('mouseover', ()=>
   {
     
-  parking43.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber43.style ="font-size:27px; "
 
   })
@@ -4590,14 +4504,14 @@ parking43.addEventListener('mouseover', ()=>
 
  parking44.addEventListener('click', () => 
 {
-  parking44.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber44.style ="font-size:27px;"
      parkingNumber44.style =" font-weight: 900;"
 })
 
 parkingNumber44.addEventListener('click', () => 
 {
-  parking44.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber44.style ="font-size:27px;"
     parkingNumber44.style =" font-weight: 900;"
 })
@@ -4605,7 +4519,7 @@ parkingNumber44.addEventListener('click', () =>
 parking44.addEventListener('mouseover', ()=>
   {
     
-  parking44.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber44.style ="font-size:27px; "
 
   })
@@ -4632,14 +4546,14 @@ parking44.addEventListener('mouseover', ()=>
 
  parking45.addEventListener('click', () => 
 {
-  parking45.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber45.style ="font-size:27px;"
      parkingNumber45.style =" font-weight: 900;"
 })
 
 parkingNumber45.addEventListener('click', () => 
 {
-  parking45.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber45.style ="font-size:27px;"
     parkingNumber45.style =" font-weight: 900;"
 })
@@ -4647,7 +4561,7 @@ parkingNumber45.addEventListener('click', () =>
 parking45.addEventListener('mouseover', ()=>
   {
     
-  parking45.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber45.style ="font-size:27px; "
 
   })
@@ -4672,14 +4586,14 @@ parking45.addEventListener('mouseover', ()=>
 
  parking46.addEventListener('click', () => 
 {
-  parking46.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber46.style ="font-size:27px;"
      parkingNumber46.style =" font-weight: 900;"
 })
 
 parkingNumber46.addEventListener('click', () => 
 {
-  parking46.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber46.style ="font-size:27px;"
     parkingNumber46.style =" font-weight: 900;"
 })
@@ -4687,7 +4601,7 @@ parkingNumber46.addEventListener('click', () =>
 parking46.addEventListener('mouseover', ()=>
   {
     
-  parking46.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber46.style ="font-size:27px; "
 
   })
@@ -4711,14 +4625,14 @@ parking46.addEventListener('mouseover', ()=>
 
  parking47.addEventListener('click', () => 
 {
-  parking47.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber47.style ="font-size:27px;"
      parkingNumber47.style =" font-weight: 900;"
 })
 
 parkingNumber47.addEventListener('click', () => 
 {
-  parking47.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber47.style ="font-size:27px;"
     parkingNumber47.style =" font-weight: 900;"
 })
@@ -4726,7 +4640,7 @@ parkingNumber47.addEventListener('click', () =>
 parking47.addEventListener('mouseover', ()=>
   {
     
-  parking47.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber47.style ="font-size:27px; "
 
   })
@@ -4754,14 +4668,14 @@ parking47.addEventListener('mouseover', ()=>
 
  parking48.addEventListener('click', () => 
 {
-  parking48.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber48.style ="font-size:27px;"
      parkingNumber48.style =" font-weight: 900;"
 })
 
 parkingNumber48.addEventListener('click', () => 
 {
-  parking48.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber48.style ="font-size:27px;"
     parkingNumber48.style =" font-weight: 900;"
 })
@@ -4769,7 +4683,7 @@ parkingNumber48.addEventListener('click', () =>
 parking48.addEventListener('mouseover', ()=>
   {
     
-  parking48.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber48.style ="font-size:27px; "
 
   })
@@ -4798,14 +4712,14 @@ parking48.addEventListener('mouseover', ()=>
 
  parking49.addEventListener('click', () => 
 {
-  parking49.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber49.style ="font-size:27px;"
      parkingNumber49.style =" font-weight: 900;"
 })
 
 parkingNumber49.addEventListener('click', () => 
 {
-  parking49.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber49.style ="font-size:27px;"
     parkingNumber49.style =" font-weight: 900;"
 })
@@ -4813,7 +4727,7 @@ parkingNumber49.addEventListener('click', () =>
 parking49.addEventListener('mouseover', ()=>
   {
     
-  parking49.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber49.style ="font-size:27px; "
 
   })
@@ -4840,14 +4754,14 @@ parking49.addEventListener('mouseover', ()=>
 
  parking50.addEventListener('click', () => 
 {
-  parking50.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber50.style ="font-size:27px;"
      parkingNumber50.style =" font-weight: 900;"
 })
 
 parkingNumber50.addEventListener('click', () => 
 {
-  parking50.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber50.style ="font-size:27px;"
     parkingNumber50.style =" font-weight: 900;"
 })
@@ -4855,7 +4769,7 @@ parkingNumber50.addEventListener('click', () =>
 parking50.addEventListener('mouseover', ()=>
   {
     
-  parking50.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber50.style ="font-size:27px; "
 
   })
@@ -4883,14 +4797,14 @@ parking50.addEventListener('mouseover', ()=>
 
  parking51.addEventListener('click', () => 
 {
-  parking51.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber51.style ="font-size:27px;"
      parkingNumber51.style =" font-weight: 900;"
 })
 
 parkingNumber51.addEventListener('click', () => 
 {
-  parking51.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber51.style ="font-size:27px;"
     parkingNumber51.style =" font-weight: 900;"
 })
@@ -4898,7 +4812,7 @@ parkingNumber51.addEventListener('click', () =>
 parking51.addEventListener('mouseover', ()=>
   {
     
-  parking51.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber51.style ="font-size:27px; "
 
   })
@@ -4926,14 +4840,14 @@ parking51.addEventListener('mouseover', ()=>
 
  parking52.addEventListener('click', () => 
 {
-  parking52.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber52.style ="font-size:27px;"
      parkingNumber52.style =" font-weight: 900;"
 })
 
 parkingNumber52.addEventListener('click', () => 
 {
-  parking52.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber52.style ="font-size:27px;"
     parkingNumber52.style =" font-weight: 900;"
 })
@@ -4941,7 +4855,7 @@ parkingNumber52.addEventListener('click', () =>
 parking52.addEventListener('mouseover', ()=>
   {
     
-  parking52.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber52.style ="font-size:27px; "
 
   })
@@ -4969,14 +4883,14 @@ parking52.addEventListener('mouseover', ()=>
 
  parking53.addEventListener('click', () => 
 {
-  parking53.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber53.style ="font-size:27px;"
      parkingNumber53.style =" font-weight: 900;"
 })
 
 parkingNumber53.addEventListener('click', () => 
 {
-  parking53.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber53.style ="font-size:27px;"
     parkingNumber53.style =" font-weight: 900;"
 })
@@ -4984,7 +4898,7 @@ parkingNumber53.addEventListener('click', () =>
 parking53.addEventListener('mouseover', ()=>
   {
     
-  parking53.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber53.style ="font-size:27px; "
 
   })
@@ -5012,14 +4926,14 @@ parking53.addEventListener('mouseover', ()=>
 
  parking54.addEventListener('click', () => 
 {
-  parking54.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber54.style ="font-size:27px;"
      parkingNumber54.style =" font-weight: 900;"
 })
 
 parkingNumber54.addEventListener('click', () => 
 {
-  parking54.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber54.style ="font-size:27px;"
     parkingNumber54.style =" font-weight: 900;"
 })
@@ -5027,7 +4941,7 @@ parkingNumber54.addEventListener('click', () =>
 parking54.addEventListener('mouseover', ()=>
   {
     
-  parking54.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber54.style ="font-size:27px; "
 
   })
@@ -5055,14 +4969,14 @@ parking54.addEventListener('mouseover', ()=>
 
  parking55.addEventListener('click', () => 
 {
-  parking55.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber55.style ="font-size:27px;"
      parkingNumber55.style =" font-weight: 900;"
 })
 
 parkingNumber55.addEventListener('click', () => 
 {
-  parking55.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber55.style ="font-size:27px;"
     parkingNumber55.style =" font-weight: 900;"
 })
@@ -5070,7 +4984,7 @@ parkingNumber55.addEventListener('click', () =>
 parking55.addEventListener('mouseover', ()=>
   {
     
-  parking55.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber55.style ="font-size:27px; "
 
   })
@@ -5098,14 +5012,14 @@ parking55.addEventListener('mouseover', ()=>
 
  parking56.addEventListener('click', () => 
 {
-  parking56.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber56.style ="font-size:27px;"
      parkingNumber56.style =" font-weight: 900;"
 })
 
 parkingNumber56.addEventListener('click', () => 
 {
-  parking56.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber56.style ="font-size:27px;"
     parkingNumber56.style =" font-weight: 900;"
 })
@@ -5113,7 +5027,7 @@ parkingNumber56.addEventListener('click', () =>
 parking56.addEventListener('mouseover', ()=>
   {
     
-  parking56.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber56.style ="font-size:27px; "
 
   })
@@ -5141,14 +5055,14 @@ parking56.addEventListener('mouseover', ()=>
 
  parking57.addEventListener('click', () => 
 {
-  parking57.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber57.style ="font-size:27px;"
      parkingNumber57.style =" font-weight: 900;"
 })
 
 parkingNumber57.addEventListener('click', () => 
 {
-  parking57.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber57.style ="font-size:27px;"
     parkingNumber57.style =" font-weight: 900;"
 })
@@ -5156,7 +5070,7 @@ parkingNumber57.addEventListener('click', () =>
 parking57.addEventListener('mouseover', ()=>
   {
     
-  parking57.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber57.style ="font-size:27px; "
 
   })
@@ -5184,14 +5098,14 @@ parking57.addEventListener('mouseover', ()=>
 
  parking58.addEventListener('click', () => 
 {
-  parking58.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber58.style ="font-size:27px;"
      parkingNumber58.style =" font-weight: 900;"
 })
 
 parkingNumber58.addEventListener('click', () => 
 {
-  parking58.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber58.style ="font-size:27px;"
     parkingNumber58.style =" font-weight: 900;"
 })
@@ -5199,7 +5113,7 @@ parkingNumber58.addEventListener('click', () =>
 parking58.addEventListener('mouseover', ()=>
   {
     
-  parking58.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber58.style ="font-size:27px; "
 
   })
@@ -5227,14 +5141,14 @@ parking58.addEventListener('mouseover', ()=>
 
  parking59.addEventListener('click', () => 
 {
-  parking59.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber59.style ="font-size:27px;"
      parkingNumber59.style =" font-weight: 900;"
 })
 
 parkingNumber59.addEventListener('click', () => 
 {
-  parking59.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber59.style ="font-size:27px;"
     parkingNumber59.style =" font-weight: 900;"
 })
@@ -5242,7 +5156,7 @@ parkingNumber59.addEventListener('click', () =>
 parking59.addEventListener('mouseover', ()=>
   {
     
-  parking59.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber59.style ="font-size:27px; "
 
   })
@@ -5268,14 +5182,14 @@ parking59.addEventListener('mouseover', ()=>
 
  parking60.addEventListener('click', () => 
 {
-  parking60.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber60.style ="font-size:27px;"
      parkingNumber60.style =" font-weight: 900;"
 })
 
 parkingNumber60.addEventListener('click', () => 
 {
-  parking60.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber60.style ="font-size:27px;"
     parkingNumber60.style =" font-weight: 900;"
 })
@@ -5283,7 +5197,7 @@ parkingNumber60.addEventListener('click', () =>
 parking60.addEventListener('mouseover', ()=>
   {
     
-  parking60.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber60.style ="font-size:27px; "
 
   })
@@ -5310,14 +5224,14 @@ parking60.addEventListener('mouseover', ()=>
 
  parking61.addEventListener('click', () => 
 {
-  parking61.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber61.style ="font-size:27px;"
      parkingNumber61.style =" font-weight: 900;"
 })
 
 parkingNumber61.addEventListener('click', () => 
 {
-  parking61.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber61.style ="font-size:27px;"
     parkingNumber61.style =" font-weight: 900;"
 })
@@ -5325,7 +5239,7 @@ parkingNumber61.addEventListener('click', () =>
 parking61.addEventListener('mouseover', ()=>
   {
     
-  parking61.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber61.style ="font-size:27px; "
 
   })
@@ -5352,14 +5266,14 @@ parking61.addEventListener('mouseover', ()=>
 
  parking62.addEventListener('click', () => 
 {
-  parking62.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber62.style ="font-size:27px;"
      parkingNumber62.style =" font-weight: 900;"
 })
 
 parkingNumber62.addEventListener('click', () => 
 {
-  parking62.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber62.style ="font-size:27px;"
     parkingNumber62.style =" font-weight: 900;"
 })
@@ -5367,7 +5281,7 @@ parkingNumber62.addEventListener('click', () =>
 parking62.addEventListener('mouseover', ()=>
   {
     
-  parking62.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber62.style ="font-size:27px; "
 
   })
@@ -5394,14 +5308,14 @@ parking62.addEventListener('mouseover', ()=>
 
  parking63.addEventListener('click', () => 
 {
-  parking63.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber63.style ="font-size:27px;"
      parkingNumber63.style =" font-weight: 900;"
 })
 
 parkingNumber63.addEventListener('click', () => 
 {
-  parking63.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber63.style ="font-size:27px;"
     parkingNumber63.style =" font-weight: 900;"
 })
@@ -5409,7 +5323,7 @@ parkingNumber63.addEventListener('click', () =>
 parking63.addEventListener('mouseover', ()=>
   {
     
-  parking63.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber63.style ="font-size:27px; "
 
   })
@@ -5436,14 +5350,14 @@ parking63.addEventListener('mouseover', ()=>
 
  parking64.addEventListener('click', () => 
 {
-  parking64.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber64.style ="font-size:27px;"
      parkingNumber64.style =" font-weight: 900;"
 })
 
 parkingNumber64.addEventListener('click', () => 
 {
-  parking64.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber64.style ="font-size:27px;"
     parkingNumber64.style =" font-weight: 900;"
 })
@@ -5451,7 +5365,7 @@ parkingNumber64.addEventListener('click', () =>
 parking64.addEventListener('mouseover', ()=>
   {
     
-  parking64.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber64.style ="font-size:27px; "
 
   })
@@ -5478,14 +5392,14 @@ parking64.addEventListener('mouseover', ()=>
 
  parking65.addEventListener('click', () => 
 {
-  parking65.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber65.style ="font-size:27px;"
      parkingNumber65.style =" font-weight: 900;"
 })
 
 parkingNumber65.addEventListener('click', () => 
 {
-  parking65.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber65.style ="font-size:27px;"
     parkingNumber65.style =" font-weight: 900;"
 })
@@ -5493,7 +5407,7 @@ parkingNumber65.addEventListener('click', () =>
 parking65.addEventListener('mouseover', ()=>
   {
     
-  parking65.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber65.style ="font-size:27px; "
 
   })
@@ -5519,14 +5433,14 @@ parking65.addEventListener('mouseover', ()=>
 
  parking66.addEventListener('click', () => 
 {
-  parking66.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber66.style ="font-size:27px;"
      parkingNumber66.style =" font-weight: 900;"
 })
 
 parkingNumber66.addEventListener('click', () => 
 {
-  parking66.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber66.style ="font-size:27px;"
     parkingNumber66.style =" font-weight: 900;"
 })
@@ -5534,7 +5448,7 @@ parkingNumber66.addEventListener('click', () =>
 parking66.addEventListener('mouseover', ()=>
   {
     
-  parking66.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber66.style ="font-size:27px; "
 
   })
@@ -5561,14 +5475,14 @@ parking66.addEventListener('mouseover', ()=>
 
  parking67.addEventListener('click', () => 
 {
-  parking67.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber67.style ="font-size:27px;"
      parkingNumber67.style =" font-weight: 900;"
 })
 
 parkingNumber67.addEventListener('click', () => 
 {
-  parking67.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber67.style ="font-size:27px;"
     parkingNumber67.style =" font-weight: 900;"
 })
@@ -5576,7 +5490,7 @@ parkingNumber67.addEventListener('click', () =>
 parking67.addEventListener('mouseover', ()=>
   {
     
-  parking67.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber67.style ="font-size:27px; "
 
   })
@@ -5603,14 +5517,14 @@ parking67.addEventListener('mouseover', ()=>
 
  parking68.addEventListener('click', () => 
 {
-  parking68.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber68.style ="font-size:27px;"
      parkingNumber68.style =" font-weight: 900;"
 })
 
 parkingNumber68.addEventListener('click', () => 
 {
-  parking68.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber68.style ="font-size:27px;"
     parkingNumber68.style =" font-weight: 900;"
 })
@@ -5618,7 +5532,7 @@ parkingNumber68.addEventListener('click', () =>
 parking68.addEventListener('mouseover', ()=>
   {
     
-  parking68.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber68.style ="font-size:27px; "
 
   })
@@ -5645,14 +5559,14 @@ parking68.addEventListener('mouseover', ()=>
 
  parking69.addEventListener('click', () => 
 {
-  parking69.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber69.style ="font-size:27px;"
      parkingNumber69.style =" font-weight: 900;"
 })
 
 parkingNumber69.addEventListener('click', () => 
 {
-  parking69.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber69.style ="font-size:27px;"
     parkingNumber69.style =" font-weight: 900;"
 })
@@ -5660,7 +5574,7 @@ parkingNumber69.addEventListener('click', () =>
 parking69.addEventListener('mouseover', ()=>
   {
     
-  parking69.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber69.style ="font-size:27px; "
 
   })
@@ -5687,14 +5601,14 @@ parking69.addEventListener('mouseover', ()=>
 
 //  parking70.addEventListener('click', () => 
 // {
-//   parking70.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber70.style ="font-size:27px;"
 //      parkingNumber70.style =" font-weight: 900;"
 // })
 
 // parkingNumber70.addEventListener('click', () => 
 // {
-//   parking70.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber70.style ="font-size:27px;"
 //     parkingNumber70.style =" font-weight: 900;"
 // })
@@ -5702,7 +5616,7 @@ parking69.addEventListener('mouseover', ()=>
 // parking70.addEventListener('mouseover', ()=>
 //   {
     
-//   parking70.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber70.style ="font-size:27px; "
 
 //   })
@@ -5732,14 +5646,14 @@ parking69.addEventListener('mouseover', ()=>
 
 //  parking71.addEventListener('click', () => 
 // {
-//   parking71.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber71.style ="font-size:27px;"
 //      parkingNumber71.style =" font-weight: 900;"
 // })
 
 // parkingNumber71.addEventListener('click', () => 
 // {
-//   parking71.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber71.style ="font-size:27px;"
 //     parkingNumber71.style =" font-weight: 900;"
 // })
@@ -5747,7 +5661,7 @@ parking69.addEventListener('mouseover', ()=>
 // parking71.addEventListener('mouseover', ()=>
 //   {
     
-//   parking71.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber71.style ="font-size:27px; "
 
 //   })
@@ -5775,14 +5689,14 @@ parking69.addEventListener('mouseover', ()=>
 
 //  parking72.addEventListener('click', () => 
 // {
-//   parking72.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber72.style ="font-size:27px;"
 //      parkingNumber72.style =" font-weight: 900;"
 // })
 
 // parkingNumber72.addEventListener('click', () => 
 // {
-//   parking72.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber72.style ="font-size:27px;"
 //     parkingNumber72.style =" font-weight: 900;"
 // })
@@ -5790,7 +5704,7 @@ parking69.addEventListener('mouseover', ()=>
 // parking72.addEventListener('mouseover', ()=>
 //   {
     
-//   parking72.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber72.style ="font-size:27px; "
 
 //   })
@@ -5817,14 +5731,14 @@ parking69.addEventListener('mouseover', ()=>
 
 //  parking73.addEventListener('click', () => 
 // {
-//   parking73.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber73.style ="font-size:27px;"
 //      parkingNumber73.style =" font-weight: 900;"
 // })
 
 // parkingNumber73.addEventListener('click', () => 
 // {
-//   parking73.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber73.style ="font-size:27px;"
 //     parkingNumber73.style =" font-weight: 900;"
 // })
@@ -5832,7 +5746,7 @@ parking69.addEventListener('mouseover', ()=>
 // parking73.addEventListener('mouseover', ()=>
 //   {
     
-//   parking73.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
 //   parkingNumber73.style ="font-size:27px; "
 
 //   })
@@ -5860,14 +5774,14 @@ parking69.addEventListener('mouseover', ()=>
 
  parking74.addEventListener('click', () => 
 {
-  parking74.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber74.style ="font-size:27px;"
      parkingNumber74.style =" font-weight: 900;"
 })
 
 parkingNumber74.addEventListener('click', () => 
 {
-  parking74.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber74.style ="font-size:27px;"
     parkingNumber74.style =" font-weight: 900;"
 })
@@ -5875,7 +5789,7 @@ parkingNumber74.addEventListener('click', () =>
 parking74.addEventListener('mouseover', ()=>
   {
     
-  parking74.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber74.style ="font-size:27px; "
 
   })
@@ -5902,14 +5816,14 @@ parking74.addEventListener('mouseover', ()=>
 
  parking75.addEventListener('click', () => 
 {
-  parking75.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber75.style ="font-size:27px;"
      parkingNumber75.style =" font-weight: 900;"
 })
 
 parkingNumber75.addEventListener('click', () => 
 {
-  parking75.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber75.style ="font-size:27px;"
     parkingNumber75.style =" font-weight: 900;"
 })
@@ -5917,7 +5831,7 @@ parkingNumber75.addEventListener('click', () =>
 parking75.addEventListener('mouseover', ()=>
   {
     
-  parking75.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber75.style ="font-size:27px; "
 
   })
@@ -5944,14 +5858,14 @@ parking75.addEventListener('mouseover', ()=>
 
  parking76.addEventListener('click', () => 
 {
-  parking76.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber76.style ="font-size:27px;"
      parkingNumber76.style =" font-weight: 900;"
 })
 
 parkingNumber76.addEventListener('click', () => 
 {
-  parking76.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber76.style ="font-size:27px;"
     parkingNumber76.style =" font-weight: 900;"
 })
@@ -5959,7 +5873,7 @@ parkingNumber76.addEventListener('click', () =>
 parking76.addEventListener('mouseover', ()=>
   {
     
-  parking76.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber76.style ="font-size:27px; "
 
   })
@@ -5986,14 +5900,14 @@ parking76.addEventListener('mouseover', ()=>
 
  parking77.addEventListener('click', () => 
 {
-  parking77.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber77.style ="font-size:27px;"
      parkingNumber77.style =" font-weight: 900;"
 })
 
 parkingNumber77.addEventListener('click', () => 
 {
-  parking77.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber77.style ="font-size:27px;"
     parkingNumber77.style =" font-weight: 900;"
 })
@@ -6001,7 +5915,7 @@ parkingNumber77.addEventListener('click', () =>
 parking77.addEventListener('mouseover', ()=>
   {
     
-  parking77.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber77.style ="font-size:27px; "
 
   })
@@ -6028,14 +5942,14 @@ parking77.addEventListener('mouseover', ()=>
 
  parking78.addEventListener('click', () => 
 {
-  parking78.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber78.style ="font-size:27px;"
      parkingNumber78.style =" font-weight: 900;"
 })
 
 parkingNumber78.addEventListener('click', () => 
 {
-  parking78.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber78.style ="font-size:27px;"
     parkingNumber78.style =" font-weight: 900;"
 })
@@ -6043,7 +5957,7 @@ parkingNumber78.addEventListener('click', () =>
 parking78.addEventListener('mouseover', ()=>
   {
     
-  parking78.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber78.style ="font-size:27px; "
 
   })
@@ -6068,37 +5982,30 @@ parking78.addEventListener('mouseover', ()=>
        
  
  parking79.setAttribute("style", "fill:<?php echo $parkingColor79; ?>;");
- premiseStatus79.innerHTML="<?php echo $premiseStatusText79; ?>",premiseStatus79.style.color="<?php echo $premiseStatusColor79; ?>";
-
- parking79.addEventListener('click', () => 
-{
-  parking79.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
-  parkingNumber79.style ="font-size:27px;"
-     parkingNumber79.style =" font-weight: 900;"
-})
-
-parkingNumber79.addEventListener('click', () => 
-{
-  parking79.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
-  parkingNumber79.style ="font-size:27px;"
-    parkingNumber79.style =" font-weight: 900;"
-})
-
-parking79.addEventListener('mouseover', ()=>
-  {
-    
-  parking79.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
-  parkingNumber79.style ="font-size:27px; "
-
-  })
-
-  parking79.addEventListener('mouseout', ()=>
-  {
-    
-    parking79.setAttribute("style", "fill:<?php echo $parkingColor79; ?>;");
-  })
 
 
+// Znajdź elementy z klasą "description" i "enabled"
+let description = document.querySelector('.description');
+
+// Funkcja zmieniająca klasę elementu oraz treść opisu
+
+parking79.addEventListener('mouseenter', function() {
+ 
+    description.classList.add('active');
+    description.innerHTML = "<?php echo $premiseStatusText79; ?>";
+    description.style.color="<?php echo $premiseStatusColor79; ?>"
+  });
+
+  parking79.addEventListener('mouseleave', function() {
+    description.classList.remove('active');
+  });
+
+
+// Obsługa ruchu myszy
+document.addEventListener('mousemove', function(e) {
+  description.style.left = e.pageX + 'px';
+  description.style.top = (e.pageY - 70) + 'px';
+});
 
 
 
@@ -6115,14 +6022,14 @@ parking79.addEventListener('mouseover', ()=>
 
  parking80.addEventListener('click', () => 
 {
-  parking80.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber80.style ="font-size:27px;"
      parkingNumber80.style =" font-weight: 900;"
 })
 
 parkingNumber80.addEventListener('click', () => 
 {
-  parking80.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber80.style ="font-size:27px;"
     parkingNumber80.style =" font-weight: 900;"
 })
@@ -6130,7 +6037,7 @@ parkingNumber80.addEventListener('click', () =>
 parking80.addEventListener('mouseover', ()=>
   {
     
-  parking80.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber80.style ="font-size:27px; "
 
   })
@@ -6158,14 +6065,14 @@ parking80.addEventListener('mouseover', ()=>
 
  parking81.addEventListener('click', () => 
 {
-  parking81.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber81.style ="font-size:27px;"
      parkingNumber81.style =" font-weight: 900;"
 })
 
 parkingNumber81.addEventListener('click', () => 
 {
-  parking81.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber81.style ="font-size:27px;"
     parkingNumber81.style =" font-weight: 900;"
 })
@@ -6173,7 +6080,7 @@ parkingNumber81.addEventListener('click', () =>
 parking81.addEventListener('mouseover', ()=>
   {
     
-  parking81.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber81.style ="font-size:27px; "
 
   })
@@ -6203,14 +6110,14 @@ parking81.addEventListener('mouseover', ()=>
 
  parking82.addEventListener('click', () => 
 {
-  parking82.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber82.style ="font-size:27px;"
      parkingNumber82.style =" font-weight: 900;"
 })
 
 parkingNumber82.addEventListener('click', () => 
 {
-  parking82.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber82.style ="font-size:27px;"
     parkingNumber82.style =" font-weight: 900;"
 })
@@ -6218,7 +6125,7 @@ parkingNumber82.addEventListener('click', () =>
 parking82.addEventListener('mouseover', ()=>
   {
     
-  parking82.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber82.style ="font-size:27px; "
 
   })
@@ -6247,14 +6154,14 @@ parking82.addEventListener('mouseover', ()=>
 
  parking83.addEventListener('click', () => 
 {
-  parking83.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber83.style ="font-size:27px;"
      parkingNumber83.style =" font-weight: 900;"
 })
 
 parkingNumber83.addEventListener('click', () => 
 {
-  parking83.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber83.style ="font-size:27px;"
     parkingNumber83.style =" font-weight: 900;"
 })
@@ -6262,7 +6169,7 @@ parkingNumber83.addEventListener('click', () =>
 parking83.addEventListener('mouseover', ()=>
   {
     
-  parking83.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber83.style ="font-size:27px; "
 
   })
@@ -6290,14 +6197,14 @@ parking83.addEventListener('mouseover', ()=>
 
  parking84.addEventListener('click', () => 
 {
-  parking84.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber84.style ="font-size:27px;"
      parkingNumber84.style =" font-weight: 900;"
 })
 
 parkingNumber84.addEventListener('click', () => 
 {
-  parking84.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber84.style ="font-size:27px;"
     parkingNumber84.style =" font-weight: 900;"
 })
@@ -6305,7 +6212,7 @@ parkingNumber84.addEventListener('click', () =>
 parking84.addEventListener('mouseover', ()=>
   {
     
-  parking84.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber84.style ="font-size:27px; "
 
   })
@@ -6333,14 +6240,14 @@ parking84.addEventListener('mouseover', ()=>
 
  parking85.addEventListener('click', () => 
 {
-  parking85.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber85.style ="font-size:27px;"
      parkingNumber85.style =" font-weight: 900;"
 })
 
 parkingNumber85.addEventListener('click', () => 
 {
-  parking85.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber85.style ="font-size:27px;"
     parkingNumber85.style =" font-weight: 900;"
 })
@@ -6348,7 +6255,7 @@ parkingNumber85.addEventListener('click', () =>
 parking85.addEventListener('mouseover', ()=>
   {
     
-  parking85.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber85.style ="font-size:27px; "
 
   })
@@ -6376,14 +6283,14 @@ parking85.addEventListener('mouseover', ()=>
 
  parking86.addEventListener('click', () => 
 {
-  parking86.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber86.style ="font-size:27px;"
      parkingNumber86.style =" font-weight: 900;"
 })
 
 parkingNumber86.addEventListener('click', () => 
 {
-  parking86.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber86.style ="font-size:27px;"
     parkingNumber86.style =" font-weight: 900;"
 })
@@ -6391,7 +6298,7 @@ parkingNumber86.addEventListener('click', () =>
 parking86.addEventListener('mouseover', ()=>
   {
     
-  parking86.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber86.style ="font-size:27px; "
 
   })
@@ -6419,14 +6326,14 @@ parking86.addEventListener('mouseover', ()=>
 
  parking87.addEventListener('click', () => 
 {
-  parking87.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber87.style ="font-size:27px;"
      parkingNumber87.style =" font-weight: 900;"
 })
 
 parkingNumber87.addEventListener('click', () => 
 {
-  parking87.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber87.style ="font-size:27px;"
     parkingNumber87.style =" font-weight: 900;"
 })
@@ -6434,7 +6341,7 @@ parkingNumber87.addEventListener('click', () =>
 parking87.addEventListener('mouseover', ()=>
   {
     
-  parking87.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber87.style ="font-size:27px; "
 
   })
@@ -6462,14 +6369,14 @@ parking87.addEventListener('mouseover', ()=>
 
  parking88.addEventListener('click', () => 
 {
-  parking88.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber88.style ="font-size:27px;"
      parkingNumber88.style =" font-weight: 900;"
 })
 
 parkingNumber88.addEventListener('click', () => 
 {
-  parking88.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber88.style ="font-size:27px;"
     parkingNumber88.style =" font-weight: 900;"
 })
@@ -6477,7 +6384,7 @@ parkingNumber88.addEventListener('click', () =>
 parking88.addEventListener('mouseover', ()=>
   {
     
-  parking88.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber88.style ="font-size:27px; "
 
   })
@@ -6506,14 +6413,14 @@ parking88.addEventListener('mouseover', ()=>
 
  parking89.addEventListener('click', () => 
 {
-  parking89.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber89.style ="font-size:27px;"
      parkingNumber89.style =" font-weight: 900;"
 })
 
 parkingNumber89.addEventListener('click', () => 
 {
-  parking89.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber89.style ="font-size:27px;"
     parkingNumber89.style =" font-weight: 900;"
 })
@@ -6521,7 +6428,7 @@ parkingNumber89.addEventListener('click', () =>
 parking89.addEventListener('mouseover', ()=>
   {
     
-  parking89.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber89.style ="font-size:27px; "
 
   })
@@ -6549,14 +6456,14 @@ parking89.addEventListener('mouseover', ()=>
 
  parking90.addEventListener('click', () => 
 {
-  parking90.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber90.style ="font-size:27px;"
      parkingNumber90.style =" font-weight: 900;"
 })
 
 parkingNumber90.addEventListener('click', () => 
 {
-  parking90.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber90.style ="font-size:27px;"
     parkingNumber90.style =" font-weight: 900;"
 })
@@ -6564,7 +6471,7 @@ parkingNumber90.addEventListener('click', () =>
 parking90.addEventListener('mouseover', ()=>
   {
     
-  parking90.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber90.style ="font-size:27px; "
 
   })
@@ -6592,14 +6499,14 @@ parking90.addEventListener('mouseover', ()=>
 
  parking91.addEventListener('click', () => 
 {
-  parking91.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber91.style ="font-size:27px;"
      parkingNumber91.style =" font-weight: 900;"
 })
 
 parkingNumber91.addEventListener('click', () => 
 {
-  parking91.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber91.style ="font-size:27px;"
     parkingNumber91.style =" font-weight: 900;"
 })
@@ -6607,7 +6514,7 @@ parkingNumber91.addEventListener('click', () =>
 parking91.addEventListener('mouseover', ()=>
   {
     
-  parking91.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber91.style ="font-size:27px; "
 
   })
@@ -6635,14 +6542,14 @@ parking91.addEventListener('mouseover', ()=>
 
  parking92.addEventListener('click', () => 
 {
-  parking92.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber92.style ="font-size:27px;"
      parkingNumber92.style =" font-weight: 900;"
 })
 
 parkingNumber92.addEventListener('click', () => 
 {
-  parking92.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber92.style ="font-size:27px;"
     parkingNumber92.style =" font-weight: 900;"
 })
@@ -6650,7 +6557,7 @@ parkingNumber92.addEventListener('click', () =>
 parking92.addEventListener('mouseover', ()=>
   {
     
-  parking92.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber92.style ="font-size:27px; "
 
   })
@@ -6677,14 +6584,14 @@ parking92.addEventListener('mouseover', ()=>
 
  parking93.addEventListener('click', () => 
 {
-  parking93.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber93.style ="font-size:27px;"
      parkingNumber93.style =" font-weight: 900;"
 })
 
 parkingNumber93.addEventListener('click', () => 
 {
-  parking93.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber93.style ="font-size:27px;"
     parkingNumber93.style =" font-weight: 900;"
 })
@@ -6692,7 +6599,7 @@ parkingNumber93.addEventListener('click', () =>
 parking93.addEventListener('mouseover', ()=>
   {
     
-  parking93.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber93.style ="font-size:27px; "
 
   })
@@ -6716,14 +6623,14 @@ parking93.addEventListener('mouseover', ()=>
 
  parking94.addEventListener('click', () => 
 {
-  parking94.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber94.style ="font-size:27px;"
      parkingNumber94.style =" font-weight: 900;"
 })
 
 parkingNumber94.addEventListener('click', () => 
 {
-  parking94.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber94.style ="font-size:27px;"
     parkingNumber94.style =" font-weight: 900;"
 })
@@ -6731,7 +6638,7 @@ parkingNumber94.addEventListener('click', () =>
 parking94.addEventListener('mouseover', ()=>
   {
     
-  parking94.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber94.style ="font-size:27px; "
 
   })
@@ -6757,14 +6664,14 @@ parking94.addEventListener('mouseover', ()=>
 
  parking95.addEventListener('click', () => 
 {
-  parking95.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber95.style ="font-size:27px;"
      parkingNumber95.style =" font-weight: 900;"
 })
 
 parkingNumber95.addEventListener('click', () => 
 {
-  parking95.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber95.style ="font-size:27px;"
     parkingNumber95.style =" font-weight: 900;"
 })
@@ -6772,7 +6679,7 @@ parkingNumber95.addEventListener('click', () =>
 parking95.addEventListener('mouseover', ()=>
   {
     
-  parking95.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber95.style ="font-size:27px; "
 
   })
@@ -6799,14 +6706,14 @@ parking95.addEventListener('mouseover', ()=>
 
  parking96.addEventListener('click', () => 
 {
-  parking96.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber96.style ="font-size:27px;"
      parkingNumber96.style =" font-weight: 900;"
 })
 
 parkingNumber96.addEventListener('click', () => 
 {
-  parking96.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber96.style ="font-size:27px;"
     parkingNumber96.style =" font-weight: 900;"
 })
@@ -6814,7 +6721,7 @@ parkingNumber96.addEventListener('click', () =>
 parking96.addEventListener('mouseover', ()=>
   {
     
-  parking96.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber96.style ="font-size:27px; "
 
   })
@@ -6841,14 +6748,14 @@ parking96.addEventListener('mouseover', ()=>
 
  parking97.addEventListener('click', () => 
 {
-  parking97.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber97.style ="font-size:27px;"
      parkingNumber97.style =" font-weight: 900;"
 })
 
 parkingNumber97.addEventListener('click', () => 
 {
-  parking97.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber97.style ="font-size:27px;"
     parkingNumber97.style =" font-weight: 900;"
 })
@@ -6856,7 +6763,7 @@ parkingNumber97.addEventListener('click', () =>
 parking97.addEventListener('mouseover', ()=>
   {
     
-  parking97.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber97.style ="font-size:27px; "
 
   })
@@ -6883,14 +6790,14 @@ parking97.addEventListener('mouseover', ()=>
 
  parking98.addEventListener('click', () => 
 {
-  parking98.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber98.style ="font-size:27px;"
      parkingNumber98.style =" font-weight: 900;"
 })
 
 parkingNumber98.addEventListener('click', () => 
 {
-  parking98.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber98.style ="font-size:27px;"
     parkingNumber98.style =" font-weight: 900;"
 })
@@ -6898,7 +6805,7 @@ parkingNumber98.addEventListener('click', () =>
 parking98.addEventListener('mouseover', ()=>
   {
     
-  parking98.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber98.style ="font-size:27px; "
 
   })
@@ -6925,14 +6832,14 @@ parking98.addEventListener('mouseover', ()=>
 
  parking99.addEventListener('click', () => 
 {
-  parking99.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber99.style ="font-size:27px;"
      parkingNumber99.style =" font-weight: 900;"
 })
 
 parkingNumber99.addEventListener('click', () => 
 {
-  parking99.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber99.style ="font-size:27px;"
     parkingNumber99.style =" font-weight: 900;"
 })
@@ -6940,7 +6847,7 @@ parkingNumber99.addEventListener('click', () =>
 parking99.addEventListener('mouseover', ()=>
   {
     
-  parking99.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber99.style ="font-size:27px; "
 
   })
@@ -6967,14 +6874,14 @@ parking99.addEventListener('mouseover', ()=>
 
  parking100.addEventListener('click', () => 
 {
-  parking100.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber100.style ="font-size:27px;"
      parkingNumber100.style =" font-weight: 900;"
 })
 
 parkingNumber100.addEventListener('click', () => 
 {
-  parking100.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber100.style ="font-size:27px;"
     parkingNumber100.style =" font-weight: 900;"
 })
@@ -6982,7 +6889,7 @@ parkingNumber100.addEventListener('click', () =>
 parking100.addEventListener('mouseover', ()=>
   {
     
-  parking100.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber100.style ="font-size:27px; "
 
   })
@@ -7008,14 +6915,14 @@ parking100.addEventListener('mouseover', ()=>
 
  parking101.addEventListener('click', () => 
 {
-  parking101.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber101.style ="font-size:27px;"
      parkingNumber101.style =" font-weight: 900;"
 })
 
 parkingNumber101.addEventListener('click', () => 
 {
-  parking101.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber101.style ="font-size:27px;"
     parkingNumber101.style =" font-weight: 900;"
 })
@@ -7023,7 +6930,7 @@ parkingNumber101.addEventListener('click', () =>
 parking101.addEventListener('mouseover', ()=>
   {
     
-  parking101.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber101.style ="font-size:27px; "
 
   })
@@ -7049,14 +6956,14 @@ parking101.addEventListener('mouseover', ()=>
 
  parking102.addEventListener('click', () => 
 {
-  parking102.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber102.style ="font-size:27px;"
      parkingNumber102.style =" font-weight: 900;"
 })
 
 parkingNumber102.addEventListener('click', () => 
 {
-  parking102.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber102.style ="font-size:27px;"
     parkingNumber102.style =" font-weight: 900;"
 })
@@ -7064,7 +6971,7 @@ parkingNumber102.addEventListener('click', () =>
 parking102.addEventListener('mouseover', ()=>
   {
     
-  parking102.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber102.style ="font-size:27px; "
 
   })
@@ -7090,14 +6997,14 @@ parking102.addEventListener('mouseover', ()=>
 
  parking103.addEventListener('click', () => 
 {
-  parking103.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber103.style ="font-size:27px;"
      parkingNumber103.style =" font-weight: 900;"
 })
 
 parkingNumber103.addEventListener('click', () => 
 {
-  parking103.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber103.style ="font-size:27px;"
     parkingNumber103.style =" font-weight: 900;"
 })
@@ -7105,7 +7012,7 @@ parkingNumber103.addEventListener('click', () =>
 parking103.addEventListener('mouseover', ()=>
   {
     
-  parking103.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber103.style ="font-size:27px; "
 
   })
@@ -7131,14 +7038,14 @@ parking103.addEventListener('mouseover', ()=>
 
  parking104.addEventListener('click', () => 
 {
-  parking104.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber104.style ="font-size:27px;"
      parkingNumber104.style =" font-weight: 900;"
 })
 
 parkingNumber104.addEventListener('click', () => 
 {
-  parking104.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber104.style ="font-size:27px;"
     parkingNumber104.style =" font-weight: 900;"
 })
@@ -7146,7 +7053,7 @@ parkingNumber104.addEventListener('click', () =>
 parking104.addEventListener('mouseover', ()=>
   {
     
-  parking104.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber104.style ="font-size:27px; "
 
   })
@@ -7172,14 +7079,14 @@ parking104.addEventListener('mouseover', ()=>
 
  parking105.addEventListener('click', () => 
 {
-  parking105.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber105.style ="font-size:27px;"
      parkingNumber105.style =" font-weight: 900;"
 })
 
 parkingNumber105.addEventListener('click', () => 
 {
-  parking105.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber105.style ="font-size:27px;"
     parkingNumber105.style =" font-weight: 900;"
 })
@@ -7187,7 +7094,7 @@ parkingNumber105.addEventListener('click', () =>
 parking105.addEventListener('mouseover', ()=>
   {
     
-  parking105.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber105.style ="font-size:27px; "
 
   })
@@ -7213,14 +7120,14 @@ parking105.addEventListener('mouseover', ()=>
 
  parking106.addEventListener('click', () => 
 {
-  parking106.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber106.style ="font-size:27px;"
      parkingNumber106.style =" font-weight: 900;"
 })
 
 parkingNumber106.addEventListener('click', () => 
 {
-  parking106.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber106.style ="font-size:27px;"
     parkingNumber106.style =" font-weight: 900;"
 })
@@ -7228,7 +7135,7 @@ parkingNumber106.addEventListener('click', () =>
 parking106.addEventListener('mouseover', ()=>
   {
     
-  parking106.setAttribute("style", "fill: #ffffff4f;  animation: pulsate 1s infinite;");
+  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
   parkingNumber106.style ="font-size:27px; "
 
   })
@@ -7296,13 +7203,8 @@ parking106.addEventListener('mouseover', ()=>
   
    <!-- popup cookie  start -->
 
- 
-<script>
- 
- 
 
 
-
-</script>
 </body>
 </html>
+

@@ -32,6 +32,7 @@
   
 
 
+
   
   
   .groundFloor,.lokal {
@@ -147,22 +148,24 @@
 .premiseStatus106
 {
 position: relative;
-font-size: 17px;
+font-size: 15px;
 left: 7px;
 }
 #columns
 {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap:7px;
   margin-top: 70%;
   margin-bottom: 2%;
-  width: 80%;
+  width: 55%;
   transform: translateX(-50%);
   left: 50%;
  
 }
+
+
 .parkingTable
 {
 
@@ -177,7 +180,7 @@ margin-bottom: 32px;
 #parkingNumber
 {
   position: relative;
-  font-size: 17px;
+  font-size: 15px;
 
 
 
@@ -235,15 +238,52 @@ transform: translateX(-50%);
 
 
 
+
+
+.description {
+  pointer-events: none;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  background: white;
+  padding: 7px 7px;
+  z-index: 5;
+
+
+
+  margin: 0 auto;
+
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #eee;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: none;
+}
+.description.active {
+  display: block;
+}
+.show
+{
+  display: block;
+}
 @keyframes pulsate {
 0% {
-  filter: drop-shadow(0px 0px 100px #fff);
+  filter: drop-shadow(0px 0px 10px #fff);
 }
 50% {
-  filter: drop-shadow(0px 0px 190px #fff);
+  filter: drop-shadow(0px 0px 30px #fff);
+}
+
+70% {
+  filter: drop-shadow(0px 0px 350px #81d2f8);
+}
+20% {
+  filter: drop-shadow(0px 0px 50px  #9fe0f9);
 }
 100% {
-  filter: drop-shadow(0px 0px 40px #fff);
+  filter: drop-shadow(0px 0px 0px #fff);
 }
 } 
 
