@@ -70,7 +70,9 @@
     <!-- top and middle of the page start -->
     <div class="centerLifestyle">
       <p class="titleTextGallery">Parkingi naziemne C/B</p>
-      <div class="description"></div>
+      <div  id="myDropdown105" class="description105" ></div>
+      <div  id="myDropdown106" class="description106" ></div>
+      <div  id="myDropdown" class="description" ></div>
     </header>
     <div class="mapContener" >
   <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
@@ -80,7 +82,7 @@
 
 <g transform="translate(0.000000,829.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
-<path class="parking79"  d="M3790 8237 c-10 -23 -32 -73 -49 -112 l-30 -70 47 -22 c26 -12 50
+<path  class="parking79"  d="M3790 8237 c-10 -23 -32 -73 -49 -112 l-30 -70 47 -22 c26 -12 50
 -19 54 -15 4 4 27 55 51 114 l45 106 -50 21 -49 20 -19 -42z"/> 
 
 
@@ -1340,507 +1342,507 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
     $statusNameValue = (string)$realestates1->status_name;
     if ($idValue === "2217"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText1  = " Sprzedane";
+      $premiseStatusText1  =  "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 1</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor1 = "red";  
           $parkingColor1= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2217"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText1  = " Zarezerwowane";
+      $premiseStatusText1  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 1</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor1 = "#e6b800";
         $parkingColor1= '#ffcc006a';
     } else if ($idValue === "2217"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText1  = " Dostępne";
+      $premiseStatusText1  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 1</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor1 = "darkgreen"; 
         $parkingColor1 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2218"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText2  = "Sprzedane";
+      $premiseStatusText2  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 2</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor2 = "red";      $parkingColor2= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2218"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText2  = "Zarezerwowane";
+      $premiseStatusText2  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 2</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor2 = "#e6b800";   $parkingColor2= '#ffcc006a';
     } else if ($idValue === "2218"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText2  = "Dostępne";
+      $premiseStatusText2  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 2</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor2 = "darkgreen";   $parkingColor2 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2219"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText3  = "Sprzedane";
+      $premiseStatusText3  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 3</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor3 = "red";      $parkingColor3= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2219"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText3  = "Zarezerwowane";
+      $premiseStatusText3  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 3</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor3 = "#e6b800";   $parkingColor3= '#ffcc006a';
     } else if ($idValue === "2219"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText3  = "Dostępne";
+      $premiseStatusText3  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 3</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor3 = "darkgreen";   $parkingColor3 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2220"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText4  = "Sprzedane";
+      $premiseStatusText4  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 4</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor4 = "red";      $parkingColor4= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2220"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText4  = "Zarezerwowane";
+      $premiseStatusText4  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 4</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor4 = "#e6b800";   $parkingColor4= '#ffcc006a';
     } else if ($idValue === "2220"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText4  = "Dostępne";
+      $premiseStatusText4  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 4</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor4 = "darkgreen";   $parkingColor4 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2221"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText5  = "Sprzedane";
+      $premiseStatusText5  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 5</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor5 = "red";      $parkingColor5= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2221"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText5  = "Zarezerwowane";
+      $premiseStatusText5  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 5</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor5 = "#e6b800";   $parkingColor5= '#ffcc006a';
     } else if ($idValue === "2221"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText5  = "Dostępne";
+      $premiseStatusText5  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 5</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor5 = "darkgreen";   $parkingColor5 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2222"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText6  = "Sprzedane";
+      $premiseStatusText6  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 6</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor6 = "red";      $parkingColor6= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2222"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText6  = "Zarezerwowane";
+      $premiseStatusText6  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 6</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor6 = "#e6b800";   $parkingColor6= '#ffcc006a';
     } else if ($idValue === "2222"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText6  = "Dostępne";
+      $premiseStatusText6  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 6</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor6 = "darkgreen";   $parkingColor6 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2223"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText7  = "Sprzedane";
+      $premiseStatusText7  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 7</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor7 = "red";      $parkingColor7= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2223"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText7  = "Zarezerwowane";
+      $premiseStatusText7  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 7</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor7 = "#e6b800";   $parkingColor7= '#ffcc006a';
     } else if ($idValue === "2223"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText7  = "Dostępne";
+      $premiseStatusText7  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 7</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor7 = "darkgreen";   $parkingColor7 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2224"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText8  = "Sprzedane";
+      $premiseStatusText8  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 8</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor8 = "red";      $parkingColor8= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2224"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText8  = "Zarezerwowane";
+      $premiseStatusText8  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 8</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor8 = "#e6b800";   $parkingColor8= '#ffcc006a';
     } else if ($idValue === "2224"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText8  = "Dostępne";
+      $premiseStatusText8  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 8</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor8 = "darkgreen";   $parkingColor8 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2225"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText9  = "Sprzedane";
+      $premiseStatusText9  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 9</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor9 = "red";      $parkingColor9= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2225"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText9  = "Zarezerwowane";
+      $premiseStatusText9  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 9</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor9 = "#e6b800";   $parkingColor9= '#ffcc006a';
     } else if ($idValue === "2225"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText9  = "Dostępne";
+      $premiseStatusText9  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 9</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor9 = "darkgreen";   $parkingColor9 = 'rgba(0, 100, 0, 0.424) ';
 
       
       
     } else if ($idValue === "2226"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText10  = "Sprzedane";
+      $premiseStatusText10  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 10</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor10 = "red";      $parkingColor10= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2226"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText10  = "Zarezerwowane";
+      $premiseStatusText10  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 10</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor10 = "#e6b800";   $parkingColor10= '#ffcc006a';
     } else if ($idValue === "2226"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText10  = "Dostępne";
+      $premiseStatusText10  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 10</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor10 = "darkgreen";   $parkingColor10 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2227"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText11  = "Sprzedane";
+      $premiseStatusText11  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 11</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor11 = "red";      $parkingColor11= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2227"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText11  = "Zarezerwowane";
+      $premiseStatusText11  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 11</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor11 = "#e6b800";   $parkingColor11= '#ffcc006a';
     } else if ($idValue === "2227"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText11  = "Dostępne";
+      $premiseStatusText11  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 11</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor11 = "darkgreen";   $parkingColor11 = 'rgba(0, 100, 0, 0.424) ';
     
     } else if ($idValue === "2228"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText12  = "Sprzedane";
+      $premiseStatusText12  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 12</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor12 = "red";      $parkingColor12= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2228"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText12  = "Zarezerwowane";
+      $premiseStatusText12  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 12</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor12 = "#e6b800";   $parkingColor12= '#ffcc006a';
     } else if ($idValue === "2228"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText12  = "Dostępne";
+      $premiseStatusText12  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 12</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor12 = "darkgreen";   $parkingColor12 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2229"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText13  = "Sprzedane";
+      $premiseStatusText13  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 13</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor13 = "red";      $parkingColor13= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2229"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText13  = "Zarezerwowane";
+      $premiseStatusText13  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 13</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor13 = "#e6b800";   $parkingColor13= '#ffcc006a';
     } else if ($idValue === "2229"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText13  = "Dostępne";
+      $premiseStatusText13  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 13</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor13 = "darkgreen";   $parkingColor13 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2230"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText14  = "Sprzedane";
+      $premiseStatusText14  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 14</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor14 = "red";      $parkingColor14= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2230"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText14  = "Zarezerwowane";
+      $premiseStatusText14  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 14</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor14 = "#e6b800";   $parkingColor14= '#ffcc006a';
     } else if ($idValue === "2230"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText14  = "Dostępne";
+      $premiseStatusText14  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 14</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor14 = "darkgreen";   $parkingColor14 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2231"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText15  = "Sprzedane";
+      $premiseStatusText15  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 15</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor15 = "red";      $parkingColor15= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2231"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText15  = "Zarezerwowane";
+      $premiseStatusText15  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 15</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor15 = "#e6b800";   $parkingColor15= '#ffcc006a';
     } else if ($idValue === "2231"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText15  = "Dostępne";
+      $premiseStatusText15  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 15</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor15 = "darkgreen";   $parkingColor15 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2232"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText16  = "Sprzedane";
+      $premiseStatusText16  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 16</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor16 = "red";      $parkingColor16= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2232"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText16  = "Zarezerwowane";
+      $premiseStatusText16  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 16</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor16 = "#e6b800";   $parkingColor16= '#ffcc006a';
     } else if ($idValue === "2232"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText16  = "Dostępne";
+      $premiseStatusText16  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 16</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor16 = "darkgreen";   $parkingColor16 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2233"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText17  = "Sprzedane";
+      $premiseStatusText17  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 17</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor17 = "red";      $parkingColor17= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2233"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText17  = "Zarezerwowane";
+      $premiseStatusText17  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 17</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor17 = "#e6b800";   $parkingColor17= '#ffcc006a';
     } else if ($idValue === "2233"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText17  = "Dostępne";
+      $premiseStatusText17  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 17</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor17 = "darkgreen";   $parkingColor17 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
     } else if ($idValue === "2234"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText18  = "Sprzedane";
+      $premiseStatusText18  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 18</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor18 = "red";      $parkingColor18= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2234"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText18  = "Zarezerwowane";
+      $premiseStatusText18  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 18</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor18 = "#e6b800";   $parkingColor18= '#ffcc006a';
     } else if ($idValue === "2234"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText18  = "Dostępne";
+      $premiseStatusText18  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 18</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor18 = "darkgreen";   $parkingColor18 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2235"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText19  = "Sprzedane";
+      $premiseStatusText19  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 19</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor19 = "red";      $parkingColor19= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2235"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText19  = "Zarezerwowane";
+      $premiseStatusText19  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 19</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor19 = "#e6b800";   $parkingColor19= '#ffcc006a';
     } else if ($idValue === "2235"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText19  = "Dostępne";
+      $premiseStatusText19  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 19</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor19 = "darkgreen";   $parkingColor19 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2236"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText20  = "Sprzedane";
+      $premiseStatusText20  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 20</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor20 = "red";      $parkingColor20= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2236"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText20  = "Zarezerwowane";
+      $premiseStatusText20  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 20</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor20 = "#e6b800";   $parkingColor20= '#ffcc006a';
     } else if ($idValue === "2236"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText20  = "Dostępne";
+      $premiseStatusText20  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 20</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor20 = "darkgreen";   $parkingColor20 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2237"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText21  = "Sprzedane";
+      $premiseStatusText21  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 21</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor21 = "red";      $parkingColor21= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2237"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText21  = "Zarezerwowane";
+      $premiseStatusText21  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 21</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor21 = "#e6b800";   $parkingColor21= '#ffcc006a';
     } else if ($idValue === "2237"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText21  = "Dostępne";
+      $premiseStatusText21  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 21</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor21 = "darkgreen";   $parkingColor21 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
     } else if ($idValue === "2238"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText22  = "Sprzedane";
+      $premiseStatusText22  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 22</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor22 = "red";      $parkingColor22= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2238"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText22  = "Zarezerwowane";
+      $premiseStatusText22  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 22</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor22 = "#e6b800";   $parkingColor22= '#ffcc006a';
     } else if ($idValue === "2238"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText22  = "Dostępne";
+      $premiseStatusText22  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 22</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor22 = "darkgreen";   $parkingColor22 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2239"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText23  = "Sprzedane";
+      $premiseStatusText23  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 23</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor23 = "red";      $parkingColor23= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2239"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText23  = "Zarezerwowane";
+      $premiseStatusText23  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 23</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor23 = "#e6b800";   $parkingColor23= '#ffcc006a';
     } else if ($idValue === "2239"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText23  = "Dostępne";
+      $premiseStatusText23  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 23</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor23 = "darkgreen";   $parkingColor23 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2240"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText24  = "Sprzedane";
+      $premiseStatusText24  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 24</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor24 = "red";      $parkingColor24= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2240"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText24  = "Zarezerwowane";
+      $premiseStatusText24  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 24</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor24 = "#e6b800";   $parkingColor24= '#ffcc006a';
     } else if ($idValue === "2240"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText24  = "Dostępne";
+      $premiseStatusText24  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 24</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor24 = "darkgreen";   $parkingColor24 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2241"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText25  = "Sprzedane";
+      $premiseStatusText25  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 25</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor25 = "red";      $parkingColor25= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2241"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText25  = "Zarezerwowane";
+      $premiseStatusText25  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 25</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor25 = "#e6b800";   $parkingColor25= '#ffcc006a';
     } else if ($idValue === "2241"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText25  = "Dostępne";
+      $premiseStatusText25  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 25</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor25 = "darkgreen";   $parkingColor25 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
 
     } else if ($idValue === "2242"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText26  = "Sprzedane";
+      $premiseStatusText26  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 26</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor26 = "red";      $parkingColor26= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2242"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText26  = "Zarezerwowane";
+      $premiseStatusText26  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 26</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor26 = "#e6b800";   $parkingColor26= '#ffcc006a';
     } else if ($idValue === "2242"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText26  = "Dostępne";
+      $premiseStatusText26  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 26</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor26 = "darkgreen";   $parkingColor26 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
     } else if ($idValue === "2243"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText27  = "Sprzedane";
+      $premiseStatusText27  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 27</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor27 = "red";      $parkingColor27= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2243"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText27  = "Zarezerwowane";
+      $premiseStatusText27  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 27</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor27 = "#e6b800";   $parkingColor27= '#ffcc006a';
     } else if ($idValue === "2243"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText27  = "Dostępne";
+      $premiseStatusText27  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 27</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor27 = "darkgreen";   $parkingColor27 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
     } else if ($idValue === "2244"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText28  = "Sprzedane";
+      $premiseStatusText28  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 28</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor28 = "red";      $parkingColor28= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2244"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText28  = "Zarezerwowane";
+      $premiseStatusText28  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 28</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor28 = "#e6b800";   $parkingColor28= '#ffcc006a';
     } else if ($idValue === "2244"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText28  = "Dostępne";
+      $premiseStatusText28  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 28</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor28 = "darkgreen";   $parkingColor28 = 'rgba(0, 100, 0, 0.424) ';
 
 
 
  
     } else if ($idValue === "2245"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText29  = "Sprzedane";
+      $premiseStatusText29  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 29</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor29 = "red";      $parkingColor29= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2245"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText29  = "Zarezerwowane";
+      $premiseStatusText29  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 29</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor29 = "#e6b800";   $parkingColor29= '#ffcc006a';
     } else if ($idValue === "2245"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText29  = "Dostępne";
+      $premiseStatusText29  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 29</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor29 = "darkgreen";   $parkingColor29 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2246"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText30  = "Sprzedane";
+      $premiseStatusText30  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 30</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor30 = "red";      $parkingColor30= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2246"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText30  = "Zarezerwowane";
+      $premiseStatusText30  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 30</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor30 = "#e6b800";   $parkingColor30= '#ffcc006a';
     } else if ($idValue === "2246"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText30  = "Dostępne";
+      $premiseStatusText30  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 30</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor30 = "darkgreen";   $parkingColor30 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2247"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText31  = "Sprzedane";
+      $premiseStatusText31  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 31</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor31 = "red";      $parkingColor31= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2247"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText31  = "Zarezerwowane";
+      $premiseStatusText31  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 31</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor31 = "#e6b800";   $parkingColor31= '#ffcc006a';
     } else if ($idValue === "2247"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText31  = "Dostępne";
+      $premiseStatusText31  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 31</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor31 = "darkgreen";   $parkingColor31 = 'rgba(0, 100, 0, 0.424) ';
 
 
     } else if ($idValue === "2248"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText32  = "Sprzedane";
+      $premiseStatusText32  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 32</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor32 = "red";      $parkingColor32= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2248"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText32  = "Zarezerwowane";
+      $premiseStatusText32  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 32</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor32 = "#e6b800";   $parkingColor32= '#ffcc006a';
     } else if ($idValue === "2248"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText32  = "Dostępne";
+      $premiseStatusText32  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 32</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor32 = "darkgreen";   $parkingColor32 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2249"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText33  = "Sprzedane";
+      $premiseStatusText33  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 33</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor33 = "red";      $parkingColor33= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2249"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText33  = "Zarezerwowane";
+      $premiseStatusText33  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 33</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor33 = "#e6b800";   $parkingColor33= '#ffcc006a';
     } else if ($idValue === "2249"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText33  = "Dostępne";
+      $premiseStatusText33  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 33</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor33 = "darkgreen";   $parkingColor33 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2250"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText34  = "Sprzedane";
+      $premiseStatusText34  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 34</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor34 = "red";      $parkingColor34= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2250"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText34  = "Zarezerwowane";
+      $premiseStatusText34  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 34</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor34 = "#e6b800";   $parkingColor34= '#ffcc006a';
     } else if ($idValue === "2250"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText34  = "Dostępne";
+      $premiseStatusText34  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 34</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor34 = "darkgreen";   $parkingColor34 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2251"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText35  = "Sprzedane";
+      $premiseStatusText35  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor35 = "red";      $parkingColor35= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2251"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText35  = "Zarezerwowane";
+      $premiseStatusText35  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor35 = "#e6b800";   $parkingColor35= '#ffcc006a';
     } else if ($idValue === "2251"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText35  = "Dostępne";
+      $premiseStatusText35  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor35 = "darkgreen";   $parkingColor35 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2252"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText36  = "Sprzedane";
+      $premiseStatusText36  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 36</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor36 = "red";      $parkingColor36= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2252"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText36  = "Zarezerwowane";
+      $premiseStatusText36  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 36</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor36 = "#e6b800";   $parkingColor36= '#ffcc006a';
     } else if ($idValue === "2252"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText36  = "Dostępne";
+      $premiseStatusText36  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 36</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor36 = "darkgreen";   $parkingColor36 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2253"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText37  = "Sprzedane";
+      $premiseStatusText37  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 37</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor37 = "red";      $parkingColor37= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2253"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText37  = "Zarezerwowane";
+      $premiseStatusText37  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 37</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor37 = "#e6b800";   $parkingColor37= '#ffcc006a';
     } else if ($idValue === "2253"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText37  = "Dostępne";
+      $premiseStatusText37  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 37</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor37 = "darkgreen";   $parkingColor37 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2254"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText38  = "Sprzedane";
+      $premiseStatusText38  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 38</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor38 = "red";      $parkingColor38= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2254"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText38  = "Zarezerwowane";
+      $premiseStatusText38  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 38</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor38 = "#e6b800";   $parkingColor38= '#ffcc006a';
     } else if ($idValue === "2254"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText38  = "Dostępne";
+      $premiseStatusText38  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 38</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor38 = "darkgreen";   $parkingColor38 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2255"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText39  = "Sprzedane";
+      $premiseStatusText39  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 39</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor39 = "red";      $parkingColor39= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2255"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText39  = "Zarezerwowane";
+      $premiseStatusText39  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 39</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor39 = "#e6b800";   $parkingColor39= '#ffcc006a';
     } else if ($idValue === "2255"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText39  = "Dostępne";
+      $premiseStatusText39  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 39</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor39 = "darkgreen";   $parkingColor39 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2258"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText42  = "Sprzedane";
+      $premiseStatusText42  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 42</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor42 = "red";      $parkingColor42= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2258"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText42  = "Zarezerwowane";
+      $premiseStatusText42  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 42</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor42 = "#e6b800";   $parkingColor42= '#ffcc006a';
     } else if ($idValue === "2258"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText42  = "Dostępne";
+      $premiseStatusText42  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 42</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor42 = "darkgreen";   $parkingColor42 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2261"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText45  = "Sprzedane";
+      $premiseStatusText45  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 45</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor45 = "red";      $parkingColor45= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2261"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText45  = "Zarezerwowane";
+      $premiseStatusText45  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 45</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor45 = "#e6b800";   $parkingColor45= '#ffcc006a';
     } else if ($idValue === "2261"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText45  = "Dostępne";
+      $premiseStatusText45  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 45</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor45 = "darkgreen";   $parkingColor45 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2262"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText46  = "Sprzedane";
+      $premiseStatusText46  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 46</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor46 = "red";      $parkingColor46= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2262"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText46  = "Zarezerwowane";
+      $premiseStatusText46  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 46</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor46 = "#e6b800";   $parkingColor46= '#ffcc006a';
     } else if ($idValue === "2262"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText46  = "Dostępne";
+      $premiseStatusText46  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 46</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor46 = "darkgreen";   $parkingColor46 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2263"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText47  = "Sprzedane";
+      $premiseStatusText47  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 47</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor47 = "red";      $parkingColor47= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2263"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText47  = "Zarezerwowane";
+      $premiseStatusText47  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 47</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor47 = "#e6b800";   $parkingColor47= '#ffcc006a';
     } else if ($idValue === "2263"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText47  = "Dostępne";
+      $premiseStatusText47  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 47</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor47 = "darkgreen";   $parkingColor47 = 'rgba(0, 100, 0, 0.424) ';
     } else if ($idValue === "2264"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText48  = "Sprzedane";
+      $premiseStatusText48  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 48</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor48 = "red";      $parkingColor48= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2264"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText48  = "Zarezerwowane";
+      $premiseStatusText48  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 48</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor48 = "#e6b800";   $parkingColor48= '#ffcc006a';
     } else if ($idValue === "2264"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText48  = "Dostępne";
+      $premiseStatusText48  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 48</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor48 = "darkgreen";   $parkingColor48 = 'rgba(0, 100, 0, 0.424) ';
 
     } else if ($idValue === "2277"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText61  = "Sprzedane";
+      $premiseStatusText61  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 61</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor61 = "red";      $parkingColor61= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2277"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText61  = "Zarezerwowane";
+      $premiseStatusText61  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 61</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor61 = "#e6b800";   $parkingColor61= '#ffcc006a';
     } else if ($idValue === "2277"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText61  = "Dostępne";
+      $premiseStatusText61  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 61</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor61 = "darkgreen";   $parkingColor61 = 'rgba(0, 100, 0, 0.424) ';
     
   } else if ($idValue === "2291"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText75  = "Sprzedane";
+    $premiseStatusText75  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 75</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
     $premiseStatusColor75 = "red";      $parkingColor75= "rgba(255, 0, 0, 0.408)";
   } else if ($idValue === "2291"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText75  = "Zarezerwowane";
+    $premiseStatusText75  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 75</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
     $premiseStatusColor75 = "#e6b800";   $parkingColor75= '#ffcc006a';
   } else if ($idValue === "2291"  && $statusNameValue === "Dostępne") {
-    $premiseStatusText75  = "Dostępne";
+    $premiseStatusText75  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 75</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
     $premiseStatusColor75 = "darkgreen";   $parkingColor75 = 'rgba(0, 100, 0, 0.424) ';
 
 
   } else if ($idValue === "2293"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText77  = "Sprzedane";
+    $premiseStatusText77  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 77</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
     $premiseStatusColor77 = "red";      $parkingColor77= "rgba(255, 0, 0, 0.408)";
   } else if ($idValue === "2293"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText77  = "Zarezerwowane";
+    $premiseStatusText77  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 77</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
     $premiseStatusColor77 = "#e6b800";   $parkingColor77= '#ffcc006a';
   } else if ($idValue === "2293"  && $statusNameValue === "Dostępne") {
-    $premiseStatusText77  = "Dostępne";
+    $premiseStatusText77  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 77</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
     $premiseStatusColor77 = "darkgreen";   $parkingColor77 = 'rgba(0, 100, 0, 0.424) ';
 
   } else if ($idValue === "2294"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText78  = "Sprzedane";
+    $premiseStatusText78  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 78</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
     $premiseStatusColor78 = "red";      $parkingColor78= "rgba(255, 0, 0, 0.408)";
   } else if ($idValue === "2294"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText78  = "Zarezerwowane";
+    $premiseStatusText78  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 78</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
     $premiseStatusColor78 = "#e6b800";   $parkingColor78= '#ffcc006a';
   } else if ($idValue === "2294"  && $statusNameValue === "Dostępne") {
-    $premiseStatusText78  = "Dostępne";
+    $premiseStatusText78  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 78</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
     $premiseStatusColor78 = "darkgreen";   $parkingColor78 = 'rgba(0, 100, 0, 0.424) ';
 
   }
 
 else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText97  = "Sprzedane";
+  $premiseStatusText97  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 97</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
   $premiseStatusColor97 = "red";      $parkingColor97= "rgba(255, 0, 0, 0.408)";
 } else if ($idValue === "2313"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText97  = "Zarezerwowane";
+  $premiseStatusText97  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 97</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
   $premiseStatusColor97 = "#e6b800";   $parkingColor97= '#ffcc006a';
 } else if ($idValue === "2313"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText97  = "Dostępne";
+  $premiseStatusText97  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 97</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
   $premiseStatusColor97 = "darkgreen";   $parkingColor97 = 'rgba(0, 100, 0, 0.424) ';
 
 } else if ($idValue === "2314"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText98  = "Sprzedane";
+  $premiseStatusText98  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 98</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
   $premiseStatusColor98 = "red";      $parkingColor98= "rgba(255, 0, 0, 0.408)";
 } else if ($idValue === "2314"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText98  = "Zarezerwowane";
+  $premiseStatusText98  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 98</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
   $premiseStatusColor98 = "#e6b800";   $parkingColor98= '#ffcc006a';
 } else if ($idValue === "2314"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText98  = "Dostępne";
+  $premiseStatusText98  = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 98</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
   $premiseStatusColor98 = "darkgreen";   $parkingColor98 = 'rgba(0, 100, 0, 0.424) ';
 
 }
@@ -1859,63 +1861,63 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
  // Above-ground parking space condition start
     if ($idValue === "2841"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText35 = "Sprzedane";
+      $premiseStatusText35 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor35= "red";      $parkingColor35= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2841"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText35 = "Zarezerwowane";
+      $premiseStatusText35 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor35= "#e6b800";   $parkingColor35= '#ffcc006a';
     } else if ($idValue === "2841"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText35 = "Dostępne";
+      $premiseStatusText35 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 35</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor35= "darkgreen";   $parkingColor35 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
    else if ($idValue === "2842"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText40 = "Sprzedane";
+      $premiseStatusText40 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 40</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor40= "red";      $parkingColor40= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2842"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText40 = "Zarezerwowane";
+      $premiseStatusText40 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 40</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor40= "#e6b800";   $parkingColor40= '#ffcc006a';
     } else if ($idValue === "2842"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText40 = "Dostępne";
+      $premiseStatusText40 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 40</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor40= "darkgreen";   $parkingColor40 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
     else if ($idValue === "2843"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText41 = "Sprzedane";
+      $premiseStatusText41 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 41</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor41= "red";      $parkingColor41= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2843"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText41 = "Zarezerwowane";
+      $premiseStatusText41 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 41</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor41= "#e6b800";   $parkingColor41= '#ffcc006a';
     } else if ($idValue === "2843"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText41 = "Dostępne";
+      $premiseStatusText41 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 41</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor41= "darkgreen";   $parkingColor41 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
 
     else if ($idValue === "2844"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText43 = "Sprzedane";
+      $premiseStatusText43 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 43</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor43= "red";      $parkingColor43= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2844"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText43 = "Zarezerwowane";
+      $premiseStatusText43 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 43</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor43= "#e6b800";   $parkingColor43= '#ffcc006a';
     } else if ($idValue === "2844"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText43 = "Dostępne";
+      $premiseStatusText43 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 43</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor43= "darkgreen";   $parkingColor43 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
 
     else if ($idValue === "2845"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText44 = "Sprzedane";
+      $premiseStatusText44 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 44</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor44= "red";      $parkingColor44= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2845"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText44 = "Zarezerwowane";
+      $premiseStatusText44 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 44</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor44= "#e6b800";   $parkingColor44= '#ffcc006a';
     } else if ($idValue === "2845"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText44 = "Dostępne";
+      $premiseStatusText44 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 44</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor44= "darkgreen";   $parkingColor44 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -1923,13 +1925,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2846"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText49 = "Sprzedane";
+      $premiseStatusText49 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 49</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor49= "red";      $parkingColor49= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2846"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText49 = "Zarezerwowane";
+      $premiseStatusText49 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 49</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor49= "#e6b800";   $parkingColor49= '#ffcc006a';
     } else if ($idValue === "2846"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText49 = "Dostępne";
+      $premiseStatusText49 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 49</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor49= "darkgreen";   $parkingColor49 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -1937,13 +1939,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2847"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText50 = "Sprzedane";
+      $premiseStatusText50 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 50</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor50= "red";      $parkingColor50= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2847"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText50 = "Zarezerwowane";
+      $premiseStatusText50 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 50</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor50= "#e6b800";   $parkingColor50= '#ffcc006a';
     } else if ($idValue === "2847"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText50 = "Dostępne";
+      $premiseStatusText50 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 50</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor50= "darkgreen"; 
       $parkingColor50 = 'rgba(0, 100, 0, 0.424) ';
     } 
@@ -1952,13 +1954,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2848"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText51 = "Sprzedane";
+      $premiseStatusText51 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 51</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor51= "red";      $parkingColor51= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2848"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText51 = "Zarezerwowane";
+      $premiseStatusText51 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 51</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor51= "#e6b800";   $parkingColor51= '#ffcc006a';
     } else if ($idValue === "2848"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText51 = "Dostępne";
+      $premiseStatusText51 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 51</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor51= "darkgreen";   $parkingColor51 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -1966,26 +1968,26 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2849"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText52 = "Sprzedane";
+      $premiseStatusText52 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 52</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor52= "red";      $parkingColor52= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2849"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText52 = "Zarezerwowane";
+      $premiseStatusText52 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 52</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor52= "#e6b800";   $parkingColor52= '#ffcc006a';
     } else if ($idValue === "2849"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText52 = "Dostępne";
+      $premiseStatusText52 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 52</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor52= "darkgreen";   $parkingColor52 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
 
     else if ($idValue === "2850"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText53 = "Sprzedane";
+      $premiseStatusText53 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 53</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor53= "red";      $parkingColor53= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2850"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText53 = "Zarezerwowane";
+      $premiseStatusText53 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 53</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor53= "#e6b800";   $parkingColor53= '#ffcc006a';
     } else if ($idValue === "2850"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText53 = "Dostępne";
+      $premiseStatusText53 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 53</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor53= "darkgreen";   $parkingColor53 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -1993,13 +1995,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2851"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText54 = "Sprzedane";
+      $premiseStatusText54 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 54</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor54= "red";      $parkingColor54= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2851"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText54 = "Zarezerwowane";
+      $premiseStatusText54 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 54</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor54= "#e6b800";   $parkingColor54= '#ffcc006a';
     } else if ($idValue === "2851"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText54 = "Dostępne";
+      $premiseStatusText54 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 54</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor54= "darkgreen";   $parkingColor54 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2008,13 +2010,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2852"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText55 = "Sprzedane";
+      $premiseStatusText55 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 55</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor55= "red";      $parkingColor55= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2852"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText55 = "Zarezerwowane";
+      $premiseStatusText55 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 55</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor55= "#e6b800";   $parkingColor55= '#ffcc006a';
     } else if ($idValue === "2852"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText55 = "Dostępne";
+      $premiseStatusText55 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 55</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor55= "darkgreen";   $parkingColor55 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2022,13 +2024,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2853"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText56 = "Sprzedane";
+      $premiseStatusText56 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 56</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor56= "red";      $parkingColor56= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2853"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText56 = "Zarezerwowane";
+      $premiseStatusText56 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 56</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor56= "#e6b800";   $parkingColor56= '#ffcc006a';
     } else if ($idValue === "2853"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText56 = "Dostępne";
+      $premiseStatusText56 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 56</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor56= "darkgreen";   $parkingColor56 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2036,13 +2038,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2854"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText57 = "Sprzedane";
+      $premiseStatusText57 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 57</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor57= "red";      $parkingColor57= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2854"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText57 = "Zarezerwowane";
+      $premiseStatusText57 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 57</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor57= "#e6b800";   $parkingColor57= '#ffcc006a';
     } else if ($idValue === "2854"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText57 = "Dostępne";
+      $premiseStatusText57 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 57</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor57= "darkgreen";   $parkingColor57 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2050,13 +2052,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2855"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText58 = "Sprzedane";
+      $premiseStatusText58 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 58</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor58= "red";      $parkingColor58= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2855"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText58 = "Zarezerwowane";
+      $premiseStatusText58 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 58</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor58= "#e6b800";   $parkingColor58= '#ffcc006a';
     } else if ($idValue === "2855"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText58 = "Dostępne";
+      $premiseStatusText58 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 58</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor58= "darkgreen";   $parkingColor58 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2064,13 +2066,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2856"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText59 = "Sprzedane";
+      $premiseStatusText59 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 59</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor59= "red";      $parkingColor59= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2856"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText59 = "Zarezerwowane";
+      $premiseStatusText59 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 59</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor59= "#e6b800";   $parkingColor59= '#ffcc006a';
     } else if ($idValue === "2856"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText59 = "Dostępne";
+      $premiseStatusText59 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 59</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor59= "darkgreen";   $parkingColor59 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2079,13 +2081,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2857"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText60 = "Sprzedane";
+      $premiseStatusText60 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 60</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor60= "red";      $parkingColor60= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2857"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText60 = "Zarezerwowane";
+      $premiseStatusText60 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 60</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor60= "#e6b800";   $parkingColor60= '#ffcc006a';
     } else if ($idValue === "2857"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText60 = "Dostępne";
+      $premiseStatusText60 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 60</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor60= "darkgreen";   $parkingColor60 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2094,13 +2096,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2858"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText62 = "Sprzedane";
+      $premiseStatusText62 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 62</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor62= "red";      $parkingColor62= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2858"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText62 = "Zarezerwowane";
+      $premiseStatusText62 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 62</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor62= "#e6b800";   $parkingColor62= '#ffcc006a';
     } else if ($idValue === "2858"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText62 = "Dostępne";
+      $premiseStatusText62 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 62</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor62= "darkgreen";   $parkingColor62 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2108,13 +2110,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2859"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText63 = "Sprzedane";
+      $premiseStatusText63 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 63</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor63= "red";      $parkingColor63= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2859"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText63 = "Zarezerwowane";
+      $premiseStatusText63 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 63</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor63= "#e6b800";   $parkingColor63= '#ffcc006a';
     } else if ($idValue === "2859"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText63 = "Dostępne";
+      $premiseStatusText63 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 63</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor63= "darkgreen";   $parkingColor63 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2122,13 +2124,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2860"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText64 = "Sprzedane";
+      $premiseStatusText64 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 64</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor64= "red";      $parkingColor64= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2860"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText64 = "Zarezerwowane";
+      $premiseStatusText64 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 64</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor64= "#e6b800";   $parkingColor64= '#ffcc006a';
     } else if ($idValue === "2860"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText64 = "Dostępne";
+      $premiseStatusText64 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 64</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor64= "darkgreen";   $parkingColor64 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2136,13 +2138,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2861"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText65 = "Sprzedane";
+      $premiseStatusText65 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 65</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor65= "red";      $parkingColor65= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2861"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText65 = "Zarezerwowane";
+      $premiseStatusText65 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 65</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor65= "#e6b800";   $parkingColor65= '#ffcc006a';
     } else if ($idValue === "2861"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText65 = "Dostępne";
+      $premiseStatusText65 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 65</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor65= "darkgreen";   $parkingColor65 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2151,13 +2153,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2862"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText66 = "Sprzedane";
+      $premiseStatusText66 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 66</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor66= "red";      $parkingColor66= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2862"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText66 = "Zarezerwowane";
+      $premiseStatusText66 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 66</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor66= "#e6b800";   $parkingColor66= '#ffcc006a';
     } else if ($idValue === "2862"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText66 = "Dostępne";
+      $premiseStatusText66 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 66</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor66= "darkgreen";   $parkingColor66 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2166,13 +2168,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2863"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText67 = "Sprzedane";
+      $premiseStatusText67 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 67</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor67= "red";      $parkingColor67= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2863"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText67 = "Zarezerwowane";
+      $premiseStatusText67 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 67</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor67= "#e6b800";   $parkingColor67= '#ffcc006a';
     } else if ($idValue === "2863"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText67 = "Dostępne";
+      $premiseStatusText67 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 67</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor67= "darkgreen";   $parkingColor67 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2180,13 +2182,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2864"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText68 = "Sprzedane";
+      $premiseStatusText68 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 68</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor68= "red";      $parkingColor68= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2864"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText68 = "Zarezerwowane";
+      $premiseStatusText68 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 68</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor68= "#e6b800";   $parkingColor68= '#ffcc006a';
     } else if ($idValue === "2864"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText68 = "Dostępne";
+      $premiseStatusText68 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 68</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor68= "darkgreen";   $parkingColor68 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2194,13 +2196,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2865"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText69 = "Sprzedane";
+      $premiseStatusText69 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 69</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor69= "red";      $parkingColor69= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2865"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText69 = "Zarezerwowane";
+      $premiseStatusText69 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 69</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor69= "#e6b800";   $parkingColor69= '#ffcc006a';
     } else if ($idValue === "2865"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText69 = "Dostępne";
+      $premiseStatusText69 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 69</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor69= "darkgreen";   $parkingColor69 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2208,26 +2210,26 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2866"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText70 = "Sprzedane";
+      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor70= "red";      $parkingColor70= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2866"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText70 = "Zarezerwowane";
+      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor70= "#e6b800";   $parkingColor70= '#ffcc006a';
     } else if ($idValue === "2866"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText70 = "Dostępne";
+      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor70= "darkgreen";   $parkingColor70 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
 
     else if ($idValue === "2867"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText71 = "Sprzedane";
+      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor71= "red";      $parkingColor71= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2867"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText71 = "Zarezerwowane";
+      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor71= "#e6b800";   $parkingColor71= '#ffcc006a';
     } else if ($idValue === "2867"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText71 = "Dostępne";
+      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor71= "darkgreen";   $parkingColor71 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2235,13 +2237,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2868"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText72 = "Sprzedane";
+      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor72= "red";      $parkingColor72= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2868"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText72 = "Zarezerwowane";
+      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor72= "#e6b800";   $parkingColor72= '#ffcc006a';
     } else if ($idValue === "2868"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText72 = "Dostępne";
+      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor72= "darkgreen";   $parkingColor72 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2250,13 +2252,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2869"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText73 = "Sprzedane";
+      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor73= "red";      $parkingColor73= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2869"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText73 = "Zarezerwowane";
+      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor73= "#e6b800";   $parkingColor73= '#ffcc006a';
     } else if ($idValue === "2869"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText73 = "Dostępne";
+      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor73= "darkgreen";   $parkingColor73 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2265,13 +2267,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2870"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText74 = "Sprzedane";
+      $premiseStatusText74 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 74</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor74= "red";      $parkingColor74= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2870"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText74 = "Zarezerwowane";
+      $premiseStatusText74 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 74</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor74= "#e6b800";   $parkingColor74= '#ffcc006a';
     } else if ($idValue === "2870"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText74 = "Dostępne";
+      $premiseStatusText74 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 74</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor74= "darkgreen";   $parkingColor74 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2283,13 +2285,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2872"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText76 = "Sprzedane";
+      $premiseStatusText76 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 76</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor76= "red";      $parkingColor76= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2872"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText76 = "Zarezerwowane";
+      $premiseStatusText76 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 76</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor76= "#e6b800";   $parkingColor76= '#ffcc006a';
     } else if ($idValue === "2872"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText76 = "Dostępne";
+      $premiseStatusText76 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 76</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor76= "darkgreen";   $parkingColor76 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2299,12 +2301,12 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2875"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText79 = "Sprzedane";
+      $premiseStatusText79 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 79</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
     
       $premiseStatusColor79= "rgba(255, 0, 0, 0.408)";  $parkingColor79= "rgba(255, 0, 0, 0.408)";
 
     } else if ($idValue === "2875"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText79 = "Zarezerwowane";
+      $premiseStatusText79 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 79</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor79= "#e6b800";   $parkingColor79= '#ffcc006a';
       $parkingColor79= '#ffcc006a';	
     } else if ($idValue === "2875"  && $statusNameValue === "Dostępne") {
@@ -2319,15 +2321,15 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2876"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText80 = "Sprzedane";
+      $premiseStatusText80 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 80</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $parkingColor80= "red";      
       $premiseStatusColor80= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2876"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText80 = "Zarezerwowane";
+      $premiseStatusText80 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 80</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor80= "#e6b800";  
       $parkingColor80= '#ffcc006a';	
     } else if ($idValue === "2876"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText80 = "Dostępne";
+      $premiseStatusText80 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 80</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor80= "darkgreen";  
       $parkingColor80= 'rgba(0, 100, 0, 0.424) ';	
     } 
@@ -2337,15 +2339,15 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2877"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText81 = "Sprzedane";
+      $premiseStatusText81 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 81</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor81= "red";    
       $parkingColor81= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2877"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText81 = "Zarezerwowane";
+      $premiseStatusText81 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 81</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor81= "#e6b800"; 
       $parkingColor81= '#ffcc006a';	
     } else if ($idValue === "2877"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText81 = "Dostępne";
+      $premiseStatusText81 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 81</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor81= "darkgreen";   
       $parkingColor81 = 'rgba(0, 100, 0, 0.424) ';	
     } 
@@ -2355,13 +2357,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2878"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText82 = "Sprzedane";
+      $premiseStatusText82 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 82</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor82= "red";      $parkingColor82= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2878"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText82 = "Zarezerwowane";
+      $premiseStatusText82 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 82</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor82= "#e6b800";   $parkingColor82= '#ffcc006a';
     } else if ($idValue === "2878"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText82 = "Dostępne";
+      $premiseStatusText82 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 82</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor82= "darkgreen";   $parkingColor82 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2370,13 +2372,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2879"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText83 = "Sprzedane";
+      $premiseStatusText83 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 83</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor83= "red";      $parkingColor83= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2879"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText83 = "Zarezerwowane";
+      $premiseStatusText83 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 83</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor83= "#e6b800";   $parkingColor83= '#ffcc006a';
     } else if ($idValue === "2879"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText83 = "Dostępne";
+      $premiseStatusText83 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 83</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor83= "darkgreen";   $parkingColor83 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2386,13 +2388,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2880"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText84 = "Sprzedane";
+      $premiseStatusText84 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 84</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor84= "red";      $parkingColor84= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2880"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText84 = "Zarezerwowane";
+      $premiseStatusText84 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 84</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor84= "#e6b800";   $parkingColor84= '#ffcc006a';
     } else if ($idValue === "2880"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText84 = "Dostępne";
+      $premiseStatusText84 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 84</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor84= "darkgreen";   $parkingColor84 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2401,13 +2403,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2881"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText85 = "Sprzedane";
+      $premiseStatusText85 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 85</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor85= "red";      $parkingColor85= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2881"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText85 = "Zarezerwowane";
+      $premiseStatusText85 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 85</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor85= "#e6b800";   $parkingColor85= '#ffcc006a';
     } else if ($idValue === "2881"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText85 = "Dostępne";
+      $premiseStatusText85 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 85</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor85= "darkgreen";   $parkingColor85 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2416,13 +2418,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2882"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText86 = "Sprzedane";
+      $premiseStatusText86 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 86</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor86= "red";      $parkingColor86= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2882"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText86 = "Zarezerwowane";
+      $premiseStatusText86 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 86</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor86= "#e6b800";   $parkingColor86= '#ffcc006a';
     } else if ($idValue === "2882"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText86 = "Dostępne";
+      $premiseStatusText86 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 86</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor86= "darkgreen";   $parkingColor86= 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2431,13 +2433,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2883"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText87 = "Sprzedane";
+      $premiseStatusText87 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 87</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor87= "red";      $parkingColor87= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2883"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText87 = "Zarezerwowane";
+      $premiseStatusText87 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 87</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor87= "#e6b800";   $parkingColor87= '#ffcc006a';
     } else if ($idValue === "2883"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText87 = "Dostępne";
+      $premiseStatusText87 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 87</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor87= "darkgreen";   $parkingColor87= 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2446,13 +2448,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2884"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText88 = "Sprzedane";
+      $premiseStatusText88 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 88</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor88= "red";      $parkingColor88= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2884"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText88 = "Zarezerwowane";
+      $premiseStatusText88 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 88</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor88= "#e6b800";   $parkingColor88= '#ffcc006a';
     } else if ($idValue === "2884"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText88 = "Dostępne";
+      $premiseStatusText88 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 88</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor88= "darkgreen";   $parkingColor88 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2462,13 +2464,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2885"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText89 = "Sprzedane";
+      $premiseStatusText89 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 89</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor89= "red";      $parkingColor89= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2885"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText89 = "Zarezerwowane";
+      $premiseStatusText89 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 89</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor89= "#e6b800";   $parkingColor89= '#ffcc006a';
     } else if ($idValue === "2885"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText89 = "Dostępne";
+      $premiseStatusText89 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 89</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor89= "darkgreen";   $parkingColor89= 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2477,13 +2479,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2886"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText90 = "Sprzedane";
+      $premiseStatusText90 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 90</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor90= "red";      $parkingColor90= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2886"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText90 = "Zarezerwowane";
+      $premiseStatusText90 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 90</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor90= "#e6b800";   $parkingColor90= '#ffcc006a';
     } else if ($idValue === "2886"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText90 = "Dostępne";
+      $premiseStatusText90 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 90</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor90= "darkgreen";   $parkingColor90 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2493,13 +2495,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2887"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText91 = "Sprzedane";
+      $premiseStatusText91 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 91</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor91= "red";      $parkingColor91= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2887"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText91 = "Zarezerwowane";
+      $premiseStatusText91 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 91</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor91= "#e6b800";   $parkingColor91= '#ffcc006a';
     } else if ($idValue === "2887"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText91 = "Dostępne";
+      $premiseStatusText91 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 91</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor91= "darkgreen";   $parkingColor91 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2508,13 +2510,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2888"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText92 = "Sprzedane";
+      $premiseStatusText92 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 92</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor92= "red";      $parkingColor92= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2888"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText92 = "Zarezerwowane";
+      $premiseStatusText92 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 92</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor92= "#e6b800";   $parkingColor92= '#ffcc006a';
     } else if ($idValue === "2888"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText92 = "Dostępne";
+      $premiseStatusText92 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 92</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor92= "darkgreen";   $parkingColor92 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2524,13 +2526,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2889"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText93 = "Sprzedane";
+      $premiseStatusText93 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 93</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor93= "red";      $parkingColor93= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2889"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText93 = "Zarezerwowane";
+      $premiseStatusText93 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 93</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor93= "#e6b800";   $parkingColor93= '#ffcc006a';
     } else if ($idValue === "2889"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText93 = "Dostępne";
+      $premiseStatusText93 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 93</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor93= "darkgreen";   $parkingColor93 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2540,13 +2542,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2890"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText94 = "Sprzedane";
+      $premiseStatusText94 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 94</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor94= "red";      $parkingColor94= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2890"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText94 = "Zarezerwowane";
+      $premiseStatusText94 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 94</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor94= "#e6b800";   $parkingColor94= '#ffcc006a';
     } else if ($idValue === "2890"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText94 = "Dostępne";
+      $premiseStatusText94 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 94</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor94= "darkgreen";   $parkingColor94= 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2556,25 +2558,25 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2891"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText95 = "Sprzedane";
+      $premiseStatusText95 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 95</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor95= "red";      $parkingColor95= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2891"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText95 = "Zarezerwowane";
+      $premiseStatusText95 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 95</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor95= "#e6b800";   $parkingColor95= '#ffcc006a';
     } else if ($idValue === "2891"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText95 = "Dostępne";
+      $premiseStatusText95 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 95</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor95= "darkgreen";   $parkingColor95 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
     else if ($idValue === "2892"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText96 = "Sprzedane";
+      $premiseStatusText96 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 96</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor96= "red";      $parkingColor96= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2892"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText96 = "Zarezerwowane";
+      $premiseStatusText96 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 96</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor96= "#e6b800";   $parkingColor96= '#ffcc006a';
     } else if ($idValue === "2892"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText96 = "Dostępne";
+      $premiseStatusText96 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 96</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor96= "darkgreen";   $parkingColor96 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2582,26 +2584,26 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2315"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText99 = "Sprzedane";
+      $premiseStatusText99 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 99</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor99= "red";      $parkingColor99= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2315"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText99 = "Zarezerwowane";
+      $premiseStatusText99 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 99</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor99= "#e6b800";   $parkingColor99= '#ffcc006a';
     } else if ($idValue === "2315"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText99 = "Dostępne";
+      $premiseStatusText99 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 99</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor99= "darkgreen";   $parkingColor99 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
 
     else if ($idValue === "2316"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText100 = "Sprzedane";
+      $premiseStatusText100 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 100</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor100= "red";      $parkingColor100= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2316"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText100 = "Zarezerwowane";
+      $premiseStatusText100 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 100</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor100= "#e6b800";   $parkingColor100= '#ffcc006a';
     } else if ($idValue === "2316"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText100 = "Dostępne";
+      $premiseStatusText100 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 100</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor100= "darkgreen";   $parkingColor100 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2609,13 +2611,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2317"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText101 = "Sprzedane";
+      $premiseStatusText101 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 101</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor101= "red";      $parkingColor101= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2317"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText101 = "Zarezerwowane";
+      $premiseStatusText101 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 101</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor101= "#e6b800";   $parkingColor101= '#ffcc006a';
     } else if ($idValue === "2317"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText101 = "Dostępne";
+      $premiseStatusText101 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 101</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor101= "darkgreen";   $parkingColor101 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2623,13 +2625,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2318"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText102 = "Sprzedane";
+      $premiseStatusText102 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 102</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor102= "red";      $parkingColor102= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2318"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText102 = "Zarezerwowane";
+      $premiseStatusText102 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 102</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor102= "#e6b800";   $parkingColor102= '#ffcc006a';
     } else if ($idValue === "2318"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText102 = "Dostępne";
+      $premiseStatusText102 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 102</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor102= "darkgreen";   $parkingColor102 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2637,13 +2639,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2319"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText103 = "Sprzedane";
+      $premiseStatusText103 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 103</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor103= "red";      $parkingColor103= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2319"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText103 = "Zarezerwowane";
+      $premiseStatusText103 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 103</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor103= "#e6b800";   $parkingColor103= '#ffcc006a';
     } else if ($idValue === "2319"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText103 = "Dostępne";
+      $premiseStatusText103 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 103</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor103= "darkgreen";   $parkingColor103 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2652,13 +2654,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2320"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText104 = "Sprzedane";
+      $premiseStatusText104 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 104</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor104= "red";      $parkingColor104= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2320"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText104 = "Zarezerwowane";
+      $premiseStatusText104 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 104</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor104= "#e6b800";   $parkingColor104= '#ffcc006a';
     } else if ($idValue === "2320"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText104 = "Dostępne";
+      $premiseStatusText104 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 104</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor104= "darkgreen";   $parkingColor104 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2667,13 +2669,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2321"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText105 = "Sprzedane";
+      $premiseStatusText105 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 105</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor105= "red";      $parkingColor105= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2321"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText105 = "Zarezerwowane";
+      $premiseStatusText105 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 105</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor105= "#e6b800";   $parkingColor105= '#ffcc006a';
     } else if ($idValue === "2321"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText105 = "Dostępne";
+      $premiseStatusText105 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 105</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor105= "darkgreen";   $parkingColor105 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2681,13 +2683,13 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
     else if ($idValue === "2322"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText106 = "Sprzedane";
+      $premiseStatusText106 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 106</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
       $premiseStatusColor106= "red";      $parkingColor106= "rgba(255, 0, 0, 0.408)";
     } else if ($idValue === "2322"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText106 = "Zarezerwowane";
+      $premiseStatusText106 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 106</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
       $premiseStatusColor106= "#e6b800";   $parkingColor106= '#ffcc006a';
     } else if ($idValue === "2322"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText106 = "Dostępne";
+      $premiseStatusText106 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 106</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
       $premiseStatusColor106= "darkgreen";   $parkingColor106 = 'rgba(0, 100, 0, 0.424) ';
     } 
 
@@ -2701,370 +2703,633 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
   ?>
   <script>
 
+let description = document.querySelector('.description');
+let description106 = document.querySelector('.description106');
+let description105 = document.querySelector('.description105');
+myFunction = () =>{
+  document.querySelector("#myDropdown").classList.toggle("show");
+
+
+}
+myFunction106 = () =>{
+
+  document.querySelector("#myDropdown106").classList.toggle("show106");
+
+
+}
+myFunction105 = () =>{
+
+
+  document.querySelector("#myDropdown105").classList.toggle("show105");
+
+}
+
 
 
 let parking1 = document.querySelector(".parking1");
  let parkingNumber1 = document.querySelector(".parkingNumber1");
  let premiseStatus1= document.getElementsByClassName("premiseStatus1")[0];
-//  let parkingII = document.querySelector(".parkingII");    
-//  let parkingI = document.querySelector(".parkingI");  
+       
  
-//  parkingII.setAttribute("style", "fill: #ffffff00;");
-//  parkingI.setAttribute("style", "fill: #ffffff00;");
-
  parking1.setAttribute("style", "fill:<?php echo $parkingColor1; ?>;");
- premiseStatus1.innerHTML="<?php echo $premiseStatusText1; ?>",premiseStatus1.style.color="<?php echo $premiseStatusColor1; ?>";
 
- parking1.addEventListener('mouseover', ()=>
+
+
+
+ parking1.addEventListener('mouseover', (e)=>
   {
-    
-  parking1.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber1.style ="font-size:27px; "
- parkingNumber1.style =" font-weight: 900;"
-  })
-
-  parking1.addEventListener('mouseout', ()=>
-  {
-      parkingNumber1.style ="font-size:17px; "
- parkingNumber1.style =" font-weight: 500;"
-    parking1.setAttribute("style", "fill:<?php echo $parkingColor1; ?>;");
-  })
-
-
-
   
- let parking2 = document.querySelector(".parking2");
+    description.innerHTML = "<?php echo $premiseStatusText1; ?>";
+    description.style.color="<?php echo $premiseStatusColor1; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking1.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText1; ?>";
+    description.style.color="<?php echo $premiseStatusColor1; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+  let parking2 = document.querySelector(".parking2");
  let parkingNumber2 = document.querySelector(".parkingNumber2");
  let premiseStatus2= document.getElementsByClassName("premiseStatus2")[0];
        
  
  parking2.setAttribute("style", "fill:<?php echo $parkingColor2; ?>;");
- premiseStatus2.innerHTML="<?php echo $premiseStatusText2; ?>",premiseStatus2.style.color="<?php echo $premiseStatusColor2; ?>";
 
- parking2.addEventListener('click', () => 
-{
-  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber2.style ="font-size:27px;"
-     parkingNumber2.style =" font-weight: 900;"
-})
 
-parkingNumber2.addEventListener('click', () => 
-{
-  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber2.style ="font-size:27px;"
-    parkingNumber2.style =" font-weight: 900;"
-})
 
-parking2.addEventListener('mouseover', ()=>
+
+ parking2.addEventListener('mouseover', (e)=>
   {
-    
-  parking2.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber2.style ="font-size:27px; "
- parkingNumber2.style =" font-weight: 900;"
-  })
-
-  parking2.addEventListener('mouseout', ()=>
-  {
-      parkingNumber2.style ="font-size:17px; "
- parkingNumber2.style =" font-weight: 500;"
-    parking2.setAttribute("style", "fill:<?php echo $parkingColor2; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking3 = document.querySelector(".parking3");
+    description.innerHTML = "<?php echo $premiseStatusText2; ?>";
+    description.style.color="<?php echo $premiseStatusColor2; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking2.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText2; ?>";
+    description.style.color="<?php echo $premiseStatusColor2; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking3 = document.querySelector(".parking3");
  let parkingNumber3 = document.querySelector(".parkingNumber3");
  let premiseStatus3= document.getElementsByClassName("premiseStatus3")[0];
        
  
  parking3.setAttribute("style", "fill:<?php echo $parkingColor3; ?>;");
- premiseStatus3.innerHTML="<?php echo $premiseStatusText3; ?>",premiseStatus3.style.color="<?php echo $premiseStatusColor3; ?>";
 
- parking3.addEventListener('click', () => 
-{
-  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber3.style ="font-size:27px;"
-     parkingNumber3.style =" font-weight: 900;"
-})
 
-parkingNumber3.addEventListener('click', () => 
-{
-  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber3.style ="font-size:27px;"
-    parkingNumber3.style =" font-weight: 900;"
-})
 
-parking3.addEventListener('mouseover', ()=>
+
+ parking3.addEventListener('mouseover', (e)=>
   {
-    
-  parking3.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber3.style ="font-size:27px; "
-
-  })
-
-  parking3.addEventListener('mouseout', ()=>
-  {
-    
-    parking3.setAttribute("style", "fill:<?php echo $parkingColor3; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking4 = document.querySelector(".parking4");
+    description.innerHTML = "<?php echo $premiseStatusText3; ?>";
+    description.style.color="<?php echo $premiseStatusColor3; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking3.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText3; ?>";
+    description.style.color="<?php echo $premiseStatusColor3; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking4 = document.querySelector(".parking4");
  let parkingNumber4 = document.querySelector(".parkingNumber4");
  let premiseStatus4= document.getElementsByClassName("premiseStatus4")[0];
        
  
  parking4.setAttribute("style", "fill:<?php echo $parkingColor4; ?>;");
- premiseStatus4.innerHTML="<?php echo $premiseStatusText4; ?>",premiseStatus4.style.color="<?php echo $premiseStatusColor4; ?>";
 
- parking4.addEventListener('click', () => 
-{
-  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber4.style ="font-size:27px;"
-     parkingNumber4.style =" font-weight: 900;"
-})
 
-parkingNumber4.addEventListener('click', () => 
-{
-  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber4.style ="font-size:27px;"
-    parkingNumber4.style =" font-weight: 900;"
-})
 
-parking4.addEventListener('mouseover', ()=>
+
+ parking4.addEventListener('mouseover', (e)=>
   {
-    
-  parking4.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber4.style ="font-size:27px; "
-
-  })
-
-  parking4.addEventListener('mouseout', ()=>
-  {
-    
-    parking4.setAttribute("style", "fill:<?php echo $parkingColor4; ?>;");
-  })
-
-
-
-
-
-
   
- let parking5 = document.querySelector(".parking5");
+    description.innerHTML = "<?php echo $premiseStatusText4; ?>";
+    description.style.color="<?php echo $premiseStatusColor4; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking4.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText4; ?>";
+    description.style.color="<?php echo $premiseStatusColor4; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   let parking5 = document.querySelector(".parking5");
  let parkingNumber5 = document.querySelector(".parkingNumber5");
  let premiseStatus5= document.getElementsByClassName("premiseStatus5")[0];
        
  
  parking5.setAttribute("style", "fill:<?php echo $parkingColor5; ?>;");
- premiseStatus5.innerHTML="<?php echo $premiseStatusText5; ?>",premiseStatus5.style.color="<?php echo $premiseStatusColor5; ?>";
 
- parking5.addEventListener('click', () => 
-{
-  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber5.style ="font-size:27px;"
-     parkingNumber5.style =" font-weight: 900;"
-})
 
-parkingNumber5.addEventListener('click', () => 
-{
-  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber5.style ="font-size:27px;"
-    parkingNumber5.style =" font-weight: 900;"
-})
 
-parking5.addEventListener('mouseover', ()=>
+
+ parking5.addEventListener('mouseover', (e)=>
   {
-    
-  parking5.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber5.style ="font-size:27px; "
-
-  })
-
-  parking5.addEventListener('mouseout', ()=>
-  {
-    
-    parking5.setAttribute("style", "fill:<?php echo $parkingColor5; ?>;");
-  })
-
-
-
-
-
-
   
- let parking6 = document.querySelector(".parking6");
+    description.innerHTML = "<?php echo $premiseStatusText5; ?>";
+    description.style.color="<?php echo $premiseStatusColor5; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking5.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText5; ?>";
+    description.style.color="<?php echo $premiseStatusColor5; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   let parking6 = document.querySelector(".parking6");
  let parkingNumber6 = document.querySelector(".parkingNumber6");
  let premiseStatus6= document.getElementsByClassName("premiseStatus6")[0];
        
  
  parking6.setAttribute("style", "fill:<?php echo $parkingColor6; ?>;");
- premiseStatus6.innerHTML="<?php echo $premiseStatusText6; ?>",premiseStatus6.style.color="<?php echo $premiseStatusColor6; ?>";
 
- parking6.addEventListener('click', () => 
-{
-  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber6.style ="font-size:27px;"
-     parkingNumber6.style =" font-weight: 900;"
-})
 
-parkingNumber6.addEventListener('click', () => 
-{
-  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber6.style ="font-size:27px;"
-    parkingNumber6.style =" font-weight: 900;"
-})
 
-parking6.addEventListener('mouseover', ()=>
+
+ parking6.addEventListener('mouseover', (e)=>
   {
-    
-  parking6.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber6.style ="font-size:27px; "
-
-  })
-
-  parking6.addEventListener('mouseout', ()=>
-  {
-    
-    parking6.setAttribute("style", "fill:<?php echo $parkingColor6; ?>;");
-  })
-
-
-
-
-
-
   
- let parking7 = document.querySelector(".parking7");
+    description.innerHTML = "<?php echo $premiseStatusText6; ?>";
+    description.style.color="<?php echo $premiseStatusColor6; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking6.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText6; ?>";
+    description.style.color="<?php echo $premiseStatusColor6; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   let parking7 = document.querySelector(".parking7");
  let parkingNumber7 = document.querySelector(".parkingNumber7");
  let premiseStatus7= document.getElementsByClassName("premiseStatus7")[0];
        
  
  parking7.setAttribute("style", "fill:<?php echo $parkingColor7; ?>;");
- premiseStatus7.innerHTML="<?php echo $premiseStatusText7; ?>",premiseStatus7.style.color="<?php echo $premiseStatusColor7; ?>";
 
- parking7.addEventListener('click', () => 
-{
-  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber7.style ="font-size:27px;"
-     parkingNumber7.style =" font-weight: 900;"
-})
 
-parkingNumber7.addEventListener('click', () => 
-{
-  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber7.style ="font-size:27px;"
-    parkingNumber7.style =" font-weight: 900;"
-})
 
-parking7.addEventListener('mouseover', ()=>
+
+ parking7.addEventListener('mouseover', (e)=>
   {
-    
-  parking7.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber7.style ="font-size:27px; "
-
-  })
-
-  parking7.addEventListener('mouseout', ()=>
-  {
-    
-    parking7.setAttribute("style", "fill:<?php echo $parkingColor7; ?>;");
-  })
-
-
-
-
-
-
   
- let parking8 = document.querySelector(".parking8");
+    description.innerHTML = "<?php echo $premiseStatusText7; ?>";
+    description.style.color="<?php echo $premiseStatusColor7; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking7.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText7; ?>";
+    description.style.color="<?php echo $premiseStatusColor7; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking8 = document.querySelector(".parking8");
  let parkingNumber8 = document.querySelector(".parkingNumber8");
  let premiseStatus8= document.getElementsByClassName("premiseStatus8")[0];
        
  
  parking8.setAttribute("style", "fill:<?php echo $parkingColor8; ?>;");
- premiseStatus8.innerHTML="<?php echo $premiseStatusText8; ?>",premiseStatus8.style.color="<?php echo $premiseStatusColor8; ?>";
 
- parking8.addEventListener('click', () => 
-{
-  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber8.style ="font-size:27px;"
-     parkingNumber8.style =" font-weight: 900;"
-})
 
-parkingNumber8.addEventListener('click', () => 
-{
-  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber8.style ="font-size:27px;"
-    parkingNumber8.style =" font-weight: 900;"
-})
 
-parking8.addEventListener('mouseover', ()=>
+
+ parking8.addEventListener('mouseover', (e)=>
   {
-    
-  parking8.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber8.style ="font-size:27px; "
-
-  })
-
-  parking8.addEventListener('mouseout', ()=>
-  {
-    
-    parking8.setAttribute("style", "fill:<?php echo $parkingColor8; ?>;");
-  })
-
-
-
-
-
-
   
- let parking9 = document.querySelector(".parking9");
+    description.innerHTML = "<?php echo $premiseStatusText8; ?>";
+    description.style.color="<?php echo $premiseStatusColor8; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking8.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText8; ?>";
+    description.style.color="<?php echo $premiseStatusColor8; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking9 = document.querySelector(".parking9");
  let parkingNumber9 = document.querySelector(".parkingNumber9");
  let premiseStatus9= document.getElementsByClassName("premiseStatus9")[0];
        
  
  parking9.setAttribute("style", "fill:<?php echo $parkingColor9; ?>;");
- premiseStatus9.innerHTML="<?php echo $premiseStatusText9; ?>",premiseStatus9.style.color="<?php echo $premiseStatusColor9; ?>";
 
- parking9.addEventListener('click', () => 
-{
-  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber9.style ="font-size:27px;"
-     parkingNumber9.style =" font-weight: 900;"
-})
 
-parkingNumber9.addEventListener('click', () => 
-{
-  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber9.style ="font-size:27px;"
-    parkingNumber9.style =" font-weight: 900;"
-})
 
-parking9.addEventListener('mouseover', ()=>
+
+ parking9.addEventListener('mouseover', (e)=>
   {
-    
-  parking9.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber9.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText9; ?>";
+    description.style.color="<?php echo $premiseStatusColor9; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking9.addEventListener('mouseout', ()=>
-  {
-    
-    parking9.setAttribute("style", "fill:<?php echo $parkingColor9; ?>;");
-  })
+
+parking9.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText9; ?>";
+    description.style.color="<?php echo $premiseStatusColor9; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
 
 
 
@@ -3072,1006 +3337,1764 @@ parking9.addEventListener('mouseover', ()=>
 
 
   
- let parking10 = document.querySelector(".parking10");
+
+
+
+
+
+
+  let parking10 = document.querySelector(".parking10");
  let parkingNumber10 = document.querySelector(".parkingNumber10");
  let premiseStatus10= document.getElementsByClassName("premiseStatus10")[0];
        
  
  parking10.setAttribute("style", "fill:<?php echo $parkingColor10; ?>;");
- premiseStatus10.innerHTML="<?php echo $premiseStatusText10; ?>",premiseStatus10.style.color="<?php echo $premiseStatusColor10; ?>";
 
- parking10.addEventListener('click', () => 
-{
-  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber10.style ="font-size:27px;"
-     parkingNumber10.style =" font-weight: 900;"
-})
 
-parkingNumber10.addEventListener('click', () => 
-{
-  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber10.style ="font-size:27px;"
-    parkingNumber10.style =" font-weight: 900;"
-})
 
-parking10.addEventListener('mouseover', ()=>
+
+ parking10.addEventListener('mouseover', (e)=>
   {
-    
-  parking10.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber10.style ="font-size:27px; "
-
-  })
-
-  parking10.addEventListener('mouseout', ()=>
-  {
-    
-    parking10.setAttribute("style", "fill:<?php echo $parkingColor10; ?>;");
-  })
-
-
-
-
-
-
   
- let parking11 = document.querySelector(".parking11");
+    description.innerHTML = "<?php echo $premiseStatusText10; ?>";
+    description.style.color="<?php echo $premiseStatusColor10; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking10.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText10; ?>";
+    description.style.color="<?php echo $premiseStatusColor10; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking11 = document.querySelector(".parking11");
  let parkingNumber11 = document.querySelector(".parkingNumber11");
  let premiseStatus11= document.getElementsByClassName("premiseStatus11")[0];
        
  
  parking11.setAttribute("style", "fill:<?php echo $parkingColor11; ?>;");
- premiseStatus11.innerHTML="<?php echo $premiseStatusText11; ?>",premiseStatus11.style.color="<?php echo $premiseStatusColor11; ?>";
 
- parking11.addEventListener('click', () => 
-{
-  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber11.style ="font-size:27px;"
-     parkingNumber11.style =" font-weight: 900;"
-})
 
-parkingNumber11.addEventListener('click', () => 
-{
-  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber11.style ="font-size:27px;"
-    parkingNumber11.style =" font-weight: 900;"
-})
 
-parking11.addEventListener('mouseover', ()=>
+
+ parking11.addEventListener('mouseover', (e)=>
   {
-    
-  parking11.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber11.style ="font-size:27px; "
-
-  })
-
-  parking11.addEventListener('mouseout', ()=>
-  {
-    
-    parking11.setAttribute("style", "fill:<?php echo $parkingColor11; ?>;");
-  })
-
-
-
-
-
-
   
- let parking12 = document.querySelector(".parking12");
+    description.innerHTML = "<?php echo $premiseStatusText11; ?>";
+    description.style.color="<?php echo $premiseStatusColor11; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking11.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText11; ?>";
+    description.style.color="<?php echo $premiseStatusColor11; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking12 = document.querySelector(".parking12");
  let parkingNumber12 = document.querySelector(".parkingNumber12");
  let premiseStatus12= document.getElementsByClassName("premiseStatus12")[0];
        
  
  parking12.setAttribute("style", "fill:<?php echo $parkingColor12; ?>;");
- premiseStatus12.innerHTML="<?php echo $premiseStatusText12; ?>",premiseStatus12.style.color="<?php echo $premiseStatusColor12; ?>";
 
- parking12.addEventListener('click', () => 
-{
-  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber12.style ="font-size:27px;"
-     parkingNumber12.style =" font-weight: 900;"
-})
 
-parkingNumber12.addEventListener('click', () => 
-{
-  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber12.style ="font-size:27px;"
-    parkingNumber12.style =" font-weight: 900;"
-})
 
-parking12.addEventListener('mouseover', ()=>
+
+ parking12.addEventListener('mouseover', (e)=>
   {
-    
-  parking12.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber12.style ="font-size:27px; "
-
-  })
-
-  parking12.addEventListener('mouseout', ()=>
-  {
-    
-    parking12.setAttribute("style", "fill:<?php echo $parkingColor12; ?>;");
-  })
-
-
-
-
-
-
   
- let parking13 = document.querySelector(".parking13");
+    description.innerHTML = "<?php echo $premiseStatusText12; ?>";
+    description.style.color="<?php echo $premiseStatusColor12; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking12.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText12; ?>";
+    description.style.color="<?php echo $premiseStatusColor12; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking13 = document.querySelector(".parking13");
  let parkingNumber13 = document.querySelector(".parkingNumber13");
  let premiseStatus13= document.getElementsByClassName("premiseStatus13")[0];
        
  
  parking13.setAttribute("style", "fill:<?php echo $parkingColor13; ?>;");
- premiseStatus13.innerHTML="<?php echo $premiseStatusText13; ?>",premiseStatus13.style.color="<?php echo $premiseStatusColor13; ?>";
 
- parking13.addEventListener('click', () => 
-{
-  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber13.style ="font-size:27px;"
-     parkingNumber13.style =" font-weight: 900;"
-})
 
-parkingNumber13.addEventListener('click', () => 
-{
-  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber13.style ="font-size:27px;"
-    parkingNumber13.style =" font-weight: 900;"
-})
 
-parking13.addEventListener('mouseover', ()=>
+
+ parking13.addEventListener('mouseover', (e)=>
   {
-    
-  parking13.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber13.style ="font-size:27px; "
-
-  })
-
-  parking13.addEventListener('mouseout', ()=>
-  {
-    
-    parking13.setAttribute("style", "fill:<?php echo $parkingColor13; ?>;");
-  })
-
-
-
-
-
-
   
- let parking14 = document.querySelector(".parking14");
+    description.innerHTML = "<?php echo $premiseStatusText13; ?>";
+    description.style.color="<?php echo $premiseStatusColor13; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking13.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText13; ?>";
+    description.style.color="<?php echo $premiseStatusColor13; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking14 = document.querySelector(".parking14");
  let parkingNumber14 = document.querySelector(".parkingNumber14");
  let premiseStatus14= document.getElementsByClassName("premiseStatus14")[0];
        
  
  parking14.setAttribute("style", "fill:<?php echo $parkingColor14; ?>;");
- premiseStatus14.innerHTML="<?php echo $premiseStatusText14; ?>",premiseStatus14.style.color="<?php echo $premiseStatusColor14; ?>";
 
- parking14.addEventListener('click', () => 
-{
-  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber14.style ="font-size:27px;"
-     parkingNumber14.style =" font-weight: 900;"
-})
 
-parkingNumber14.addEventListener('click', () => 
-{
-  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber14.style ="font-size:27px;"
-    parkingNumber14.style =" font-weight: 900;"
-})
 
-parking14.addEventListener('mouseover', ()=>
+
+ parking14.addEventListener('mouseover', (e)=>
   {
-    
-  parking14.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber14.style ="font-size:27px; "
-
-  })
-
-  parking14.addEventListener('mouseout', ()=>
-  {
-    
-    parking14.setAttribute("style", "fill:<?php echo $parkingColor14; ?>;");
-  })
-
-
-
-
-
-
   
- let parking15 = document.querySelector(".parking15");
+    description.innerHTML = "<?php echo $premiseStatusText14; ?>";
+    description.style.color="<?php echo $premiseStatusColor14; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking14.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText14; ?>";
+    description.style.color="<?php echo $premiseStatusColor14; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking15 = document.querySelector(".parking15");
  let parkingNumber15 = document.querySelector(".parkingNumber15");
  let premiseStatus15= document.getElementsByClassName("premiseStatus15")[0];
        
  
  parking15.setAttribute("style", "fill:<?php echo $parkingColor15; ?>;");
- premiseStatus15.innerHTML="<?php echo $premiseStatusText15; ?>",premiseStatus15.style.color="<?php echo $premiseStatusColor15; ?>";
 
- parking15.addEventListener('click', () => 
-{
-  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber15.style ="font-size:27px;"
-     parkingNumber15.style =" font-weight: 900;"
-})
 
-parkingNumber15.addEventListener('click', () => 
-{
-  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber15.style ="font-size:27px;"
-    parkingNumber15.style =" font-weight: 900;"
-})
 
-parking15.addEventListener('mouseover', ()=>
+
+ parking15.addEventListener('mouseover', (e)=>
   {
-    
-  parking15.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber15.style ="font-size:27px; "
-
-  })
-
-  parking15.addEventListener('mouseout', ()=>
-  {
-    
-    parking15.setAttribute("style", "fill:<?php echo $parkingColor15; ?>;");
-  })
-
-
-
-
-
-
   
- let parking16 = document.querySelector(".parking16");
+    description.innerHTML = "<?php echo $premiseStatusText15; ?>";
+    description.style.color="<?php echo $premiseStatusColor15; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking15.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText15; ?>";
+    description.style.color="<?php echo $premiseStatusColor15; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking16 = document.querySelector(".parking16");
  let parkingNumber16 = document.querySelector(".parkingNumber16");
  let premiseStatus16= document.getElementsByClassName("premiseStatus16")[0];
        
  
  parking16.setAttribute("style", "fill:<?php echo $parkingColor16; ?>;");
- premiseStatus16.innerHTML="<?php echo $premiseStatusText16; ?>",premiseStatus16.style.color="<?php echo $premiseStatusColor16; ?>";
 
- parking16.addEventListener('click', () => 
-{
-  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber16.style ="font-size:27px;"
-     parkingNumber16.style =" font-weight: 900;"
-})
 
-parkingNumber16.addEventListener('click', () => 
-{
-  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber16.style ="font-size:27px;"
-    parkingNumber16.style =" font-weight: 900;"
-})
 
-parking16.addEventListener('mouseover', ()=>
+
+ parking16.addEventListener('mouseover', (e)=>
   {
-    
-  parking16.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber16.style ="font-size:27px; "
-
-  })
-
-  parking16.addEventListener('mouseout', ()=>
-  {
-    
-    parking16.setAttribute("style", "fill:<?php echo $parkingColor16; ?>;");
-  })
-
-
-
-
-
-
   
- let parking17 = document.querySelector(".parking17");
+    description.innerHTML = "<?php echo $premiseStatusText16; ?>";
+    description.style.color="<?php echo $premiseStatusColor16; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking16.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText16; ?>";
+    description.style.color="<?php echo $premiseStatusColor16; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking17 = document.querySelector(".parking17");
  let parkingNumber17 = document.querySelector(".parkingNumber17");
  let premiseStatus17= document.getElementsByClassName("premiseStatus17")[0];
        
  
  parking17.setAttribute("style", "fill:<?php echo $parkingColor17; ?>;");
- premiseStatus17.innerHTML="<?php echo $premiseStatusText17; ?>",premiseStatus17.style.color="<?php echo $premiseStatusColor17; ?>";
 
- parking17.addEventListener('click', () => 
-{
-  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber17.style ="font-size:27px;"
-     parkingNumber17.style =" font-weight: 900;"
-})
 
-parkingNumber17.addEventListener('click', () => 
-{
-  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber17.style ="font-size:27px;"
-    parkingNumber17.style =" font-weight: 900;"
-})
 
-parking17.addEventListener('mouseover', ()=>
+
+ parking17.addEventListener('mouseover', (e)=>
   {
-    
-  parking17.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber17.style ="font-size:27px; "
-
-  })
-
-  parking17.addEventListener('mouseout', ()=>
-  {
-    
-    parking17.setAttribute("style", "fill:<?php echo $parkingColor17; ?>;");
-  })
-
-
-
-
-
-
   
- let parking18 = document.querySelector(".parking18");
+    description.innerHTML = "<?php echo $premiseStatusText17; ?>";
+    description.style.color="<?php echo $premiseStatusColor17; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking17.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText17; ?>";
+    description.style.color="<?php echo $premiseStatusColor17; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking18 = document.querySelector(".parking18");
  let parkingNumber18 = document.querySelector(".parkingNumber18");
  let premiseStatus18= document.getElementsByClassName("premiseStatus18")[0];
        
  
  parking18.setAttribute("style", "fill:<?php echo $parkingColor18; ?>;");
- premiseStatus18.innerHTML="<?php echo $premiseStatusText18; ?>",premiseStatus18.style.color="<?php echo $premiseStatusColor18; ?>";
 
- parking18.addEventListener('click', () => 
-{
-  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber18.style ="font-size:27px;"
-     parkingNumber18.style =" font-weight: 900;"
-})
 
-parkingNumber18.addEventListener('click', () => 
-{
-  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber18.style ="font-size:27px;"
-    parkingNumber18.style =" font-weight: 900;"
-})
 
-parking18.addEventListener('mouseover', ()=>
+
+ parking18.addEventListener('mouseover', (e)=>
   {
-    
-  parking18.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber18.style ="font-size:27px; "
-
-  })
-
-  parking18.addEventListener('mouseout', ()=>
-  {
-    
-    parking18.setAttribute("style", "fill:<?php echo $parkingColor18; ?>;");
-  })
-
-
-
-
-
-
   
- let parking19 = document.querySelector(".parking19");
+    description.innerHTML = "<?php echo $premiseStatusText18; ?>";
+    description.style.color="<?php echo $premiseStatusColor18; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking18.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText18; ?>";
+    description.style.color="<?php echo $premiseStatusColor18; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking19 = document.querySelector(".parking19");
  let parkingNumber19 = document.querySelector(".parkingNumber19");
  let premiseStatus19= document.getElementsByClassName("premiseStatus19")[0];
        
  
  parking19.setAttribute("style", "fill:<?php echo $parkingColor19; ?>;");
- premiseStatus19.innerHTML="<?php echo $premiseStatusText19; ?>",premiseStatus19.style.color="<?php echo $premiseStatusColor19; ?>";
 
- parking19.addEventListener('click', () => 
-{
-  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber19.style ="font-size:27px;"
-     parkingNumber19.style =" font-weight: 900;"
-})
 
-parkingNumber19.addEventListener('click', () => 
-{
-  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber19.style ="font-size:27px;"
-    parkingNumber19.style =" font-weight: 900;"
-})
 
-parking19.addEventListener('mouseover', ()=>
+
+ parking19.addEventListener('mouseover', (e)=>
   {
-    
-  parking19.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber19.style ="font-size:27px; "
-
-  })
-
-  parking19.addEventListener('mouseout', ()=>
-  {
-    
-    parking19.setAttribute("style", "fill:<?php echo $parkingColor19; ?>;");
-  })
-
-
-
-
-
-
   
- let parking20 = document.querySelector(".parking20");
+    description.innerHTML = "<?php echo $premiseStatusText19; ?>";
+    description.style.color="<?php echo $premiseStatusColor19; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking19.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText19; ?>";
+    description.style.color="<?php echo $premiseStatusColor19; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking20 = document.querySelector(".parking20");
  let parkingNumber20 = document.querySelector(".parkingNumber20");
  let premiseStatus20= document.getElementsByClassName("premiseStatus20")[0];
        
  
  parking20.setAttribute("style", "fill:<?php echo $parkingColor20; ?>;");
- premiseStatus20.innerHTML="<?php echo $premiseStatusText20; ?>",premiseStatus20.style.color="<?php echo $premiseStatusColor20; ?>";
 
- parking20.addEventListener('click', () => 
-{
-  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber20.style ="font-size:27px;"
-     parkingNumber20.style =" font-weight: 900;"
-})
 
-parkingNumber20.addEventListener('click', () => 
-{
-  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber20.style ="font-size:27px;"
-    parkingNumber20.style =" font-weight: 900;"
-})
 
-parking20.addEventListener('mouseover', ()=>
+
+ parking20.addEventListener('mouseover', (e)=>
   {
-    
-  parking20.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber20.style ="font-size:27px; "
-
-  })
-
-  parking20.addEventListener('mouseout', ()=>
-  {
-    
-    parking20.setAttribute("style", "fill:<?php echo $parkingColor20; ?>;");
-  })
-
-
-
-
-
-
   
- let parking21 = document.querySelector(".parking21");
+    description.innerHTML = "<?php echo $premiseStatusText20; ?>";
+    description.style.color="<?php echo $premiseStatusColor20; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking20.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText20; ?>";
+    description.style.color="<?php echo $premiseStatusColor20; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking21 = document.querySelector(".parking21");
  let parkingNumber21 = document.querySelector(".parkingNumber21");
  let premiseStatus21= document.getElementsByClassName("premiseStatus21")[0];
        
  
  parking21.setAttribute("style", "fill:<?php echo $parkingColor21; ?>;");
- premiseStatus21.innerHTML="<?php echo $premiseStatusText21; ?>",premiseStatus21.style.color="<?php echo $premiseStatusColor21; ?>";
 
- parking21.addEventListener('click', () => 
-{
-  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber21.style ="font-size:27px;"
-     parkingNumber21.style =" font-weight: 900;"
-})
 
-parkingNumber21.addEventListener('click', () => 
-{
-  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber21.style ="font-size:27px;"
-    parkingNumber21.style =" font-weight: 900;"
-})
 
-parking21.addEventListener('mouseover', ()=>
+
+ parking21.addEventListener('mouseover', (e)=>
   {
-    
-  parking21.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber21.style ="font-size:27px; "
-
-  })
-
-  parking21.addEventListener('mouseout', ()=>
-  {
-    
-    parking21.setAttribute("style", "fill:<?php echo $parkingColor21; ?>;");
-  })
-
-
-
-
-
-
   
- let parking22 = document.querySelector(".parking22");
+    description.innerHTML = "<?php echo $premiseStatusText21; ?>";
+    description.style.color="<?php echo $premiseStatusColor21; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking21.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText21; ?>";
+    description.style.color="<?php echo $premiseStatusColor21; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking22 = document.querySelector(".parking22");
  let parkingNumber22 = document.querySelector(".parkingNumber22");
  let premiseStatus22= document.getElementsByClassName("premiseStatus22")[0];
        
  
  parking22.setAttribute("style", "fill:<?php echo $parkingColor22; ?>;");
- premiseStatus22.innerHTML="<?php echo $premiseStatusText22; ?>",premiseStatus22.style.color="<?php echo $premiseStatusColor22; ?>";
 
- parking22.addEventListener('click', () => 
-{
-  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber22.style ="font-size:27px;"
-     parkingNumber22.style =" font-weight: 900;"
-})
 
-parkingNumber22.addEventListener('click', () => 
-{
-  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber22.style ="font-size:27px;"
-    parkingNumber22.style =" font-weight: 900;"
-})
 
-parking22.addEventListener('mouseover', ()=>
+
+ parking22.addEventListener('mouseover', (e)=>
   {
-    
-  parking22.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber22.style ="font-size:27px; "
-
-  })
-
-  parking22.addEventListener('mouseout', ()=>
-  {
-    
-    parking22.setAttribute("style", "fill:<?php echo $parkingColor22; ?>;");
-  })
-
-
-
-
-
-
   
- let parking23 = document.querySelector(".parking23");
+    description.innerHTML = "<?php echo $premiseStatusText22; ?>";
+    description.style.color="<?php echo $premiseStatusColor22; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking22.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText22; ?>";
+    description.style.color="<?php echo $premiseStatusColor22; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking23 = document.querySelector(".parking23");
  let parkingNumber23 = document.querySelector(".parkingNumber23");
  let premiseStatus23= document.getElementsByClassName("premiseStatus23")[0];
        
  
  parking23.setAttribute("style", "fill:<?php echo $parkingColor23; ?>;");
- premiseStatus23.innerHTML="<?php echo $premiseStatusText23; ?>",premiseStatus23.style.color="<?php echo $premiseStatusColor23; ?>";
 
- parking23.addEventListener('click', () => 
-{
-  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber23.style ="font-size:27px;"
-     parkingNumber23.style =" font-weight: 900;"
-})
 
-parkingNumber23.addEventListener('click', () => 
-{
-  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber23.style ="font-size:27px;"
-    parkingNumber23.style =" font-weight: 900;"
-})
 
-parking23.addEventListener('mouseover', ()=>
+
+ parking23.addEventListener('mouseover', (e)=>
   {
-    
-  parking23.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber23.style ="font-size:27px; "
-
-  })
-
-  parking23.addEventListener('mouseout', ()=>
-  {
-    
-    parking23.setAttribute("style", "fill:<?php echo $parkingColor23; ?>;");
-  })
-
-
-
-
-
-
   
- let parking24 = document.querySelector(".parking24");
+    description.innerHTML = "<?php echo $premiseStatusText23; ?>";
+    description.style.color="<?php echo $premiseStatusColor23; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking23.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText23; ?>";
+    description.style.color="<?php echo $premiseStatusColor23; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking24 = document.querySelector(".parking24");
  let parkingNumber24 = document.querySelector(".parkingNumber24");
  let premiseStatus24= document.getElementsByClassName("premiseStatus24")[0];
        
  
  parking24.setAttribute("style", "fill:<?php echo $parkingColor24; ?>;");
- premiseStatus24.innerHTML="<?php echo $premiseStatusText24; ?>",premiseStatus24.style.color="<?php echo $premiseStatusColor24; ?>";
 
- parking24.addEventListener('click', () => 
-{
-  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber24.style ="font-size:27px;"
-     parkingNumber24.style =" font-weight: 900;"
-})
 
-parkingNumber24.addEventListener('click', () => 
-{
-  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber24.style ="font-size:27px;"
-    parkingNumber24.style =" font-weight: 900;"
-})
 
-parking24.addEventListener('mouseover', ()=>
+
+ parking24.addEventListener('mouseover', (e)=>
   {
-    
-  parking24.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber24.style ="font-size:27px; "
-
-  })
-
-  parking24.addEventListener('mouseout', ()=>
-  {
-    
-    parking24.setAttribute("style", "fill:<?php echo $parkingColor24; ?>;");
-  })
-
-
-
-
-
-
   
- let parking25 = document.querySelector(".parking25");
+    description.innerHTML = "<?php echo $premiseStatusText24; ?>";
+    description.style.color="<?php echo $premiseStatusColor24; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking24.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText24; ?>";
+    description.style.color="<?php echo $premiseStatusColor24; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking25 = document.querySelector(".parking25");
  let parkingNumber25 = document.querySelector(".parkingNumber25");
  let premiseStatus25= document.getElementsByClassName("premiseStatus25")[0];
        
  
  parking25.setAttribute("style", "fill:<?php echo $parkingColor25; ?>;");
- premiseStatus25.innerHTML="<?php echo $premiseStatusText25; ?>",premiseStatus25.style.color="<?php echo $premiseStatusColor25; ?>";
 
- parking25.addEventListener('click', () => 
-{
-  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber25.style ="font-size:27px;"
-     parkingNumber25.style =" font-weight: 900;"
-})
 
-parkingNumber25.addEventListener('click', () => 
-{
-  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber25.style ="font-size:27px;"
-    parkingNumber25.style =" font-weight: 900;"
-})
 
-parking25.addEventListener('mouseover', ()=>
+
+ parking25.addEventListener('mouseover', (e)=>
   {
-    
-  parking25.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber25.style ="font-size:27px; "
-
-  })
-
-  parking25.addEventListener('mouseout', ()=>
-  {
-    
-    parking25.setAttribute("style", "fill:<?php echo $parkingColor25; ?>;");
-  })
-
-
-
-
-
-
   
- let parking26 = document.querySelector(".parking26");
+    description.innerHTML = "<?php echo $premiseStatusText25; ?>";
+    description.style.color="<?php echo $premiseStatusColor25; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking25.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText25; ?>";
+    description.style.color="<?php echo $premiseStatusColor25; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking26 = document.querySelector(".parking26");
  let parkingNumber26 = document.querySelector(".parkingNumber26");
  let premiseStatus26= document.getElementsByClassName("premiseStatus26")[0];
        
  
  parking26.setAttribute("style", "fill:<?php echo $parkingColor26; ?>;");
- premiseStatus26.innerHTML="<?php echo $premiseStatusText26; ?>",premiseStatus26.style.color="<?php echo $premiseStatusColor26; ?>";
 
- parking26.addEventListener('click', () => 
-{
-  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber26.style ="font-size:27px;"
-     parkingNumber26.style =" font-weight: 900;"
-})
 
-parkingNumber26.addEventListener('click', () => 
-{
-  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber26.style ="font-size:27px;"
-    parkingNumber26.style =" font-weight: 900;"
-})
 
-parking26.addEventListener('mouseover', ()=>
+
+ parking26.addEventListener('mouseover', (e)=>
   {
-    
-  parking26.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber26.style ="font-size:27px; "
-
-  })
-
-  parking26.addEventListener('mouseout', ()=>
-  {
-    
-    parking26.setAttribute("style", "fill:<?php echo $parkingColor26; ?>;");
-  })
-
-
-
-
-
-
   
- let parking27 = document.querySelector(".parking27");
+    description.innerHTML = "<?php echo $premiseStatusText26; ?>";
+    description.style.color="<?php echo $premiseStatusColor26; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking26.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText26; ?>";
+    description.style.color="<?php echo $premiseStatusColor26; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking27 = document.querySelector(".parking27");
  let parkingNumber27 = document.querySelector(".parkingNumber27");
  let premiseStatus27= document.getElementsByClassName("premiseStatus27")[0];
        
  
  parking27.setAttribute("style", "fill:<?php echo $parkingColor27; ?>;");
- premiseStatus27.innerHTML="<?php echo $premiseStatusText27; ?>",premiseStatus27.style.color="<?php echo $premiseStatusColor27; ?>";
 
- parking27.addEventListener('click', () => 
-{
-  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber27.style ="font-size:27px;"
-     parkingNumber27.style =" font-weight: 900;"
-})
 
-parkingNumber27.addEventListener('click', () => 
-{
-  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber27.style ="font-size:27px;"
-    parkingNumber27.style =" font-weight: 900;"
-})
 
-parking27.addEventListener('mouseover', ()=>
+
+ parking27.addEventListener('mouseover', (e)=>
   {
-    
-  parking27.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber27.style ="font-size:27px; "
-
-  })
-
-  parking27.addEventListener('mouseout', ()=>
-  {
-    
-    parking27.setAttribute("style", "fill:<?php echo $parkingColor27; ?>;");
-  })
-
-
-
-
-
-
   
- let parking28 = document.querySelector(".parking28");
+    description.innerHTML = "<?php echo $premiseStatusText27; ?>";
+    description.style.color="<?php echo $premiseStatusColor27; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking27.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText27; ?>";
+    description.style.color="<?php echo $premiseStatusColor27; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking28 = document.querySelector(".parking28");
  let parkingNumber28 = document.querySelector(".parkingNumber28");
  let premiseStatus28= document.getElementsByClassName("premiseStatus28")[0];
        
  
  parking28.setAttribute("style", "fill:<?php echo $parkingColor28; ?>;");
- premiseStatus28.innerHTML="<?php echo $premiseStatusText28; ?>",premiseStatus28.style.color="<?php echo $premiseStatusColor28; ?>";
 
- parking28.addEventListener('click', () => 
-{
-  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber28.style ="font-size:27px;"
-     parkingNumber28.style =" font-weight: 900;"
-})
 
-parkingNumber28.addEventListener('click', () => 
-{
-  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber28.style ="font-size:27px;"
-    parkingNumber28.style =" font-weight: 900;"
-})
 
-parking28.addEventListener('mouseover', ()=>
+
+ parking28.addEventListener('mouseover', (e)=>
   {
-    
-  parking28.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber28.style ="font-size:27px; "
-
-  })
-
-  parking28.addEventListener('mouseout', ()=>
-  {
-    
-    parking28.setAttribute("style", "fill:<?php echo $parkingColor28; ?>;");
-  })
-
-
-
-
-
   
- let parking29 = document.querySelector(".parking29");
+    description.innerHTML = "<?php echo $premiseStatusText28; ?>";
+    description.style.color="<?php echo $premiseStatusColor28; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking28.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText28; ?>";
+    description.style.color="<?php echo $premiseStatusColor28; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking29 = document.querySelector(".parking29");
  let parkingNumber29 = document.querySelector(".parkingNumber29");
  let premiseStatus29= document.getElementsByClassName("premiseStatus29")[0];
        
  
  parking29.setAttribute("style", "fill:<?php echo $parkingColor29; ?>;");
- premiseStatus29.innerHTML="<?php echo $premiseStatusText29; ?>",premiseStatus29.style.color="<?php echo $premiseStatusColor29; ?>";
 
- parking29.addEventListener('click', () => 
-{
-  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber29.style ="font-size:27px;"
-     parkingNumber29.style =" font-weight: 900;"
-})
 
-parkingNumber29.addEventListener('click', () => 
-{
-  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber29.style ="font-size:27px;"
-    parkingNumber29.style =" font-weight: 900;"
-})
 
-parking29.addEventListener('mouseover', ()=>
+
+ parking29.addEventListener('mouseover', (e)=>
   {
-    
-  parking29.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber29.style ="font-size:27px; "
-
-  })
-
-  parking29.addEventListener('mouseout', ()=>
-  {
-    
-    parking29.setAttribute("style", "fill:<?php echo $parkingColor29; ?>;");
-  })
-
-
-
-
-
-
   
- let parking30 = document.querySelector(".parking30");
+    description.innerHTML = "<?php echo $premiseStatusText29; ?>";
+    description.style.color="<?php echo $premiseStatusColor29; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking29.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText29; ?>";
+    description.style.color="<?php echo $premiseStatusColor29; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking30 = document.querySelector(".parking30");
  let parkingNumber30 = document.querySelector(".parkingNumber30");
  let premiseStatus30= document.getElementsByClassName("premiseStatus30")[0];
        
  
  parking30.setAttribute("style", "fill:<?php echo $parkingColor30; ?>;");
- premiseStatus30.innerHTML="<?php echo $premiseStatusText30; ?>",premiseStatus30.style.color="<?php echo $premiseStatusColor30; ?>";
 
- parking30.addEventListener('click', () => 
-{
-  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber30.style ="font-size:27px;"
-     parkingNumber30.style =" font-weight: 900;"
-})
 
-parkingNumber30.addEventListener('click', () => 
-{
-  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber30.style ="font-size:27px;"
-    parkingNumber30.style =" font-weight: 900;"
-})
 
-parking30.addEventListener('mouseover', ()=>
+
+ parking30.addEventListener('mouseover', (e)=>
   {
-    
-  parking30.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber30.style ="font-size:27px; "
-
-  })
-
-  parking30.addEventListener('mouseout', ()=>
-  {
-    
-    parking30.setAttribute("style", "fill:<?php echo $parkingColor30; ?>;");
-  })
-
-
-
-
-
-
   
- let parking31 = document.querySelector(".parking31");
+    description.innerHTML = "<?php echo $premiseStatusText30; ?>";
+    description.style.color="<?php echo $premiseStatusColor30; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking30.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText30; ?>";
+    description.style.color="<?php echo $premiseStatusColor30; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking31 = document.querySelector(".parking31");
  let parkingNumber31 = document.querySelector(".parkingNumber31");
  let premiseStatus31= document.getElementsByClassName("premiseStatus31")[0];
        
  
  parking31.setAttribute("style", "fill:<?php echo $parkingColor31; ?>;");
- premiseStatus31.innerHTML="<?php echo $premiseStatusText31; ?>",premiseStatus31.style.color="<?php echo $premiseStatusColor31; ?>";
 
- parking31.addEventListener('click', () => 
-{
-  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber31.style ="font-size:27px;"
-     parkingNumber31.style =" font-weight: 900;"
-})
 
-parkingNumber31.addEventListener('click', () => 
-{
-  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber31.style ="font-size:27px;"
-    parkingNumber31.style =" font-weight: 900;"
-})
 
-parking31.addEventListener('mouseover', ()=>
+
+ parking31.addEventListener('mouseover', (e)=>
   {
-    
-  parking31.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber31.style ="font-size:27px; "
-
-  })
-
-  parking31.addEventListener('mouseout', ()=>
-  {
-    
-    parking31.setAttribute("style", "fill:<?php echo $parkingColor31; ?>;");
-  })
-
-
-
-
-
-
   
- let parking32 = document.querySelector(".parking32");
+    description.innerHTML = "<?php echo $premiseStatusText31; ?>";
+    description.style.color="<?php echo $premiseStatusColor31; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking31.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText31; ?>";
+    description.style.color="<?php echo $premiseStatusColor31; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking32 = document.querySelector(".parking32");
  let parkingNumber32 = document.querySelector(".parkingNumber32");
  let premiseStatus32= document.getElementsByClassName("premiseStatus32")[0];
        
  
  parking32.setAttribute("style", "fill:<?php echo $parkingColor32; ?>;");
- premiseStatus32.innerHTML="<?php echo $premiseStatusText32; ?>",premiseStatus32.style.color="<?php echo $premiseStatusColor32; ?>";
 
- parking32.addEventListener('click', () => 
-{
-  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber32.style ="font-size:27px;"
-     parkingNumber32.style =" font-weight: 900;"
-})
 
-parkingNumber32.addEventListener('click', () => 
-{
-  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber32.style ="font-size:27px;"
-    parkingNumber32.style =" font-weight: 900;"
-})
 
-parking32.addEventListener('mouseover', ()=>
+
+ parking32.addEventListener('mouseover', (e)=>
   {
-    
-  parking32.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber32.style ="font-size:27px; "
-
-  })
-
-  parking32.addEventListener('mouseout', ()=>
-  {
-    
-    parking32.setAttribute("style", "fill:<?php echo $parkingColor32; ?>;");
-  })
-
-
-
-
-
-
   
- let parking33 = document.querySelector(".parking33");
+    description.innerHTML = "<?php echo $premiseStatusText32; ?>";
+    description.style.color="<?php echo $premiseStatusColor32; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking32.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText32; ?>";
+    description.style.color="<?php echo $premiseStatusColor32; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking33 = document.querySelector(".parking33");
  let parkingNumber33 = document.querySelector(".parkingNumber33");
  let premiseStatus33= document.getElementsByClassName("premiseStatus33")[0];
        
  
  parking33.setAttribute("style", "fill:<?php echo $parkingColor33; ?>;");
- premiseStatus33.innerHTML="<?php echo $premiseStatusText33; ?>",premiseStatus33.style.color="<?php echo $premiseStatusColor33; ?>";
 
- parking33.addEventListener('click', () => 
-{
-  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber33.style ="font-size:27px;"
-     parkingNumber33.style =" font-weight: 900;"
-})
 
-parkingNumber33.addEventListener('click', () => 
-{
-  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber33.style ="font-size:27px;"
-    parkingNumber33.style =" font-weight: 900;"
-})
 
-parking33.addEventListener('mouseover', ()=>
+
+ parking33.addEventListener('mouseover', (e)=>
   {
-    
-  parking33.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber33.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText33; ?>";
+    description.style.color="<?php echo $premiseStatusColor33; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking33.addEventListener('mouseout', ()=>
-  {
-    
-    parking33.setAttribute("style", "fill:<?php echo $parkingColor33; ?>;");
-  })
+
+parking33.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText33; ?>";
+    description.style.color="<?php echo $premiseStatusColor33; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4079,1904 +5102,3530 @@ parking33.addEventListener('mouseover', ()=>
 
 
   
- let parking34 = document.querySelector(".parking34");
+  let parking34 = document.querySelector(".parking34");
  let parkingNumber34 = document.querySelector(".parkingNumber34");
  let premiseStatus34= document.getElementsByClassName("premiseStatus34")[0];
        
  
  parking34.setAttribute("style", "fill:<?php echo $parkingColor34; ?>;");
- premiseStatus34.innerHTML="<?php echo $premiseStatusText34; ?>",premiseStatus34.style.color="<?php echo $premiseStatusColor34; ?>";
 
- parking34.addEventListener('click', () => 
-{
-  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber34.style ="font-size:27px;"
-     parkingNumber34.style =" font-weight: 900;"
-})
 
-parkingNumber34.addEventListener('click', () => 
-{
-  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber34.style ="font-size:27px;"
-    parkingNumber34.style =" font-weight: 900;"
-})
 
-parking34.addEventListener('mouseover', ()=>
+
+ parking34.addEventListener('mouseover', (e)=>
   {
-    
-  parking34.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber34.style ="font-size:27px; "
-
-  })
-
-  parking34.addEventListener('mouseout', ()=>
-  {
-    
-    parking34.setAttribute("style", "fill:<?php echo $parkingColor34; ?>;");
-  })
-
-
-
-
-
-
   
- let parking35 = document.querySelector(".parking35");
+    description.innerHTML = "<?php echo $premiseStatusText34; ?>";
+    description.style.color="<?php echo $premiseStatusColor34; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking34.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText34; ?>";
+    description.style.color="<?php echo $premiseStatusColor34; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking35 = document.querySelector(".parking35");
  let parkingNumber35 = document.querySelector(".parkingNumber35");
  let premiseStatus35= document.getElementsByClassName("premiseStatus35")[0];
        
  
  parking35.setAttribute("style", "fill:<?php echo $parkingColor35; ?>;");
- premiseStatus35.innerHTML="<?php echo $premiseStatusText35; ?>",premiseStatus35.style.color="<?php echo $premiseStatusColor35; ?>";
 
- parking35.addEventListener('click', () => 
-{
-  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber35.style ="font-size:27px;"
-     parkingNumber35.style =" font-weight: 900;"
-})
 
-parkingNumber35.addEventListener('click', () => 
-{
-  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber35.style ="font-size:27px;"
-    parkingNumber35.style =" font-weight: 900;"
-})
 
-parking35.addEventListener('mouseover', ()=>
+
+ parking35.addEventListener('mouseover', (e)=>
   {
-    
-  parking35.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber35.style ="font-size:27px; "
-
-  })
-
-  parking35.addEventListener('mouseout', ()=>
-  {
-    
-    parking35.setAttribute("style", "fill:<?php echo $parkingColor35; ?>;");
-  })
-
-
-
-
-
-
   
- let parking36 = document.querySelector(".parking36");
+    description.innerHTML = "<?php echo $premiseStatusText35; ?>";
+    description.style.color="<?php echo $premiseStatusColor35; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking35.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText35; ?>";
+    description.style.color="<?php echo $premiseStatusColor35; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking36 = document.querySelector(".parking36");
  let parkingNumber36 = document.querySelector(".parkingNumber36");
  let premiseStatus36= document.getElementsByClassName("premiseStatus36")[0];
        
  
  parking36.setAttribute("style", "fill:<?php echo $parkingColor36; ?>;");
- premiseStatus36.innerHTML="<?php echo $premiseStatusText36; ?>",premiseStatus36.style.color="<?php echo $premiseStatusColor36; ?>";
 
- parking36.addEventListener('click', () => 
-{
-  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber36.style ="font-size:27px;"
-     parkingNumber36.style =" font-weight: 900;"
-})
 
-parkingNumber36.addEventListener('click', () => 
-{
-  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber36.style ="font-size:27px;"
-    parkingNumber36.style =" font-weight: 900;"
-})
 
-parking36.addEventListener('mouseover', ()=>
+
+ parking36.addEventListener('mouseover', (e)=>
   {
-    
-  parking36.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber36.style ="font-size:27px; "
-
-  })
-
-  parking36.addEventListener('mouseout', ()=>
-  {
-    
-    parking36.setAttribute("style", "fill:<?php echo $parkingColor36; ?>;");
-  })
-
-
-
-
-
   
- let parking37 = document.querySelector(".parking37");
+    description.innerHTML = "<?php echo $premiseStatusText36; ?>";
+    description.style.color="<?php echo $premiseStatusColor36; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking36.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText36; ?>";
+    description.style.color="<?php echo $premiseStatusColor36; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking37 = document.querySelector(".parking37");
  let parkingNumber37 = document.querySelector(".parkingNumber37");
  let premiseStatus37= document.getElementsByClassName("premiseStatus37")[0];
        
  
  parking37.setAttribute("style", "fill:<?php echo $parkingColor37; ?>;");
- premiseStatus37.innerHTML="<?php echo $premiseStatusText37; ?>",premiseStatus37.style.color="<?php echo $premiseStatusColor37; ?>";
 
- parking37.addEventListener('click', () => 
-{
-  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber37.style ="font-size:27px;"
-     parkingNumber37.style =" font-weight: 900;"
-})
 
-parkingNumber37.addEventListener('click', () => 
-{
-  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber37.style ="font-size:27px;"
-    parkingNumber37.style =" font-weight: 900;"
-})
 
-parking37.addEventListener('mouseover', ()=>
+
+ parking37.addEventListener('mouseover', (e)=>
   {
-    
-  parking37.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber37.style ="font-size:27px; "
-
-  })
-
-  parking37.addEventListener('mouseout', ()=>
-  {
-    
-    parking37.setAttribute("style", "fill:<?php echo $parkingColor37; ?>;");
-  })
-
-
-
-
-
-
   
- let parking38 = document.querySelector(".parking38");
+    description.innerHTML = "<?php echo $premiseStatusText37; ?>";
+    description.style.color="<?php echo $premiseStatusColor37; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking37.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText37; ?>";
+    description.style.color="<?php echo $premiseStatusColor37; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking38 = document.querySelector(".parking38");
  let parkingNumber38 = document.querySelector(".parkingNumber38");
  let premiseStatus38= document.getElementsByClassName("premiseStatus38")[0];
        
  
  parking38.setAttribute("style", "fill:<?php echo $parkingColor38; ?>;");
- premiseStatus38.innerHTML="<?php echo $premiseStatusText38; ?>",premiseStatus38.style.color="<?php echo $premiseStatusColor38; ?>";
 
- parking38.addEventListener('click', () => 
-{
-  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber38.style ="font-size:27px;"
-     parkingNumber38.style =" font-weight: 900;"
-})
 
-parkingNumber38.addEventListener('click', () => 
-{
-  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber38.style ="font-size:27px;"
-    parkingNumber38.style =" font-weight: 900;"
-})
 
-parking38.addEventListener('mouseover', ()=>
+
+ parking38.addEventListener('mouseover', (e)=>
   {
-    
-  parking38.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber38.style ="font-size:27px; "
-
-  })
-
-  parking38.addEventListener('mouseout', ()=>
-  {
-    
-    parking38.setAttribute("style", "fill:<?php echo $parkingColor38; ?>;");
-  })
-
-
-
-
-
-
   
- let parking39 = document.querySelector(".parking39");
+    description.innerHTML = "<?php echo $premiseStatusText38; ?>";
+    description.style.color="<?php echo $premiseStatusColor38; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking38.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText38; ?>";
+    description.style.color="<?php echo $premiseStatusColor38; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking39 = document.querySelector(".parking39");
  let parkingNumber39 = document.querySelector(".parkingNumber39");
  let premiseStatus39= document.getElementsByClassName("premiseStatus39")[0];
        
  
  parking39.setAttribute("style", "fill:<?php echo $parkingColor39; ?>;");
- premiseStatus39.innerHTML="<?php echo $premiseStatusText39; ?>",premiseStatus39.style.color="<?php echo $premiseStatusColor39; ?>";
 
- parking39.addEventListener('click', () => 
-{
-  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber39.style ="font-size:27px;"
-     parkingNumber39.style =" font-weight: 900;"
-})
 
-parkingNumber39.addEventListener('click', () => 
-{
-  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber39.style ="font-size:27px;"
-    parkingNumber39.style =" font-weight: 900;"
-})
 
-parking39.addEventListener('mouseover', ()=>
+
+ parking39.addEventListener('mouseover', (e)=>
   {
-    
-  parking39.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber39.style ="font-size:27px; "
-
-  })
-
-  parking39.addEventListener('mouseout', ()=>
-  {
-    
-    parking39.setAttribute("style", "fill:<?php echo $parkingColor39; ?>;");
-  })
-
-
-
-
-
   
- let parking40 = document.querySelector(".parking40");
+    description.innerHTML = "<?php echo $premiseStatusText39; ?>";
+    description.style.color="<?php echo $premiseStatusColor39; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking39.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText39; ?>";
+    description.style.color="<?php echo $premiseStatusColor39; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking40 = document.querySelector(".parking40");
  let parkingNumber40 = document.querySelector(".parkingNumber40");
  let premiseStatus40= document.getElementsByClassName("premiseStatus40")[0];
        
  
  parking40.setAttribute("style", "fill:<?php echo $parkingColor40; ?>;");
- premiseStatus40.innerHTML="<?php echo $premiseStatusText40; ?>",premiseStatus40.style.color="<?php echo $premiseStatusColor40; ?>";
 
- parking40.addEventListener('click', () => 
-{
-  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber40.style ="font-size:27px;"
-     parkingNumber40.style =" font-weight: 900;"
-})
 
-parkingNumber40.addEventListener('click', () => 
-{
-  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber40.style ="font-size:27px;"
-    parkingNumber40.style =" font-weight: 900;"
-})
 
-parking40.addEventListener('mouseover', ()=>
+
+ parking40.addEventListener('mouseover', (e)=>
   {
-    
-  parking40.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber40.style ="font-size:27px; "
-
-  })
-
-  parking40.addEventListener('mouseout', ()=>
-  {
-    
-    parking40.setAttribute("style", "fill:<?php echo $parkingColor40; ?>;");
-  })
-
-
-
-
-
   
- let parking41 = document.querySelector(".parking41");
+    description.innerHTML = "<?php echo $premiseStatusText40; ?>";
+    description.style.color="<?php echo $premiseStatusColor40; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking40.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText40; ?>";
+    description.style.color="<?php echo $premiseStatusColor40; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking41 = document.querySelector(".parking41");
  let parkingNumber41 = document.querySelector(".parkingNumber41");
  let premiseStatus41= document.getElementsByClassName("premiseStatus41")[0];
        
  
  parking41.setAttribute("style", "fill:<?php echo $parkingColor41; ?>;");
- premiseStatus41.innerHTML="<?php echo $premiseStatusText41; ?>",premiseStatus41.style.color="<?php echo $premiseStatusColor41; ?>";
 
- parking41.addEventListener('click', () => 
-{
-  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber41.style ="font-size:27px;"
-     parkingNumber41.style =" font-weight: 900;"
-})
 
-parkingNumber41.addEventListener('click', () => 
-{
-  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber41.style ="font-size:27px;"
-    parkingNumber41.style =" font-weight: 900;"
-})
 
-parking41.addEventListener('mouseover', ()=>
+
+ parking41.addEventListener('mouseover', (e)=>
   {
-    
-  parking41.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber41.style ="font-size:27px; "
-
-  })
-
-  parking41.addEventListener('mouseout', ()=>
-  {
-    
-    parking41.setAttribute("style", "fill:<?php echo $parkingColor41; ?>;");
-  })
-
-
-
-
-
-
   
- let parking42 = document.querySelector(".parking42");
+    description.innerHTML = "<?php echo $premiseStatusText41; ?>";
+    description.style.color="<?php echo $premiseStatusColor41; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking41.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText41; ?>";
+    description.style.color="<?php echo $premiseStatusColor41; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking42 = document.querySelector(".parking42");
  let parkingNumber42 = document.querySelector(".parkingNumber42");
  let premiseStatus42= document.getElementsByClassName("premiseStatus42")[0];
        
  
  parking42.setAttribute("style", "fill:<?php echo $parkingColor42; ?>;");
- premiseStatus42.innerHTML="<?php echo $premiseStatusText42; ?>",premiseStatus42.style.color="<?php echo $premiseStatusColor42; ?>";
 
- parking42.addEventListener('click', () => 
-{
-  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber42.style ="font-size:27px;"
-     parkingNumber42.style =" font-weight: 900;"
-})
 
-parkingNumber42.addEventListener('click', () => 
-{
-  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber42.style ="font-size:27px;"
-    parkingNumber42.style =" font-weight: 900;"
-})
 
-parking42.addEventListener('mouseover', ()=>
+
+ parking42.addEventListener('mouseover', (e)=>
   {
-    
-  parking42.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber42.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText42; ?>";
+    description.style.color="<?php echo $premiseStatusColor42; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking42.addEventListener('mouseout', ()=>
-  {
-    
-    parking42.setAttribute("style", "fill:<?php echo $parkingColor42; ?>;");
-  })
+
+parking42.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText42; ?>";
+    description.style.color="<?php echo $premiseStatusColor42; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
   
- let parking43 = document.querySelector(".parking43");
+
+
+
+
+  let parking43 = document.querySelector(".parking43");
  let parkingNumber43 = document.querySelector(".parkingNumber43");
  let premiseStatus43= document.getElementsByClassName("premiseStatus43")[0];
        
  
  parking43.setAttribute("style", "fill:<?php echo $parkingColor43; ?>;");
- premiseStatus43.innerHTML="<?php echo $premiseStatusText43; ?>",premiseStatus43.style.color="<?php echo $premiseStatusColor43; ?>";
 
- parking43.addEventListener('click', () => 
-{
-  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber43.style ="font-size:27px;"
-     parkingNumber43.style =" font-weight: 900;"
-})
 
-parkingNumber43.addEventListener('click', () => 
-{
-  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber43.style ="font-size:27px;"
-    parkingNumber43.style =" font-weight: 900;"
-})
 
-parking43.addEventListener('mouseover', ()=>
+
+ parking43.addEventListener('mouseover', (e)=>
   {
-    
-  parking43.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber43.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText43; ?>";
+    description.style.color="<?php echo $premiseStatusColor43; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking43.addEventListener('mouseout', ()=>
-  {
-    
-    parking43.setAttribute("style", "fill:<?php echo $parkingColor43; ?>;");
-  })
+
+parking43.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText43; ?>";
+    description.style.color="<?php echo $premiseStatusColor43; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
   
- let parking44 = document.querySelector(".parking44");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking44 = document.querySelector(".parking44");
  let parkingNumber44 = document.querySelector(".parkingNumber44");
  let premiseStatus44= document.getElementsByClassName("premiseStatus44")[0];
        
  
  parking44.setAttribute("style", "fill:<?php echo $parkingColor44; ?>;");
- premiseStatus44.innerHTML="<?php echo $premiseStatusText44; ?>",premiseStatus44.style.color="<?php echo $premiseStatusColor44; ?>";
 
- parking44.addEventListener('click', () => 
-{
-  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber44.style ="font-size:27px;"
-     parkingNumber44.style =" font-weight: 900;"
-})
 
-parkingNumber44.addEventListener('click', () => 
-{
-  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber44.style ="font-size:27px;"
-    parkingNumber44.style =" font-weight: 900;"
-})
 
-parking44.addEventListener('mouseover', ()=>
+
+ parking44.addEventListener('mouseover', (e)=>
   {
-    
-  parking44.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber44.style ="font-size:27px; "
-
-  })
-
-  parking44.addEventListener('mouseout', ()=>
-  {
-    
-    parking44.setAttribute("style", "fill:<?php echo $parkingColor44; ?>;");
-  })
-
-
-
-
-
-
   
- let parking45 = document.querySelector(".parking45");
+    description.innerHTML = "<?php echo $premiseStatusText44; ?>";
+    description.style.color="<?php echo $premiseStatusColor44; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking44.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText44; ?>";
+    description.style.color="<?php echo $premiseStatusColor44; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking45 = document.querySelector(".parking45");
  let parkingNumber45 = document.querySelector(".parkingNumber45");
  let premiseStatus45= document.getElementsByClassName("premiseStatus45")[0];
        
  
  parking45.setAttribute("style", "fill:<?php echo $parkingColor45; ?>;");
- premiseStatus45.innerHTML="<?php echo $premiseStatusText45; ?>",premiseStatus45.style.color="<?php echo $premiseStatusColor45; ?>";
 
- parking45.addEventListener('click', () => 
-{
-  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber45.style ="font-size:27px;"
-     parkingNumber45.style =" font-weight: 900;"
-})
 
-parkingNumber45.addEventListener('click', () => 
-{
-  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber45.style ="font-size:27px;"
-    parkingNumber45.style =" font-weight: 900;"
-})
 
-parking45.addEventListener('mouseover', ()=>
+
+ parking45.addEventListener('mouseover', (e)=>
   {
-    
-  parking45.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber45.style ="font-size:27px; "
-
-  })
-
-  parking45.addEventListener('mouseout', ()=>
-  {
-    
-    parking45.setAttribute("style", "fill:<?php echo $parkingColor45; ?>;");
-  })
-
-
-
-
   
- let parking46 = document.querySelector(".parking46");
+    description.innerHTML = "<?php echo $premiseStatusText45; ?>";
+    description.style.color="<?php echo $premiseStatusColor45; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking45.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText45; ?>";
+    description.style.color="<?php echo $premiseStatusColor45; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking46 = document.querySelector(".parking46");
  let parkingNumber46 = document.querySelector(".parkingNumber46");
  let premiseStatus46= document.getElementsByClassName("premiseStatus46")[0];
        
  
  parking46.setAttribute("style", "fill:<?php echo $parkingColor46; ?>;");
- premiseStatus46.innerHTML="<?php echo $premiseStatusText46; ?>",premiseStatus46.style.color="<?php echo $premiseStatusColor46; ?>";
 
- parking46.addEventListener('click', () => 
-{
-  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber46.style ="font-size:27px;"
-     parkingNumber46.style =" font-weight: 900;"
-})
 
-parkingNumber46.addEventListener('click', () => 
-{
-  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber46.style ="font-size:27px;"
-    parkingNumber46.style =" font-weight: 900;"
-})
 
-parking46.addEventListener('mouseover', ()=>
+
+ parking46.addEventListener('mouseover', (e)=>
   {
-    
-  parking46.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber46.style ="font-size:27px; "
-
-  })
-
-  parking46.addEventListener('mouseout', ()=>
-  {
-    
-    parking46.setAttribute("style", "fill:<?php echo $parkingColor46; ?>;");
-  })
-
-
-
   
- let parking47 = document.querySelector(".parking47");
+    description.innerHTML = "<?php echo $premiseStatusText46; ?>";
+    description.style.color="<?php echo $premiseStatusColor46; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking46.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText46; ?>";
+    description.style.color="<?php echo $premiseStatusColor46; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking47 = document.querySelector(".parking47");
  let parkingNumber47 = document.querySelector(".parkingNumber47");
  let premiseStatus47= document.getElementsByClassName("premiseStatus47")[0];
        
  
  parking47.setAttribute("style", "fill:<?php echo $parkingColor47; ?>;");
- premiseStatus47.innerHTML="<?php echo $premiseStatusText47; ?>",premiseStatus47.style.color="<?php echo $premiseStatusColor47; ?>";
 
- parking47.addEventListener('click', () => 
-{
-  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber47.style ="font-size:27px;"
-     parkingNumber47.style =" font-weight: 900;"
-})
 
-parkingNumber47.addEventListener('click', () => 
-{
-  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber47.style ="font-size:27px;"
-    parkingNumber47.style =" font-weight: 900;"
-})
 
-parking47.addEventListener('mouseover', ()=>
+
+ parking47.addEventListener('mouseover', (e)=>
   {
-    
-  parking47.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber47.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText47; ?>";
+    description.style.color="<?php echo $premiseStatusColor47; ?>";
 
-  })
-
-  parking47.addEventListener('mouseout', ()=>
-  {
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
     
-    parking47.setAttribute("style", "fill:<?php echo $parkingColor47; ?>;");
+},1000)
+    
   })
 
 
-
-
-
+parking47.addEventListener('click', function(e) {
   
+  description.innerHTML = "<?php echo $premiseStatusText47; ?>";
+    description.style.color="<?php echo $premiseStatusColor47; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
 
-  
- let parking48 = document.querySelector(".parking48");
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking48 = document.querySelector(".parking48");
  let parkingNumber48 = document.querySelector(".parkingNumber48");
  let premiseStatus48= document.getElementsByClassName("premiseStatus48")[0];
        
  
  parking48.setAttribute("style", "fill:<?php echo $parkingColor48; ?>;");
- premiseStatus48.innerHTML="<?php echo $premiseStatusText48; ?>",premiseStatus48.style.color="<?php echo $premiseStatusColor48; ?>";
 
- parking48.addEventListener('click', () => 
-{
-  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber48.style ="font-size:27px;"
-     parkingNumber48.style =" font-weight: 900;"
-})
 
-parkingNumber48.addEventListener('click', () => 
-{
-  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber48.style ="font-size:27px;"
-    parkingNumber48.style =" font-weight: 900;"
-})
 
-parking48.addEventListener('mouseover', ()=>
+
+ parking48.addEventListener('mouseover', (e)=>
   {
-    
-  parking48.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber48.style ="font-size:27px; "
-
-  })
-
-  parking48.addEventListener('mouseout', ()=>
-  {
-    
-    parking48.setAttribute("style", "fill:<?php echo $parkingColor48; ?>;");
-  })
-
-
-
-
-
-
-
-
   
- let parking49 = document.querySelector(".parking49");
+    description.innerHTML = "<?php echo $premiseStatusText48; ?>";
+    description.style.color="<?php echo $premiseStatusColor48; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking48.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText48; ?>";
+    description.style.color="<?php echo $premiseStatusColor48; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking49 = document.querySelector(".parking49");
  let parkingNumber49 = document.querySelector(".parkingNumber49");
  let premiseStatus49= document.getElementsByClassName("premiseStatus49")[0];
        
  
  parking49.setAttribute("style", "fill:<?php echo $parkingColor49; ?>;");
- premiseStatus49.innerHTML="<?php echo $premiseStatusText49; ?>",premiseStatus49.style.color="<?php echo $premiseStatusColor49; ?>";
 
- parking49.addEventListener('click', () => 
-{
-  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber49.style ="font-size:27px;"
-     parkingNumber49.style =" font-weight: 900;"
-})
 
-parkingNumber49.addEventListener('click', () => 
-{
-  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber49.style ="font-size:27px;"
-    parkingNumber49.style =" font-weight: 900;"
-})
 
-parking49.addEventListener('mouseover', ()=>
+
+ parking49.addEventListener('mouseover', (e)=>
   {
-    
-  parking49.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber49.style ="font-size:27px; "
-
-  })
-
-  parking49.addEventListener('mouseout', ()=>
-  {
-    
-    parking49.setAttribute("style", "fill:<?php echo $parkingColor49; ?>;");
-  })
-
-
-
-
-
-
   
- let parking50 = document.querySelector(".parking50");
+    description.innerHTML = "<?php echo $premiseStatusText49; ?>";
+    description.style.color="<?php echo $premiseStatusColor49; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking49.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText49; ?>";
+    description.style.color="<?php echo $premiseStatusColor49; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking50 = document.querySelector(".parking50");
  let parkingNumber50 = document.querySelector(".parkingNumber50");
  let premiseStatus50= document.getElementsByClassName("premiseStatus50")[0];
        
  
  parking50.setAttribute("style", "fill:<?php echo $parkingColor50; ?>;");
- premiseStatus50.innerHTML="<?php echo $premiseStatusText50; ?>",premiseStatus50.style.color="<?php echo $premiseStatusColor50; ?>";
 
- parking50.addEventListener('click', () => 
-{
-  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber50.style ="font-size:27px;"
-     parkingNumber50.style =" font-weight: 900;"
-})
 
-parkingNumber50.addEventListener('click', () => 
-{
-  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber50.style ="font-size:27px;"
-    parkingNumber50.style =" font-weight: 900;"
-})
 
-parking50.addEventListener('mouseover', ()=>
+
+ parking50.addEventListener('mouseover', (e)=>
   {
-    
-  parking50.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber50.style ="font-size:27px; "
-
-  })
-
-  parking50.addEventListener('mouseout', ()=>
-  {
-    
-    parking50.setAttribute("style", "fill:<?php echo $parkingColor50; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking51 = document.querySelector(".parking51");
+    description.innerHTML = "<?php echo $premiseStatusText50; ?>";
+    description.style.color="<?php echo $premiseStatusColor50; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking50.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText50; ?>";
+    description.style.color="<?php echo $premiseStatusColor50; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking51 = document.querySelector(".parking51");
  let parkingNumber51 = document.querySelector(".parkingNumber51");
  let premiseStatus51= document.getElementsByClassName("premiseStatus51")[0];
        
  
  parking51.setAttribute("style", "fill:<?php echo $parkingColor51; ?>;");
- premiseStatus51.innerHTML="<?php echo $premiseStatusText51; ?>",premiseStatus51.style.color="<?php echo $premiseStatusColor51; ?>";
 
- parking51.addEventListener('click', () => 
-{
-  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber51.style ="font-size:27px;"
-     parkingNumber51.style =" font-weight: 900;"
-})
 
-parkingNumber51.addEventListener('click', () => 
-{
-  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber51.style ="font-size:27px;"
-    parkingNumber51.style =" font-weight: 900;"
-})
 
-parking51.addEventListener('mouseover', ()=>
+
+ parking51.addEventListener('mouseover', (e)=>
   {
-    
-  parking51.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber51.style ="font-size:27px; "
-
-  })
-
-  parking51.addEventListener('mouseout', ()=>
-  {
-    
-    parking51.setAttribute("style", "fill:<?php echo $parkingColor51; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking52 = document.querySelector(".parking52");
+    description.innerHTML = "<?php echo $premiseStatusText51; ?>";
+    description.style.color="<?php echo $premiseStatusColor51; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking51.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText51; ?>";
+    description.style.color="<?php echo $premiseStatusColor51; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking52 = document.querySelector(".parking52");
  let parkingNumber52 = document.querySelector(".parkingNumber52");
  let premiseStatus52= document.getElementsByClassName("premiseStatus52")[0];
        
  
  parking52.setAttribute("style", "fill:<?php echo $parkingColor52; ?>;");
- premiseStatus52.innerHTML="<?php echo $premiseStatusText52; ?>",premiseStatus52.style.color="<?php echo $premiseStatusColor52; ?>";
 
- parking52.addEventListener('click', () => 
-{
-  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber52.style ="font-size:27px;"
-     parkingNumber52.style =" font-weight: 900;"
-})
 
-parkingNumber52.addEventListener('click', () => 
-{
-  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber52.style ="font-size:27px;"
-    parkingNumber52.style =" font-weight: 900;"
-})
 
-parking52.addEventListener('mouseover', ()=>
+
+ parking52.addEventListener('mouseover', (e)=>
   {
-    
-  parking52.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber52.style ="font-size:27px; "
-
-  })
-
-  parking52.addEventListener('mouseout', ()=>
-  {
-    
-    parking52.setAttribute("style", "fill:<?php echo $parkingColor52; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking53 = document.querySelector(".parking53");
+    description.innerHTML = "<?php echo $premiseStatusText52; ?>";
+    description.style.color="<?php echo $premiseStatusColor52; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking52.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText52; ?>";
+    description.style.color="<?php echo $premiseStatusColor52; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking53 = document.querySelector(".parking53");
  let parkingNumber53 = document.querySelector(".parkingNumber53");
  let premiseStatus53= document.getElementsByClassName("premiseStatus53")[0];
        
  
  parking53.setAttribute("style", "fill:<?php echo $parkingColor53; ?>;");
- premiseStatus53.innerHTML="<?php echo $premiseStatusText53; ?>",premiseStatus53.style.color="<?php echo $premiseStatusColor53; ?>";
 
- parking53.addEventListener('click', () => 
-{
-  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber53.style ="font-size:27px;"
-     parkingNumber53.style =" font-weight: 900;"
-})
 
-parkingNumber53.addEventListener('click', () => 
-{
-  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber53.style ="font-size:27px;"
-    parkingNumber53.style =" font-weight: 900;"
-})
 
-parking53.addEventListener('mouseover', ()=>
+
+ parking53.addEventListener('mouseover', (e)=>
   {
-    
-  parking53.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber53.style ="font-size:27px; "
-
-  })
-
-  parking53.addEventListener('mouseout', ()=>
-  {
-    
-    parking53.setAttribute("style", "fill:<?php echo $parkingColor53; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking54 = document.querySelector(".parking54");
+    description.innerHTML = "<?php echo $premiseStatusText53; ?>";
+    description.style.color="<?php echo $premiseStatusColor53; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking53.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText53; ?>";
+    description.style.color="<?php echo $premiseStatusColor53; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking54 = document.querySelector(".parking54");
  let parkingNumber54 = document.querySelector(".parkingNumber54");
  let premiseStatus54= document.getElementsByClassName("premiseStatus54")[0];
        
  
  parking54.setAttribute("style", "fill:<?php echo $parkingColor54; ?>;");
- premiseStatus54.innerHTML="<?php echo $premiseStatusText54; ?>",premiseStatus54.style.color="<?php echo $premiseStatusColor54; ?>";
 
- parking54.addEventListener('click', () => 
-{
-  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber54.style ="font-size:27px;"
-     parkingNumber54.style =" font-weight: 900;"
-})
 
-parkingNumber54.addEventListener('click', () => 
-{
-  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber54.style ="font-size:27px;"
-    parkingNumber54.style =" font-weight: 900;"
-})
 
-parking54.addEventListener('mouseover', ()=>
+
+ parking54.addEventListener('mouseover', (e)=>
   {
-    
-  parking54.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber54.style ="font-size:27px; "
-
-  })
-
-  parking54.addEventListener('mouseout', ()=>
-  {
-    
-    parking54.setAttribute("style", "fill:<?php echo $parkingColor54; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking55 = document.querySelector(".parking55");
+    description.innerHTML = "<?php echo $premiseStatusText54; ?>";
+    description.style.color="<?php echo $premiseStatusColor54; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking54.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText54; ?>";
+    description.style.color="<?php echo $premiseStatusColor54; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking55 = document.querySelector(".parking55");
  let parkingNumber55 = document.querySelector(".parkingNumber55");
  let premiseStatus55= document.getElementsByClassName("premiseStatus55")[0];
        
  
  parking55.setAttribute("style", "fill:<?php echo $parkingColor55; ?>;");
- premiseStatus55.innerHTML="<?php echo $premiseStatusText55; ?>",premiseStatus55.style.color="<?php echo $premiseStatusColor55; ?>";
 
- parking55.addEventListener('click', () => 
-{
-  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber55.style ="font-size:27px;"
-     parkingNumber55.style =" font-weight: 900;"
-})
 
-parkingNumber55.addEventListener('click', () => 
-{
-  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber55.style ="font-size:27px;"
-    parkingNumber55.style =" font-weight: 900;"
-})
 
-parking55.addEventListener('mouseover', ()=>
+
+ parking55.addEventListener('mouseover', (e)=>
   {
-    
-  parking55.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber55.style ="font-size:27px; "
-
-  })
-
-  parking55.addEventListener('mouseout', ()=>
-  {
-    
-    parking55.setAttribute("style", "fill:<?php echo $parkingColor55; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking56 = document.querySelector(".parking56");
+    description.innerHTML = "<?php echo $premiseStatusText55; ?>";
+    description.style.color="<?php echo $premiseStatusColor55; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking55.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText55; ?>";
+    description.style.color="<?php echo $premiseStatusColor55; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking56 = document.querySelector(".parking56");
  let parkingNumber56 = document.querySelector(".parkingNumber56");
  let premiseStatus56= document.getElementsByClassName("premiseStatus56")[0];
        
  
  parking56.setAttribute("style", "fill:<?php echo $parkingColor56; ?>;");
- premiseStatus56.innerHTML="<?php echo $premiseStatusText56; ?>",premiseStatus56.style.color="<?php echo $premiseStatusColor56; ?>";
 
- parking56.addEventListener('click', () => 
-{
-  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber56.style ="font-size:27px;"
-     parkingNumber56.style =" font-weight: 900;"
-})
 
-parkingNumber56.addEventListener('click', () => 
-{
-  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber56.style ="font-size:27px;"
-    parkingNumber56.style =" font-weight: 900;"
-})
 
-parking56.addEventListener('mouseover', ()=>
+
+ parking56.addEventListener('mouseover', (e)=>
   {
-    
-  parking56.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber56.style ="font-size:27px; "
-
-  })
-
-  parking56.addEventListener('mouseout', ()=>
-  {
-    
-    parking56.setAttribute("style", "fill:<?php echo $parkingColor56; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking57 = document.querySelector(".parking57");
+    description.innerHTML = "<?php echo $premiseStatusText56; ?>";
+    description.style.color="<?php echo $premiseStatusColor56; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking56.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText56; ?>";
+    description.style.color="<?php echo $premiseStatusColor56; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking57 = document.querySelector(".parking57");
  let parkingNumber57 = document.querySelector(".parkingNumber57");
  let premiseStatus57= document.getElementsByClassName("premiseStatus57")[0];
        
  
  parking57.setAttribute("style", "fill:<?php echo $parkingColor57; ?>;");
- premiseStatus57.innerHTML="<?php echo $premiseStatusText57; ?>",premiseStatus57.style.color="<?php echo $premiseStatusColor57; ?>";
 
- parking57.addEventListener('click', () => 
-{
-  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber57.style ="font-size:27px;"
-     parkingNumber57.style =" font-weight: 900;"
-})
 
-parkingNumber57.addEventListener('click', () => 
-{
-  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber57.style ="font-size:27px;"
-    parkingNumber57.style =" font-weight: 900;"
-})
 
-parking57.addEventListener('mouseover', ()=>
+
+ parking57.addEventListener('mouseover', (e)=>
   {
-    
-  parking57.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber57.style ="font-size:27px; "
-
-  })
-
-  parking57.addEventListener('mouseout', ()=>
-  {
-    
-    parking57.setAttribute("style", "fill:<?php echo $parkingColor57; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking58 = document.querySelector(".parking58");
+    description.innerHTML = "<?php echo $premiseStatusText57; ?>";
+    description.style.color="<?php echo $premiseStatusColor57; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking57.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText57; ?>";
+    description.style.color="<?php echo $premiseStatusColor57; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking58 = document.querySelector(".parking58");
  let parkingNumber58 = document.querySelector(".parkingNumber58");
  let premiseStatus58= document.getElementsByClassName("premiseStatus58")[0];
        
  
  parking58.setAttribute("style", "fill:<?php echo $parkingColor58; ?>;");
- premiseStatus58.innerHTML="<?php echo $premiseStatusText58; ?>",premiseStatus58.style.color="<?php echo $premiseStatusColor58; ?>";
 
- parking58.addEventListener('click', () => 
-{
-  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber58.style ="font-size:27px;"
-     parkingNumber58.style =" font-weight: 900;"
-})
 
-parkingNumber58.addEventListener('click', () => 
-{
-  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber58.style ="font-size:27px;"
-    parkingNumber58.style =" font-weight: 900;"
-})
 
-parking58.addEventListener('mouseover', ()=>
+
+ parking58.addEventListener('mouseover', (e)=>
   {
-    
-  parking58.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber58.style ="font-size:27px; "
-
-  })
-
-  parking58.addEventListener('mouseout', ()=>
-  {
-    
-    parking58.setAttribute("style", "fill:<?php echo $parkingColor58; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking59 = document.querySelector(".parking59");
+    description.innerHTML = "<?php echo $premiseStatusText58; ?>";
+    description.style.color="<?php echo $premiseStatusColor58; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking58.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText58; ?>";
+    description.style.color="<?php echo $premiseStatusColor58; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking59 = document.querySelector(".parking59");
  let parkingNumber59 = document.querySelector(".parkingNumber59");
  let premiseStatus59= document.getElementsByClassName("premiseStatus59")[0];
        
  
  parking59.setAttribute("style", "fill:<?php echo $parkingColor59; ?>;");
- premiseStatus59.innerHTML="<?php echo $premiseStatusText59; ?>",premiseStatus59.style.color="<?php echo $premiseStatusColor59; ?>";
 
- parking59.addEventListener('click', () => 
-{
-  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber59.style ="font-size:27px;"
-     parkingNumber59.style =" font-weight: 900;"
-})
 
-parkingNumber59.addEventListener('click', () => 
-{
-  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber59.style ="font-size:27px;"
-    parkingNumber59.style =" font-weight: 900;"
-})
 
-parking59.addEventListener('mouseover', ()=>
+
+ parking59.addEventListener('mouseover', (e)=>
   {
-    
-  parking59.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber59.style ="font-size:27px; "
-
-  })
-
-  parking59.addEventListener('mouseout', ()=>
-  {
-    
-    parking59.setAttribute("style", "fill:<?php echo $parkingColor59; ?>;");
-  })
-
-
-
-
-
   
- let parking60 = document.querySelector(".parking60");
+    description.innerHTML = "<?php echo $premiseStatusText59; ?>";
+    description.style.color="<?php echo $premiseStatusColor59; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking59.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText59; ?>";
+    description.style.color="<?php echo $premiseStatusColor59; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking60 = document.querySelector(".parking60");
  let parkingNumber60 = document.querySelector(".parkingNumber60");
  let premiseStatus60= document.getElementsByClassName("premiseStatus60")[0];
        
  
  parking60.setAttribute("style", "fill:<?php echo $parkingColor60; ?>;");
- premiseStatus60.innerHTML="<?php echo $premiseStatusText60; ?>",premiseStatus60.style.color="<?php echo $premiseStatusColor60; ?>";
 
- parking60.addEventListener('click', () => 
-{
-  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber60.style ="font-size:27px;"
-     parkingNumber60.style =" font-weight: 900;"
-})
 
-parkingNumber60.addEventListener('click', () => 
-{
-  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber60.style ="font-size:27px;"
-    parkingNumber60.style =" font-weight: 900;"
-})
 
-parking60.addEventListener('mouseover', ()=>
+
+ parking60.addEventListener('mouseover', (e)=>
   {
-    
-  parking60.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber60.style ="font-size:27px; "
-
-  })
-
-  parking60.addEventListener('mouseout', ()=>
-  {
-    
-    parking60.setAttribute("style", "fill:<?php echo $parkingColor60; ?>;");
-  })
-
-
-
-
-
-
   
- let parking61 = document.querySelector(".parking61");
+    description.innerHTML = "<?php echo $premiseStatusText60; ?>";
+    description.style.color="<?php echo $premiseStatusColor60; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking60.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText60; ?>";
+    description.style.color="<?php echo $premiseStatusColor60; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking61 = document.querySelector(".parking61");
  let parkingNumber61 = document.querySelector(".parkingNumber61");
  let premiseStatus61= document.getElementsByClassName("premiseStatus61")[0];
        
  
  parking61.setAttribute("style", "fill:<?php echo $parkingColor61; ?>;");
- premiseStatus61.innerHTML="<?php echo $premiseStatusText61; ?>",premiseStatus61.style.color="<?php echo $premiseStatusColor61; ?>";
 
- parking61.addEventListener('click', () => 
-{
-  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber61.style ="font-size:27px;"
-     parkingNumber61.style =" font-weight: 900;"
-})
 
-parkingNumber61.addEventListener('click', () => 
-{
-  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber61.style ="font-size:27px;"
-    parkingNumber61.style =" font-weight: 900;"
-})
 
-parking61.addEventListener('mouseover', ()=>
+
+ parking61.addEventListener('mouseover', (e)=>
   {
-    
-  parking61.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber61.style ="font-size:27px; "
-
-  })
-
-  parking61.addEventListener('mouseout', ()=>
-  {
-    
-    parking61.setAttribute("style", "fill:<?php echo $parkingColor61; ?>;");
-  })
-
-
-
-
-
-
   
- let parking62 = document.querySelector(".parking62");
+    description.innerHTML = "<?php echo $premiseStatusText61; ?>";
+    description.style.color="<?php echo $premiseStatusColor61; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking61.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText61; ?>";
+    description.style.color="<?php echo $premiseStatusColor61; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking62 = document.querySelector(".parking62");
  let parkingNumber62 = document.querySelector(".parkingNumber62");
  let premiseStatus62= document.getElementsByClassName("premiseStatus62")[0];
        
  
  parking62.setAttribute("style", "fill:<?php echo $parkingColor62; ?>;");
- premiseStatus62.innerHTML="<?php echo $premiseStatusText62; ?>",premiseStatus62.style.color="<?php echo $premiseStatusColor62; ?>";
 
- parking62.addEventListener('click', () => 
-{
-  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber62.style ="font-size:27px;"
-     parkingNumber62.style =" font-weight: 900;"
-})
 
-parkingNumber62.addEventListener('click', () => 
-{
-  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber62.style ="font-size:27px;"
-    parkingNumber62.style =" font-weight: 900;"
-})
 
-parking62.addEventListener('mouseover', ()=>
+
+ parking62.addEventListener('mouseover', (e)=>
   {
-    
-  parking62.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber62.style ="font-size:27px; "
-
-  })
-
-  parking62.addEventListener('mouseout', ()=>
-  {
-    
-    parking62.setAttribute("style", "fill:<?php echo $parkingColor62; ?>;");
-  })
-
-
-
-
-
-
   
- let parking63 = document.querySelector(".parking63");
+    description.innerHTML = "<?php echo $premiseStatusText62; ?>";
+    description.style.color="<?php echo $premiseStatusColor62; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking62.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText62; ?>";
+    description.style.color="<?php echo $premiseStatusColor62; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking63 = document.querySelector(".parking63");
  let parkingNumber63 = document.querySelector(".parkingNumber63");
  let premiseStatus63= document.getElementsByClassName("premiseStatus63")[0];
        
  
  parking63.setAttribute("style", "fill:<?php echo $parkingColor63; ?>;");
- premiseStatus63.innerHTML="<?php echo $premiseStatusText63; ?>",premiseStatus63.style.color="<?php echo $premiseStatusColor63; ?>";
 
- parking63.addEventListener('click', () => 
-{
-  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber63.style ="font-size:27px;"
-     parkingNumber63.style =" font-weight: 900;"
-})
 
-parkingNumber63.addEventListener('click', () => 
-{
-  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber63.style ="font-size:27px;"
-    parkingNumber63.style =" font-weight: 900;"
-})
 
-parking63.addEventListener('mouseover', ()=>
+
+ parking63.addEventListener('mouseover', (e)=>
   {
-    
-  parking63.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber63.style ="font-size:27px; "
-
-  })
-
-  parking63.addEventListener('mouseout', ()=>
-  {
-    
-    parking63.setAttribute("style", "fill:<?php echo $parkingColor63; ?>;");
-  })
-
-
-
-
-
-
   
- let parking64 = document.querySelector(".parking64");
+    description.innerHTML = "<?php echo $premiseStatusText63; ?>";
+    description.style.color="<?php echo $premiseStatusColor63; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking63.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText63; ?>";
+    description.style.color="<?php echo $premiseStatusColor63; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking64 = document.querySelector(".parking64");
  let parkingNumber64 = document.querySelector(".parkingNumber64");
  let premiseStatus64= document.getElementsByClassName("premiseStatus64")[0];
        
  
  parking64.setAttribute("style", "fill:<?php echo $parkingColor64; ?>;");
- premiseStatus64.innerHTML="<?php echo $premiseStatusText64; ?>",premiseStatus64.style.color="<?php echo $premiseStatusColor64; ?>";
 
- parking64.addEventListener('click', () => 
-{
-  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber64.style ="font-size:27px;"
-     parkingNumber64.style =" font-weight: 900;"
-})
 
-parkingNumber64.addEventListener('click', () => 
-{
-  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber64.style ="font-size:27px;"
-    parkingNumber64.style =" font-weight: 900;"
-})
 
-parking64.addEventListener('mouseover', ()=>
+
+ parking64.addEventListener('mouseover', (e)=>
   {
-    
-  parking64.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber64.style ="font-size:27px; "
-
-  })
-
-  parking64.addEventListener('mouseout', ()=>
-  {
-    
-    parking64.setAttribute("style", "fill:<?php echo $parkingColor64; ?>;");
-  })
-
-
-
-
-
-
   
- let parking65 = document.querySelector(".parking65");
+    description.innerHTML = "<?php echo $premiseStatusText64; ?>";
+    description.style.color="<?php echo $premiseStatusColor64; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking64.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText64; ?>";
+    description.style.color="<?php echo $premiseStatusColor64; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking65 = document.querySelector(".parking65");
  let parkingNumber65 = document.querySelector(".parkingNumber65");
  let premiseStatus65= document.getElementsByClassName("premiseStatus65")[0];
        
  
  parking65.setAttribute("style", "fill:<?php echo $parkingColor65; ?>;");
- premiseStatus65.innerHTML="<?php echo $premiseStatusText65; ?>",premiseStatus65.style.color="<?php echo $premiseStatusColor65; ?>";
 
- parking65.addEventListener('click', () => 
-{
-  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber65.style ="font-size:27px;"
-     parkingNumber65.style =" font-weight: 900;"
-})
 
-parkingNumber65.addEventListener('click', () => 
-{
-  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber65.style ="font-size:27px;"
-    parkingNumber65.style =" font-weight: 900;"
-})
 
-parking65.addEventListener('mouseover', ()=>
+
+ parking65.addEventListener('mouseover', (e)=>
   {
-    
-  parking65.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber65.style ="font-size:27px; "
-
-  })
-
-  parking65.addEventListener('mouseout', ()=>
-  {
-    
-    parking65.setAttribute("style", "fill:<?php echo $parkingColor65; ?>;");
-  })
-
-
-
-
-
   
- let parking66 = document.querySelector(".parking66");
+    description.innerHTML = "<?php echo $premiseStatusText65; ?>";
+    description.style.color="<?php echo $premiseStatusColor65; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking65.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText65; ?>";
+    description.style.color="<?php echo $premiseStatusColor65; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking66 = document.querySelector(".parking66");
  let parkingNumber66 = document.querySelector(".parkingNumber66");
  let premiseStatus66= document.getElementsByClassName("premiseStatus66")[0];
        
  
  parking66.setAttribute("style", "fill:<?php echo $parkingColor66; ?>;");
- premiseStatus66.innerHTML="<?php echo $premiseStatusText66; ?>",premiseStatus66.style.color="<?php echo $premiseStatusColor66; ?>";
 
- parking66.addEventListener('click', () => 
-{
-  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber66.style ="font-size:27px;"
-     parkingNumber66.style =" font-weight: 900;"
-})
 
-parkingNumber66.addEventListener('click', () => 
-{
-  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber66.style ="font-size:27px;"
-    parkingNumber66.style =" font-weight: 900;"
-})
 
-parking66.addEventListener('mouseover', ()=>
+
+ parking66.addEventListener('mouseover', (e)=>
   {
-    
-  parking66.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber66.style ="font-size:27px; "
-
-  })
-
-  parking66.addEventListener('mouseout', ()=>
-  {
-    
-    parking66.setAttribute("style", "fill:<?php echo $parkingColor66; ?>;");
-  })
-
-
-
-
-
-
   
- let parking67 = document.querySelector(".parking67");
+    description.innerHTML = "<?php echo $premiseStatusText66; ?>";
+    description.style.color="<?php echo $premiseStatusColor66; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking66.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText66; ?>";
+    description.style.color="<?php echo $premiseStatusColor66; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking67 = document.querySelector(".parking67");
  let parkingNumber67 = document.querySelector(".parkingNumber67");
  let premiseStatus67= document.getElementsByClassName("premiseStatus67")[0];
        
  
  parking67.setAttribute("style", "fill:<?php echo $parkingColor67; ?>;");
- premiseStatus67.innerHTML="<?php echo $premiseStatusText67; ?>",premiseStatus67.style.color="<?php echo $premiseStatusColor67; ?>";
 
- parking67.addEventListener('click', () => 
-{
-  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber67.style ="font-size:27px;"
-     parkingNumber67.style =" font-weight: 900;"
-})
 
-parkingNumber67.addEventListener('click', () => 
-{
-  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber67.style ="font-size:27px;"
-    parkingNumber67.style =" font-weight: 900;"
-})
 
-parking67.addEventListener('mouseover', ()=>
+
+ parking67.addEventListener('mouseover', (e)=>
   {
-    
-  parking67.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber67.style ="font-size:27px; "
-
-  })
-
-  parking67.addEventListener('mouseout', ()=>
-  {
-    
-    parking67.setAttribute("style", "fill:<?php echo $parkingColor67; ?>;");
-  })
-
-
-
-
-
-
   
- let parking68 = document.querySelector(".parking68");
+    description.innerHTML = "<?php echo $premiseStatusText67; ?>";
+    description.style.color="<?php echo $premiseStatusColor67; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking67.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText67; ?>";
+    description.style.color="<?php echo $premiseStatusColor67; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking68 = document.querySelector(".parking68");
  let parkingNumber68 = document.querySelector(".parkingNumber68");
  let premiseStatus68= document.getElementsByClassName("premiseStatus68")[0];
        
  
  parking68.setAttribute("style", "fill:<?php echo $parkingColor68; ?>;");
- premiseStatus68.innerHTML="<?php echo $premiseStatusText68; ?>",premiseStatus68.style.color="<?php echo $premiseStatusColor68; ?>";
 
- parking68.addEventListener('click', () => 
-{
-  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber68.style ="font-size:27px;"
-     parkingNumber68.style =" font-weight: 900;"
-})
 
-parkingNumber68.addEventListener('click', () => 
-{
-  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber68.style ="font-size:27px;"
-    parkingNumber68.style =" font-weight: 900;"
-})
 
-parking68.addEventListener('mouseover', ()=>
+
+ parking68.addEventListener('mouseover', (e)=>
   {
-    
-  parking68.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber68.style ="font-size:27px; "
-
-  })
-
-  parking68.addEventListener('mouseout', ()=>
-  {
-    
-    parking68.setAttribute("style", "fill:<?php echo $parkingColor68; ?>;");
-  })
-
-
-
-
-
-
   
- let parking69 = document.querySelector(".parking69");
+    description.innerHTML = "<?php echo $premiseStatusText68; ?>";
+    description.style.color="<?php echo $premiseStatusColor68; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking68.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText68; ?>";
+    description.style.color="<?php echo $premiseStatusColor68; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking69 = document.querySelector(".parking69");
  let parkingNumber69 = document.querySelector(".parkingNumber69");
  let premiseStatus69= document.getElementsByClassName("premiseStatus69")[0];
        
  
  parking69.setAttribute("style", "fill:<?php echo $parkingColor69; ?>;");
- premiseStatus69.innerHTML="<?php echo $premiseStatusText69; ?>",premiseStatus69.style.color="<?php echo $premiseStatusColor69; ?>";
 
- parking69.addEventListener('click', () => 
-{
-  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber69.style ="font-size:27px;"
-     parkingNumber69.style =" font-weight: 900;"
-})
 
-parkingNumber69.addEventListener('click', () => 
-{
-  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber69.style ="font-size:27px;"
-    parkingNumber69.style =" font-weight: 900;"
-})
 
-parking69.addEventListener('mouseover', ()=>
+
+ parking69.addEventListener('mouseover', (e)=>
   {
-    
-  parking69.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber69.style ="font-size:27px; "
-
-  })
-
-  parking69.addEventListener('mouseout', ()=>
-  {
-    
-    parking69.setAttribute("style", "fill:<?php echo $parkingColor69; ?>;");
-  })
-
-
-
-
-
-
   
-//  let parking70 = document.querySelector(".parking70");
+    description.innerHTML = "<?php echo $premiseStatusText69; ?>";
+    description.style.color="<?php echo $premiseStatusColor69; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking69.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText69; ?>";
+    description.style.color="<?php echo $premiseStatusColor69; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let parking70 = document.querySelector(".parking70");
 //  let parkingNumber70 = document.querySelector(".parkingNumber70");
 //  let premiseStatus70= document.getElementsByClassName("premiseStatus70")[0];
        
  
 //  parking70.setAttribute("style", "fill:<?php echo $parkingColor70; ?>;");
-//  premiseStatus70.innerHTML="<?php echo $premiseStatusText70; ?>",premiseStatus70.style.color="<?php echo $premiseStatusColor70; ?>";
 
-//  parking70.addEventListener('click', () => 
-// {
-//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber70.style ="font-size:27px;"
-//      parkingNumber70.style =" font-weight: 900;"
-// })
 
-// parkingNumber70.addEventListener('click', () => 
-// {
-//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber70.style ="font-size:27px;"
-//     parkingNumber70.style =" font-weight: 900;"
-// })
 
-// parking70.addEventListener('mouseover', ()=>
+
+//  parking70.addEventListener('mouseover', (e)=>
 //   {
-    
-//   parking70.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber70.style ="font-size:27px; "
-
-//   })
-
-//   parking70.addEventListener('mouseout', ()=>
-//   {
-    
-//     parking70.setAttribute("style", "fill:<?php echo $parkingColor70; ?>;");
-//   })
-
-
-
-
-
-
-
-
-
   
-//  let parking71 = document.querySelector(".parking71");
+//     description.innerHTML = "<?php echo $premiseStatusText70; ?>";
+//     description.style.color="<?php echo $premiseStatusColor70; ?>";
+
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="block";
+   
+//     setTimeout(() =>{
+//       description.style.display ="none";
+    
+// },1000)
+    
+//   })
+
+
+// parking70.addEventListener('click', function(e) {
+  
+//   description.innerHTML = "<?php echo $premiseStatusText70; ?>";
+//     description.style.color="<?php echo $premiseStatusColor70; ?>";
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="none";
+ 
+
+//       myFunction();
+//   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let parking71 = document.querySelector(".parking71");
 //  let parkingNumber71 = document.querySelector(".parkingNumber71");
 //  let premiseStatus71= document.getElementsByClassName("premiseStatus71")[0];
        
  
 //  parking71.setAttribute("style", "fill:<?php echo $parkingColor71; ?>;");
-//  premiseStatus71.innerHTML="<?php echo $premiseStatusText71; ?>",premiseStatus71.style.color="<?php echo $premiseStatusColor71; ?>";
 
-//  parking71.addEventListener('click', () => 
-// {
-//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber71.style ="font-size:27px;"
-//      parkingNumber71.style =" font-weight: 900;"
-// })
 
-// parkingNumber71.addEventListener('click', () => 
-// {
-//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber71.style ="font-size:27px;"
-//     parkingNumber71.style =" font-weight: 900;"
-// })
 
-// parking71.addEventListener('mouseover', ()=>
+
+//  parking71.addEventListener('mouseover', (e)=>
 //   {
-    
-//   parking71.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber71.style ="font-size:27px; "
-
-//   })
-
-//   parking71.addEventListener('mouseout', ()=>
-//   {
-    
-//     parking71.setAttribute("style", "fill:<?php echo $parkingColor71; ?>;");
-//   })
-
-
-
-
-
-
-
   
-//  let parking72 = document.querySelector(".parking72");
+//     description.innerHTML = "<?php echo $premiseStatusText71; ?>";
+//     description.style.color="<?php echo $premiseStatusColor71; ?>";
+
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="block";
+   
+//     setTimeout(() =>{
+//       description.style.display ="none";
+    
+// },1000)
+    
+//   })
+
+
+// parking71.addEventListener('click', function(e) {
+  
+//   description.innerHTML = "<?php echo $premiseStatusText71; ?>";
+//     description.style.color="<?php echo $premiseStatusColor71; ?>";
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="none";
+ 
+
+//       myFunction();
+//   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let parking72 = document.querySelector(".parking72");
 //  let parkingNumber72 = document.querySelector(".parkingNumber72");
 //  let premiseStatus72= document.getElementsByClassName("premiseStatus72")[0];
        
  
 //  parking72.setAttribute("style", "fill:<?php echo $parkingColor72; ?>;");
-//  premiseStatus72.innerHTML="<?php echo $premiseStatusText72; ?>",premiseStatus72.style.color="<?php echo $premiseStatusColor72; ?>";
 
-//  parking72.addEventListener('click', () => 
-// {
-//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber72.style ="font-size:27px;"
-//      parkingNumber72.style =" font-weight: 900;"
-// })
 
-// parkingNumber72.addEventListener('click', () => 
-// {
-//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber72.style ="font-size:27px;"
-//     parkingNumber72.style =" font-weight: 900;"
-// })
 
-// parking72.addEventListener('mouseover', ()=>
+
+//  parking72.addEventListener('mouseover', (e)=>
 //   {
-    
-//   parking72.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber72.style ="font-size:27px; "
-
-//   })
-
-//   parking72.addEventListener('mouseout', ()=>
-//   {
-    
-//     parking72.setAttribute("style", "fill:<?php echo $parkingColor72; ?>;");
-//   })
-
-
-
-
-
-
   
-//  let parking73 = document.querySelector(".parking73");
+//     description.innerHTML = "<?php echo $premiseStatusText72; ?>";
+//     description.style.color="<?php echo $premiseStatusColor72; ?>";
+
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="block";
+   
+//     setTimeout(() =>{
+//       description.style.display ="none";
+    
+// },1000)
+    
+//   })
+
+
+// parking72.addEventListener('click', function(e) {
+  
+//   description.innerHTML = "<?php echo $premiseStatusText72; ?>";
+//     description.style.color="<?php echo $premiseStatusColor72; ?>";
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="none";
+ 
+
+//       myFunction();
+//   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   let parking73 = document.querySelector(".parking73");
 //  let parkingNumber73 = document.querySelector(".parkingNumber73");
 //  let premiseStatus73= document.getElementsByClassName("premiseStatus73")[0];
        
  
 //  parking73.setAttribute("style", "fill:<?php echo $parkingColor73; ?>;");
-//  premiseStatus73.innerHTML="<?php echo $premiseStatusText73; ?>",premiseStatus73.style.color="<?php echo $premiseStatusColor73; ?>";
 
-//  parking73.addEventListener('click', () => 
-// {
-//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber73.style ="font-size:27px;"
-//      parkingNumber73.style =" font-weight: 900;"
-// })
 
-// parkingNumber73.addEventListener('click', () => 
-// {
-//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber73.style ="font-size:27px;"
-//     parkingNumber73.style =" font-weight: 900;"
-// })
 
-// parking73.addEventListener('mouseover', ()=>
+
+//  parking73.addEventListener('mouseover', (e)=>
 //   {
-    
-//   parking73.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-//   parkingNumber73.style ="font-size:27px; "
-
-//   })
-
-//   parking73.addEventListener('mouseout', ()=>
-//   {
-    
-//     parking73.setAttribute("style", "fill:<?php echo $parkingColor73; ?>;");
-//   })
-
-
-
-
-
-
-
   
- let parking74 = document.querySelector(".parking74");
+//     description.innerHTML = "<?php echo $premiseStatusText73; ?>";
+//     description.style.color="<?php echo $premiseStatusColor73; ?>";
+
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="block";
+   
+//     setTimeout(() =>{
+//       description.style.display ="none";
+    
+// },1000)
+    
+//   })
+
+
+// parking73.addEventListener('click', function(e) {
+  
+//   description.innerHTML = "<?php echo $premiseStatusText73; ?>";
+//     description.style.color="<?php echo $premiseStatusColor73; ?>";
+//     description.style.left = e.pageX + 'px';
+//     description.style.top = (e.pageY - 70) + 'px';
+//     description.style.display ="none";
+ 
+
+//       myFunction();
+//   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking74 = document.querySelector(".parking74");
  let parkingNumber74 = document.querySelector(".parkingNumber74");
  let premiseStatus74= document.getElementsByClassName("premiseStatus74")[0];
        
  
  parking74.setAttribute("style", "fill:<?php echo $parkingColor74; ?>;");
- premiseStatus74.innerHTML="<?php echo $premiseStatusText74; ?>",premiseStatus74.style.color="<?php echo $premiseStatusColor74; ?>";
 
- parking74.addEventListener('click', () => 
-{
-  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber74.style ="font-size:27px;"
-     parkingNumber74.style =" font-weight: 900;"
-})
 
-parkingNumber74.addEventListener('click', () => 
-{
-  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber74.style ="font-size:27px;"
-    parkingNumber74.style =" font-weight: 900;"
-})
 
-parking74.addEventListener('mouseover', ()=>
+
+ parking74.addEventListener('mouseover', (e)=>
   {
-    
-  parking74.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber74.style ="font-size:27px; "
-
-  })
-
-  parking74.addEventListener('mouseout', ()=>
-  {
-    
-    parking74.setAttribute("style", "fill:<?php echo $parkingColor74; ?>;");
-  })
-
-
-
-
-
-
   
- let parking75 = document.querySelector(".parking75");
+    description.innerHTML = "<?php echo $premiseStatusText74; ?>";
+    description.style.color="<?php echo $premiseStatusColor74; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking74.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText74; ?>";
+    description.style.color="<?php echo $premiseStatusColor74; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking75 = document.querySelector(".parking75");
  let parkingNumber75 = document.querySelector(".parkingNumber75");
  let premiseStatus75= document.getElementsByClassName("premiseStatus75")[0];
        
  
  parking75.setAttribute("style", "fill:<?php echo $parkingColor75; ?>;");
- premiseStatus75.innerHTML="<?php echo $premiseStatusText75; ?>",premiseStatus75.style.color="<?php echo $premiseStatusColor75; ?>";
 
- parking75.addEventListener('click', () => 
-{
-  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber75.style ="font-size:27px;"
-     parkingNumber75.style =" font-weight: 900;"
-})
 
-parkingNumber75.addEventListener('click', () => 
-{
-  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber75.style ="font-size:27px;"
-    parkingNumber75.style =" font-weight: 900;"
-})
 
-parking75.addEventListener('mouseover', ()=>
+
+ parking75.addEventListener('mouseover', (e)=>
   {
-    
-  parking75.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber75.style ="font-size:27px; "
-
-  })
-
-  parking75.addEventListener('mouseout', ()=>
-  {
-    
-    parking75.setAttribute("style", "fill:<?php echo $parkingColor75; ?>;");
-  })
-
-
-
-
-
-
   
- let parking76 = document.querySelector(".parking76");
+    description.innerHTML = "<?php echo $premiseStatusText75; ?>";
+    description.style.color="<?php echo $premiseStatusColor75; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking75.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText75; ?>";
+    description.style.color="<?php echo $premiseStatusColor75; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking76 = document.querySelector(".parking76");
  let parkingNumber76 = document.querySelector(".parkingNumber76");
  let premiseStatus76= document.getElementsByClassName("premiseStatus76")[0];
        
  
  parking76.setAttribute("style", "fill:<?php echo $parkingColor76; ?>;");
- premiseStatus76.innerHTML="<?php echo $premiseStatusText76; ?>",premiseStatus76.style.color="<?php echo $premiseStatusColor76; ?>";
 
- parking76.addEventListener('click', () => 
-{
-  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber76.style ="font-size:27px;"
-     parkingNumber76.style =" font-weight: 900;"
-})
 
-parkingNumber76.addEventListener('click', () => 
-{
-  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber76.style ="font-size:27px;"
-    parkingNumber76.style =" font-weight: 900;"
-})
 
-parking76.addEventListener('mouseover', ()=>
+
+ parking76.addEventListener('mouseover', (e)=>
   {
-    
-  parking76.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber76.style ="font-size:27px; "
-
-  })
-
-  parking76.addEventListener('mouseout', ()=>
-  {
-    
-    parking76.setAttribute("style", "fill:<?php echo $parkingColor76; ?>;");
-  })
-
-
-
-
-
-
   
- let parking77 = document.querySelector(".parking77");
+    description.innerHTML = "<?php echo $premiseStatusText76; ?>";
+    description.style.color="<?php echo $premiseStatusColor76; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking76.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText76; ?>";
+    description.style.color="<?php echo $premiseStatusColor76; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking77 = document.querySelector(".parking77");
  let parkingNumber77 = document.querySelector(".parkingNumber77");
  let premiseStatus77= document.getElementsByClassName("premiseStatus77")[0];
        
  
  parking77.setAttribute("style", "fill:<?php echo $parkingColor77; ?>;");
- premiseStatus77.innerHTML="<?php echo $premiseStatusText77; ?>",premiseStatus77.style.color="<?php echo $premiseStatusColor77; ?>";
 
- parking77.addEventListener('click', () => 
-{
-  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber77.style ="font-size:27px;"
-     parkingNumber77.style =" font-weight: 900;"
-})
 
-parkingNumber77.addEventListener('click', () => 
-{
-  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber77.style ="font-size:27px;"
-    parkingNumber77.style =" font-weight: 900;"
-})
 
-parking77.addEventListener('mouseover', ()=>
+
+ parking77.addEventListener('mouseover', (e)=>
   {
-    
-  parking77.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber77.style ="font-size:27px; "
-
-  })
-
-  parking77.addEventListener('mouseout', ()=>
-  {
-    
-    parking77.setAttribute("style", "fill:<?php echo $parkingColor77; ?>;");
-  })
-
-
-
-
-
-
   
- let parking78 = document.querySelector(".parking78");
+    description.innerHTML = "<?php echo $premiseStatusText77; ?>";
+    description.style.color="<?php echo $premiseStatusColor77; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking77.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText77; ?>";
+    description.style.color="<?php echo $premiseStatusColor77; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking78 = document.querySelector(".parking78");
  let parkingNumber78 = document.querySelector(".parkingNumber78");
  let premiseStatus78= document.getElementsByClassName("premiseStatus78")[0];
        
  
  parking78.setAttribute("style", "fill:<?php echo $parkingColor78; ?>;");
- premiseStatus78.innerHTML="<?php echo $premiseStatusText78; ?>",premiseStatus78.style.color="<?php echo $premiseStatusColor78; ?>";
 
- parking78.addEventListener('click', () => 
-{
-  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber78.style ="font-size:27px;"
-     parkingNumber78.style =" font-weight: 900;"
-})
 
-parkingNumber78.addEventListener('click', () => 
-{
-  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber78.style ="font-size:27px;"
-    parkingNumber78.style =" font-weight: 900;"
-})
 
-parking78.addEventListener('mouseover', ()=>
+
+ parking78.addEventListener('mouseover', (e)=>
   {
-    
-  parking78.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber78.style ="font-size:27px; "
-
-  })
-
-  parking78.addEventListener('mouseout', ()=>
-  {
-    
-    parking78.setAttribute("style", "fill:<?php echo $parkingColor78; ?>;");
-  })
-
-
-
-
-
-
-
-
   
- let parking79 = document.querySelector(".parking79");
+    description.innerHTML = "<?php echo $premiseStatusText78; ?>";
+    description.style.color="<?php echo $premiseStatusColor78; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking78.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText78; ?>";
+    description.style.color="<?php echo $premiseStatusColor78; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking79 = document.querySelector(".parking79");
  let parkingNumber79 = document.querySelector(".parkingNumber79");
  let premiseStatus79= document.getElementsByClassName("premiseStatus79")[0];
        
@@ -5984,633 +8633,1290 @@ parking78.addEventListener('mouseover', ()=>
  parking79.setAttribute("style", "fill:<?php echo $parkingColor79; ?>;");
 
 
-// Znajdź elementy z klasą "description" i "enabled"
-let description = document.querySelector('.description');
-
-// Funkcja zmieniająca klasę elementu oraz treść opisu
-
-parking79.addEventListener('mouseenter', function() {
- 
-    description.classList.add('active');
-    description.innerHTML = "<?php echo $premiseStatusText79; ?>";
-    description.style.color="<?php echo $premiseStatusColor79; ?>"
-  });
-
-  parking79.addEventListener('mouseleave', function() {
-    description.classList.remove('active');
-  });
 
 
-// Obsługa ruchu myszy
-document.addEventListener('mousemove', function(e) {
-  description.style.left = e.pageX + 'px';
-  description.style.top = (e.pageY - 70) + 'px';
-});
-
-
-
-
-
+ parking79.addEventListener('mouseover', (e)=>
+  {
   
- let parking80 = document.querySelector(".parking80");
+    description.innerHTML = "<?php echo $premiseStatusText79; ?>";
+    description.style.color="<?php echo $premiseStatusColor79; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking79.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText79; ?>";
+    description.style.color="<?php echo $premiseStatusColor79; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking80 = document.querySelector(".parking80");
  let parkingNumber80 = document.querySelector(".parkingNumber80");
  let premiseStatus80= document.getElementsByClassName("premiseStatus80")[0];
        
  
  parking80.setAttribute("style", "fill:<?php echo $parkingColor80; ?>;");
- premiseStatus80.innerHTML="<?php echo $premiseStatusText80; ?>",premiseStatus80.style.color="<?php echo $premiseStatusColor80; ?>";
 
- parking80.addEventListener('click', () => 
-{
-  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber80.style ="font-size:27px;"
-     parkingNumber80.style =" font-weight: 900;"
-})
 
-parkingNumber80.addEventListener('click', () => 
-{
-  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber80.style ="font-size:27px;"
-    parkingNumber80.style =" font-weight: 900;"
-})
 
-parking80.addEventListener('mouseover', ()=>
+
+ parking80.addEventListener('mouseover', (e)=>
   {
-    
-  parking80.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber80.style ="font-size:27px; "
-
-  })
-
-  parking80.addEventListener('mouseout', ()=>
-  {
-    
-    parking80.setAttribute("style", "fill:<?php echo $parkingColor80; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking81 = document.querySelector(".parking81");
+    description.innerHTML = "<?php echo $premiseStatusText80; ?>";
+    description.style.color="<?php echo $premiseStatusColor80; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking80.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText80; ?>";
+    description.style.color="<?php echo $premiseStatusColor80; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking81 = document.querySelector(".parking81");
  let parkingNumber81 = document.querySelector(".parkingNumber81");
  let premiseStatus81= document.getElementsByClassName("premiseStatus81")[0];
        
  
  parking81.setAttribute("style", "fill:<?php echo $parkingColor81; ?>;");
- premiseStatus81.innerHTML="<?php echo $premiseStatusText81; ?>",premiseStatus81.style.color="<?php echo $premiseStatusColor81; ?>";
 
- parking81.addEventListener('click', () => 
-{
-  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber81.style ="font-size:27px;"
-     parkingNumber81.style =" font-weight: 900;"
-})
 
-parkingNumber81.addEventListener('click', () => 
-{
-  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber81.style ="font-size:27px;"
-    parkingNumber81.style =" font-weight: 900;"
-})
 
-parking81.addEventListener('mouseover', ()=>
+
+ parking81.addEventListener('mouseover', (e)=>
   {
-    
-  parking81.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber81.style ="font-size:27px; "
-
-  })
-
-  parking81.addEventListener('mouseout', ()=>
-  {
-    
-    parking81.setAttribute("style", "fill:<?php echo $parkingColor81; ?>;");
-  })
-
-
-
-
-
-
-
-
-
   
- let parking82 = document.querySelector(".parking82");
+    description.innerHTML = "<?php echo $premiseStatusText81; ?>";
+    description.style.color="<?php echo $premiseStatusColor81; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking81.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText81; ?>";
+    description.style.color="<?php echo $premiseStatusColor81; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking82 = document.querySelector(".parking82");
  let parkingNumber82 = document.querySelector(".parkingNumber82");
  let premiseStatus82= document.getElementsByClassName("premiseStatus82")[0];
        
  
  parking82.setAttribute("style", "fill:<?php echo $parkingColor82; ?>;");
- premiseStatus82.innerHTML="<?php echo $premiseStatusText82; ?>",premiseStatus82.style.color="<?php echo $premiseStatusColor82; ?>";
 
- parking82.addEventListener('click', () => 
-{
-  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber82.style ="font-size:27px;"
-     parkingNumber82.style =" font-weight: 900;"
-})
 
-parkingNumber82.addEventListener('click', () => 
-{
-  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber82.style ="font-size:27px;"
-    parkingNumber82.style =" font-weight: 900;"
-})
 
-parking82.addEventListener('mouseover', ()=>
+
+ parking82.addEventListener('mouseover', (e)=>
   {
-    
-  parking82.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber82.style ="font-size:27px; "
-
-  })
-
-  parking82.addEventListener('mouseout', ()=>
-  {
-    
-    parking82.setAttribute("style", "fill:<?php echo $parkingColor82; ?>;");
-  })
-
-
-
-
-
-
-
-
   
- let parking83 = document.querySelector(".parking83");
+    description.innerHTML = "<?php echo $premiseStatusText82; ?>";
+    description.style.color="<?php echo $premiseStatusColor82; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking82.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText82; ?>";
+    description.style.color="<?php echo $premiseStatusColor82; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking83 = document.querySelector(".parking83");
  let parkingNumber83 = document.querySelector(".parkingNumber83");
  let premiseStatus83= document.getElementsByClassName("premiseStatus83")[0];
        
  
  parking83.setAttribute("style", "fill:<?php echo $parkingColor83; ?>;");
- premiseStatus83.innerHTML="<?php echo $premiseStatusText83; ?>",premiseStatus83.style.color="<?php echo $premiseStatusColor83; ?>";
 
- parking83.addEventListener('click', () => 
-{
-  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber83.style ="font-size:27px;"
-     parkingNumber83.style =" font-weight: 900;"
-})
 
-parkingNumber83.addEventListener('click', () => 
-{
-  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber83.style ="font-size:27px;"
-    parkingNumber83.style =" font-weight: 900;"
-})
 
-parking83.addEventListener('mouseover', ()=>
+
+ parking83.addEventListener('mouseover', (e)=>
   {
-    
-  parking83.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber83.style ="font-size:27px; "
-
-  })
-
-  parking83.addEventListener('mouseout', ()=>
-  {
-    
-    parking83.setAttribute("style", "fill:<?php echo $parkingColor83; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking84 = document.querySelector(".parking84");
+    description.innerHTML = "<?php echo $premiseStatusText83; ?>";
+    description.style.color="<?php echo $premiseStatusColor83; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking83.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText83; ?>";
+    description.style.color="<?php echo $premiseStatusColor83; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking84 = document.querySelector(".parking84");
  let parkingNumber84 = document.querySelector(".parkingNumber84");
  let premiseStatus84= document.getElementsByClassName("premiseStatus84")[0];
        
  
  parking84.setAttribute("style", "fill:<?php echo $parkingColor84; ?>;");
- premiseStatus84.innerHTML="<?php echo $premiseStatusText84; ?>",premiseStatus84.style.color="<?php echo $premiseStatusColor84; ?>";
 
- parking84.addEventListener('click', () => 
-{
-  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber84.style ="font-size:27px;"
-     parkingNumber84.style =" font-weight: 900;"
-})
 
-parkingNumber84.addEventListener('click', () => 
-{
-  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber84.style ="font-size:27px;"
-    parkingNumber84.style =" font-weight: 900;"
-})
 
-parking84.addEventListener('mouseover', ()=>
+
+ parking84.addEventListener('mouseover', (e)=>
   {
-    
-  parking84.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber84.style ="font-size:27px; "
-
-  })
-
-  parking84.addEventListener('mouseout', ()=>
-  {
-    
-    parking84.setAttribute("style", "fill:<?php echo $parkingColor84; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking85 = document.querySelector(".parking85");
+    description.innerHTML = "<?php echo $premiseStatusText84; ?>";
+    description.style.color="<?php echo $premiseStatusColor84; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking84.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText84; ?>";
+    description.style.color="<?php echo $premiseStatusColor84; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking85 = document.querySelector(".parking85");
  let parkingNumber85 = document.querySelector(".parkingNumber85");
  let premiseStatus85= document.getElementsByClassName("premiseStatus85")[0];
        
  
  parking85.setAttribute("style", "fill:<?php echo $parkingColor85; ?>;");
- premiseStatus85.innerHTML="<?php echo $premiseStatusText85; ?>",premiseStatus85.style.color="<?php echo $premiseStatusColor85; ?>";
 
- parking85.addEventListener('click', () => 
-{
-  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber85.style ="font-size:27px;"
-     parkingNumber85.style =" font-weight: 900;"
-})
 
-parkingNumber85.addEventListener('click', () => 
-{
-  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber85.style ="font-size:27px;"
-    parkingNumber85.style =" font-weight: 900;"
-})
 
-parking85.addEventListener('mouseover', ()=>
+
+ parking85.addEventListener('mouseover', (e)=>
   {
-    
-  parking85.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber85.style ="font-size:27px; "
-
-  })
-
-  parking85.addEventListener('mouseout', ()=>
-  {
-    
-    parking85.setAttribute("style", "fill:<?php echo $parkingColor85; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking86 = document.querySelector(".parking86");
+    description.innerHTML = "<?php echo $premiseStatusText85; ?>";
+    description.style.color="<?php echo $premiseStatusColor85; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking85.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText85; ?>";
+    description.style.color="<?php echo $premiseStatusColor85; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking86 = document.querySelector(".parking86");
  let parkingNumber86 = document.querySelector(".parkingNumber86");
  let premiseStatus86= document.getElementsByClassName("premiseStatus86")[0];
        
  
  parking86.setAttribute("style", "fill:<?php echo $parkingColor86; ?>;");
- premiseStatus86.innerHTML="<?php echo $premiseStatusText86; ?>",premiseStatus86.style.color="<?php echo $premiseStatusColor86; ?>";
 
- parking86.addEventListener('click', () => 
-{
-  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber86.style ="font-size:27px;"
-     parkingNumber86.style =" font-weight: 900;"
-})
 
-parkingNumber86.addEventListener('click', () => 
-{
-  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber86.style ="font-size:27px;"
-    parkingNumber86.style =" font-weight: 900;"
-})
 
-parking86.addEventListener('mouseover', ()=>
+
+ parking86.addEventListener('mouseover', (e)=>
   {
-    
-  parking86.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber86.style ="font-size:27px; "
-
-  })
-
-  parking86.addEventListener('mouseout', ()=>
-  {
-    
-    parking86.setAttribute("style", "fill:<?php echo $parkingColor86; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking87 = document.querySelector(".parking87");
+    description.innerHTML = "<?php echo $premiseStatusText86; ?>";
+    description.style.color="<?php echo $premiseStatusColor86; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking86.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText86; ?>";
+    description.style.color="<?php echo $premiseStatusColor86; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking87 = document.querySelector(".parking87");
  let parkingNumber87 = document.querySelector(".parkingNumber87");
  let premiseStatus87= document.getElementsByClassName("premiseStatus87")[0];
        
  
  parking87.setAttribute("style", "fill:<?php echo $parkingColor87; ?>;");
- premiseStatus87.innerHTML="<?php echo $premiseStatusText87; ?>",premiseStatus87.style.color="<?php echo $premiseStatusColor87; ?>";
 
- parking87.addEventListener('click', () => 
-{
-  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber87.style ="font-size:27px;"
-     parkingNumber87.style =" font-weight: 900;"
-})
 
-parkingNumber87.addEventListener('click', () => 
-{
-  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber87.style ="font-size:27px;"
-    parkingNumber87.style =" font-weight: 900;"
-})
 
-parking87.addEventListener('mouseover', ()=>
+
+ parking87.addEventListener('mouseover', (e)=>
   {
-    
-  parking87.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber87.style ="font-size:27px; "
-
-  })
-
-  parking87.addEventListener('mouseout', ()=>
-  {
-    
-    parking87.setAttribute("style", "fill:<?php echo $parkingColor87; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking88 = document.querySelector(".parking88");
+    description.innerHTML = "<?php echo $premiseStatusText87; ?>";
+    description.style.color="<?php echo $premiseStatusColor87; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking87.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText87; ?>";
+    description.style.color="<?php echo $premiseStatusColor87; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking88 = document.querySelector(".parking88");
  let parkingNumber88 = document.querySelector(".parkingNumber88");
  let premiseStatus88= document.getElementsByClassName("premiseStatus88")[0];
        
  
  parking88.setAttribute("style", "fill:<?php echo $parkingColor88; ?>;");
- premiseStatus88.innerHTML="<?php echo $premiseStatusText88; ?>",premiseStatus88.style.color="<?php echo $premiseStatusColor88; ?>";
 
- parking88.addEventListener('click', () => 
-{
-  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber88.style ="font-size:27px;"
-     parkingNumber88.style =" font-weight: 900;"
-})
 
-parkingNumber88.addEventListener('click', () => 
-{
-  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber88.style ="font-size:27px;"
-    parkingNumber88.style =" font-weight: 900;"
-})
 
-parking88.addEventListener('mouseover', ()=>
+
+ parking88.addEventListener('mouseover', (e)=>
   {
-    
-  parking88.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber88.style ="font-size:27px; "
-
-  })
-
-  parking88.addEventListener('mouseout', ()=>
-  {
-    
-    parking88.setAttribute("style", "fill:<?php echo $parkingColor88; ?>;");
-  })
-
-
-
-
-
-
-
-
   
- let parking89 = document.querySelector(".parking89");
+    description.innerHTML = "<?php echo $premiseStatusText88; ?>";
+    description.style.color="<?php echo $premiseStatusColor88; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking88.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText88; ?>";
+    description.style.color="<?php echo $premiseStatusColor88; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking89 = document.querySelector(".parking89");
  let parkingNumber89 = document.querySelector(".parkingNumber89");
  let premiseStatus89= document.getElementsByClassName("premiseStatus89")[0];
        
  
  parking89.setAttribute("style", "fill:<?php echo $parkingColor89; ?>;");
- premiseStatus89.innerHTML="<?php echo $premiseStatusText89; ?>",premiseStatus89.style.color="<?php echo $premiseStatusColor89; ?>";
 
- parking89.addEventListener('click', () => 
-{
-  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber89.style ="font-size:27px;"
-     parkingNumber89.style =" font-weight: 900;"
-})
 
-parkingNumber89.addEventListener('click', () => 
-{
-  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber89.style ="font-size:27px;"
-    parkingNumber89.style =" font-weight: 900;"
-})
 
-parking89.addEventListener('mouseover', ()=>
+
+ parking89.addEventListener('mouseover', (e)=>
   {
-    
-  parking89.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber89.style ="font-size:27px; "
-
-  })
-
-  parking89.addEventListener('mouseout', ()=>
-  {
-    
-    parking89.setAttribute("style", "fill:<?php echo $parkingColor89; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking90 = document.querySelector(".parking90");
+    description.innerHTML = "<?php echo $premiseStatusText89; ?>";
+    description.style.color="<?php echo $premiseStatusColor89; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking89.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText89; ?>";
+    description.style.color="<?php echo $premiseStatusColor89; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking90 = document.querySelector(".parking90");
  let parkingNumber90 = document.querySelector(".parkingNumber90");
  let premiseStatus90= document.getElementsByClassName("premiseStatus90")[0];
        
  
  parking90.setAttribute("style", "fill:<?php echo $parkingColor90; ?>;");
- premiseStatus90.innerHTML="<?php echo $premiseStatusText90; ?>",premiseStatus90.style.color="<?php echo $premiseStatusColor90; ?>";
 
- parking90.addEventListener('click', () => 
-{
-  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber90.style ="font-size:27px;"
-     parkingNumber90.style =" font-weight: 900;"
-})
 
-parkingNumber90.addEventListener('click', () => 
-{
-  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber90.style ="font-size:27px;"
-    parkingNumber90.style =" font-weight: 900;"
-})
 
-parking90.addEventListener('mouseover', ()=>
+
+ parking90.addEventListener('mouseover', (e)=>
   {
-    
-  parking90.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber90.style ="font-size:27px; "
-
-  })
-
-  parking90.addEventListener('mouseout', ()=>
-  {
-    
-    parking90.setAttribute("style", "fill:<?php echo $parkingColor90; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking91 = document.querySelector(".parking91");
+    description.innerHTML = "<?php echo $premiseStatusText90; ?>";
+    description.style.color="<?php echo $premiseStatusColor90; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking90.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText90; ?>";
+    description.style.color="<?php echo $premiseStatusColor90; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking91 = document.querySelector(".parking91");
  let parkingNumber91 = document.querySelector(".parkingNumber91");
  let premiseStatus91= document.getElementsByClassName("premiseStatus91")[0];
        
  
  parking91.setAttribute("style", "fill:<?php echo $parkingColor91; ?>;");
- premiseStatus91.innerHTML="<?php echo $premiseStatusText91; ?>",premiseStatus91.style.color="<?php echo $premiseStatusColor91; ?>";
 
- parking91.addEventListener('click', () => 
-{
-  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber91.style ="font-size:27px;"
-     parkingNumber91.style =" font-weight: 900;"
-})
 
-parkingNumber91.addEventListener('click', () => 
-{
-  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber91.style ="font-size:27px;"
-    parkingNumber91.style =" font-weight: 900;"
-})
 
-parking91.addEventListener('mouseover', ()=>
+
+ parking91.addEventListener('mouseover', (e)=>
   {
-    
-  parking91.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber91.style ="font-size:27px; "
-
-  })
-
-  parking91.addEventListener('mouseout', ()=>
-  {
-    
-    parking91.setAttribute("style", "fill:<?php echo $parkingColor91; ?>;");
-  })
-
-
-
-
-
-
-
   
- let parking92 = document.querySelector(".parking92");
+    description.innerHTML = "<?php echo $premiseStatusText91; ?>";
+    description.style.color="<?php echo $premiseStatusColor91; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking91.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText91; ?>";
+    description.style.color="<?php echo $premiseStatusColor91; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking92 = document.querySelector(".parking92");
  let parkingNumber92 = document.querySelector(".parkingNumber92");
  let premiseStatus92= document.getElementsByClassName("premiseStatus92")[0];
        
  
  parking92.setAttribute("style", "fill:<?php echo $parkingColor92; ?>;");
- premiseStatus92.innerHTML="<?php echo $premiseStatusText92; ?>",premiseStatus92.style.color="<?php echo $premiseStatusColor92; ?>";
 
- parking92.addEventListener('click', () => 
-{
-  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber92.style ="font-size:27px;"
-     parkingNumber92.style =" font-weight: 900;"
-})
 
-parkingNumber92.addEventListener('click', () => 
-{
-  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber92.style ="font-size:27px;"
-    parkingNumber92.style =" font-weight: 900;"
-})
 
-parking92.addEventListener('mouseover', ()=>
+
+ parking92.addEventListener('mouseover', (e)=>
   {
-    
-  parking92.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber92.style ="font-size:27px; "
-
-  })
-
-  parking92.addEventListener('mouseout', ()=>
-  {
-    
-    parking92.setAttribute("style", "fill:<?php echo $parkingColor92; ?>;");
-  })
-
-
-
-
-
-
   
- let parking93 = document.querySelector(".parking93");
+    description.innerHTML = "<?php echo $premiseStatusText92; ?>";
+    description.style.color="<?php echo $premiseStatusColor92; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking92.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText92; ?>";
+    description.style.color="<?php echo $premiseStatusColor92; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  let parking93 = document.querySelector(".parking93");
  let parkingNumber93 = document.querySelector(".parkingNumber93");
  let premiseStatus93= document.getElementsByClassName("premiseStatus93")[0];
        
  
  parking93.setAttribute("style", "fill:<?php echo $parkingColor93; ?>;");
- premiseStatus93.innerHTML="<?php echo $premiseStatusText93; ?>",premiseStatus93.style.color="<?php echo $premiseStatusColor93; ?>";
 
- parking93.addEventListener('click', () => 
-{
-  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber93.style ="font-size:27px;"
-     parkingNumber93.style =" font-weight: 900;"
-})
 
-parkingNumber93.addEventListener('click', () => 
-{
-  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber93.style ="font-size:27px;"
-    parkingNumber93.style =" font-weight: 900;"
-})
 
-parking93.addEventListener('mouseover', ()=>
+
+ parking93.addEventListener('mouseover', (e)=>
   {
-    
-  parking93.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber93.style ="font-size:27px; "
-
-  })
-
-  parking93.addEventListener('mouseout', ()=>
-  {
-    
-    parking93.setAttribute("style", "fill:<?php echo $parkingColor93; ?>;");
-  })
-
   
+    description.innerHTML = "<?php echo $premiseStatusText93; ?>";
+    description.style.color="<?php echo $premiseStatusColor93; ?>";
+
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
+  })
+
+
+parking93.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText93; ?>";
+    description.style.color="<?php echo $premiseStatusColor93; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   let parking94 = document.querySelector(".parking94");
@@ -6619,35 +9925,67 @@ parking93.addEventListener('mouseover', ()=>
        
  
  parking94.setAttribute("style", "fill:<?php echo $parkingColor94; ?>;");
- premiseStatus94.innerHTML="<?php echo $premiseStatusText94; ?>",premiseStatus94.style.color="<?php echo $premiseStatusColor94; ?>";
 
- parking94.addEventListener('click', () => 
-{
-  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber94.style ="font-size:27px;"
-     parkingNumber94.style =" font-weight: 900;"
-})
 
-parkingNumber94.addEventListener('click', () => 
-{
-  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber94.style ="font-size:27px;"
-    parkingNumber94.style =" font-weight: 900;"
-})
 
-parking94.addEventListener('mouseover', ()=>
+
+ parking94.addEventListener('mouseover', (e)=>
   {
-    
-  parking94.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber94.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText94; ?>";
+    description.style.color="<?php echo $premiseStatusColor94; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking94.addEventListener('mouseout', ()=>
-  {
-    
-    parking94.setAttribute("style", "fill:<?php echo $parkingColor94; ?>;");
-  })
+
+parking94.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText94; ?>";
+    description.style.color="<?php echo $premiseStatusColor94; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6660,35 +9998,90 @@ parking94.addEventListener('mouseover', ()=>
        
  
  parking95.setAttribute("style", "fill:<?php echo $parkingColor95; ?>;");
- premiseStatus95.innerHTML="<?php echo $premiseStatusText95; ?>",premiseStatus95.style.color="<?php echo $premiseStatusColor95; ?>";
 
- parking95.addEventListener('click', () => 
-{
-  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber95.style ="font-size:27px;"
-     parkingNumber95.style =" font-weight: 900;"
-})
 
-parkingNumber95.addEventListener('click', () => 
-{
-  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber95.style ="font-size:27px;"
-    parkingNumber95.style =" font-weight: 900;"
-})
 
-parking95.addEventListener('mouseover', ()=>
+
+ parking95.addEventListener('mouseover', (e)=>
   {
-    
-  parking95.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber95.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText95; ?>";
+    description.style.color="<?php echo $premiseStatusColor95; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking95.addEventListener('mouseout', ()=>
-  {
-    
-    parking95.setAttribute("style", "fill:<?php echo $parkingColor95; ?>;");
-  })
+
+parking95.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText95; ?>";
+    description.style.color="<?php echo $premiseStatusColor95; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6702,35 +10095,95 @@ parking95.addEventListener('mouseover', ()=>
        
  
  parking96.setAttribute("style", "fill:<?php echo $parkingColor96; ?>;");
- premiseStatus96.innerHTML="<?php echo $premiseStatusText96; ?>",premiseStatus96.style.color="<?php echo $premiseStatusColor96; ?>";
 
- parking96.addEventListener('click', () => 
-{
-  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber96.style ="font-size:27px;"
-     parkingNumber96.style =" font-weight: 900;"
-})
 
-parkingNumber96.addEventListener('click', () => 
-{
-  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber96.style ="font-size:27px;"
-    parkingNumber96.style =" font-weight: 900;"
-})
 
-parking96.addEventListener('mouseover', ()=>
+
+ parking96.addEventListener('mouseover', (e)=>
   {
-    
-  parking96.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber96.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText96; ?>";
+    description.style.color="<?php echo $premiseStatusColor96; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking96.addEventListener('mouseout', ()=>
-  {
-    
-    parking96.setAttribute("style", "fill:<?php echo $parkingColor96; ?>;");
-  })
+
+parking96.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText96; ?>";
+    description.style.color="<?php echo $premiseStatusColor96; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6744,35 +10197,87 @@ parking96.addEventListener('mouseover', ()=>
        
  
  parking97.setAttribute("style", "fill:<?php echo $parkingColor97; ?>;");
- premiseStatus97.innerHTML="<?php echo $premiseStatusText97; ?>",premiseStatus97.style.color="<?php echo $premiseStatusColor97; ?>";
 
- parking97.addEventListener('click', () => 
-{
-  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber97.style ="font-size:27px;"
-     parkingNumber97.style =" font-weight: 900;"
-})
 
-parkingNumber97.addEventListener('click', () => 
-{
-  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber97.style ="font-size:27px;"
-    parkingNumber97.style =" font-weight: 900;"
-})
 
-parking97.addEventListener('mouseover', ()=>
+
+ parking97.addEventListener('mouseover', (e)=>
   {
-    
-  parking97.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber97.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText97; ?>";
+    description.style.color="<?php echo $premiseStatusColor97; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking97.addEventListener('mouseout', ()=>
-  {
-    
-    parking97.setAttribute("style", "fill:<?php echo $parkingColor97; ?>;");
-  })
+
+parking97.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText97; ?>";
+    description.style.color="<?php echo $premiseStatusColor97; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6786,35 +10291,81 @@ parking97.addEventListener('mouseover', ()=>
        
  
  parking98.setAttribute("style", "fill:<?php echo $parkingColor98; ?>;");
- premiseStatus98.innerHTML="<?php echo $premiseStatusText98; ?>",premiseStatus98.style.color="<?php echo $premiseStatusColor98; ?>";
 
- parking98.addEventListener('click', () => 
-{
-  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber98.style ="font-size:27px;"
-     parkingNumber98.style =" font-weight: 900;"
-})
 
-parkingNumber98.addEventListener('click', () => 
-{
-  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber98.style ="font-size:27px;"
-    parkingNumber98.style =" font-weight: 900;"
-})
 
-parking98.addEventListener('mouseover', ()=>
+
+ parking98.addEventListener('mouseover', (e)=>
   {
-    
-  parking98.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber98.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText98; ?>";
+    description.style.color="<?php echo $premiseStatusColor98; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking98.addEventListener('mouseout', ()=>
-  {
-    
-    parking98.setAttribute("style", "fill:<?php echo $parkingColor98; ?>;");
-  })
+
+parking98.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText98; ?>";
+    description.style.color="<?php echo $premiseStatusColor98; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6828,35 +10379,150 @@ parking98.addEventListener('mouseover', ()=>
        
  
  parking99.setAttribute("style", "fill:<?php echo $parkingColor99; ?>;");
- premiseStatus99.innerHTML="<?php echo $premiseStatusText99; ?>",premiseStatus99.style.color="<?php echo $premiseStatusColor99; ?>";
 
- parking99.addEventListener('click', () => 
-{
-  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber99.style ="font-size:27px;"
-     parkingNumber99.style =" font-weight: 900;"
-})
 
-parkingNumber99.addEventListener('click', () => 
-{
-  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber99.style ="font-size:27px;"
-    parkingNumber99.style =" font-weight: 900;"
-})
 
-parking99.addEventListener('mouseover', ()=>
+
+ parking99.addEventListener('mouseover', (e)=>
   {
-    
-  parking99.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber99.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText99; ?>";
+    description.style.color="<?php echo $premiseStatusColor99; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking99.addEventListener('mouseout', ()=>
-  {
-    
-    parking99.setAttribute("style", "fill:<?php echo $parkingColor99; ?>;");
-  })
+
+parking99.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText99; ?>";
+    description.style.color="<?php echo $premiseStatusColor99; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6870,35 +10536,84 @@ parking99.addEventListener('mouseover', ()=>
        
  
  parking100.setAttribute("style", "fill:<?php echo $parkingColor100; ?>;");
- premiseStatus100.innerHTML="<?php echo $premiseStatusText100; ?>",premiseStatus100.style.color="<?php echo $premiseStatusColor100; ?>";
 
- parking100.addEventListener('click', () => 
-{
-  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber100.style ="font-size:27px;"
-     parkingNumber100.style =" font-weight: 900;"
-})
 
-parkingNumber100.addEventListener('click', () => 
-{
-  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber100.style ="font-size:27px;"
-    parkingNumber100.style =" font-weight: 900;"
-})
 
-parking100.addEventListener('mouseover', ()=>
+
+ parking100.addEventListener('mouseover', (e)=>
   {
-    
-  parking100.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber100.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText100; ?>";
+    description.style.color="<?php echo $premiseStatusColor100; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking100.addEventListener('mouseout', ()=>
-  {
-    
-    parking100.setAttribute("style", "fill:<?php echo $parkingColor100; ?>;");
-  })
+
+parking100.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText100; ?>";
+    description.style.color="<?php echo $premiseStatusColor100; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6911,35 +10626,83 @@ parking100.addEventListener('mouseover', ()=>
        
  
  parking101.setAttribute("style", "fill:<?php echo $parkingColor101; ?>;");
- premiseStatus101.innerHTML="<?php echo $premiseStatusText101; ?>",premiseStatus101.style.color="<?php echo $premiseStatusColor101; ?>";
 
- parking101.addEventListener('click', () => 
-{
-  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber101.style ="font-size:27px;"
-     parkingNumber101.style =" font-weight: 900;"
-})
 
-parkingNumber101.addEventListener('click', () => 
-{
-  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber101.style ="font-size:27px;"
-    parkingNumber101.style =" font-weight: 900;"
-})
 
-parking101.addEventListener('mouseover', ()=>
+
+ parking101.addEventListener('mouseover', (e)=>
   {
-    
-  parking101.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber101.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText101; ?>";
+    description.style.color="<?php echo $premiseStatusColor101; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking101.addEventListener('mouseout', ()=>
-  {
-    
-    parking101.setAttribute("style", "fill:<?php echo $parkingColor101; ?>;");
-  })
+
+parking101.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText101; ?>";
+    description.style.color="<?php echo $premiseStatusColor101; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6952,35 +10715,67 @@ parking101.addEventListener('mouseover', ()=>
        
  
  parking102.setAttribute("style", "fill:<?php echo $parkingColor102; ?>;");
- premiseStatus102.innerHTML="<?php echo $premiseStatusText102; ?>",premiseStatus102.style.color="<?php echo $premiseStatusColor102; ?>";
 
- parking102.addEventListener('click', () => 
-{
-  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber102.style ="font-size:27px;"
-     parkingNumber102.style =" font-weight: 900;"
-})
 
-parkingNumber102.addEventListener('click', () => 
-{
-  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber102.style ="font-size:27px;"
-    parkingNumber102.style =" font-weight: 900;"
-})
 
-parking102.addEventListener('mouseover', ()=>
+
+ parking102.addEventListener('mouseover', (e)=>
   {
-    
-  parking102.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber102.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText102; ?>";
+    description.style.color="<?php echo $premiseStatusColor102; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking102.addEventListener('mouseout', ()=>
-  {
-    
-    parking102.setAttribute("style", "fill:<?php echo $parkingColor102; ?>;");
-  })
+
+parking102.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText102; ?>";
+    description.style.color="<?php echo $premiseStatusColor102; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6993,35 +10788,70 @@ parking102.addEventListener('mouseover', ()=>
        
  
  parking103.setAttribute("style", "fill:<?php echo $parkingColor103; ?>;");
- premiseStatus103.innerHTML="<?php echo $premiseStatusText103; ?>",premiseStatus103.style.color="<?php echo $premiseStatusColor103; ?>";
 
- parking103.addEventListener('click', () => 
-{
-  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber103.style ="font-size:27px;"
-     parkingNumber103.style =" font-weight: 900;"
-})
 
-parkingNumber103.addEventListener('click', () => 
-{
-  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber103.style ="font-size:27px;"
-    parkingNumber103.style =" font-weight: 900;"
-})
 
-parking103.addEventListener('mouseover', ()=>
+
+ parking103.addEventListener('mouseover', (e)=>
   {
-    
-  parking103.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber103.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText103; ?>";
+    description.style.color="<?php echo $premiseStatusColor103; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking103.addEventListener('mouseout', ()=>
-  {
-    
-    parking103.setAttribute("style", "fill:<?php echo $parkingColor103; ?>;");
-  })
+
+parking103.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText103; ?>";
+    description.style.color="<?php echo $premiseStatusColor103; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7034,35 +10864,65 @@ parking103.addEventListener('mouseover', ()=>
        
  
  parking104.setAttribute("style", "fill:<?php echo $parkingColor104; ?>;");
- premiseStatus104.innerHTML="<?php echo $premiseStatusText104; ?>",premiseStatus104.style.color="<?php echo $premiseStatusColor104; ?>";
 
- parking104.addEventListener('click', () => 
-{
-  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber104.style ="font-size:27px;"
-     parkingNumber104.style =" font-weight: 900;"
-})
 
-parkingNumber104.addEventListener('click', () => 
-{
-  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber104.style ="font-size:27px;"
-    parkingNumber104.style =" font-weight: 900;"
-})
 
-parking104.addEventListener('mouseover', ()=>
+
+ parking104.addEventListener('mouseover', (e)=>
   {
-    
-  parking104.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber104.style ="font-size:27px; "
+  
+    description.innerHTML = "<?php echo $premiseStatusText104; ?>";
+    description.style.color="<?php echo $premiseStatusColor104; ?>";
 
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="block";
+   
+    setTimeout(() =>{
+      description.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking104.addEventListener('mouseout', ()=>
-  {
-    
-    parking104.setAttribute("style", "fill:<?php echo $parkingColor104; ?>;");
-  })
+
+parking104.addEventListener('click', function(e) {
+  
+  description.innerHTML = "<?php echo $premiseStatusText104; ?>";
+    description.style.color="<?php echo $premiseStatusColor104; ?>";
+    description.style.left = e.pageX + 'px';
+    description.style.top = (e.pageY - 70) + 'px';
+    description.style.display ="none";
+ 
+
+      myFunction();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7075,35 +10935,91 @@ parking104.addEventListener('mouseover', ()=>
        
  
  parking105.setAttribute("style", "fill:<?php echo $parkingColor105; ?>;");
- premiseStatus105.innerHTML="<?php echo $premiseStatusText105; ?>",premiseStatus105.style.color="<?php echo $premiseStatusColor105; ?>";
 
- parking105.addEventListener('click', () => 
-{
-  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber105.style ="font-size:27px;"
-     parkingNumber105.style =" font-weight: 900;"
-})
 
-parkingNumber105.addEventListener('click', () => 
-{
-  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber105.style ="font-size:27px;"
-    parkingNumber105.style =" font-weight: 900;"
-})
 
-parking105.addEventListener('mouseover', ()=>
+
+ parking105.addEventListener('mouseover', (e)=>
   {
-    
-  parking105.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber105.style ="font-size:27px; "
+  
+    description105.innerHTML = "<?php echo $premiseStatusText105; ?>";
+    description105.style.color="<?php echo $premiseStatusColor105; ?>";
 
+    description105.style.left = e.pageX + 'px';
+    description105.style.top = (e.pageY - 55) + 'px';
+    description105.style.display ="block";
+    description105.style.zIndex = "6";
+   
+    setTimeout(() =>{
+      description105.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking105.addEventListener('mouseout', ()=>
-  {
+
+parking105.addEventListener('click', function(e) {
+  
+  description105.innerHTML = "<?php echo $premiseStatusText105; ?>";
+    description105.style.color="<?php echo $premiseStatusColor105; ?>";
+    description105.style.left = e.pageX + 'px';
+    description105.style.top = (e.pageY - 55) + 'px';
+    description105.style.display ="none";
+
     
-    parking105.setAttribute("style", "fill:<?php echo $parkingColor105; ?>;");
-  })
+
+      myFunction105();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7116,35 +11032,64 @@ parking105.addEventListener('mouseover', ()=>
        
  
  parking106.setAttribute("style", "fill:<?php echo $parkingColor106; ?>;");
- premiseStatus106.innerHTML="<?php echo $premiseStatusText106; ?>",premiseStatus106.style.color="<?php echo $premiseStatusColor106; ?>";
 
- parking106.addEventListener('click', () => 
-{
-  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber106.style ="font-size:27px;"
-     parkingNumber106.style =" font-weight: 900;"
-})
 
-parkingNumber106.addEventListener('click', () => 
-{
-  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber106.style ="font-size:27px;"
-    parkingNumber106.style =" font-weight: 900;"
-})
 
-parking106.addEventListener('mouseover', ()=>
+
+ parking106.addEventListener('mouseover', (e)=>
   {
-    
-  parking106.setAttribute("style", "fill: #ffffffb0;   animation: pulsate 1s infinite;");
-  parkingNumber106.style ="font-size:27px; "
+  
+    description106.innerHTML = "<?php echo $premiseStatusText106; ?>";
+    description106.style.color="<?php echo $premiseStatusColor106; ?>";
 
+    description106.style.left = e.pageX + 'px';
+    description106.style.top = (e.pageY - 55) + 'px';
+    description106.style.display ="block";
+    description106.style.zIndex = "6";
+    setTimeout(() =>{
+      description106.style.display ="none";
+    
+},1000)
+    
   })
 
-  parking106.addEventListener('mouseout', ()=>
-  {
-    
-    parking106.setAttribute("style", "fill:<?php echo $parkingColor106; ?>;");
-  })
+
+parking106.addEventListener('click', function(e) {
+  
+  description106.innerHTML = "<?php echo $premiseStatusText106; ?>";
+    description106.style.color="<?php echo $premiseStatusColor106; ?>";
+    description106.style.left = e.pageX + 'px';
+    description106.style.top = (e.pageY - 55) + 'px';
+    description106.style.display ="none";
+ 
+
+      myFunction106();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
