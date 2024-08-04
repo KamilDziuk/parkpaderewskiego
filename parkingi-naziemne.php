@@ -48,7 +48,7 @@
 <a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<a href="parkingi-naziemne.php">Parkingi Naziemne B/C</a>
+<a href="parkingi-naziemne.php">Parkingi Naziemne</a>
 <br>
   <a href="parkingi-naziemneA.php">Parkingi Naziemne A</a>
   <br>
@@ -66,12 +66,146 @@
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
+<button id="showPopup">Zapytaj o mieszkania</button>
+<!-- Popup end -->
+<span class="hamburger hamburger--collapse navbar__item" id="js-navbar-toggle">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</span>
+</div>
+</div>
+<div id="popup" class="popup">
+<div class="popup-content">
+  <!-- email  start -->
+    <!-- View information about the sending status start -->
+    <div class="textValue"></div>
+
+       <!-- View information about the sending status end -->
+    <form id="formPopup" class="topBefore" method="post">
+        <input id="text1" class="firstName" type="text" placeholder="Imie" >
+        <input class="email" type="email" placeholder="Emial">
+        <input class="phone" type="number" placeholder="Telefon">
+        <textarea class="message" type="text" placeholder="Dotyczy mieszkania"></textarea>
+        <!-- send request start -->
+        <input class="send" id="submit" type="button" value="Wyślij zapytanie"> 
+          <!-- send request end -->
+          <!-- checkbox start   -->
+          <div class="checkbox-wrapper-32">
+            <input type="checkbox" name="checkbox-32" id="checkbox-32"  class="checkbox0">
+            <label for="checkbox-32">
+            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.
+            </label>
+     
+            <svg viewBox="0 0 100 100">
+              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+            </svg>
+          </div>
+    
+          <div class="checkbox-wrapper-33">
+            <input type="checkbox" name="checkbox-33" id="checkbox-33"  class="checkbox1">
+            <label for="checkbox-33">
+            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.
+            </label>
+     
+            <svg viewBox="0 0 100 100">
+              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+            </svg>
+          </div>
+    
+    
+    
+          <div class="checkbox-wrapper-34">
+            <input type="checkbox" name="checkbox-34" id="checkbox-34"  class="checkbox2">
+            <label for="checkbox-34">
+            Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.
+            </label>
+     
+            <svg viewBox="0 0 100 100">
+              <path class="parking"class="parking" class="parking" d="M 10 10 L 90 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+              <path class="parking"class="parking" class="parking" d="M 90 10 L 10 90" stroke="#000" stroke-dasharray="113" stroke-dashoffset="113"></path>
+            </svg>
+          </div>
+          <!-- checkbox end   -->
+        
+          <div class="text"></div>
+          <div class="text1"></div>
+          </form>
+            <!-- email  end -->
+   
+  <div class="allAvailableApartmentsAvailable"></div>
+  <span class="close" id="closePopup">X</span>
+  
+  </div>
+  </div>
+<!-- navbar end -->
+
 <header class="contact">
     <!-- top and middle of the page start -->
     <div class="centerLifestyle">
       <p class="titleTextGallery">Parkingi naziemne C/B</p>
-      <div  id="myDropdown105" class="description105" ></div>
-      <div  id="myDropdown106" class="description106" ></div>
+     
+      <div  id="myDropdown35" class="description35" ></div>
+      <div  id="myDropdown40" class="description40" ></div>
+      <div  id="myDropdown41" class="description41" ></div>
+      <div  id="myDropdown43" class="description43" ></div>
+      <div  id="myDropdown44" class="description44" ></div>
+      <div  id="myDropdown49" class="description49" ></div>
+      <div  id="myDropdown50" class="description50" ></div>
+      <div  id="myDropdown51" class="description51" ></div>
+      <div  id="myDropdown52" class="description52" ></div>
+      <div  id="myDropdown53" class="description53" ></div>
+      <div  id="myDropdown54" class="description54" ></div>
+      <div  id="myDropdown55" class="description55" ></div>
+      <div  id="myDropdown56" class="description56" ></div>
+      <div  id="myDropdown57" class="description57" ></div>
+      <div  id="myDropdown58" class="description58" ></div>
+      <div  id="myDropdown59" class="description59" ></div>
+      <div  id="myDropdown60" class="description60" ></div>
+      <div  id="myDropdown62" class="description62" ></div>
+      <div  id="myDropdown63" class="description63" ></div>
+      <div  id="myDropdown64" class="description64" ></div>
+      <div  id="myDropdown65" class="description65" ></div>
+      <div  id="myDropdown66" class="description66" ></div>
+      <div  id="myDropdown67" class="description67" ></div>
+      <div  id="myDropdown68" class="description68" ></div>
+      <div  id="myDropdown69" class="description69" ></div>
+      <!-- <div  id="myDropdown70" class="description70" ></div> -->
+      <!-- <div  id="myDropdown71" class="description71" ></div>
+      <div  id="myDropdown72" class="description72" ></div>
+      <div  id="myDropdown73" class="description73" ></div> -->
+      <div  id="myDropdown74" class="description74" ></div>
+      <div  id="myDropdown76" class="description76" ></div>
+      <div  id="myDropdown79" class="description79" ></div>
+      <div  id="myDropdown80" class="description80" ></div>
+      <div  id="myDropdown81" class="description81" ></div>
+      <div  id="myDropdown82" class="description82" ></div>
+      <div  id="myDropdown83" class="description83" ></div>
+      <div  id="myDropdown84" class="description84" ></div>
+      <div  id="myDropdown85" class="description85" ></div>
+      <div  id="myDropdown86" class="description86" ></div>
+      <div  id="myDropdown87" class="description87" ></div>
+      <div  id="myDropdown88" class="description88" ></div>
+      <div  id="myDropdown89" class="description89" ></div>
+      <div  id="myDropdown90" class="description90" ></div>
+      <div  id="myDropdown91" class="description91" ></div>
+      <div  id="myDropdown92" class="description92" ></div>
+      <div  id="myDropdown93" class="description93" ></div>
+      <div  id="myDropdown94" class="description94" ></div>
+      <div  id="myDropdown95" class="description95" ></div>
+      <div  id="myDropdown96" class="description96" ></div>
+      <div  id="myDropdown99" class="description99" ></div>
+      <div  id="myDropdown100" class="description100" ></div>
+      <div  id="myDropdown101" class="description101" ></div>
+       <div  id="myDropdown102" class="description102" ></div>
+       <div  id="myDropdown103" class="description103" ></div>
+       <div  id="myDropdown104" class="description104" ></div>
+       <div  id="myDropdown105" class="description105" ></div>
+       <div  id="myDropdown106" class="description106" ></div>
+      
+
       <div  id="myDropdown" class="description" ></div>
     </header>
     <div class="mapContener" >
@@ -357,8 +491,8 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
 <br><br>
 <div id = "columns">
 
-<div class="parkingTable">
-  <div class="parkingBody">
+<!-- <div class="parkingTable"> -->
+  <!-- <div class="parkingBody">
     <div id="parkingNumber" class="parkingNumber1">1</div>
     <div class = "premiseStatus1  "></div>
     </div>
@@ -984,7 +1118,7 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
     </div> -->
 
 
-    <div class="parkingTable">
+    <!-- <div class="parkingTable">
   <div class="parkingBody">
     <div id="parkingNumber" class="parkingNumber74">74</div>
     <div class = "premiseStatus74"></div>
@@ -1305,13 +1439,11 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
     </div>
 
 
+ -->
 
 
 
-
-
-
-</div>
+<!-- </div> -->
 </div>
 
     <!-- popup cookie  start -->
@@ -2208,59 +2340,59 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
 
 
 
-    else if ($idValue === "2866"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    // else if ($idValue === "2866"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
-      $premiseStatusColor70= "red";      $parkingColor70= "rgba(255, 0, 0, 0.408)";
-    } else if ($idValue === "2866"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
-      $premiseStatusColor70= "#e6b800";   $parkingColor70= '#ffcc006a';
-    } else if ($idValue === "2866"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
-      $premiseStatusColor70= "darkgreen";   $parkingColor70 = 'rgba(0, 100, 0, 0.424) ';
-    } 
-
-
-    else if ($idValue === "2867"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-
-      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
-      $premiseStatusColor71= "red";      $parkingColor71= "rgba(255, 0, 0, 0.408)";
-    } else if ($idValue === "2867"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
-      $premiseStatusColor71= "#e6b800";   $parkingColor71= '#ffcc006a';
-    } else if ($idValue === "2867"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
-      $premiseStatusColor71= "darkgreen";   $parkingColor71 = 'rgba(0, 100, 0, 0.424) ';
-    } 
+    //   $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
+    //   $premiseStatusColor70= "red";      $parkingColor70= "rgba(255, 0, 0, 0.408)";
+    // } else if ($idValue === "2866"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    //   $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
+    //   $premiseStatusColor70= "#e6b800";   $parkingColor70= '#ffcc006a';
+    // } else if ($idValue === "2866"  && $statusNameValue === "Dostępne") {
+    //   $premiseStatusText70 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 70</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
+    //   $premiseStatusColor70= "darkgreen";   $parkingColor70 = 'rgba(0, 100, 0, 0.424) ';
+    // } 
 
 
+    // else if ($idValue === "2867"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-    else if ($idValue === "2868"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-
-      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
-      $premiseStatusColor72= "red";      $parkingColor72= "rgba(255, 0, 0, 0.408)";
-    } else if ($idValue === "2868"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
-      $premiseStatusColor72= "#e6b800";   $parkingColor72= '#ffcc006a';
-    } else if ($idValue === "2868"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
-      $premiseStatusColor72= "darkgreen";   $parkingColor72 = 'rgba(0, 100, 0, 0.424) ';
-    } 
+    //   $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
+    //   $premiseStatusColor71= "red";      $parkingColor71= "rgba(255, 0, 0, 0.408)";
+    // } else if ($idValue === "2867"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    //   $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
+    //   $premiseStatusColor71= "#e6b800";   $parkingColor71= '#ffcc006a';
+    // } else if ($idValue === "2867"  && $statusNameValue === "Dostępne") {
+    //   $premiseStatusText71 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 71</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
+    //   $premiseStatusColor71= "darkgreen";   $parkingColor71 = 'rgba(0, 100, 0, 0.424) ';
+    // } 
 
 
 
+    // else if ($idValue === "2868"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 
-    else if ($idValue === "2869"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    //   $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
+    //   $premiseStatusColor72= "red";      $parkingColor72= "rgba(255, 0, 0, 0.408)";
+    // } else if ($idValue === "2868"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    //   $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
+    //   $premiseStatusColor72= "#e6b800";   $parkingColor72= '#ffcc006a';
+    // } else if ($idValue === "2868"  && $statusNameValue === "Dostępne") {
+    //   $premiseStatusText72 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 72</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
+    //   $premiseStatusColor72= "darkgreen";   $parkingColor72 = 'rgba(0, 100, 0, 0.424) ';
+    // } 
 
-      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
-      $premiseStatusColor73= "red";      $parkingColor73= "rgba(255, 0, 0, 0.408)";
-    } else if ($idValue === "2869"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
-      $premiseStatusColor73= "#e6b800";   $parkingColor73= '#ffcc006a';
-    } else if ($idValue === "2869"  && $statusNameValue === "Dostępne") {
-      $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
-      $premiseStatusColor73= "darkgreen";   $parkingColor73 = 'rgba(0, 100, 0, 0.424) ';
-    } 
+
+
+
+    // else if ($idValue === "2869"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+
+    //   $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Sprzedane";
+    //   $premiseStatusColor73= "red";      $parkingColor73= "rgba(255, 0, 0, 0.408)";
+    // } else if ($idValue === "2869"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    //   $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Zarezerwowane";
+    //   $premiseStatusColor73= "#e6b800";   $parkingColor73= '#ffcc006a';
+    // } else if ($idValue === "2869"  && $statusNameValue === "Dostępne") {
+    //   $premiseStatusText73 = "<span style='color: black;'>Numer:<span style='color: black; font-weight: 700;'  > 73</span></span> <br><span style='color: black;'>Status:</span> Dostępne";
+    //   $premiseStatusColor73= "darkgreen";   $parkingColor73 = 'rgba(0, 100, 0, 0.424) ';
+    // } 
 
 
 
@@ -2704,27 +2836,390 @@ else if ($idValue === "2313"  && ($statusNameValue === "Sprzedany" || $statusNam
   <script>
 
 let description = document.querySelector('.description');
+
+let description35 = document.querySelector('.description35');
+let description40 = document.querySelector('.description40');
+let description41 = document.querySelector('.description41');
+let description43 = document.querySelector('.description43');
+let description44 = document.querySelector('.description44');
+let description49 = document.querySelector('.description49');
+let description50 = document.querySelector('.description50');
+let description51 = document.querySelector('.description51');
+let description52 = document.querySelector('.description52');
+let description53 = document.querySelector('.description53');
+let description54 = document.querySelector('.description54');
+let description55 = document.querySelector('.description55');
+let description56 = document.querySelector('.description56');
+let description57 = document.querySelector('.description57');
+let description58 = document.querySelector('.description58');
+let description59 = document.querySelector('.description59');
+let description60 = document.querySelector('.description60');
+let description62 = document.querySelector('.description62');
+let description63 = document.querySelector('.description63');
+let description64 = document.querySelector('.description64');
+let description65 = document.querySelector('.description65');
+let description66 = document.querySelector('.description66');
+let description67 = document.querySelector('.description67');
+let description68 = document.querySelector('.description68');
+let description69 = document.querySelector('.description69');
+
+let description74 = document.querySelector('.description74');
+let description76 = document.querySelector('.description76');
+let description79 = document.querySelector('.description79');
+let description80 = document.querySelector('.description80');
+let description81 = document.querySelector('.description81');
+let description82 = document.querySelector('.description82');
+let description83 = document.querySelector('.description83');
+let description84 = document.querySelector('.description84');
+let description85 = document.querySelector('.description85');
+let description86 = document.querySelector('.description86');
+let description87 = document.querySelector('.description87');
+let description88 = document.querySelector('.description88');
+let description89 = document.querySelector('.description89');
+let description90 = document.querySelector('.description90');
+let description91 = document.querySelector('.description91');
+let description92 = document.querySelector('.description92');
+let description93 = document.querySelector('.description93');
+let description94 = document.querySelector('.description94');
+let description95 = document.querySelector('.description95');
+let description96 = document.querySelector('.description96');
+let description99 = document.querySelector('.description99');
+let description100 = document.querySelector('.description100');
+let description101 = document.querySelector('.description101');
+let description102 = document.querySelector('.description102');
+let description103 = document.querySelector('.description103');
+let description104 = document.querySelector('.description104');
 let description106 = document.querySelector('.description106');
 let description105 = document.querySelector('.description105');
+
 myFunction = () =>{
   document.querySelector("#myDropdown").classList.toggle("show");
 
 
 }
+
+myFunction35 = () =>{
+
+
+document.querySelector("#myDropdown35").classList.toggle("show35");
+
+}
+myFunction40 = () =>{
+
+
+document.querySelector("#myDropdown40").classList.toggle("show40");
+
+}
+myFunction41 = () =>{
+
+
+document.querySelector("#myDropdown41").classList.toggle("show41");
+
+}
+myFunction43 = () =>{
+
+
+document.querySelector("#myDropdown43").classList.toggle("show43");
+
+}
+myFunction44 = () =>{
+
+
+document.querySelector("#myDropdown44").classList.toggle("show44");
+
+}
+myFunction49 = () =>{
+
+
+document.querySelector("#myDropdown49").classList.toggle("show49");
+
+}
+myFunction50 = () =>{
+
+
+document.querySelector("#myDropdown50").classList.toggle("show50");
+
+}
+myFunction51 = () =>{
+
+
+document.querySelector("#myDropdown51").classList.toggle("show51");
+
+}
+myFunction52 = () =>{
+
+
+document.querySelector("#myDropdown52").classList.toggle("show52");
+
+}
+myFunction53 = () =>{
+
+
+document.querySelector("#myDropdown53").classList.toggle("show53");
+
+}
+myFunction54 = () =>{
+
+
+document.querySelector("#myDropdown54").classList.toggle("show54");
+
+}
+myFunction55 = () =>{
+
+
+document.querySelector("#myDropdown55").classList.toggle("show55");
+
+}
+myFunction56 = () =>{
+
+
+document.querySelector("#myDropdown56").classList.toggle("show56");
+
+}
+myFunction57 = () =>{
+
+
+document.querySelector("#myDropdown57").classList.toggle("show57");
+
+}
+myFunction58 = () =>{
+
+
+document.querySelector("#myDropdown58").classList.toggle("show58");
+
+}
+myFunction59 = () =>{
+
+
+document.querySelector("#myDropdown59").classList.toggle("show59");
+
+}
+myFunction60 = () =>{
+
+
+document.querySelector("#myDropdown60").classList.toggle("show60");
+
+}
+myFunction62 = () =>{
+
+
+document.querySelector("#myDropdown62").classList.toggle("show62");
+
+}
+
+myFunction63 = () =>{
+
+
+document.querySelector("#myDropdown63").classList.toggle("show63");
+
+}
+myFunction64 = () =>{
+
+
+document.querySelector("#myDropdown64").classList.toggle("show64");
+
+}
+
+myFunction65 = () =>{
+
+
+document.querySelector("#myDropdown65").classList.toggle("show65");
+
+}
+myFunction66 = () =>{
+
+
+document.querySelector("#myDropdown66").classList.toggle("show66");
+
+}
+myFunction67 = () =>{
+
+
+document.querySelector("#myDropdown67").classList.toggle("show67");
+
+}
+myFunction68 = () =>{
+
+
+document.querySelector("#myDropdown68").classList.toggle("show68");
+
+}
+myFunction69 = () =>{
+
+
+document.querySelector("#myDropdown69").classList.toggle("show69");
+
+}
+
+myFunction74 = () =>{
+
+
+document.querySelector("#myDropdown74").classList.toggle("show74");
+
+}
+myFunction76 = () =>{
+
+
+document.querySelector("#myDropdown76").classList.toggle("show76");
+
+}
+myFunction79 = () =>{
+
+
+document.querySelector("#myDropdown79").classList.toggle("show79");
+
+}
+myFunction80 = () =>{
+
+
+document.querySelector("#myDropdown80").classList.toggle("show80");
+
+}
+myFunction81 = () =>{
+
+
+document.querySelector("#myDropdown81").classList.toggle("show81");
+
+}
+myFunction82 = () =>{
+
+
+document.querySelector("#myDropdown82").classList.toggle("show82");
+
+}
+myFunction83 = () =>{
+
+
+document.querySelector("#myDropdown83").classList.toggle("show83");
+
+}
+myFunction84 = () =>{
+
+
+document.querySelector("#myDropdown84").classList.toggle("show84");
+
+}
+myFunction85 = () =>{
+
+
+document.querySelector("#myDropdown85").classList.toggle("show85");
+
+}
+myFunction86 = () =>{
+
+
+document.querySelector("#myDropdown86").classList.toggle("show86");
+
+}
+myFunction87 = () =>{
+
+
+document.querySelector("#myDropdown87").classList.toggle("show87");
+
+}
+myFunction88 = () =>{
+
+
+document.querySelector("#myDropdown88").classList.toggle("show88");
+
+}
+myFunction89 = () =>{
+
+
+document.querySelector("#myDropdown89").classList.toggle("show89");
+
+}
+myFunction90 = () =>{
+
+
+document.querySelector("#myDropdown90").classList.toggle("show90");
+
+}
+myFunction91 = () =>{
+
+
+document.querySelector("#myDropdown91").classList.toggle("show91");
+
+}
+myFunction92 = () =>{
+
+
+document.querySelector("#myDropdown92").classList.toggle("show92");
+
+}
+myFunction93 = () =>{
+
+
+document.querySelector("#myDropdown93").classList.toggle("show93");
+
+}
+myFunction94 = () =>{
+
+
+document.querySelector("#myDropdown94").classList.toggle("show94");
+
+}
+myFunction95 = () =>{
+
+
+document.querySelector("#myDropdown95").classList.toggle("show95");
+
+}
+myFunction96 = () =>{
+
+
+document.querySelector("#myDropdown96").classList.toggle("show96");
+
+}
+myFunction99 = () =>{
+
+
+document.querySelector("#myDropdown99").classList.toggle("show99");
+
+}
+myFunction100 = () =>{
+
+
+document.querySelector("#myDropdown100").classList.toggle("show100");
+
+}
+myFunction101 = () =>{
+
+
+document.querySelector("#myDropdown101").classList.toggle("show101");
+
+}
+myFunction102 = () =>{
+
+
+document.querySelector("#myDropdown102").classList.toggle("show102");
+
+}
+myFunction103 = () =>{
+
+
+document.querySelector("#myDropdown103").classList.toggle("show103");
+
+}
+myFunction104 = () =>{
+
+
+document.querySelector("#myDropdown104").classList.toggle("show104");
+
+}
+
 myFunction106 = () =>{
 
-  document.querySelector("#myDropdown106").classList.toggle("show106");
+document.querySelector("#myDropdown106").classList.toggle("show106");
 
 
 }
 myFunction105 = () =>{
 
 
-  document.querySelector("#myDropdown105").classList.toggle("show105");
+document.querySelector("#myDropdown105").classList.toggle("show105");
 
 }
-
-
 
 let parking1 = document.querySelector(".parking1");
  let parkingNumber1 = document.querySelector(".parkingNumber1");
@@ -2743,7 +3238,7 @@ let parking1 = document.querySelector(".parking1");
     description.style.color="<?php echo $premiseStatusColor1; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -2759,7 +3254,7 @@ parking1.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText1; ?>";
     description.style.color="<?php echo $premiseStatusColor1; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -2792,7 +3287,7 @@ parking1.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor2; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -2808,7 +3303,7 @@ parking2.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText2; ?>";
     description.style.color="<?php echo $premiseStatusColor2; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -2855,7 +3350,7 @@ parking2.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor3; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -2871,7 +3366,7 @@ parking3.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText3; ?>";
     description.style.color="<?php echo $premiseStatusColor3; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -2919,7 +3414,7 @@ parking3.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor4; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -2935,7 +3430,7 @@ parking4.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText4; ?>";
     description.style.color="<?php echo $premiseStatusColor4; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -2990,7 +3485,7 @@ parking4.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor5; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3006,7 +3501,7 @@ parking5.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText5; ?>";
     description.style.color="<?php echo $premiseStatusColor5; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3063,7 +3558,7 @@ parking5.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor6; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3079,7 +3574,7 @@ parking6.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText6; ?>";
     description.style.color="<?php echo $premiseStatusColor6; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3142,7 +3637,7 @@ parking6.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor7; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3158,7 +3653,7 @@ parking7.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText7; ?>";
     description.style.color="<?php echo $premiseStatusColor7; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3219,7 +3714,7 @@ parking7.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor8; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3235,7 +3730,7 @@ parking8.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText8; ?>";
     description.style.color="<?php echo $premiseStatusColor8; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3300,7 +3795,7 @@ parking8.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor9; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3316,7 +3811,7 @@ parking9.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText9; ?>";
     description.style.color="<?php echo $premiseStatusColor9; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3360,7 +3855,7 @@ parking9.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor10; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3376,7 +3871,7 @@ parking10.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText10; ?>";
     description.style.color="<?php echo $premiseStatusColor10; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3439,7 +3934,7 @@ parking10.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor11; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3455,7 +3950,7 @@ parking11.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText11; ?>";
     description.style.color="<?php echo $premiseStatusColor11; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3513,7 +4008,7 @@ parking11.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor12; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3529,7 +4024,7 @@ parking12.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText12; ?>";
     description.style.color="<?php echo $premiseStatusColor12; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3585,7 +4080,7 @@ parking12.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor13; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3601,7 +4096,7 @@ parking13.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText13; ?>";
     description.style.color="<?php echo $premiseStatusColor13; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3660,7 +4155,7 @@ parking13.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor14; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3676,7 +4171,7 @@ parking14.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText14; ?>";
     description.style.color="<?php echo $premiseStatusColor14; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3742,7 +4237,7 @@ parking14.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor15; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3758,7 +4253,7 @@ parking15.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText15; ?>";
     description.style.color="<?php echo $premiseStatusColor15; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3825,7 +4320,7 @@ parking15.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor16; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3841,7 +4336,7 @@ parking16.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText16; ?>";
     description.style.color="<?php echo $premiseStatusColor16; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3894,7 +4389,7 @@ parking16.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor17; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3910,7 +4405,7 @@ parking17.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText17; ?>";
     description.style.color="<?php echo $premiseStatusColor17; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -3966,7 +4461,7 @@ parking17.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor18; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -3982,7 +4477,7 @@ parking18.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText18; ?>";
     description.style.color="<?php echo $premiseStatusColor18; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4046,7 +4541,7 @@ parking18.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor19; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4062,7 +4557,7 @@ parking19.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText19; ?>";
     description.style.color="<?php echo $premiseStatusColor19; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4122,7 +4617,7 @@ parking19.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor20; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4138,7 +4633,7 @@ parking20.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText20; ?>";
     description.style.color="<?php echo $premiseStatusColor20; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4197,7 +4692,7 @@ parking20.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor21; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4213,7 +4708,7 @@ parking21.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText21; ?>";
     description.style.color="<?php echo $premiseStatusColor21; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4280,7 +4775,7 @@ parking21.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor22; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4296,7 +4791,7 @@ parking22.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText22; ?>";
     description.style.color="<?php echo $premiseStatusColor22; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4355,7 +4850,7 @@ parking22.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor23; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4371,7 +4866,7 @@ parking23.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText23; ?>";
     description.style.color="<?php echo $premiseStatusColor23; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4428,7 +4923,7 @@ parking23.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor24; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4444,7 +4939,7 @@ parking24.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText24; ?>";
     description.style.color="<?php echo $premiseStatusColor24; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4499,7 +4994,7 @@ parking24.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor25; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4515,7 +5010,7 @@ parking25.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText25; ?>";
     description.style.color="<?php echo $premiseStatusColor25; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4576,7 +5071,7 @@ parking25.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor26; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4592,7 +5087,7 @@ parking26.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText26; ?>";
     description.style.color="<?php echo $premiseStatusColor26; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4655,7 +5150,7 @@ parking26.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor27; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4671,7 +5166,7 @@ parking27.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText27; ?>";
     description.style.color="<?php echo $premiseStatusColor27; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4719,7 +5214,7 @@ parking27.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor28; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4735,7 +5230,7 @@ parking28.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText28; ?>";
     description.style.color="<?php echo $premiseStatusColor28; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4784,7 +5279,7 @@ parking28.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor29; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4800,7 +5295,7 @@ parking29.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText29; ?>";
     description.style.color="<?php echo $premiseStatusColor29; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4859,7 +5354,7 @@ parking29.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor30; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4875,7 +5370,7 @@ parking30.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText30; ?>";
     description.style.color="<?php echo $premiseStatusColor30; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4910,7 +5405,7 @@ parking30.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor31; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4926,7 +5421,7 @@ parking31.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText31; ?>";
     description.style.color="<?php echo $premiseStatusColor31; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -4979,7 +5474,7 @@ parking31.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor32; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -4995,7 +5490,7 @@ parking32.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText32; ?>";
     description.style.color="<?php echo $premiseStatusColor32; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5058,7 +5553,7 @@ parking32.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor33; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5074,7 +5569,7 @@ parking33.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText33; ?>";
     description.style.color="<?php echo $premiseStatusColor33; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5119,7 +5614,7 @@ parking33.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor34; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5135,7 +5630,7 @@ parking34.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText34; ?>";
     description.style.color="<?php echo $premiseStatusColor34; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5186,15 +5681,15 @@ parking34.addEventListener('click', function(e) {
  parking35.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText35; ?>";
-    description.style.color="<?php echo $premiseStatusColor35; ?>";
+    description35.innerHTML = "<?php echo $premiseStatusText35; ?>";
+    description35.style.color="<?php echo $premiseStatusColor35; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description35.style.left = e.pageX + 'px';
+    description35.style.top = (e.pageY - 55) + 'px';
+    description35.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description35.style.display ="none";
     
 },1000)
     
@@ -5203,14 +5698,14 @@ parking34.addEventListener('click', function(e) {
 
 parking35.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText35; ?>";
-    description.style.color="<?php echo $premiseStatusColor35; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description35.innerHTML = "<?php echo $premiseStatusText35; ?>";
+    description35.style.color="<?php echo $premiseStatusColor35; ?>";
+    description35.style.left = e.pageX + 'px';
+    description35.style.top = (e.pageY - 55) + 'px';
+    description35.style.display ="none";
  
 
-      myFunction();
+       myFunction35();
   });
 
 
@@ -5266,7 +5761,7 @@ parking35.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor36; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5282,7 +5777,7 @@ parking36.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText36; ?>";
     description.style.color="<?php echo $premiseStatusColor36; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5343,7 +5838,7 @@ parking36.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor37; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5359,7 +5854,7 @@ parking37.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText37; ?>";
     description.style.color="<?php echo $premiseStatusColor37; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5406,7 +5901,7 @@ parking37.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor38; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5422,7 +5917,7 @@ parking38.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText38; ?>";
     description.style.color="<?php echo $premiseStatusColor38; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5493,7 +5988,7 @@ parking38.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor39; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5509,7 +6004,7 @@ parking39.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText39; ?>";
     description.style.color="<?php echo $premiseStatusColor39; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5580,15 +6075,15 @@ parking39.addEventListener('click', function(e) {
  parking40.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText40; ?>";
-    description.style.color="<?php echo $premiseStatusColor40; ?>";
+    description40.innerHTML = "<?php echo $premiseStatusText40; ?>";
+    description40.style.color="<?php echo $premiseStatusColor40; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description40.style.left = e.pageX + 'px';
+    description40.style.top = (e.pageY - 55) + 'px';
+    description40.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description40.style.display ="none";
     
 },1000)
     
@@ -5597,14 +6092,14 @@ parking39.addEventListener('click', function(e) {
 
 parking40.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText40; ?>";
-    description.style.color="<?php echo $premiseStatusColor40; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description40.innerHTML = "<?php echo $premiseStatusText40; ?>";
+    description40.style.color="<?php echo $premiseStatusColor40; ?>";
+    description40.style.left = e.pageX + 'px';
+    description40.style.top = (e.pageY - 55) + 'px';
+    description40.style.display ="none";
  
 
-      myFunction();
+       myFunction40();
   });
 
 
@@ -5671,15 +6166,15 @@ parking40.addEventListener('click', function(e) {
  parking41.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText41; ?>";
-    description.style.color="<?php echo $premiseStatusColor41; ?>";
+    description41.innerHTML = "<?php echo $premiseStatusText41; ?>";
+    description41.style.color="<?php echo $premiseStatusColor41; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description41.style.left = e.pageX + 'px';
+    description41.style.top = (e.pageY - 55) + 'px';
+    description41.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description41.style.display ="none";
     
 },1000)
     
@@ -5688,14 +6183,14 @@ parking40.addEventListener('click', function(e) {
 
 parking41.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText41; ?>";
-    description.style.color="<?php echo $premiseStatusColor41; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description41.innerHTML = "<?php echo $premiseStatusText41; ?>";
+    description41.style.color="<?php echo $premiseStatusColor41; ?>";
+    description41.style.left = e.pageX + 'px';
+    description41.style.top = (e.pageY - 55) + 'px';
+    description41.style.display ="none";
  
 
-      myFunction();
+       myFunction41();
   });
 
 
@@ -5750,7 +6245,7 @@ parking41.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor42; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -5766,7 +6261,7 @@ parking42.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText42; ?>";
     description.style.color="<?php echo $premiseStatusColor42; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -5835,15 +6330,15 @@ parking42.addEventListener('click', function(e) {
  parking43.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText43; ?>";
-    description.style.color="<?php echo $premiseStatusColor43; ?>";
+    description43.innerHTML = "<?php echo $premiseStatusText43; ?>";
+    description43.style.color="<?php echo $premiseStatusColor43; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description43.style.left = e.pageX + 'px';
+    description43.style.top = (e.pageY - 55) + 'px';
+    description43.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description43.style.display ="none";
     
 },1000)
     
@@ -5852,14 +6347,14 @@ parking42.addEventListener('click', function(e) {
 
 parking43.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText43; ?>";
-    description.style.color="<?php echo $premiseStatusColor43; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description43.innerHTML = "<?php echo $premiseStatusText43; ?>";
+    description43.style.color="<?php echo $premiseStatusColor43; ?>";
+    description43.style.left = e.pageX + 'px';
+    description43.style.top = (e.pageY - 55) + 'px';
+    description43.style.display ="none";
  
 
-      myFunction();
+       myFunction43();
   });
 
 
@@ -5964,15 +6459,15 @@ parking43.addEventListener('click', function(e) {
  parking44.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText44; ?>";
-    description.style.color="<?php echo $premiseStatusColor44; ?>";
+    description44.innerHTML = "<?php echo $premiseStatusText44; ?>";
+    description44.style.color="<?php echo $premiseStatusColor44; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description44.style.left = e.pageX + 'px';
+    description44.style.top = (e.pageY - 55) + 'px';
+    description44.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description44.style.display ="none";
     
 },1000)
     
@@ -5981,14 +6476,14 @@ parking43.addEventListener('click', function(e) {
 
 parking44.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText44; ?>";
-    description.style.color="<?php echo $premiseStatusColor44; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description44.innerHTML = "<?php echo $premiseStatusText44; ?>";
+    description44.style.color="<?php echo $premiseStatusColor44; ?>";
+    description44.style.left = e.pageX + 'px';
+    description44.style.top = (e.pageY - 55) + 'px';
+    description44.style.display ="none";
  
 
-      myFunction();
+       myFunction44();
   });
 
 
@@ -6026,7 +6521,7 @@ parking44.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor45; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -6042,7 +6537,7 @@ parking45.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText45; ?>";
     description.style.color="<?php echo $premiseStatusColor45; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -6091,7 +6586,7 @@ parking45.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor46; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -6107,7 +6602,7 @@ parking46.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText46; ?>";
     description.style.color="<?php echo $premiseStatusColor46; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -6161,7 +6656,7 @@ parking46.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor47; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -6177,7 +6672,7 @@ parking47.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText47; ?>";
     description.style.color="<?php echo $premiseStatusColor47; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -6229,7 +6724,7 @@ parking47.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor48; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -6245,7 +6740,7 @@ parking48.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText48; ?>";
     description.style.color="<?php echo $premiseStatusColor48; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -6301,15 +6796,15 @@ parking48.addEventListener('click', function(e) {
  parking49.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText49; ?>";
-    description.style.color="<?php echo $premiseStatusColor49; ?>";
+    description49.innerHTML = "<?php echo $premiseStatusText49; ?>";
+    description49.style.color="<?php echo $premiseStatusColor49; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description49.style.left = e.pageX + 'px';
+    description49.style.top = (e.pageY - 55) + 'px';
+    description49.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description49.style.display ="none";
     
 },1000)
     
@@ -6318,14 +6813,14 @@ parking48.addEventListener('click', function(e) {
 
 parking49.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText49; ?>";
-    description.style.color="<?php echo $premiseStatusColor49; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description49.innerHTML = "<?php echo $premiseStatusText49; ?>";
+    description49.style.color="<?php echo $premiseStatusColor49; ?>";
+    description49.style.left = e.pageX + 'px';
+    description49.style.top = (e.pageY - 55) + 'px';
+    description49.style.display ="none";
  
 
-      myFunction();
+       myFunction49();
   });
 
 
@@ -6379,15 +6874,15 @@ parking49.addEventListener('click', function(e) {
  parking50.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText50; ?>";
-    description.style.color="<?php echo $premiseStatusColor50; ?>";
+    description50.innerHTML = "<?php echo $premiseStatusText50; ?>";
+    description50.style.color="<?php echo $premiseStatusColor50; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description50.style.left = e.pageX + 'px';
+    description50.style.top = (e.pageY - 55) + 'px';
+    description50.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description50.style.display ="none";
     
 },1000)
     
@@ -6396,14 +6891,14 @@ parking49.addEventListener('click', function(e) {
 
 parking50.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText50; ?>";
-    description.style.color="<?php echo $premiseStatusColor50; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description50.innerHTML = "<?php echo $premiseStatusText50; ?>";
+    description50.style.color="<?php echo $premiseStatusColor50; ?>";
+    description50.style.left = e.pageX + 'px';
+    description50.style.top = (e.pageY - 55) + 'px';
+    description50.style.display ="none";
  
 
-      myFunction();
+       myFunction50();
   });
 
 
@@ -6466,15 +6961,15 @@ parking50.addEventListener('click', function(e) {
  parking51.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText51; ?>";
-    description.style.color="<?php echo $premiseStatusColor51; ?>";
+    description51.innerHTML = "<?php echo $premiseStatusText51; ?>";
+    description51.style.color="<?php echo $premiseStatusColor51; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description51.style.left = e.pageX + 'px';
+    description51.style.top = (e.pageY - 55) + 'px';
+    description51.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description51.style.display ="none";
     
 },1000)
     
@@ -6483,14 +6978,14 @@ parking50.addEventListener('click', function(e) {
 
 parking51.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText51; ?>";
-    description.style.color="<?php echo $premiseStatusColor51; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description51.innerHTML = "<?php echo $premiseStatusText51; ?>";
+    description51.style.color="<?php echo $premiseStatusColor51; ?>";
+    description51.style.left = e.pageX + 'px';
+    description51.style.top = (e.pageY - 55) + 'px';
+    description51.style.display ="none";
  
 
-      myFunction();
+       myFunction51();
   });
 
 
@@ -6544,15 +7039,15 @@ parking51.addEventListener('click', function(e) {
  parking52.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText52; ?>";
-    description.style.color="<?php echo $premiseStatusColor52; ?>";
+    description52.innerHTML = "<?php echo $premiseStatusText52; ?>";
+    description52.style.color="<?php echo $premiseStatusColor52; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description52.style.left = e.pageX + 'px';
+    description52.style.top = (e.pageY - 55) + 'px';
+    description52.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description52.style.display ="none";
     
 },1000)
     
@@ -6561,14 +7056,14 @@ parking51.addEventListener('click', function(e) {
 
 parking52.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText52; ?>";
-    description.style.color="<?php echo $premiseStatusColor52; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description52.innerHTML = "<?php echo $premiseStatusText52; ?>";
+    description52.style.color="<?php echo $premiseStatusColor52; ?>";
+    description52.style.left = e.pageX + 'px';
+    description52.style.top = (e.pageY - 55) + 'px';
+    description52.style.display ="none";
  
 
-      myFunction();
+       myFunction52();
   });
 
 
@@ -6620,15 +7115,15 @@ parking52.addEventListener('click', function(e) {
  parking53.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText53; ?>";
-    description.style.color="<?php echo $premiseStatusColor53; ?>";
+    description53.innerHTML = "<?php echo $premiseStatusText53; ?>";
+    description53.style.color="<?php echo $premiseStatusColor53; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description53.style.left = e.pageX + 'px';
+    description53.style.top = (e.pageY - 55) + 'px';
+    description53.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description53.style.display ="none";
     
 },1000)
     
@@ -6637,14 +7132,14 @@ parking52.addEventListener('click', function(e) {
 
 parking53.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText53; ?>";
-    description.style.color="<?php echo $premiseStatusColor53; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description53.innerHTML = "<?php echo $premiseStatusText53; ?>";
+    description53.style.color="<?php echo $premiseStatusColor53; ?>";
+    description53.style.left = e.pageX + 'px';
+    description53.style.top = (e.pageY - 55) + 'px';
+    description53.style.display ="none";
  
 
-      myFunction();
+       myFunction53();
   });
 
 
@@ -6696,15 +7191,15 @@ parking53.addEventListener('click', function(e) {
  parking54.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText54; ?>";
-    description.style.color="<?php echo $premiseStatusColor54; ?>";
+    description54.innerHTML = "<?php echo $premiseStatusText54; ?>";
+    description54.style.color="<?php echo $premiseStatusColor54; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description54.style.left = e.pageX + 'px';
+    description54.style.top = (e.pageY - 55) + 'px';
+    description54.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description54.style.display ="none";
     
 },1000)
     
@@ -6713,14 +7208,14 @@ parking53.addEventListener('click', function(e) {
 
 parking54.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText54; ?>";
-    description.style.color="<?php echo $premiseStatusColor54; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description54.innerHTML = "<?php echo $premiseStatusText54; ?>";
+    description54.style.color="<?php echo $premiseStatusColor54; ?>";
+    description54.style.left = e.pageX + 'px';
+    description54.style.top = (e.pageY - 55) + 'px';
+    description54.style.display ="none";
  
 
-      myFunction();
+       myFunction54();
   });
 
 
@@ -6784,15 +7279,15 @@ parking54.addEventListener('click', function(e) {
  parking55.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText55; ?>";
-    description.style.color="<?php echo $premiseStatusColor55; ?>";
+    description55.innerHTML = "<?php echo $premiseStatusText55; ?>";
+    description55.style.color="<?php echo $premiseStatusColor55; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description55.style.left = e.pageX + 'px';
+    description55.style.top = (e.pageY - 55) + 'px';
+    description55.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description55.style.display ="none";
     
 },1000)
     
@@ -6801,14 +7296,14 @@ parking54.addEventListener('click', function(e) {
 
 parking55.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText55; ?>";
-    description.style.color="<?php echo $premiseStatusColor55; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description55.innerHTML = "<?php echo $premiseStatusText55; ?>";
+    description55.style.color="<?php echo $premiseStatusColor55; ?>";
+    description55.style.left = e.pageX + 'px';
+    description55.style.top = (e.pageY - 55) + 'px';
+    description55.style.display ="none";
  
 
-      myFunction();
+       myFunction55();
   });
 
 
@@ -6869,15 +7364,15 @@ parking55.addEventListener('click', function(e) {
  parking56.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText56; ?>";
-    description.style.color="<?php echo $premiseStatusColor56; ?>";
+    description56.innerHTML = "<?php echo $premiseStatusText56; ?>";
+    description56.style.color="<?php echo $premiseStatusColor56; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description56.style.left = e.pageX + 'px';
+    description56.style.top = (e.pageY - 55) + 'px';
+    description56.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description56.style.display ="none";
     
 },1000)
     
@@ -6886,14 +7381,14 @@ parking55.addEventListener('click', function(e) {
 
 parking56.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText56; ?>";
-    description.style.color="<?php echo $premiseStatusColor56; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description56.innerHTML = "<?php echo $premiseStatusText56; ?>";
+    description56.style.color="<?php echo $premiseStatusColor56; ?>";
+    description56.style.left = e.pageX + 'px';
+    description56.style.top = (e.pageY - 55) + 'px';
+    description56.style.display ="none";
  
 
-      myFunction();
+       myFunction56();
   });
 
 
@@ -6965,15 +7460,15 @@ parking56.addEventListener('click', function(e) {
  parking57.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText57; ?>";
-    description.style.color="<?php echo $premiseStatusColor57; ?>";
+    description57.innerHTML = "<?php echo $premiseStatusText57; ?>";
+    description57.style.color="<?php echo $premiseStatusColor57; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description57.style.left = e.pageX + 'px';
+    description57.style.top = (e.pageY - 55) + 'px';
+    description57.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description57.style.display ="none";
     
 },1000)
     
@@ -6982,14 +7477,14 @@ parking56.addEventListener('click', function(e) {
 
 parking57.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText57; ?>";
-    description.style.color="<?php echo $premiseStatusColor57; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description57.innerHTML = "<?php echo $premiseStatusText57; ?>";
+    description57.style.color="<?php echo $premiseStatusColor57; ?>";
+    description57.style.left = e.pageX + 'px';
+    description57.style.top = (e.pageY - 55) + 'px';
+    description57.style.display ="none";
  
 
-      myFunction();
+       myFunction57();
   });
 
 
@@ -7020,15 +7515,15 @@ parking57.addEventListener('click', function(e) {
  parking58.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText58; ?>";
-    description.style.color="<?php echo $premiseStatusColor58; ?>";
+    description58.innerHTML = "<?php echo $premiseStatusText58; ?>";
+    description58.style.color="<?php echo $premiseStatusColor58; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description58.style.left = e.pageX + 'px';
+    description58.style.top = (e.pageY - 55) + 'px';
+    description58.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description58.style.display ="none";
     
 },1000)
     
@@ -7037,14 +7532,14 @@ parking57.addEventListener('click', function(e) {
 
 parking58.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText58; ?>";
-    description.style.color="<?php echo $premiseStatusColor58; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description58.innerHTML = "<?php echo $premiseStatusText58; ?>";
+    description58.style.color="<?php echo $premiseStatusColor58; ?>";
+    description58.style.left = e.pageX + 'px';
+    description58.style.top = (e.pageY - 55) + 'px';
+    description58.style.display ="none";
  
 
-      myFunction();
+       myFunction58();
   });
 
 
@@ -7086,15 +7581,15 @@ parking58.addEventListener('click', function(e) {
  parking59.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText59; ?>";
-    description.style.color="<?php echo $premiseStatusColor59; ?>";
+    description59.innerHTML = "<?php echo $premiseStatusText59; ?>";
+    description59.style.color="<?php echo $premiseStatusColor59; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description59.style.left = e.pageX + 'px';
+    description59.style.top = (e.pageY - 55) + 'px';
+    description59.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description59.style.display ="none";
     
 },1000)
     
@@ -7103,14 +7598,14 @@ parking58.addEventListener('click', function(e) {
 
 parking59.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText59; ?>";
-    description.style.color="<?php echo $premiseStatusColor59; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description59.innerHTML = "<?php echo $premiseStatusText59; ?>";
+    description59.style.color="<?php echo $premiseStatusColor59; ?>";
+    description59.style.left = e.pageX + 'px';
+    description59.style.top = (e.pageY - 55) + 'px';
+    description59.style.display ="none";
  
 
-      myFunction();
+       myFunction59();
   });
 
 
@@ -7152,15 +7647,15 @@ parking59.addEventListener('click', function(e) {
  parking60.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText60; ?>";
-    description.style.color="<?php echo $premiseStatusColor60; ?>";
+    description60.innerHTML = "<?php echo $premiseStatusText60; ?>";
+    description60.style.color="<?php echo $premiseStatusColor60; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description60.style.left = e.pageX + 'px';
+    description60.style.top = (e.pageY - 55) + 'px';
+    description60.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description60.style.display ="none";
     
 },1000)
     
@@ -7169,14 +7664,14 @@ parking59.addEventListener('click', function(e) {
 
 parking60.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText60; ?>";
-    description.style.color="<?php echo $premiseStatusColor60; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description60.innerHTML = "<?php echo $premiseStatusText60; ?>";
+    description60.style.color="<?php echo $premiseStatusColor60; ?>";
+    description60.style.left = e.pageX + 'px';
+    description60.style.top = (e.pageY - 55) + 'px';
+    description60.style.display ="none";
  
 
-      myFunction();
+       myFunction60();
   });
 
 
@@ -7226,7 +7721,7 @@ parking60.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor61; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -7242,11 +7737,11 @@ parking61.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText61; ?>";
     description.style.color="<?php echo $premiseStatusColor61; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
-      myFunction();
+       myFunction61();
   });
 
 
@@ -7288,15 +7783,15 @@ parking61.addEventListener('click', function(e) {
  parking62.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText62; ?>";
-    description.style.color="<?php echo $premiseStatusColor62; ?>";
+    description62.innerHTML = "<?php echo $premiseStatusText62; ?>";
+    description62.style.color="<?php echo $premiseStatusColor62; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description62.style.left = e.pageX + 'px';
+    description62.style.top = (e.pageY - 55) + 'px';
+    description62.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description62.style.display ="none";
     
 },1000)
     
@@ -7305,14 +7800,14 @@ parking61.addEventListener('click', function(e) {
 
 parking62.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText62; ?>";
-    description.style.color="<?php echo $premiseStatusColor62; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description62.innerHTML = "<?php echo $premiseStatusText62; ?>";
+    description62.style.color="<?php echo $premiseStatusColor62; ?>";
+    description62.style.left = e.pageX + 'px';
+    description62.style.top = (e.pageY - 55) + 'px';
+    description62.style.display ="none";
  
 
-      myFunction();
+       myFunction62();
   });
 
 
@@ -7368,15 +7863,15 @@ parking62.addEventListener('click', function(e) {
  parking63.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText63; ?>";
-    description.style.color="<?php echo $premiseStatusColor63; ?>";
+    description63.innerHTML = "<?php echo $premiseStatusText63; ?>";
+    description63.style.color="<?php echo $premiseStatusColor63; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description63.style.left = e.pageX + 'px';
+    description63.style.top = (e.pageY - 55) + 'px';
+    description63.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description63.style.display ="none";
     
 },1000)
     
@@ -7385,14 +7880,14 @@ parking62.addEventListener('click', function(e) {
 
 parking63.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText63; ?>";
-    description.style.color="<?php echo $premiseStatusColor63; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description63.innerHTML = "<?php echo $premiseStatusText63; ?>";
+    description63.style.color="<?php echo $premiseStatusColor63; ?>";
+    description63.style.left = e.pageX + 'px';
+    description63.style.top = (e.pageY - 55) + 'px';
+    description63.style.display ="none";
  
 
-      myFunction();
+       myFunction63();
   });
 
 
@@ -7431,15 +7926,15 @@ parking63.addEventListener('click', function(e) {
  parking64.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText64; ?>";
-    description.style.color="<?php echo $premiseStatusColor64; ?>";
+    description64.innerHTML = "<?php echo $premiseStatusText64; ?>";
+    description64.style.color="<?php echo $premiseStatusColor64; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description64.style.left = e.pageX + 'px';
+    description64.style.top = (e.pageY - 55) + 'px';
+    description64.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description64.style.display ="none";
     
 },1000)
     
@@ -7448,14 +7943,14 @@ parking63.addEventListener('click', function(e) {
 
 parking64.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText64; ?>";
-    description.style.color="<?php echo $premiseStatusColor64; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description64.innerHTML = "<?php echo $premiseStatusText64; ?>";
+    description64.style.color="<?php echo $premiseStatusColor64; ?>";
+    description64.style.left = e.pageX + 'px';
+    description64.style.top = (e.pageY - 55) + 'px';
+    description64.style.display ="none";
  
 
-      myFunction();
+       myFunction64();
   });
 
 
@@ -7501,15 +7996,15 @@ parking64.addEventListener('click', function(e) {
  parking65.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText65; ?>";
-    description.style.color="<?php echo $premiseStatusColor65; ?>";
+    description65.innerHTML = "<?php echo $premiseStatusText65; ?>";
+    description65.style.color="<?php echo $premiseStatusColor65; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description65.style.left = e.pageX + 'px';
+    description65.style.top = (e.pageY - 55) + 'px';
+    description65.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description65.style.display ="none";
     
 },1000)
     
@@ -7518,14 +8013,14 @@ parking64.addEventListener('click', function(e) {
 
 parking65.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText65; ?>";
-    description.style.color="<?php echo $premiseStatusColor65; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description65.innerHTML = "<?php echo $premiseStatusText65; ?>";
+    description65.style.color="<?php echo $premiseStatusColor65; ?>";
+    description65.style.left = e.pageX + 'px';
+    description65.style.top = (e.pageY - 55) + 'px';
+    description65.style.display ="none";
  
 
-      myFunction();
+       myFunction65();
   });
 
 
@@ -7577,15 +8072,15 @@ parking65.addEventListener('click', function(e) {
  parking66.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText66; ?>";
-    description.style.color="<?php echo $premiseStatusColor66; ?>";
+    description66.innerHTML = "<?php echo $premiseStatusText66; ?>";
+    description66.style.color="<?php echo $premiseStatusColor66; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description66.style.left = e.pageX + 'px';
+    description66.style.top = (e.pageY - 55) + 'px';
+    description66.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description66.style.display ="none";
     
 },1000)
     
@@ -7594,14 +8089,14 @@ parking65.addEventListener('click', function(e) {
 
 parking66.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText66; ?>";
-    description.style.color="<?php echo $premiseStatusColor66; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description66.innerHTML = "<?php echo $premiseStatusText66; ?>";
+    description66.style.color="<?php echo $premiseStatusColor66; ?>";
+    description66.style.left = e.pageX + 'px';
+    description66.style.top = (e.pageY - 55) + 'px';
+    description66.style.display ="none";
  
 
-      myFunction();
+       myFunction66();
   });
 
 
@@ -7677,15 +8172,15 @@ parking66.addEventListener('click', function(e) {
  parking67.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText67; ?>";
-    description.style.color="<?php echo $premiseStatusColor67; ?>";
+    description67.innerHTML = "<?php echo $premiseStatusText67; ?>";
+    description67.style.color="<?php echo $premiseStatusColor67; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description67.style.left = e.pageX + 'px';
+    description67.style.top = (e.pageY - 55) + 'px';
+    description67.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description67.style.display ="none";
     
 },1000)
     
@@ -7694,14 +8189,14 @@ parking66.addEventListener('click', function(e) {
 
 parking67.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText67; ?>";
-    description.style.color="<?php echo $premiseStatusColor67; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description67.innerHTML = "<?php echo $premiseStatusText67; ?>";
+    description67.style.color="<?php echo $premiseStatusColor67; ?>";
+    description67.style.left = e.pageX + 'px';
+    description67.style.top = (e.pageY - 55) + 'px';
+    description67.style.display ="none";
  
 
-      myFunction();
+       myFunction67();
   });
 
 
@@ -7749,15 +8244,15 @@ parking67.addEventListener('click', function(e) {
  parking68.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText68; ?>";
-    description.style.color="<?php echo $premiseStatusColor68; ?>";
+    description68.innerHTML = "<?php echo $premiseStatusText68; ?>";
+    description68.style.color="<?php echo $premiseStatusColor68; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description68.style.left = e.pageX + 'px';
+    description68.style.top = (e.pageY - 55) + 'px';
+    description68.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description68.style.display ="none";
     
 },1000)
     
@@ -7766,14 +8261,14 @@ parking67.addEventListener('click', function(e) {
 
 parking68.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText68; ?>";
-    description.style.color="<?php echo $premiseStatusColor68; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description68.innerHTML = "<?php echo $premiseStatusText68; ?>";
+    description68.style.color="<?php echo $premiseStatusColor68; ?>";
+    description68.style.left = e.pageX + 'px';
+    description68.style.top = (e.pageY - 55) + 'px';
+    description68.style.display ="none";
  
 
-      myFunction();
+       myFunction68();
   });
 
 
@@ -7812,15 +8307,15 @@ parking68.addEventListener('click', function(e) {
  parking69.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText69; ?>";
-    description.style.color="<?php echo $premiseStatusColor69; ?>";
+    description69.innerHTML = "<?php echo $premiseStatusText69; ?>";
+    description69.style.color="<?php echo $premiseStatusColor69; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description69.style.left = e.pageX + 'px';
+    description69.style.top = (e.pageY - 55) + 'px';
+    description69.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description69.style.display ="none";
     
 },1000)
     
@@ -7829,14 +8324,14 @@ parking68.addEventListener('click', function(e) {
 
 parking69.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText69; ?>";
-    description.style.color="<?php echo $premiseStatusColor69; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description69.innerHTML = "<?php echo $premiseStatusText69; ?>";
+    description69.style.color="<?php echo $premiseStatusColor69; ?>";
+    description69.style.left = e.pageX + 'px';
+    description69.style.top = (e.pageY - 55) + 'px';
+    description69.style.display ="none";
  
 
-      myFunction();
+       myFunction69();
   });
 
 
@@ -7870,45 +8365,14 @@ parking69.addEventListener('click', function(e) {
 
 
 
-//   let parking70 = document.querySelector(".parking70");
-//  let parkingNumber70 = document.querySelector(".parkingNumber70");
-//  let premiseStatus70= document.getElementsByClassName("premiseStatus70")[0];
-       
- 
-//  parking70.setAttribute("style", "fill:<?php echo $parkingColor70; ?>;");
 
 
 
 
-//  parking70.addEventListener('mouseover', (e)=>
-//   {
-  
-//     description.innerHTML = "<?php echo $premiseStatusText70; ?>";
-//     description.style.color="<?php echo $premiseStatusColor70; ?>";
 
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="block";
-   
-//     setTimeout(() =>{
-//       description.style.display ="none";
-    
-// },1000)
-    
-//   })
 
 
-// parking70.addEventListener('click', function(e) {
-  
-//   description.innerHTML = "<?php echo $premiseStatusText70; ?>";
-//     description.style.color="<?php echo $premiseStatusColor70; ?>";
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="none";
- 
 
-//       myFunction();
-//   });
 
 
 
@@ -7921,228 +8385,6 @@ parking69.addEventListener('click', function(e) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   let parking71 = document.querySelector(".parking71");
-//  let parkingNumber71 = document.querySelector(".parkingNumber71");
-//  let premiseStatus71= document.getElementsByClassName("premiseStatus71")[0];
-       
- 
-//  parking71.setAttribute("style", "fill:<?php echo $parkingColor71; ?>;");
-
-
-
-
-//  parking71.addEventListener('mouseover', (e)=>
-//   {
-  
-//     description.innerHTML = "<?php echo $premiseStatusText71; ?>";
-//     description.style.color="<?php echo $premiseStatusColor71; ?>";
-
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="block";
-   
-//     setTimeout(() =>{
-//       description.style.display ="none";
-    
-// },1000)
-    
-//   })
-
-
-// parking71.addEventListener('click', function(e) {
-  
-//   description.innerHTML = "<?php echo $premiseStatusText71; ?>";
-//     description.style.color="<?php echo $premiseStatusColor71; ?>";
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="none";
- 
-
-//       myFunction();
-//   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   let parking72 = document.querySelector(".parking72");
-//  let parkingNumber72 = document.querySelector(".parkingNumber72");
-//  let premiseStatus72= document.getElementsByClassName("premiseStatus72")[0];
-       
- 
-//  parking72.setAttribute("style", "fill:<?php echo $parkingColor72; ?>;");
-
-
-
-
-//  parking72.addEventListener('mouseover', (e)=>
-//   {
-  
-//     description.innerHTML = "<?php echo $premiseStatusText72; ?>";
-//     description.style.color="<?php echo $premiseStatusColor72; ?>";
-
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="block";
-   
-//     setTimeout(() =>{
-//       description.style.display ="none";
-    
-// },1000)
-    
-//   })
-
-
-// parking72.addEventListener('click', function(e) {
-  
-//   description.innerHTML = "<?php echo $premiseStatusText72; ?>";
-//     description.style.color="<?php echo $premiseStatusColor72; ?>";
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="none";
- 
-
-//       myFunction();
-//   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//   let parking73 = document.querySelector(".parking73");
-//  let parkingNumber73 = document.querySelector(".parkingNumber73");
-//  let premiseStatus73= document.getElementsByClassName("premiseStatus73")[0];
-       
- 
-//  parking73.setAttribute("style", "fill:<?php echo $parkingColor73; ?>;");
-
-
-
-
-//  parking73.addEventListener('mouseover', (e)=>
-//   {
-  
-//     description.innerHTML = "<?php echo $premiseStatusText73; ?>";
-//     description.style.color="<?php echo $premiseStatusColor73; ?>";
-
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="block";
-   
-//     setTimeout(() =>{
-//       description.style.display ="none";
-    
-// },1000)
-    
-//   })
-
-
-// parking73.addEventListener('click', function(e) {
-  
-//   description.innerHTML = "<?php echo $premiseStatusText73; ?>";
-//     description.style.color="<?php echo $premiseStatusColor73; ?>";
-//     description.style.left = e.pageX + 'px';
-//     description.style.top = (e.pageY - 70) + 'px';
-//     description.style.display ="none";
- 
-
-//       myFunction();
-//   });
 
 
 
@@ -8193,15 +8435,15 @@ parking69.addEventListener('click', function(e) {
  parking74.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText74; ?>";
-    description.style.color="<?php echo $premiseStatusColor74; ?>";
+    description74.innerHTML = "<?php echo $premiseStatusText74; ?>";
+    description74.style.color="<?php echo $premiseStatusColor74; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description74.style.left = e.pageX + 'px';
+    description74.style.top = (e.pageY - 55) + 'px';
+    description74.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description74.style.display ="none";
     
 },1000)
     
@@ -8210,14 +8452,14 @@ parking69.addEventListener('click', function(e) {
 
 parking74.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText74; ?>";
-    description.style.color="<?php echo $premiseStatusColor74; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description74.innerHTML = "<?php echo $premiseStatusText74; ?>";
+    description74.style.color="<?php echo $premiseStatusColor74; ?>";
+    description74.style.left = e.pageX + 'px';
+    description74.style.top = (e.pageY - 55) + 'px';
+    description74.style.display ="none";
  
 
-      myFunction();
+       myFunction74();
   });
 
 
@@ -8291,7 +8533,7 @@ parking74.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor75; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -8307,7 +8549,7 @@ parking75.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText75; ?>";
     description.style.color="<?php echo $premiseStatusColor75; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -8371,15 +8613,15 @@ parking75.addEventListener('click', function(e) {
  parking76.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText76; ?>";
-    description.style.color="<?php echo $premiseStatusColor76; ?>";
+    description76.innerHTML = "<?php echo $premiseStatusText76; ?>";
+    description76.style.color="<?php echo $premiseStatusColor76; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description76.style.left = e.pageX + 'px';
+    description76.style.top = (e.pageY - 55) + 'px';
+    description76.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description76.style.display ="none";
     
 },1000)
     
@@ -8388,14 +8630,14 @@ parking75.addEventListener('click', function(e) {
 
 parking76.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText76; ?>";
-    description.style.color="<?php echo $premiseStatusColor76; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description76.innerHTML = "<?php echo $premiseStatusText76; ?>";
+    description76.style.color="<?php echo $premiseStatusColor76; ?>";
+    description76.style.left = e.pageX + 'px';
+    description76.style.top = (e.pageY - 55) + 'px';
+    description76.style.display ="none";
  
 
-      myFunction();
+       myFunction76();
   });
 
 
@@ -8459,7 +8701,7 @@ parking76.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor77; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -8475,7 +8717,7 @@ parking77.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText77; ?>";
     description.style.color="<?php echo $premiseStatusColor77; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -8548,7 +8790,7 @@ parking77.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor78; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -8564,7 +8806,7 @@ parking78.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText78; ?>";
     description.style.color="<?php echo $premiseStatusColor78; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -8638,15 +8880,15 @@ parking78.addEventListener('click', function(e) {
  parking79.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText79; ?>";
-    description.style.color="<?php echo $premiseStatusColor79; ?>";
+    description79.innerHTML = "<?php echo $premiseStatusText79; ?>";
+    description79.style.color="<?php echo $premiseStatusColor79; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description79.style.left = e.pageX + 'px';
+    description79.style.top = (e.pageY - 55) + 'px';
+    description79.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description79.style.display ="none";
     
 },1000)
     
@@ -8655,14 +8897,14 @@ parking78.addEventListener('click', function(e) {
 
 parking79.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText79; ?>";
-    description.style.color="<?php echo $premiseStatusColor79; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description79.innerHTML = "<?php echo $premiseStatusText79; ?>";
+    description79.style.color="<?php echo $premiseStatusColor79; ?>";
+    description79.style.left = e.pageX + 'px';
+    description79.style.top = (e.pageY - 55) + 'px';
+    description79.style.display ="none";
  
 
-      myFunction();
+       myFunction79();
   });
 
 
@@ -8725,15 +8967,15 @@ parking79.addEventListener('click', function(e) {
  parking80.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText80; ?>";
-    description.style.color="<?php echo $premiseStatusColor80; ?>";
+    description80.innerHTML = "<?php echo $premiseStatusText80; ?>";
+    description80.style.color="<?php echo $premiseStatusColor80; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description80.style.left = e.pageX + 'px';
+    description80.style.top = (e.pageY - 55) + 'px';
+    description80.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description80.style.display ="none";
     
 },1000)
     
@@ -8742,14 +8984,14 @@ parking79.addEventListener('click', function(e) {
 
 parking80.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText80; ?>";
-    description.style.color="<?php echo $premiseStatusColor80; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description80.innerHTML = "<?php echo $premiseStatusText80; ?>";
+    description80.style.color="<?php echo $premiseStatusColor80; ?>";
+    description80.style.left = e.pageX + 'px';
+    description80.style.top = (e.pageY - 55) + 'px';
+    description80.style.display ="none";
  
 
-      myFunction();
+       myFunction80();
   });
 
 
@@ -8806,15 +9048,15 @@ parking80.addEventListener('click', function(e) {
  parking81.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText81; ?>";
-    description.style.color="<?php echo $premiseStatusColor81; ?>";
+    description81.innerHTML = "<?php echo $premiseStatusText81; ?>";
+    description81.style.color="<?php echo $premiseStatusColor81; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description81.style.left = e.pageX + 'px';
+    description81.style.top = (e.pageY - 55) + 'px';
+    description81.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description81.style.display ="none";
     
 },1000)
     
@@ -8823,14 +9065,14 @@ parking80.addEventListener('click', function(e) {
 
 parking81.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText81; ?>";
-    description.style.color="<?php echo $premiseStatusColor81; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description81.innerHTML = "<?php echo $premiseStatusText81; ?>";
+    description81.style.color="<?php echo $premiseStatusColor81; ?>";
+    description81.style.left = e.pageX + 'px';
+    description81.style.top = (e.pageY - 55) + 'px';
+    description81.style.display ="none";
  
 
-      myFunction();
+       myFunction81();
   });
 
 
@@ -8904,15 +9146,15 @@ parking81.addEventListener('click', function(e) {
  parking82.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText82; ?>";
-    description.style.color="<?php echo $premiseStatusColor82; ?>";
+    description82.innerHTML = "<?php echo $premiseStatusText82; ?>";
+    description82.style.color="<?php echo $premiseStatusColor82; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description82.style.left = e.pageX + 'px';
+    description82.style.top = (e.pageY - 55) + 'px';
+    description82.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description82.style.display ="none";
     
 },1000)
     
@@ -8921,14 +9163,14 @@ parking81.addEventListener('click', function(e) {
 
 parking82.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText82; ?>";
-    description.style.color="<?php echo $premiseStatusColor82; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description82.innerHTML = "<?php echo $premiseStatusText82; ?>";
+    description82.style.color="<?php echo $premiseStatusColor82; ?>";
+    description82.style.left = e.pageX + 'px';
+    description82.style.top = (e.pageY - 55) + 'px';
+    description82.style.display ="none";
  
 
-      myFunction();
+       myFunction82();
   });
 
 
@@ -8990,15 +9232,15 @@ parking82.addEventListener('click', function(e) {
  parking83.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText83; ?>";
-    description.style.color="<?php echo $premiseStatusColor83; ?>";
+    description83.innerHTML = "<?php echo $premiseStatusText83; ?>";
+    description83.style.color="<?php echo $premiseStatusColor83; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description83.style.left = e.pageX + 'px';
+    description83.style.top = (e.pageY - 55) + 'px';
+    description83.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description83.style.display ="none";
     
 },1000)
     
@@ -9007,14 +9249,14 @@ parking82.addEventListener('click', function(e) {
 
 parking83.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText83; ?>";
-    description.style.color="<?php echo $premiseStatusColor83; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description83.innerHTML = "<?php echo $premiseStatusText83; ?>";
+    description83.style.color="<?php echo $premiseStatusColor83; ?>";
+    description83.style.left = e.pageX + 'px';
+    description83.style.top = (e.pageY - 55) + 'px';
+    description83.style.display ="none";
  
 
-      myFunction();
+       myFunction83();
   });
 
 
@@ -9081,15 +9323,15 @@ parking83.addEventListener('click', function(e) {
  parking84.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText84; ?>";
-    description.style.color="<?php echo $premiseStatusColor84; ?>";
+    description84.innerHTML = "<?php echo $premiseStatusText84; ?>";
+    description84.style.color="<?php echo $premiseStatusColor84; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description84.style.left = e.pageX + 'px';
+    description84.style.top = (e.pageY - 55) + 'px';
+    description84.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description84.style.display ="none";
     
 },1000)
     
@@ -9098,14 +9340,14 @@ parking83.addEventListener('click', function(e) {
 
 parking84.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText84; ?>";
-    description.style.color="<?php echo $premiseStatusColor84; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description84.innerHTML = "<?php echo $premiseStatusText84; ?>";
+    description84.style.color="<?php echo $premiseStatusColor84; ?>";
+    description84.style.left = e.pageX + 'px';
+    description84.style.top = (e.pageY - 55) + 'px';
+    description84.style.display ="none";
  
 
-      myFunction();
+       myFunction84();
   });
 
 
@@ -9172,15 +9414,15 @@ parking84.addEventListener('click', function(e) {
  parking85.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText85; ?>";
-    description.style.color="<?php echo $premiseStatusColor85; ?>";
+    description85.innerHTML = "<?php echo $premiseStatusText85; ?>";
+    description85.style.color="<?php echo $premiseStatusColor85; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description85.style.left = e.pageX + 'px';
+    description85.style.top = (e.pageY - 55) + 'px';
+    description85.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description85.style.display ="none";
     
 },1000)
     
@@ -9189,14 +9431,14 @@ parking84.addEventListener('click', function(e) {
 
 parking85.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText85; ?>";
-    description.style.color="<?php echo $premiseStatusColor85; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description85.innerHTML = "<?php echo $premiseStatusText85; ?>";
+    description85.style.color="<?php echo $premiseStatusColor85; ?>";
+    description85.style.left = e.pageX + 'px';
+    description85.style.top = (e.pageY - 55) + 'px';
+    description85.style.display ="none";
  
 
-      myFunction();
+       myFunction85();
   });
 
 
@@ -9253,15 +9495,15 @@ parking85.addEventListener('click', function(e) {
  parking86.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText86; ?>";
-    description.style.color="<?php echo $premiseStatusColor86; ?>";
+    description86.innerHTML = "<?php echo $premiseStatusText86; ?>";
+    description86.style.color="<?php echo $premiseStatusColor86; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description86.style.left = e.pageX + 'px';
+    description86.style.top = (e.pageY - 55) + 'px';
+    description86.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description86.style.display ="none";
     
 },1000)
     
@@ -9270,14 +9512,14 @@ parking85.addEventListener('click', function(e) {
 
 parking86.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText86; ?>";
-    description.style.color="<?php echo $premiseStatusColor86; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description86.innerHTML = "<?php echo $premiseStatusText86; ?>";
+    description86.style.color="<?php echo $premiseStatusColor86; ?>";
+    description86.style.left = e.pageX + 'px';
+    description86.style.top = (e.pageY - 55) + 'px';
+    description86.style.display ="none";
  
 
-      myFunction();
+       myFunction86();
   });
 
 
@@ -9337,15 +9579,15 @@ parking86.addEventListener('click', function(e) {
  parking87.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText87; ?>";
-    description.style.color="<?php echo $premiseStatusColor87; ?>";
+    description87.innerHTML = "<?php echo $premiseStatusText87; ?>";
+    description87.style.color="<?php echo $premiseStatusColor87; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description87.style.left = e.pageX + 'px';
+    description87.style.top = (e.pageY - 55) + 'px';
+    description87.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description87.style.display ="none";
     
 },1000)
     
@@ -9354,14 +9596,14 @@ parking86.addEventListener('click', function(e) {
 
 parking87.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText87; ?>";
-    description.style.color="<?php echo $premiseStatusColor87; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description87.innerHTML = "<?php echo $premiseStatusText87; ?>";
+    description87.style.color="<?php echo $premiseStatusColor87; ?>";
+    description87.style.left = e.pageX + 'px';
+    description87.style.top = (e.pageY - 55) + 'px';
+    description87.style.display ="none";
  
 
-      myFunction();
+       myFunction87();
   });
 
 
@@ -9407,15 +9649,15 @@ parking87.addEventListener('click', function(e) {
  parking88.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText88; ?>";
-    description.style.color="<?php echo $premiseStatusColor88; ?>";
+    description88.innerHTML = "<?php echo $premiseStatusText88; ?>";
+    description88.style.color="<?php echo $premiseStatusColor88; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description88.style.left = e.pageX + 'px';
+    description88.style.top = (e.pageY - 55) + 'px';
+    description88.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description88.style.display ="none";
     
 },1000)
     
@@ -9424,14 +9666,14 @@ parking87.addEventListener('click', function(e) {
 
 parking88.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText88; ?>";
-    description.style.color="<?php echo $premiseStatusColor88; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description88.innerHTML = "<?php echo $premiseStatusText88; ?>";
+    description88.style.color="<?php echo $premiseStatusColor88; ?>";
+    description88.style.left = e.pageX + 'px';
+    description88.style.top = (e.pageY - 55) + 'px';
+    description88.style.display ="none";
  
 
-      myFunction();
+       myFunction88();
   });
 
 
@@ -9494,15 +9736,15 @@ parking88.addEventListener('click', function(e) {
  parking89.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText89; ?>";
-    description.style.color="<?php echo $premiseStatusColor89; ?>";
+    description89.innerHTML = "<?php echo $premiseStatusText89; ?>";
+    description89.style.color="<?php echo $premiseStatusColor89; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description89.style.left = e.pageX + 'px';
+    description89.style.top = (e.pageY - 55) + 'px';
+    description89.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description89.style.display ="none";
     
 },1000)
     
@@ -9511,14 +9753,14 @@ parking88.addEventListener('click', function(e) {
 
 parking89.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText89; ?>";
-    description.style.color="<?php echo $premiseStatusColor89; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description89.innerHTML = "<?php echo $premiseStatusText89; ?>";
+    description89.style.color="<?php echo $premiseStatusColor89; ?>";
+    description89.style.left = e.pageX + 'px';
+    description89.style.top = (e.pageY - 55) + 'px';
+    description89.style.display ="none";
  
 
-      myFunction();
+       myFunction89();
   });
 
 
@@ -9569,15 +9811,15 @@ parking89.addEventListener('click', function(e) {
  parking90.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText90; ?>";
-    description.style.color="<?php echo $premiseStatusColor90; ?>";
+    description90.innerHTML = "<?php echo $premiseStatusText90; ?>";
+    description90.style.color="<?php echo $premiseStatusColor90; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description90.style.left = e.pageX + 'px';
+    description90.style.top = (e.pageY - 55) + 'px';
+    description90.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description90.style.display ="none";
     
 },1000)
     
@@ -9586,14 +9828,14 @@ parking89.addEventListener('click', function(e) {
 
 parking90.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText90; ?>";
-    description.style.color="<?php echo $premiseStatusColor90; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description90.innerHTML = "<?php echo $premiseStatusText90; ?>";
+    description90.style.color="<?php echo $premiseStatusColor90; ?>";
+    description90.style.left = e.pageX + 'px';
+    description90.style.top = (e.pageY - 55) + 'px';
+    description90.style.display ="none";
  
 
-      myFunction();
+       myFunction90();
   });
 
 
@@ -9665,15 +9907,15 @@ parking90.addEventListener('click', function(e) {
  parking91.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText91; ?>";
-    description.style.color="<?php echo $premiseStatusColor91; ?>";
+    description91.innerHTML = "<?php echo $premiseStatusText91; ?>";
+    description91.style.color="<?php echo $premiseStatusColor91; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description91.style.left = e.pageX + 'px';
+    description91.style.top = (e.pageY - 55) + 'px';
+    description91.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description91.style.display ="none";
     
 },1000)
     
@@ -9682,14 +9924,14 @@ parking90.addEventListener('click', function(e) {
 
 parking91.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText91; ?>";
-    description.style.color="<?php echo $premiseStatusColor91; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description91.innerHTML = "<?php echo $premiseStatusText91; ?>";
+    description91.style.color="<?php echo $premiseStatusColor91; ?>";
+    description91.style.left = e.pageX + 'px';
+    description91.style.top = (e.pageY - 55) + 'px';
+    description91.style.display ="none";
  
 
-      myFunction();
+       myFunction91();
   });
 
 
@@ -9756,15 +9998,15 @@ parking91.addEventListener('click', function(e) {
  parking92.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText92; ?>";
-    description.style.color="<?php echo $premiseStatusColor92; ?>";
+    description92.innerHTML = "<?php echo $premiseStatusText92; ?>";
+    description92.style.color="<?php echo $premiseStatusColor92; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description92.style.left = e.pageX + 'px';
+    description92.style.top = (e.pageY - 55) + 'px';
+    description92.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description92.style.display ="none";
     
 },1000)
     
@@ -9773,14 +10015,14 @@ parking91.addEventListener('click', function(e) {
 
 parking92.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText92; ?>";
-    description.style.color="<?php echo $premiseStatusColor92; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description92.innerHTML = "<?php echo $premiseStatusText92; ?>";
+    description92.style.color="<?php echo $premiseStatusColor92; ?>";
+    description92.style.left = e.pageX + 'px';
+    description92.style.top = (e.pageY - 55) + 'px';
+    description92.style.display ="none";
  
 
-      myFunction();
+       myFunction92();
   });
 
 
@@ -9846,15 +10088,15 @@ parking92.addEventListener('click', function(e) {
  parking93.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText93; ?>";
-    description.style.color="<?php echo $premiseStatusColor93; ?>";
+    description93.innerHTML = "<?php echo $premiseStatusText93; ?>";
+    description93.style.color="<?php echo $premiseStatusColor93; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description93.style.left = e.pageX + 'px';
+    description93.style.top = (e.pageY - 55) + 'px';
+    description93.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description93.style.display ="none";
     
 },1000)
     
@@ -9863,14 +10105,14 @@ parking92.addEventListener('click', function(e) {
 
 parking93.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText93; ?>";
-    description.style.color="<?php echo $premiseStatusColor93; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description93.innerHTML = "<?php echo $premiseStatusText93; ?>";
+    description93.style.color="<?php echo $premiseStatusColor93; ?>";
+    description93.style.left = e.pageX + 'px';
+    description93.style.top = (e.pageY - 55) + 'px';
+    description93.style.display ="none";
  
 
-      myFunction();
+       myFunction93();
   });
 
 
@@ -9932,15 +10174,15 @@ parking93.addEventListener('click', function(e) {
  parking94.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText94; ?>";
-    description.style.color="<?php echo $premiseStatusColor94; ?>";
+    description94.innerHTML = "<?php echo $premiseStatusText94; ?>";
+    description94.style.color="<?php echo $premiseStatusColor94; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description94.style.left = e.pageX + 'px';
+    description94.style.top = (e.pageY - 55) + 'px';
+    description94.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description94.style.display ="none";
     
 },1000)
     
@@ -9949,14 +10191,14 @@ parking93.addEventListener('click', function(e) {
 
 parking94.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText94; ?>";
-    description.style.color="<?php echo $premiseStatusColor94; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description94.innerHTML = "<?php echo $premiseStatusText94; ?>";
+    description94.style.color="<?php echo $premiseStatusColor94; ?>";
+    description94.style.left = e.pageX + 'px';
+    description94.style.top = (e.pageY - 55) + 'px';
+    description94.style.display ="none";
  
 
-      myFunction();
+       myFunction94();
   });
 
 
@@ -10005,15 +10247,15 @@ parking94.addEventListener('click', function(e) {
  parking95.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText95; ?>";
-    description.style.color="<?php echo $premiseStatusColor95; ?>";
+    description95.innerHTML = "<?php echo $premiseStatusText95; ?>";
+    description95.style.color="<?php echo $premiseStatusColor95; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description95.style.left = e.pageX + 'px';
+    description95.style.top = (e.pageY - 55) + 'px';
+    description95.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description95.style.display ="none";
     
 },1000)
     
@@ -10022,14 +10264,14 @@ parking94.addEventListener('click', function(e) {
 
 parking95.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText95; ?>";
-    description.style.color="<?php echo $premiseStatusColor95; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description95.innerHTML = "<?php echo $premiseStatusText95; ?>";
+    description95.style.color="<?php echo $premiseStatusColor95; ?>";
+    description95.style.left = e.pageX + 'px';
+    description95.style.top = (e.pageY - 55) + 'px';
+    description95.style.display ="none";
  
 
-      myFunction();
+       myFunction95();
   });
 
 
@@ -10102,15 +10344,15 @@ parking95.addEventListener('click', function(e) {
  parking96.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText96; ?>";
-    description.style.color="<?php echo $premiseStatusColor96; ?>";
+    description96.innerHTML = "<?php echo $premiseStatusText96; ?>";
+    description96.style.color="<?php echo $premiseStatusColor96; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description96.style.left = e.pageX + 'px';
+    description96.style.top = (e.pageY - 55) + 'px';
+    description96.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description96.style.display ="none";
     
 },1000)
     
@@ -10119,14 +10361,14 @@ parking95.addEventListener('click', function(e) {
 
 parking96.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText96; ?>";
-    description.style.color="<?php echo $premiseStatusColor96; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description96.innerHTML = "<?php echo $premiseStatusText96; ?>";
+    description96.style.color="<?php echo $premiseStatusColor96; ?>";
+    description96.style.left = e.pageX + 'px';
+    description96.style.top = (e.pageY - 55) + 'px';
+    description96.style.display ="none";
  
 
-      myFunction();
+       myFunction96();
   });
 
 
@@ -10208,7 +10450,7 @@ parking96.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor97; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -10224,7 +10466,7 @@ parking97.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText97; ?>";
     description.style.color="<?php echo $premiseStatusColor97; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -10302,7 +10544,7 @@ parking97.addEventListener('click', function(e) {
     description.style.color="<?php echo $premiseStatusColor98; ?>";
 
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="block";
    
     setTimeout(() =>{
@@ -10318,7 +10560,7 @@ parking98.addEventListener('click', function(e) {
   description.innerHTML = "<?php echo $premiseStatusText98; ?>";
     description.style.color="<?php echo $premiseStatusColor98; ?>";
     description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
+    description.style.top = (e.pageY - 55) + 'px';
     description.style.display ="none";
  
 
@@ -10386,15 +10628,15 @@ parking98.addEventListener('click', function(e) {
  parking99.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText99; ?>";
-    description.style.color="<?php echo $premiseStatusColor99; ?>";
+    description99.innerHTML = "<?php echo $premiseStatusText99; ?>";
+    description99.style.color="<?php echo $premiseStatusColor99; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description99.style.left = e.pageX + 'px';
+    description99.style.top = (e.pageY - 55) + 'px';
+    description99.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description99.style.display ="none";
     
 },1000)
     
@@ -10403,14 +10645,14 @@ parking98.addEventListener('click', function(e) {
 
 parking99.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText99; ?>";
-    description.style.color="<?php echo $premiseStatusColor99; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description99.innerHTML = "<?php echo $premiseStatusText99; ?>";
+    description99.style.color="<?php echo $premiseStatusColor99; ?>";
+    description99.style.left = e.pageX + 'px';
+    description99.style.top = (e.pageY - 55) + 'px';
+    description99.style.display ="none";
  
 
-      myFunction();
+       myFunction99();
   });
 
 
@@ -10543,15 +10785,15 @@ parking99.addEventListener('click', function(e) {
  parking100.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText100; ?>";
-    description.style.color="<?php echo $premiseStatusColor100; ?>";
+    description100.innerHTML = "<?php echo $premiseStatusText100; ?>";
+    description100.style.color="<?php echo $premiseStatusColor100; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description100.style.left = e.pageX + 'px';
+    description100.style.top = (e.pageY - 55) + 'px';
+    description100.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description100.style.display ="none";
     
 },1000)
     
@@ -10560,14 +10802,14 @@ parking99.addEventListener('click', function(e) {
 
 parking100.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText100; ?>";
-    description.style.color="<?php echo $premiseStatusColor100; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description100.innerHTML = "<?php echo $premiseStatusText100; ?>";
+    description100.style.color="<?php echo $premiseStatusColor100; ?>";
+    description100.style.left = e.pageX + 'px';
+    description100.style.top = (e.pageY - 55) + 'px';
+    description100.style.display ="none";
  
 
-      myFunction();
+       myFunction100();
   });
 
 
@@ -10633,15 +10875,15 @@ parking100.addEventListener('click', function(e) {
  parking101.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText101; ?>";
-    description.style.color="<?php echo $premiseStatusColor101; ?>";
+    description101.innerHTML = "<?php echo $premiseStatusText101; ?>";
+    description101.style.color="<?php echo $premiseStatusColor101; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description101.style.left = e.pageX + 'px';
+    description101.style.top = (e.pageY - 55) + 'px';
+    description101.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description101.style.display ="none";
     
 },1000)
     
@@ -10650,14 +10892,14 @@ parking100.addEventListener('click', function(e) {
 
 parking101.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText101; ?>";
-    description.style.color="<?php echo $premiseStatusColor101; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description101.innerHTML = "<?php echo $premiseStatusText101; ?>";
+    description101.style.color="<?php echo $premiseStatusColor101; ?>";
+    description101.style.left = e.pageX + 'px';
+    description101.style.top = (e.pageY - 55) + 'px';
+    description101.style.display ="none";
  
 
-      myFunction();
+       myFunction101();
   });
 
 
@@ -10722,15 +10964,15 @@ parking101.addEventListener('click', function(e) {
  parking102.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText102; ?>";
-    description.style.color="<?php echo $premiseStatusColor102; ?>";
+    description102.innerHTML = "<?php echo $premiseStatusText102; ?>";
+    description102.style.color="<?php echo $premiseStatusColor102; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description102.style.left = e.pageX + 'px';
+    description102.style.top = (e.pageY - 55) + 'px';
+    description102.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description102.style.display ="none";
     
 },1000)
     
@@ -10739,14 +10981,14 @@ parking101.addEventListener('click', function(e) {
 
 parking102.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText102; ?>";
-    description.style.color="<?php echo $premiseStatusColor102; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description102.innerHTML = "<?php echo $premiseStatusText102; ?>";
+    description102.style.color="<?php echo $premiseStatusColor102; ?>";
+    description102.style.left = e.pageX + 'px';
+    description102.style.top = (e.pageY - 55) + 'px';
+    description102.style.display ="none";
  
 
-      myFunction();
+       myFunction102();
   });
 
 
@@ -10795,15 +11037,15 @@ parking102.addEventListener('click', function(e) {
  parking103.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText103; ?>";
-    description.style.color="<?php echo $premiseStatusColor103; ?>";
+    description103.innerHTML = "<?php echo $premiseStatusText103; ?>";
+    description103.style.color="<?php echo $premiseStatusColor103; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description103.style.left = e.pageX + 'px';
+    description103.style.top = (e.pageY - 55) + 'px';
+    description103.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description103.style.display ="none";
     
 },1000)
     
@@ -10812,14 +11054,14 @@ parking102.addEventListener('click', function(e) {
 
 parking103.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText103; ?>";
-    description.style.color="<?php echo $premiseStatusColor103; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description103.innerHTML = "<?php echo $premiseStatusText103; ?>";
+    description103.style.color="<?php echo $premiseStatusColor103; ?>";
+    description103.style.left = e.pageX + 'px';
+    description103.style.top = (e.pageY - 55) + 'px';
+    description103.style.display ="none";
  
 
-      myFunction();
+       myFunction103();
   });
 
 
@@ -10871,15 +11113,15 @@ parking103.addEventListener('click', function(e) {
  parking104.addEventListener('mouseover', (e)=>
   {
   
-    description.innerHTML = "<?php echo $premiseStatusText104; ?>";
-    description.style.color="<?php echo $premiseStatusColor104; ?>";
+    description104.innerHTML = "<?php echo $premiseStatusText104; ?>";
+    description104.style.color="<?php echo $premiseStatusColor104; ?>";
 
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="block";
+    description104.style.left = e.pageX + 'px';
+    description104.style.top = (e.pageY - 55) + 'px';
+    description104.style.display ="block";
    
     setTimeout(() =>{
-      description.style.display ="none";
+      description104.style.display ="none";
     
 },1000)
     
@@ -10888,14 +11130,14 @@ parking103.addEventListener('click', function(e) {
 
 parking104.addEventListener('click', function(e) {
   
-  description.innerHTML = "<?php echo $premiseStatusText104; ?>";
-    description.style.color="<?php echo $premiseStatusColor104; ?>";
-    description.style.left = e.pageX + 'px';
-    description.style.top = (e.pageY - 70) + 'px';
-    description.style.display ="none";
+  description104.innerHTML = "<?php echo $premiseStatusText104; ?>";
+    description104.style.color="<?php echo $premiseStatusColor104; ?>";
+    description104.style.left = e.pageX + 'px';
+    description104.style.top = (e.pageY - 55) + 'px';
+    description104.style.display ="none";
  
 
-      myFunction();
+       myFunction104();
   });
 
 
@@ -10948,7 +11190,7 @@ parking104.addEventListener('click', function(e) {
     description105.style.left = e.pageX + 'px';
     description105.style.top = (e.pageY - 55) + 'px';
     description105.style.display ="block";
-    description105.style.zIndex = "6";
+
    
     setTimeout(() =>{
       description105.style.display ="none";
@@ -11045,7 +11287,7 @@ parking105.addEventListener('click', function(e) {
     description106.style.left = e.pageX + 'px';
     description106.style.top = (e.pageY - 55) + 'px';
     description106.style.display ="block";
-    description106.style.zIndex = "6";
+      
     setTimeout(() =>{
       description106.style.display ="none";
     

@@ -261,46 +261,22 @@ transform: translateX(-50%);
 
 
 
-.description105 {
-  pointer-events: none;
+.description40, .description41, .description42, .description43, .description44, .description45, .description46, .description47, .description48, .description49, .description50, .description51, .description52, .description53, .description54, .description55, .description56, .description57, .description58, .description59, .description60, .description61, .description62, .description63, .description64, .description65, .description66, .description67, .description68, .description69, .description70, .description71, .description72, .description73, .description74, .description75, .description76, .description77, .description78, .description79, .description80, .description81, .description82, .description83, .description84, .description85, .description86, .description87, .description88, .description89, .description90, .description91, .description92, .description93, .description94, .description95, .description96, .description97, .description98, .description99, .description100, .description101, .description102, .description103, .description104, .description105, .description106 {
   position: absolute;
   font-size: 15px;
   text-align: center;
-  background: white;
+  backdrop-filter:blur(5px);
+  background-color:rgba(255, 255, 255, 0.407);
   padding: 7px 7px;
   display: block;
   z-index: 5;
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 0 0 0 1px #eee;
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+
 
 }
 
 
-
-
-.description106 {
-  pointer-events: none;
-  position: absolute;
-  font-size: 15px;
-  text-align: center;
-  background: white;
-  padding: 7px 7px;
-  display: block;
-  z-index: 5;
-  margin: 0 auto;
-  border-radius: 5px;
-  box-shadow: 0 0 0 1px #eee;
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-
-}
 
 
 
@@ -311,17 +287,18 @@ transform: translateX(-50%);
 {
   display: block !important ;
 }
-.show105
+.show35, .show40, .show41, .show42, .show43, .show44, .show45, .show46, .show47, .show48, .show49, .show50, .show51, .show52, .show53, .show54, .show55, .show56, .show57, .show58, .show59, .show60, .show61, .show62, .show63, .show64, .show65, .show66, .show67, .show68, .show69, .show70, .show71, .show72, .show73, .show74, .show75, .show76, .show77, .show78, .show79, .show80, .show81, .show82, .show83, .show84, .show85, .show86, .show87, .show88, .show89, .show90, .show91, .show92, .show93, .show94, .show95, .show96, .show97, .show98, .show99, .show100, .show101, .show102, .show103, .show104, .show105, .show106
 {
   display: block !important ;
 }
-.show106
+
+.show35:hover, .show36:hover, .show37:hover, .show38:hover, .show39:hover, .show40:hover, .show41:hover, .show42:hover, .show43:hover, .show44:hover, .show45:hover, .show46:hover, .show47:hover, .show48:hover, .show49:hover, .show50:hover, .show51:hover, .show52:hover, .show53:hover, .show54:hover, .show55:hover, .show56:hover, .show57:hover, .show58:hover, .show59:hover, .show60:hover, .show61:hover, .show62:hover, .show63:hover, .show64:hover, .show65:hover, .show66:hover, .show67:hover, .show68:hover, .show69:hover, .show70:hover, .show71:hover, .show72:hover, .show73:hover, .show74:hover, .show75:hover, .show76:hover, .show77:hover, .show78:hover, .show79:hover, .show80:hover, .show81:hover, .show82:hover, .show83:hover, .show84:hover, .show85:hover, .show86:hover, .show87:hover, .show88:hover, .show89:hover, .show90:hover, .show91:hover, .show92:hover, .show93:hover, .show94:hover, .show95:hover, .show96:hover, .show97:hover, .show98:hover, .show99:hover, .show100:hover, .show101:hover, .show102:hover, .show103:hover, .show104:hover, .show105:hover, .show106:hover
 {
-  
-  display: block !important ;
+
+  background-color:rgb(255, 255, 255);
+  backdrop-filter:blur(100px);
+ z-index: 7;
 }
-
-
 
 
 
