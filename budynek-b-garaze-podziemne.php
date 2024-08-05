@@ -51,10 +51,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<a href="parkingi-naziemne.php">Parkingi Naziemne B/C</a>
-<br>
-  <a href="parkingi-naziemneA.php">Parkingi Naziemne A</a>
-  <br>
+<div class="navbar__item navbar__link dropdown">Parkingi
+<div class="dropdown-content">
+<a href="parkingi-naziemne.php">Parkingi Naziemne</a><br>
 <a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
 <br>
 <a href="budynek-c-garaze-podziemne.php">Garaże podziemne C</a>

@@ -1,4 +1,4 @@
-/* #sldierOffer
+#sldierOffer
 {
 
 position: relative;
@@ -9,15 +9,12 @@ margin-top: 5%;
 margin-bottom:5%;
 margin-left: 5%;
 margin-right: 5%;
-animation: mymove infinite;
-animation-duration: 3s;
+
+/* animation: mymove infinite;
+animation-duration: 3s; */
 }
 
-@keyframes mymove {
-    from {left: -100px;}
-    to {left: 10px;}
-   
-  }
+
 
 .images
 {
@@ -128,4 +125,4 @@ z-index: 99;
     top:35%;
     z-index: 99;
 }
-} */
+}
