@@ -3,16 +3,22 @@ let cookieBox = document.querySelector(".containerCookie");
 let saveBtn = document.querySelector("#saveBtn");
 let popup = document.querySelector(".popupCookie");
 
+
+
+
+
+
+
 // Set Cookie function 
-function setCookie(cName, cValue, exDays) {
+function setCookie(cName, cValue, status, exDays) {
   let date = new Date();
-  date.setTime(date.getTime() + (exDays * 24 * 60 * 60 * 1000));
+  date.setTime(date.getTime() +  (exDays * 90 *(24* (60* (60 * 1000)))));
   
   // Expiration date
   let expires = "expires=" + date.toUTCString();
   
   // Set the cookie
-  document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+  document.cookie = cName + "=" + cValue + status + "; " + expires + "; path=/";
 }
   
 // Get Cookie function
@@ -30,7 +36,7 @@ function getCookie(cName) {
 
 // Display cookie message
 function cookieMessage() {
-  if (!getCookie("PrivacyPolicy")) {
+  if (!getCookie("consentCookie")) {
     cookieBox.classList.add("show");
     popup.classList.add("show2");
 
@@ -77,13 +83,13 @@ Zalecamy zaakceptowanie wszystkich plików cookie oraz korzystanie z funkcji kon
     acceptBtn.addEventListener("click", () => {
       popup.style.display = "none";
       cookieBox.style.display = "none";
-      setCookie("PrivacyPolicy", true, 30);
+      setCookie("consentCookie", "GA4_Active: ", true, 30);
     });
 
     saveBtn.addEventListener("click", () => {
       popup.style.display = "none";
       cookieBox.style.display = "none";
-      setCookie("PrivacyPolicy", true, 30);
+      setCookie("consentCookie",  "GA4_Active: ", true, 30);
     });
   }
 }
