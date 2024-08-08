@@ -7,39 +7,39 @@
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="css/popupCookie.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/popupCookie.css"> -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/above-ground-parking-lotABC.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="js/popupMenu.js" async></script>
 <script src="js/sendingEmail.js" defer></script>
-<script src="js/popupCookie.js" defer></script>
+<!-- <script src="js/popupCookie.js" defer></script> -->
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','');</script>
+  })(window,document,'script','dataLayer','');</script> -->
   <!-- End Google Tag Manager -->
   
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '');
-</script>
+  gtag('config', 'G-');
+</script> -->
 
 
 
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
   <!-- End Google Tag Manager (noscript) -->
 <!-- navbar start -->
 <div class="top">
@@ -145,66 +145,66 @@
     <div class="centerLifestyle">
       <p class="titleTextGallery">Parkingi naziemne</p>
      
-      <div  id="dropdown35" class="description35" ></div>
-      <div  id="dropdown40" class="description40" ></div>
-      <div  id="dropdown41" class="description41" ></div>
-      <div  id="dropdown43" class="description43" ></div>
-      <div  id="dropdown44" class="description44" ></div>
-      <div  id="dropdown49" class="description49" ></div>
-      <div  id="dropdown50" class="description50" ></div>
-      <div  id="dropdown51" class="description51" ></div>
-      <div  id="dropdown52" class="description52" ></div>
-      <div  id="dropdown53" class="description53" ></div>
-      <div  id="dropdown54" class="description54" ></div>
-      <div  id="dropdown55" class="description55" ></div>
-      <div  id="dropdown56" class="description56" ></div>
-      <div  id="dropdown57" class="description57" ></div>
-      <div  id="dropdown58" class="description58" ></div>
-      <div  id="dropdown59" class="description59" ></div>
-      <div  id="dropdown60" class="description60" ></div>
-      <div  id="dropdown62" class="description62" ></div>
-      <div  id="dropdown63" class="description63" ></div>
-      <div  id="dropdown64" class="description64" ></div>
-      <div  id="dropdown65" class="description65" ></div>
-      <div  id="dropdown66" class="description66" ></div>
-      <div  id="dropdown67" class="description67" ></div>
-      <div  id="dropdown68" class="description68" ></div>
-      <div  id="dropdown69" class="description69" ></div>
-      <!-- <div  id="dropdown70" class="description70" ></div> -->
-      <!-- <div  id="dropdown71" class="description71" ></div>
-      <div  id="dropdown72" class="description72" ></div>
-      <div  id="dropdown73" class="description73" ></div> -->
-      <div  id="dropdown74" class="description74" ></div>
-      <div  id="dropdown76" class="description76" ></div>
-      <div  id="dropdown79" class="description79" ></div>
-      <div  id="dropdown80" class="description80" ></div>
-      <div  id="dropdown81" class="description81" ></div>
-      <div  id="dropdown82" class="description82" ></div>
-      <div  id="dropdown83" class="description83" ></div>
-      <div  id="dropdown84" class="description84" ></div>
-      <div  id="dropdown85" class="description85" ></div>
-      <div  id="dropdown86" class="description86" ></div>
-      <div  id="dropdown87" class="description87" ></div>
-      <div  id="dropdown88" class="description88" ></div>
-      <div  id="dropdown89" class="description89" ></div>
-      <div  id="dropdown90" class="description90" ></div>
-      <div  id="dropdown91" class="description91" ></div>
-      <div  id="dropdown92" class="description92" ></div>
-      <div  id="dropdown93" class="description93" ></div>
-      <div  id="dropdown94" class="description94" ></div>
-      <div  id="dropdown95" class="description95" ></div>
-      <div  id="dropdown96" class="description96" ></div>
-      <div  id="dropdown99" class="description99" ></div>
-      <div  id="dropdown100" class="description100" ></div>
-      <div  id="dropdown101" class="description101" ></div>
-       <div  id="dropdown102" class="description102" ></div>
-       <div  id="dropdown103" class="description103" ></div>
-       <div  id="dropdown104" class="description104" ></div>
-       <div  id="dropdown105" class="description105" ></div>
-       <div  id="dropdown106" class="description106" ></div>
+      <div  id="myDropdown35" class="description35" ></div>
+      <div  id="myDropdown40" class="description40" ></div>
+      <div  id="myDropdown41" class="description41" ></div>
+      <div  id="myDropdown43" class="description43" ></div>
+      <div  id="myDropdown44" class="description44" ></div>
+      <div  id="myDropdown49" class="description49" ></div>
+      <div  id="myDropdown50" class="description50" ></div>
+      <div  id="myDropdown51" class="description51" ></div>
+      <div  id="myDropdown52" class="description52" ></div>
+      <div  id="myDropdown53" class="description53" ></div>
+      <div  id="myDropdown54" class="description54" ></div>
+      <div  id="myDropdown55" class="description55" ></div>
+      <div  id="myDropdown56" class="description56" ></div>
+      <div  id="myDropdown57" class="description57" ></div>
+      <div  id="myDropdown58" class="description58" ></div>
+      <div  id="myDropdown59" class="description59" ></div>
+      <div  id="myDropdown60" class="description60" ></div>
+      <div  id="myDropdown62" class="description62" ></div>
+      <div  id="myDropdown63" class="description63" ></div>
+      <div  id="myDropdown64" class="description64" ></div>
+      <div  id="myDropdown65" class="description65" ></div>
+      <div  id="myDropdown66" class="description66" ></div>
+      <div  id="myDropdown67" class="description67" ></div>
+      <div  id="myDropdown68" class="description68" ></div>
+      <div  id="myDropdown69" class="description69" ></div>
+      <!-- <div  id="myDropdown70" class="description70" ></div> -->
+      <!-- <div  id="myDropdown71" class="description71" ></div>
+      <div  id="myDropdown72" class="description72" ></div>
+      <div  id="myDropdown73" class="description73" ></div> -->
+      <div  id="myDropdown74" class="description74" ></div>
+      <div  id="myDropdown76" class="description76" ></div>
+      <div  id="myDropdown79" class="description79" ></div>
+      <div  id="myDropdown80" class="description80" ></div>
+      <div  id="myDropdown81" class="description81" ></div>
+      <div  id="myDropdown82" class="description82" ></div>
+      <div  id="myDropdown83" class="description83" ></div>
+      <div  id="myDropdown84" class="description84" ></div>
+      <div  id="myDropdown85" class="description85" ></div>
+      <div  id="myDropdown86" class="description86" ></div>
+      <div  id="myDropdown87" class="description87" ></div>
+      <div  id="myDropdown88" class="description88" ></div>
+      <div  id="myDropdown89" class="description89" ></div>
+      <div  id="myDropdown90" class="description90" ></div>
+      <div  id="myDropdown91" class="description91" ></div>
+      <div  id="myDropdown92" class="description92" ></div>
+      <div  id="myDropdown93" class="description93" ></div>
+      <div  id="myDropdown94" class="description94" ></div>
+      <div  id="myDropdown95" class="description95" ></div>
+      <div  id="myDropdown96" class="description96" ></div>
+      <div  id="myDropdown99" class="description99" ></div>
+      <div  id="myDropdown100" class="description100" ></div>
+      <div  id="myDropdown101" class="description101" ></div>
+       <div  id="myDropdown102" class="description102" ></div>
+       <div  id="myDropdown103" class="description103" ></div>
+       <div  id="myDropdown104" class="description104" ></div>
+       <div  id="myDropdown105" class="description105" ></div>
+       <div  id="myDropdown106" class="description106" ></div>
       
 
-      <div  id="dropdown" class="description" ></div>
+      <div  id="myDropdown" class="description" ></div>
     </header>
     <div class="mapContener" >
   <img class = "map" src             = "image/above-ground-parking-lot-map.webp">
@@ -1438,7 +1438,7 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
 </div>
 
     <!-- popup cookie  start -->
-    <div class="containerCookie">
+    <!-- <div class="containerCookie">
       <div class="headerCookie">
         <i class="bx bx-cookie"></i>
         <h2>Cenimy Twoją prywatność</h2>
@@ -1452,10 +1452,10 @@ l64 0 0 55 c0 30 -1 55 -2 56 -2 0 -56 4 -120 7 -94 6 -119 4 -123 -6z"/>
         <button class="button" id="acceptBtn">Akceptuj wszystkie</button>
         <button class="button" id="declineBtn">Odrzuć wszystko</button>
       </div>
-    </div>
+    </div> -->
    <!-- popup cookie  start -->
   <?php
-  $url1         = "";
+  $url1         = "https://diamondhill.voxdeveloper.com/webservice/realestatestatuslist/api_key/fff5a835cf5eb07c7190db32f0b79605bafcfa50/investment_id/2";
   $response1    = file_get_contents($url1);
    $xml1         = simplexml_load_string($response1);
   $realestates1 = $xml1->xpath("//realestate");
@@ -2885,336 +2885,337 @@ let description105 = document.querySelector('.description105');
 let description106 = document.querySelector('.description106');
 
 
-parkingFunction = () =>{
-  document.querySelector("#dropdown").classList.toggle("show");
+myFunction = () =>{
+  document.querySelector("#myDropdown").classList.toggle("show");
 
 
 }
 
-parkingFunction35 = () =>{
+myFunction35 = () =>{
 
 
-document.querySelector("#dropdown35").classList.toggle("show35");
-
-}
-parkingFunction40 = () =>{
-
-
-document.querySelector("#dropdown40").classList.toggle("show40");
+document.querySelector("#myDropdown35").classList.toggle("show35");
 
 }
-parkingFunction41 = () =>{
+myFunction40 = () =>{
 
 
-document.querySelector("#dropdown41").classList.toggle("show41");
-
-}
-parkingFunction43 = () =>{
-
-
-document.querySelector("#dropdown43").classList.toggle("show43");
+document.querySelector("#myDropdown40").classList.toggle("show40");
 
 }
-parkingFunction44 = () =>{
+myFunction41 = () =>{
 
 
-document.querySelector("#dropdown44").classList.toggle("show44");
-
-}
-parkingFunction49 = () =>{
-
-
-document.querySelector("#dropdown49").classList.toggle("show49");
+document.querySelector("#myDropdown41").classList.toggle("show41");
 
 }
-parkingFunction50 = () =>{
+myFunction43 = () =>{
 
 
-document.querySelector("#dropdown50").classList.toggle("show50");
-
-}
-parkingFunction51 = () =>{
-
-
-document.querySelector("#dropdown51").classList.toggle("show51");
+document.querySelector("#myDropdown43").classList.toggle("show43");
 
 }
-parkingFunction52 = () =>{
+myFunction44 = () =>{
 
 
-document.querySelector("#dropdown52").classList.toggle("show52");
-
-}
-parkingFunction53 = () =>{
-
-
-document.querySelector("#dropdown53").classList.toggle("show53");
+document.querySelector("#myDropdown44").classList.toggle("show44");
 
 }
-parkingFunction54 = () =>{
+myFunction49 = () =>{
 
 
-document.querySelector("#dropdown54").classList.toggle("show54");
-
-}
-parkingFunction55 = () =>{
-
-
-document.querySelector("#dropdown55").classList.toggle("show55");
+document.querySelector("#myDropdown49").classList.toggle("show49");
 
 }
-parkingFunction56 = () =>{
+myFunction50 = () =>{
 
 
-document.querySelector("#dropdown56").classList.toggle("show56");
-
-}
-parkingFunction57 = () =>{
-
-
-document.querySelector("#dropdown57").classList.toggle("show57");
+document.querySelector("#myDropdown50").classList.toggle("show50");
 
 }
-parkingFunction58 = () =>{
+myFunction51 = () =>{
 
 
-document.querySelector("#dropdown58").classList.toggle("show58");
-
-}
-parkingFunction59 = () =>{
-
-
-document.querySelector("#dropdown59").classList.toggle("show59");
+document.querySelector("#myDropdown51").classList.toggle("show51");
 
 }
-parkingFunction60 = () =>{
+myFunction52 = () =>{
 
 
-document.querySelector("#dropdown60").classList.toggle("show60");
-
-}
-parkingFunction62 = () =>{
-
-
-document.querySelector("#dropdown62").classList.toggle("show62");
+document.querySelector("#myDropdown52").classList.toggle("show52");
 
 }
+myFunction53 = () =>{
 
-parkingFunction63 = () =>{
 
-
-document.querySelector("#dropdown63").classList.toggle("show63");
+document.querySelector("#myDropdown53").classList.toggle("show53");
 
 }
-parkingFunction64 = () =>{
+myFunction54 = () =>{
 
 
-document.querySelector("#dropdown64").classList.toggle("show64");
+document.querySelector("#myDropdown54").classList.toggle("show54");
+
+}
+myFunction55 = () =>{
+
+
+document.querySelector("#myDropdown55").classList.toggle("show55");
+
+}
+myFunction56 = () =>{
+
+
+document.querySelector("#myDropdown56").classList.toggle("show56");
+
+}
+myFunction57 = () =>{
+
+
+document.querySelector("#myDropdown57").classList.toggle("show57");
+
+}
+myFunction58 = () =>{
+
+
+document.querySelector("#myDropdown58").classList.toggle("show58");
+
+}
+myFunction59 = () =>{
+
+
+document.querySelector("#myDropdown59").classList.toggle("show59");
+
+}
+myFunction60 = () =>{
+
+
+document.querySelector("#myDropdown60").classList.toggle("show60");
+
+}
+myFunction62 = () =>{
+
+
+document.querySelector("#myDropdown62").classList.toggle("show62");
 
 }
 
-parkingFunction65 = () =>{
+myFunction63 = () =>{
 
 
-document.querySelector("#dropdown65").classList.toggle("show65");
-
-}
-parkingFunction66 = () =>{
-
-
-document.querySelector("#dropdown66").classList.toggle("show66");
+document.querySelector("#myDropdown63").classList.toggle("show63");
 
 }
-parkingFunction67 = () =>{
+myFunction64 = () =>{
 
 
-document.querySelector("#dropdown67").classList.toggle("show67");
-
-}
-parkingFunction68 = () =>{
-
-
-document.querySelector("#dropdown68").classList.toggle("show68");
-
-}
-parkingFunction69 = () =>{
-
-
-document.querySelector("#dropdown69").classList.toggle("show69");
+document.querySelector("#myDropdown64").classList.toggle("show64");
 
 }
 
-parkingFunction74 = () =>{
+myFunction65 = () =>{
 
 
-document.querySelector("#dropdown74").classList.toggle("show74");
-
-}
-parkingFunction76 = () =>{
-
-
-document.querySelector("#dropdown76").classList.toggle("show76");
+document.querySelector("#myDropdown65").classList.toggle("show65");
 
 }
-parkingFunction79 = () =>{
+myFunction66 = () =>{
 
 
-document.querySelector("#dropdown79").classList.toggle("show79");
-
-}
-parkingFunction80 = () =>{
-
-
-document.querySelector("#dropdown80").classList.toggle("show80");
+document.querySelector("#myDropdown66").classList.toggle("show66");
 
 }
-parkingFunction81 = () =>{
+myFunction67 = () =>{
 
 
-document.querySelector("#dropdown81").classList.toggle("show81");
-
-}
-parkingFunction82 = () =>{
-
-
-document.querySelector("#dropdown82").classList.toggle("show82");
+document.querySelector("#myDropdown67").classList.toggle("show67");
 
 }
-parkingFunction83 = () =>{
+myFunction68 = () =>{
 
 
-document.querySelector("#dropdown83").classList.toggle("show83");
-
-}
-parkingFunction84 = () =>{
-
-
-document.querySelector("#dropdown84").classList.toggle("show84");
+document.querySelector("#myDropdown68").classList.toggle("show68");
 
 }
-parkingFunction85 = () =>{
+myFunction69 = () =>{
 
 
-document.querySelector("#dropdown85").classList.toggle("show85");
-
-}
-parkingFunction86 = () =>{
-
-
-document.querySelector("#dropdown86").classList.toggle("show86");
-
-}
-parkingFunction87 = () =>{
-
-
-document.querySelector("#dropdown87").classList.toggle("show87");
-
-}
-parkingFunction88 = () =>{
-
-
-document.querySelector("#dropdown88").classList.toggle("show88");
-
-}
-parkingFunction89 = () =>{
-
-
-document.querySelector("#dropdown89").classList.toggle("show89");
-
-}
-parkingFunction90 = () =>{
-
-
-document.querySelector("#dropdown90").classList.toggle("show90");
-
-}
-parkingFunction91 = () =>{
-
-
-document.querySelector("#dropdown91").classList.toggle("show91");
-
-}
-parkingFunction92 = () =>{
-
-
-document.querySelector("#dropdown92").classList.toggle("show92");
-
-}
-parkingFunction93 = () =>{
-
-
-document.querySelector("#dropdown93").classList.toggle("show93");
-
-}
-parkingFunction94 = () =>{
-
-
-document.querySelector("#dropdown94").classList.toggle("show94");
-
-}
-parkingFunction95 = () =>{
-
-
-document.querySelector("#dropdown95").classList.toggle("show95");
-
-}
-parkingFunction96 = () =>{
-
-
-document.querySelector("#dropdown96").classList.toggle("show96");
-
-}
-parkingFunction99 = () =>{
-
-
-document.querySelector("#dropdown99").classList.toggle("show99");
-
-}
-parkingFunction100 = () =>{
-
-
-document.querySelector("#dropdown100").classList.toggle("show100");
-
-}
-parkingFunction101 = () =>{
-
-
-document.querySelector("#dropdown101").classList.toggle("show101");
-
-}
-parkingFunction102 = () =>{
-
-
-document.querySelector("#dropdown102").classList.toggle("show102");
-
-}
-parkingFunction103 = () =>{
-
-
-document.querySelector("#dropdown103").classList.toggle("show103");
-
-}
-parkingFunction104 = () =>{
-
-
-document.querySelector("#dropdown104").classList.toggle("show104");
+document.querySelector("#myDropdown69").classList.toggle("show69");
 
 }
 
-parkingFunction106 = () =>{
+myFunction74 = () =>{
 
-document.querySelector("#dropdown106").classList.toggle("show106");
+
+document.querySelector("#myDropdown74").classList.toggle("show74");
+
+}
+myFunction76 = () =>{
+
+
+document.querySelector("#myDropdown76").classList.toggle("show76");
+
+}
+myFunction79 = () =>{
+
+
+document.querySelector("#myDropdown79").classList.toggle("show79");
+
+}
+myFunction80 = () =>{
+
+
+document.querySelector("#myDropdown80").classList.toggle("show80");
+
+}
+myFunction81 = () =>{
+
+
+document.querySelector("#myDropdown81").classList.toggle("show81");
+
+}
+myFunction82 = () =>{
+
+
+document.querySelector("#myDropdown82").classList.toggle("show82");
+
+}
+myFunction83 = () =>{
+
+
+document.querySelector("#myDropdown83").classList.toggle("show83");
+
+}
+myFunction84 = () =>{
+
+
+document.querySelector("#myDropdown84").classList.toggle("show84");
+
+}
+myFunction85 = () =>{
+
+
+document.querySelector("#myDropdown85").classList.toggle("show85");
+
+}
+myFunction86 = () =>{
+
+
+document.querySelector("#myDropdown86").classList.toggle("show86");
+
+}
+myFunction87 = () =>{
+
+
+document.querySelector("#myDropdown87").classList.toggle("show87");
+
+}
+myFunction88 = () =>{
+
+
+document.querySelector("#myDropdown88").classList.toggle("show88");
+
+}
+myFunction89 = () =>{
+
+
+document.querySelector("#myDropdown89").classList.toggle("show89");
+
+}
+myFunction90 = () =>{
+
+
+document.querySelector("#myDropdown90").classList.toggle("show90");
+
+}
+myFunction91 = () =>{
+
+
+document.querySelector("#myDropdown91").classList.toggle("show91");
+
+}
+myFunction92 = () =>{
+
+
+document.querySelector("#myDropdown92").classList.toggle("show92");
+
+}
+myFunction93 = () =>{
+
+
+document.querySelector("#myDropdown93").classList.toggle("show93");
+
+}
+myFunction94 = () =>{
+
+
+document.querySelector("#myDropdown94").classList.toggle("show94");
+
+}
+myFunction95 = () =>{
+
+
+document.querySelector("#myDropdown95").classList.toggle("show95");
+
+}
+myFunction96 = () =>{
+
+
+document.querySelector("#myDropdown96").classList.toggle("show96");
+
+}
+myFunction99 = () =>{
+
+
+document.querySelector("#myDropdown99").classList.toggle("show99");
+
+}
+myFunction100 = () =>{
+
+
+document.querySelector("#myDropdown100").classList.toggle("show100");
+
+}
+myFunction101 = () =>{
+
+
+document.querySelector("#myDropdown101").classList.toggle("show101");
+
+}
+myFunction102 = () =>{
+
+
+document.querySelector("#myDropdown102").classList.toggle("show102");
+
+}
+myFunction103 = () =>{
+
+
+document.querySelector("#myDropdown103").classList.toggle("show103");
+
+}
+myFunction104 = () =>{
+
+
+document.querySelector("#myDropdown104").classList.toggle("show104");
+
+}
+
+myFunction106 = () =>{
+
+document.querySelector("#myDropdown106").classList.toggle("show106");
 
 
 }
-parkingFunction105 = () =>{
+myFunction105 = () =>{
 
 
-document.querySelector("#dropdown105").classList.toggle("show105");
+document.querySelector("#myDropdown105").classList.toggle("show105");
 
 }
 
 // let parkingII = document.querySelector(".parkingII");
+
 
 
 let parking1 = document.querySelector(".parking1");
@@ -3269,7 +3270,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3333,7 +3334,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3411,7 +3412,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3490,7 +3491,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3576,7 +3577,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3664,7 +3665,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3758,7 +3759,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3851,7 +3852,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -3947,7 +3948,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4022,7 +4023,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4116,7 +4117,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4205,7 +4206,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4292,7 +4293,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4382,7 +4383,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4479,7 +4480,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4577,7 +4578,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4661,7 +4662,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4748,7 +4749,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4843,7 +4844,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -4934,7 +4935,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5024,7 +5025,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5122,7 +5123,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5212,7 +5213,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5300,7 +5301,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5386,7 +5387,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5478,7 +5479,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5572,7 +5573,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5651,7 +5652,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5731,7 +5732,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5821,7 +5822,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5887,7 +5888,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -5971,7 +5972,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6065,7 +6066,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6141,7 +6142,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6226,7 +6227,7 @@ else
     description35.style.display ="none";
     // parkingII.setAttribute("style", "fill: rgba(255, 255, 255, 0.69); animation: pulsate 1s infinite;");
 
-       parkingFunction35();
+       myFunction35();
   });
 
 
@@ -6317,7 +6318,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6409,7 +6410,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6487,7 +6488,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6589,7 +6590,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6660,7 +6661,14 @@ else
     description40.style.color="<?php echo $premiseStatusColor40; ?>";
 
     description40.style.left = e.pageX + 'px';
-    description40.style.top = (e.pageY - 55) + 'px';
+    if (window.innerWidth <= 500) {
+    
+      description40.style.top = (e.pageY - 25) + 'px';
+} 
+else
+{
+  description40.style.top = (e.pageY - 55) + 'px';
+}
     description40.style.display ="block";
    
     setTimeout(() =>{
@@ -6676,11 +6684,18 @@ parking40.addEventListener('click', function(e) {
   description40.innerHTML = "<?php echo $premiseStatusText40; ?>";
     description40.style.color="<?php echo $premiseStatusColor40; ?>";
     description40.style.left = e.pageX + 'px';
-    description40.style.top = (e.pageY - 55) + 'px';
+    if (window.innerWidth <= 500) {
+    
+      description40.style.top = (e.pageY - 25) + 'px';
+} 
+else
+{
+  description40.style.top = (e.pageY - 55) + 'px';
+}
     description40.style.display ="none";
  
 
-       parkingFunction40();
+       myFunction40();
   });
 
 
@@ -6787,7 +6802,7 @@ else
     description41.style.display ="none";
  
 
-       parkingFunction41();
+       myFunction41();
   });
 
 
@@ -6877,7 +6892,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -6980,7 +6995,7 @@ else
     description43.style.display ="none";
  
 
-       parkingFunction43();
+       myFunction43();
   });
 
 
@@ -7123,7 +7138,7 @@ else
     description44.style.display ="none";
  
 
-       parkingFunction44();
+       myFunction44();
   });
 
 
@@ -7196,7 +7211,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -7276,7 +7291,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -7361,7 +7376,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -7444,7 +7459,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -7534,7 +7549,7 @@ else
     description49.style.display ="none";
  
 
-       parkingFunction49();
+       myFunction49();
   });
 
 
@@ -7626,7 +7641,7 @@ else
     description50.style.display ="none";
  
 
-       parkingFunction50();
+       myFunction50();
   });
 
 
@@ -7727,7 +7742,7 @@ else
     description51.style.display ="none";
  
 
-       parkingFunction51();
+       myFunction51();
   });
 
 
@@ -7819,7 +7834,7 @@ else
     description52.style.display ="none";
  
 
-       parkingFunction52();
+       myFunction52();
   });
 
 
@@ -7911,7 +7926,7 @@ else
     description53.style.display ="none";
  
 
-       parkingFunction53();
+       myFunction53();
   });
 
 
@@ -8001,7 +8016,7 @@ else
     description54.style.display ="none";
  
 
-       parkingFunction54();
+       myFunction54();
   });
 
 
@@ -8103,7 +8118,7 @@ else
     description55.style.display ="none";
  
 
-       parkingFunction55();
+       myFunction55();
   });
 
 
@@ -8203,7 +8218,7 @@ else
     description56.style.display ="none";
  
 
-       parkingFunction56();
+       myFunction56();
   });
 
 
@@ -8318,7 +8333,7 @@ else
     description57.style.display ="none";
  
 
-       parkingFunction57();
+       myFunction57();
   });
 
 
@@ -8386,7 +8401,7 @@ else
     description58.style.display ="none";
  
 
-       parkingFunction58();
+       myFunction58();
   });
 
 
@@ -8454,7 +8469,7 @@ else
     description59.style.display ="none";
  
 
-       parkingFunction59();
+       myFunction59();
   });
 
 
@@ -8531,7 +8546,7 @@ else
     description60.style.display ="none";
  
 
-       parkingFunction60();
+       myFunction60();
   });
 
 
@@ -8616,7 +8631,7 @@ else
     description.style.display ="none";
  
 
-       parkingFunction61();
+       myFunction61();
   });
 
 
@@ -8696,7 +8711,7 @@ else
     description62.style.display ="none";
  
 
-       parkingFunction62();
+       myFunction62();
   });
 
 
@@ -8802,7 +8817,7 @@ else
     description63.style.display ="none";
  
 
-       parkingFunction63();
+       myFunction63();
   });
 
 
@@ -8893,7 +8908,7 @@ else
     description64.style.display ="none";
  
 
-       parkingFunction64();
+       myFunction64();
   });
 
 
@@ -8984,7 +8999,7 @@ else
     description65.style.display ="none";
  
 
-       parkingFunction65();
+       myFunction65();
   });
 
 
@@ -9065,7 +9080,7 @@ else
     description66.style.display ="none";
  
 
-       parkingFunction66();
+       myFunction66();
   });
 
 
@@ -9128,7 +9143,7 @@ else
     description67.style.display ="none";
  
 
-       parkingFunction67();
+       myFunction67();
   });
 
 
@@ -9248,7 +9263,7 @@ else
     description68.style.display ="none";
  
 
-       parkingFunction68();
+       myFunction68();
   });
 
 
@@ -9339,7 +9354,7 @@ else
     description69.style.display ="none";
  
 
-       parkingFunction69();
+       myFunction69();
   });
 
 
@@ -9488,7 +9503,7 @@ else
     description74.style.display ="none";
  
 
-       parkingFunction74();
+       myFunction74();
   });
 
 
@@ -9593,7 +9608,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -9693,7 +9708,7 @@ else
     description76.style.display ="none";
  
 
-       parkingFunction76();
+       myFunction76();
   });
 
 
@@ -9785,7 +9800,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -9889,7 +9904,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -9996,7 +10011,7 @@ else
     description79.style.display ="none";
  
 
-       parkingFunction79();
+       myFunction79();
   });
 
 
@@ -10098,7 +10113,7 @@ else
     description80.style.display ="none";
  
 
-       parkingFunction80();
+       myFunction80();
   });
 
 
@@ -10189,7 +10204,7 @@ else
     description81.style.display ="none";
  
 
-       parkingFunction81();
+       myFunction81();
   });
 
 
@@ -10280,7 +10295,7 @@ else
     description82.style.display ="none";
  
 
-       parkingFunction82();
+       myFunction82();
   });
 
 
@@ -10365,7 +10380,7 @@ else
     description83.style.display ="none";
  
 
-       parkingFunction83();
+       myFunction83();
   });
 
 
@@ -10422,7 +10437,7 @@ else
     description84.style.display ="none";
  
 
-       parkingFunction84();
+       myFunction84();
   });
 
 
@@ -10542,7 +10557,7 @@ else
     description85.style.display ="none";
  
 
-       parkingFunction85();
+       myFunction85();
   });
 
 
@@ -10633,7 +10648,7 @@ else
     description86.style.display ="none";
  
 
-       parkingFunction86();
+       myFunction86();
   });
 
 
@@ -10724,7 +10739,7 @@ else
     description87.style.display ="none";
  
 
-       parkingFunction87();
+       myFunction87();
   });
 
 
@@ -10809,7 +10824,7 @@ else
     description88.style.display ="none";
  
 
-       parkingFunction88();
+       myFunction88();
   });
 
 
@@ -10883,7 +10898,7 @@ else
     description89.style.display ="none";
  
 
-       parkingFunction89();
+       myFunction89();
   });
 
 
@@ -11003,7 +11018,7 @@ else
     description90.style.display ="none";
  
 
-       parkingFunction90();
+       myFunction90();
   });
 
 
@@ -11094,7 +11109,7 @@ else
     description91.style.display ="none";
  
 
-       parkingFunction91();
+       myFunction91();
   });
 
 
@@ -11185,7 +11200,7 @@ else
     description92.style.display ="none";
  
 
-       parkingFunction92();
+       myFunction92();
   });
 
 
@@ -11270,7 +11285,7 @@ else
     description93.style.display ="none";
  
 
-       parkingFunction93();
+       myFunction93();
   });
 
 
@@ -11371,7 +11386,7 @@ else
     description94.style.display ="none";
  
 
-       parkingFunction94();
+       myFunction94();
   });
 
 
@@ -11491,7 +11506,7 @@ else
     description95.style.display ="none";
  
 
-       parkingFunction95();
+       myFunction95();
   });
 
 
@@ -11558,7 +11573,7 @@ else
     description96.style.display ="none";
  
 
-       parkingFunction96();
+       myFunction96();
   });
 
 
@@ -11668,7 +11683,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -11777,7 +11792,7 @@ else
     description.style.display ="none";
  
 
-      parkingFunction();
+      myFunction();
   });
 
 
@@ -11900,7 +11915,7 @@ else
     description99.style.display ="none";
  
 
-       parkingFunction99();
+       myFunction99();
   });
 
 
@@ -11991,7 +12006,7 @@ else
     description100.style.display ="none";
  
 
-       parkingFunction100();
+       myFunction100();
   });
 
 
@@ -12076,7 +12091,7 @@ else
     description101.style.display ="none";
  
 
-       parkingFunction101();
+       myFunction101();
   });
 
 
@@ -12192,7 +12207,7 @@ else
     description102.style.display ="none";
  
 
-       parkingFunction102();
+       myFunction102();
   });
 
 
@@ -12312,7 +12327,7 @@ else
     description103.style.display ="none";
  
 
-       parkingFunction103();
+       myFunction103();
   });
 
 
@@ -12403,7 +12418,7 @@ else
     description104.style.display ="none";
  
 
-       parkingFunction104();
+       myFunction104();
   });
 
 
@@ -12494,7 +12509,7 @@ else
     description105.style.display ="none";
  
 
-       parkingFunction105();
+       myFunction105();
   });
 
 
@@ -12579,8 +12594,21 @@ else
     description106.style.display ="none";
  
 
-       parkingFunction106();
+       myFunction106();
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12638,25 +12666,6 @@ else
     </footer>
     <!-- footer end -->
 
-    <!-- popup cookie  start -->
-    <div class="containerCookie">
-      <div class="headerCookie">
-        <i class="bx bx-cookie"></i>
-        <h2>Cenimy Twoją prywatność</h2>
-      </div>
-
-      <div class="textCookie">
-        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics"> Czytaj więcej...</a></p>
-      </div>
-
-      <div class="buttonsCookie">
-        <button class="button" id="acceptBtn">Akceptuj wszystkie</button>
-        <button class="button" id="declineBtn">Odrzuć wszystko</button>
-      </div>
-    </div>
-
-  
-   <!-- popup cookie  start -->
 
 
 

@@ -88,8 +88,8 @@
         
     Email.send({
       SecureToken : '',
-To : 'sprzedaz@parkpaderewskiego.pl ',
-From : 'sprzedaz@parkpaderewskiego.pl ',
+To : ' ',
+From : '',
     
     Subject : `strona www - ${firstName.value}`,
     Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  

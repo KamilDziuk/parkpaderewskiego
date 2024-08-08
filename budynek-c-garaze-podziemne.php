@@ -50,8 +50,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
 <div class="navbar__item navbar__link dropdown">Parkingi
 <div class="dropdown-content">
-<div class="navbar__item navbar__link dropdown">Parkingi
-<div class="dropdown-content">
 <a href="parkingi-naziemne.php">Parkingi Naziemne</a><br>
 <a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
 <br>
@@ -353,23 +351,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- footer end -->
 
     <!-- popup cookie  start -->
-    <div class="containerCookie">
-      <div class="headerCookie">
-        <i class="bx bx-cookie"></i>
-        <h2>Cenimy Twoją prywatność</h2>
-      </div>
+    <div class="popupCookie"></div>
+<div class="containerCookie">
+    <img class="imageLpp" src="/image/lpp.webp">
+    <div class="headerCookie">
 
-      <div class="textCookie">
-        <p>Używamy plików cookie, aby poprawić komfort przeglądania, wyświetlać spersonalizowane reklamy lub treści oraz analizować nasz ruch. Klikając „Akceptuj wszystko”, wyrażasz zgodę na używanie przez nas plików cookie. <a href="cookiesPolitics"> Czytaj więcej...</a></p>
-      </div>
-
-      <div class="buttonsCookie">
-        <button class="button" id="acceptBtn">Akceptuj wszystkie</button>
-        <button class="button" id="declineBtn">Odrzuć wszystko</button>
-      </div>
+      <h2>Cenimy Twoją prywatność</h2>
     </div>
-   <!-- popup cookie  start -->
-
+  
+    <div class="textCookie"></div>
+  
+    <div class="buttonsCookie">
+      <button class="button" id="acceptBtn">Akceptuję i przechodzę do strony</button>
+        <button class="button" id="advancedSettings">Ustawienia zaawansowane</button>
+      <button class="button" id="saveBtn">Zapisz</button>
+    </div>
+  </div>
+  <!-- popup cookie  start -->
 
 
 
