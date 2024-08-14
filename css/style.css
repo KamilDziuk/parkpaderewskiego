@@ -329,7 +329,7 @@ body {
 
   }
   .popup-content {
-    top: 80px !important;
+    top: 10px !important;
   font-size:12px;
   background-color:rgba(255,255,255,0.098)!important;
   border:2px solid #ccc;
@@ -1479,7 +1479,7 @@ footer
   }
   
   .popup-content {
-    top: 100px !important;
+    top: 10px !important;
   width:900px;
   height:500px;
   }
@@ -1629,7 +1629,7 @@ margin-top: 150px;
       }
 
   .popup-content {
-    top: 80px !important;
+    top: 10px !important;
   font-size:9px;
   width:500px;
   height:620px
@@ -2140,7 +2140,7 @@ margin-top: 50px;
   }
   
   .popup-content {
-    top: 100px !important;
+    top: 10px !important;
   width:300px;
   height:460px!important
   }

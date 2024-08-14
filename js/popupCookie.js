@@ -35,7 +35,12 @@ function getCookie(cName) {
 }
 
 // Display cookie message
+
+
+
 function cookieMessage() {
+  setTimeout( () => {
+
   if (!getCookie("consentCookie")) {
     cookieBox.classList.add("show");
     popup.classList.add("show2");
@@ -44,6 +49,7 @@ function cookieMessage() {
     let advancedSettings = document.querySelector("#advancedSettings");
 
     let buttonsCookie = document.querySelector(".buttonsCookie");
+
 
     buttonsCookie.style.width = "93%";
     acceptBtn.style.left = "50%";
@@ -92,7 +98,10 @@ Zalecamy zaakceptowanie wszystkich plików cookie oraz korzystanie z funkcji kon
       setCookie("consentCookie",  "GA4_Active: ", true, 30);
     });
   }
+
+}, 3000)
 }
 
 // Initialize cookie message on window load
 window.addEventListener("load", cookieMessage);
+
