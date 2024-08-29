@@ -44,34 +44,5 @@ let tracking1,rightTracking1,$slider=$(".slideshow .slider"),maxItemsOne=$(".ite
 // slides dwo end
 
 // carousel start
-let numbers  = 0;
-let imgContainerLifestyle = document.querySelectorAll('.imgContainerLifestyle');
-let imgContainerLifestyle1 = document.querySelectorAll('.imgContainerLifestyle1');
-let imgContainerLifestyle2 = document.querySelectorAll('.imgContainerLifestyle2');
-let imgContainerLifestyle3 = document.querySelectorAll('.imgContainerLifestyle3');
 
-carousel =  () =>
-{
-for(let i = 0; i < imgContainerLifestyle.length; i ++)
-{
-  imgContainerLifestyle[i].style.display ="none";
-  imgContainerLifestyle1[i].style.display ="none";
-  imgContainerLifestyle2[i].style.display ="none";
-  imgContainerLifestyle3[i].style.display ="none";
-}
-numbers ++
-if(numbers >imgContainerLifestyle.length  || numbers >imgContainerLifestyle1.length || numbers >imgContainerLifestyle2.length ||numbers >imgContainerLifestyle3.length)
-{
-  numbers =1
-}
-imgContainerLifestyle[ numbers -1].style.display ="block";
-imgContainerLifestyle1[ numbers -1].style.display ="block";
-imgContainerLifestyle2[ numbers -1].style.display ="block";
-imgContainerLifestyle3[ numbers -1].style.display ="block";
-
-setTimeout(carousel,4000)
-}
-
-
-carousel()
 // carousel end
