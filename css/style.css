@@ -489,7 +489,7 @@ body {
   
   margin-top: -100%;
   margin-left: 400px;
-  
+
 }
 
 
@@ -637,18 +637,22 @@ text-align: left;
 
 /* Container contact  end */
   .text0 {
+    color: #00000000;
   margin-top:20%!important
   }
   
   .text1 {
+color: #00000000;
   margin-top:25%!important
   }
   
   .text2 {
+    color: #00000000;
   margin-top:15%!important
   }
   
   .text3 {
+    color: #00000000;
   font-size:23px!important;
   margin-top:0%!important
   }
@@ -816,11 +820,29 @@ text-align: left;
   font-size:17px;
   border-radius:5px
   }
+
+
+  #buttomText3 {
+position: absolute;
+    color:#ffffff!important;
+    border:3px solid #5d545500;
+    background-color:rgb(228, 182, 0);
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: -100px;
+    padding:15px;
+    color:#020000;
+    font-size:17px;
+    border-radius:5px;
+margin-bottom: 20px;
+    }
   
   #buttomText0:hover {
   background-color:#ffffff54
   }
-  
+  #buttomText3:hover {
+    background-color:rgb(168, 135, 5);
+    }
   #buttomText1:hover {
   background-color:#ffffff54
   }
@@ -852,11 +874,29 @@ padding-right: 15%;
   .add-padding2 {
   margin-top:400px;
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 0%;
   padding-left: 15%;
   padding-right: 15%;
+  margin-bottom: -20px;
   }
-  
+
+  /* Video start */
+
+
+  video {
+    object-fit: fill;
+    position: relative;
+    padding-bottom: 20px;
+    height:90%;
+    
+}
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;}
+
+
+
+/* Video end */
   .center-text {
   font-size: 20px;
   text-align:left;
@@ -1106,8 +1146,6 @@ font-weight:500;
 {
   display: none;
 }
-
-
 
 
 
@@ -1721,6 +1759,15 @@ top: 0px !important;
 
   
   @media (max-width:950px) {
+
+
+    video {
+
+      padding-bottom: 20px;
+      height:40%;
+      
+  }
+  
     .test1
     {
       display:block;
@@ -2114,6 +2161,32 @@ margin-top: 50px;
   }
   
   @media (max-width: 600px) {
+
+
+    #buttomText3 {
+      position: absolute;
+          color:#ffffff!important;
+          border:3px solid #5d545500;
+          background-color:rgb(228, 182, 0);
+        transform: translateX(-50%);
+        left: 50%;
+        margin-top: -80px;
+          padding:5px;
+          color:#020000;
+          font-size:17px;
+   
+          }
+
+      /* Video start */
+
+
+
+
+
+/* Video end */
+
+
+
     footer {
       height: 780px !important;
     }

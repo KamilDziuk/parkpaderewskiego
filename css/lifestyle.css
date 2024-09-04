@@ -639,20 +639,24 @@ text-align: left;
 
 /* Container contact  end */
   .text0 {
-  margin-top:20%!important
+  margin-top:20%!important;
+  color: #00000000 !important;
   }
   
   .text1 {
-  margin-top:25%!important
+  margin-top:25%!important;
+  color: #00000000 !important;
   }
   
   .text2 {
-  margin-top:15%!important
+  margin-top:15%!important;
+  color: #00000000 !important;
   }
   
   .text3 {
   font-size:23px!important;
-  margin-top:0%!important
+  margin-top:0%!important;
+  color: #00000000 !important;
   }
 
 

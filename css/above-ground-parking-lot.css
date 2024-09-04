@@ -50,7 +50,9 @@
     
     div#columns figure {
     width:100%;
-    max-width:350px
+    max-width:350px;
+    
+    
     }
     
     div#columns figure figcaption {

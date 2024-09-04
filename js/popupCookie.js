@@ -1,7 +1,7 @@
 let acceptBtn = document.querySelector("#acceptBtn");
 let cookieBox = document.querySelector(".containerCookie");
 let saveBtn = document.querySelector("#saveBtn");
-let popup = document.querySelector(".popupCookie");
+let popupCookie = document.querySelector(".popupCookie");
 
 
 
@@ -43,7 +43,7 @@ function cookieMessage() {
 
   if (!getCookie("consentCookie")) {
     cookieBox.classList.add("show");
-    popup.classList.add("show2");
+    popupCookie.classList.add("show2");
 
     let textCookie = document.querySelector(".textCookie");
     let advancedSettings = document.querySelector("#advancedSettings");
@@ -87,13 +87,13 @@ Zalecamy zaakceptowanie wszystkich plików cookie oraz korzystanie z funkcji kon
 
     // Consent to cookies
     acceptBtn.addEventListener("click", () => {
-      popup.style.display = "none";
+      popupCookie.style.display = "none";
       cookieBox.style.display = "none";
       setCookie("consentCookie", "GA4_Active: ", true, 30);
     });
 
     saveBtn.addEventListener("click", () => {
-      popup.style.display = "none";
+      popupCookie.style.display = "none";
       cookieBox.style.display = "none";
       setCookie("consentCookie",  "GA4_Active: ", true, 30);
     });

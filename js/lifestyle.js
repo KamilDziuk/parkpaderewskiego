@@ -1,10 +1,10 @@
 // navigation bar start
-document.querySelector(".hamburger").addEventListener("click", function() {
+document.querySelector(".hamburger").addEventListener("click", () => {
     document.querySelector(".hamburger").classList.toggle("is-active");
     document.querySelector(".navbar__menu").classList.toggle("navbar__menu--active");
     document.querySelector(".top").classList.toggle("top--open");
     });
-    window.addEventListener("scroll", function() {
+    window.addEventListener("scroll",  () =>{
     let scroll = window.pageYOffset || document.documentElement.scrollTop;
     if (scroll >= 60) {
     document.querySelector(".top").classList.add("top--scrolling");
@@ -15,7 +15,6 @@ document.querySelector(".hamburger").addEventListener("click", function() {
     // navigation bar end
     
     // popup start
-    document.addEventListener("DOMContentLoaded", function () {
     let showPopupButton = document.getElementById('showPopup');
     let popup = document.getElementById('popup');
     let closePopupButton = document.getElementById('closePopup');
@@ -25,14 +24,12 @@ document.querySelector(".hamburger").addEventListener("click", function() {
     closePopupButton.addEventListener('click', () => {
     popup.style.display = 'none';
     });
-    window.addEventListener('click', (event) => {
-    if (event.target === popup) {
-    popup.style.display = 'none';
-    }
-    });
-    let form = document.getElementById('form');
-    let btn = document.getElementById('button');  
-    });
+    // window.addEventListener('click', (event) => {
+    // if (event.target === popup) {
+    // popup.style.display = 'none';
+    // }
+    // });
+    
     // popup end
     
 
