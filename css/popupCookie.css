@@ -82,10 +82,10 @@ position: fixed;
 .buttonsCookie {
   margin-top: 16px;
   font-size: 12px !important; 
-  width: 75%;
 
-  align-items: center;
-  justify-content: space-between;
+
+transform: translateX(-50%) ;
+left: 50% ;
   
 }
 
@@ -96,8 +96,8 @@ font-size: 12px;
 margin-bottom: 1%;
 margin-top: 1%;
 padding: 6px;
-transform: translateX(-50%);
-left: 40%;
+
+
 }
 
 #acceptBtn, #saveBtn
@@ -277,6 +277,15 @@ left: calc(100% - 1.5em);
 /* Switch 1 Specific Style End */
 
 @media (max-width: 500px) {
+
+
+  .imageLpp
+{
+  position: relative;
+  width:90px;
+
+ margin-bottom: -10px;
+}
   .headerCookie h2 {
 font-size: 15px;
     
@@ -313,4 +322,7 @@ font-size: 12px;
 
 
 }
+
+
+
 
