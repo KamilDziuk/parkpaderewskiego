@@ -8,12 +8,12 @@ body {
   }
 
 
-  .test
+  .sliderDesktopVersion
   {
     display:block;
   }
 
-  .test1
+  .sliderMobileVersion
   {
     display:none;
   }
@@ -38,6 +38,7 @@ body {
     height: 100%;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.267), transparent);
     animation: shine 6s infinite;
+   
   }
   
   @keyframes shine {
@@ -87,7 +88,6 @@ body {
   height:125px;
   width:100%;
   transition:background-color 0;
-  transition:.5s ease-out;
   z-index:996
   }
   .top-content {
@@ -96,21 +96,20 @@ body {
     background-color:transparent;
     height:112px;
     width:100%;
+
     backdrop-filter:blur(15px);
     background-color:rgba(0,0,0,0.242);
     -webkit-backface-visibility:hidden;
     -moz-backface-visibility:hidden;
     -webkit-transform:translate3d(0,0,0);
     -moz-transform:translate3d(0,0,0);
-
     z-index:996
-
+t
   }
 
 
   .top:hover {
   backdrop-filter:blur(15px);
-  transition:.5s ease-out;
   background-color:rgba(0,0,0,0.242);
   -webkit-backface-visibility:hidden;
   -moz-backface-visibility:hidden;
@@ -145,7 +144,6 @@ body {
   margin:0 auto;
   font-size:15px;
   height:60px;
-
   padding:0 15px;
   z-index:997
   
@@ -333,7 +331,7 @@ body {
   #textAboutus
   {
     width: 100%;
- 
+font-size: 20px;
   }
 
   #textAlexBrush
@@ -382,7 +380,7 @@ body {
   header {
   height:1800px;
 
-  background: url(/image/visualization33.webp) center ;
+  background: url(/image/media.jpg) center ;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -405,10 +403,10 @@ body {
   color:#fff
   }
   
-  .lifestyle{
-    height: 100%;
+  .mediae{
+    height: 70%;
     width: 100%;
-    background: url(/image/lifestyle22.webp) center; 
+    background: url(/image/media.jpg) center; 
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -493,7 +491,7 @@ body {
   
   margin-top: -100%;
   margin-left: 400px;
-
+  
 }
 
 
@@ -522,63 +520,97 @@ input[type="submit"] {
   color: #fff;
   border: none
 }
-    /* lifestyle header start*/ 
-     .lifestyle, .centerLifestyle p {
+    /* mediae header start*/ 
+     .mediae, .centerMediae p {
   
     margin-bottom:40px;
     font-size:70px;
     font-weight:700;
     }
-    .lifestyle
+    .mediae
     {
       margin:auto;
      
     }
-     .centerLifestyle {
+     .centerMediae {
 
     margin:10%;
     text-align:left;
     color:#fff
     }
-    #buttomTextLifestyle1 {
-      margin-top:0!important;
-      margin-left:0;
-  
-         
-      color:#ffff!important;
-      border:3px solid #fff;
-      background-color:rgba(255,255,255,0);
-      outline:none;
-      padding:30px;
-      color:#020000;
-      font-size:35px;
-      border-radius:5px
-      }
+
+
+      iframe
+      {
+      width: 100%;
+      height: 100%;
+      position: relative;
+ border-radius: 4%;
+      padding: 1%;
       
-      #buttomTextLifestyle1:hover {
+      border: none;
+
+      }
+
+      .videoMedia
+      {
+        position: relative;
+        width: 320px;
+        height: 50%;
+ 
+      }
+
+      
+      #buttomTextMedia {
+        margin-top:0!important;
+        margin-left:0;
+       /* backdrop-filter:blur(5px); */
+        color:rgb(93, 84, 85)!important;
+        border:3px solid rgb(93, 84, 85);
+        /* background-color:rgba(0, 0, 0, 0.139); */
+        outline:none;
+        padding:30px;
+        color:#020000;
+        font-size:35px;
+        border-radius:5px;
+        transition:.5s ease-out
+        
+        }
+      
+
+        
+      #buttomTextMedia:hover {
+        background-color:rgba(0, 0, 0, 0.139);
+        backdrop-filter:blur(0px);
+       transition:.5s ease-out;
+        }
+      
+
+
+      #buttomTextMediae1:hover {
         background-color:#ffffff54
         }
-        /* lifestyle header end*/ 
+        /* mediae header end*/ 
 
-        /* Container Lifestyle start */
-        .containerLifestyle {
+        /* Container Mediae start */
+        .containerMediae {
           display: flex;
           align-items: center;
           justify-content: center;
        
         }
         
-        .containerLifestyleBox,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
+        .containerMediaeBox0,  .containerMediaeBox1,  .containerMediaeBox2,  .containerMediaeBox3
         {
         
           position: relative;
           width:550px;
           height:394px;
       overflow: hidden;
-      
+      border-radius: 2%;
       
         }
-        .imgContainerLifestyle ,.imgContainerLifestyle1,.imgContainerLifestyle2,.imgContainerLifestyle3,.imgContainerLifestyle4,.imgContainerLifestyle5,.imgContainerLifestyle6,.imgContainerLifestyle7{
+        .imgContainerMediae0 ,.imgContainerMediae1,.imgContainerMediae2,.imgContainerMediae3,.imgContainerMediae4,.imgContainerMediae5,.imgContainerMediae6,.imgContainerMediae7{
           position: absolute;
           margin-left: 0%;
           margin-right: 0%;
@@ -595,7 +627,7 @@ input[type="submit"] {
         from {opacity: 1;}
         to {opacity: 0.2;}
       }
-        .textContainerLifestyle {
+        .textContainerMediae {
     
           font-size: 20px;
           max-width: 60%;
@@ -607,15 +639,15 @@ input[type="submit"] {
           padding-left: 2%;
         }
 
-        .testLeft
+        .textLeft
         {
 text-align: left;
         }
-        .testRight
+        .textRight
         {
           text-align: right;
         }
-         /* Container Lifestyle end */
+         /* Container Mediae end */
 
 
           /* Container contact  start */
@@ -641,44 +673,26 @@ text-align: left;
 
 /* Container contact  end */
   .text0 {
-    color: #00000000;
- 
-  }
-
-  .headerText0 
-  {
-    margin-top:20%!important
+  margin-top:20%!important;
+  color: #00000000 !important;
   }
   
   .text1 {
-color: #00000000;
-  
-  }
-  .headerText1
-  {
-    margin-top:25%!important
+  margin-top:25%!important;
+  color: #00000000 !important;
   }
   
   .text2 {
-    color: #00000000;
-  margin-top:15%!important
+  margin-top:15%!important;
+  color: #00000000 !important;
   }
-  .headerText2
-  {
-    margin-top:15%!important
-  }
-  
   
   .text3 {
-    color: #00000000;
   font-size:23px!important;
-  margin-top:0%!important
+  margin-top:0%!important;
+  color: #00000000 !important;
   }
-  .headerText3
-  {
-    font-size:23px!important;
-  margin-top:0%!important
-  }
+
 
   /* arrows one start */
   .arrows {
@@ -842,30 +856,11 @@ color: #00000000;
   font-size:17px;
   border-radius:5px
   }
-
-
-  #buttomText3 {
-position: relative;
-    color:#ffffff!important;
-    margin-top: -100px;
-    border:3px solid #5d545500;
-    background-color:rgb(228, 182, 0);
-transform: translateX(-50%);
-left: 50%;
-
-    padding:15px;
-    color:#020000;
-    font-size:17px;
-    border-radius:5px;
-margin-bottom: 20px;
-    }
   
   #buttomText0:hover {
   background-color:#ffffff54
   }
-  #buttomText3:hover {
-    background-color:rgb(168, 135, 5);
-    }
+  
   #buttomText1:hover {
   background-color:#ffffff54
   }
@@ -876,9 +871,9 @@ margin-bottom: 20px;
   }
   
   .add-padding {
-
 padding-left: 15%;
 padding-right: 15%;
+margin-bottom: -100px;
   }
 
   .add-paddingGallery {
@@ -895,45 +890,13 @@ padding-right: 15%;
   }
   
   .add-padding2 {
-  margin-top:400px;
-  padding-top: 2%;
+  margin-top:0px;
+  padding-top: 0px;
   padding-bottom: 0%;
   padding-left: 15%;
   padding-right: 15%;
-  margin-bottom: -20px;
   }
-
-  /* Video start */
-
-
-video {
-  object-fit: fill;
-  position: relative;
-  padding-bottom: 20px;
-  width: 100%; 
-  height: auto; 
-}
-
-
-video::-webkit-media-controls-panel {
-  display: none !important;
-  opacity: 1 !important;
-}
-
-
-video::-webkit-media-controls {
-  display: none !important;
-}
-
-video::-webkit-media-controls-play-button {
-  display: none !important;
-} 
-
-/* End video styles */
-
-
-
-/* Video end */
+  
   .center-text {
   font-size: 20px;
   text-align:left;
@@ -1186,6 +1149,8 @@ font-weight:500;
 
 
 
+
+
   .slideshowTwo-text {
   position:relative;
   margin-top:14%;
@@ -1195,7 +1160,7 @@ font-weight:500;
   font-size:63px;
   width:98.9vw;
   text-align:center;
-  color:#ffffff;
+  color:#a7a7a7;
   font-family:'Open Sans',sans-serif;
   font-weight:700;
   pointer-events:none;
@@ -1504,10 +1469,7 @@ z-index: 1;
 /* 3D mockup end */
 
   @media (max-width: 2000px) {
-  .locationsAll {
-  
-  
-  }
+
 
   .add-padding1 {
     padding-top: 25%;
@@ -1556,43 +1518,23 @@ footer
   margin-top:250px;
   font-size:40px
   }
-  .headerText0 {
-    font-size:40px!important;
-    margin-top:20%!important
-  }
+  
 
   .text0 {
   font-size:40px!important;
   margin-top:20%!important
   }
-
-
-  .headerText1 {
-    font-size:40px!important;
-    margin-top:20%!important
-  }
-
+  
   .text1 {
   font-size:40px!important;
   margin-top:20%!important
   }
-
-
-  .headerText2 {
-    font-size:40px!important;
-    margin-top:20%!important
-  }
-
-
+  
   .text2 {
   font-size:40px!important;
   margin-top:20%!important
   }
-  .headerText3 {
-    font-size:20px!important;
-    margin-top:6%!important
-  }
-
+  
   .text3 {
   font-size:20px!important;
   margin-top:6%!important
@@ -1677,15 +1619,9 @@ top: 850px !important;
   
   @media (max-width:1100px) {
 
-     video {
 
-  
-      height:80%;
-      
-  }
-   
 
-    .containerLifestyleBox,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
+    .containerMediaeBox0,  .containerMediaeBox1,  .containerMediaeBox2,  .containerMediaeBox3
     {
     
       position: relative;
@@ -1760,17 +1696,17 @@ top: 850px !important;
 
 
 
-  .lifestyle, .centerLifestyle p {
+  .mediae, .centerMediae p {
 
 
     margin-bottom:40px;
     font-size:35px;
     font-weight:700;
     }
-    #buttomTextLifestyle1 {
+    #buttomTextMediae1 {
       font-size:20px;
       }
-      .centerLifestyle p {
+      .centerMediae p {
 
 margin-top: 150px;
 
@@ -1794,13 +1730,8 @@ margin-top: 150px;
   padding:15px
   }
   
-  .add-padding1 {
-  margin-top:450px
-  }
-  
-  .add-padding2 {
-  margin-top:400px
-  }
+
+
   /* email  start  */
 #form {
   position: relative;
@@ -1822,21 +1753,41 @@ top: 0px !important;
 
   
   @media (max-width:950px) {
+    
+    .videoMedia
+    {
+      position: relative;
+      width: 100%;
+      height: 50%;
+    }
+
+    iframe
+      {
+  transform: translateX(-40%);
+  left: 50%;
+      position: relative;
+
+      }
+
+    .add-padding {
+
+      margin-right:5%;
+      max-width: 100%;
+      color:#5D5455;
+      padding-left: 5%;
+ 
+        }
 
 
-    video {
 
-  
-      height:60%;
-      
-  }
-  
-    .test1
+
+
+    .sliderMobileVersion
     {
       display:block;
     }
 
-    .test
+    .sliderDesktopVersion
     {
       display:none;
     }
@@ -1856,13 +1807,7 @@ top: 0px !important;
     .footer_logo{
       width:17%;
     }
-  .add-padding1 {
-  margin-top:450px
-  }
-  
-  .add-padding2 {
-  margin-top:400px
-  }
+
   
   .logo {
   width:120px
@@ -1876,22 +1821,12 @@ top: 0px !important;
   margin-top:150px;
   font-size:28px
   }
-  .lifestyle, .centerLifestyle {
+  .mediae, .centerMediae {
   
     margin:auto;
     text-align:left;
     color:#fff
     }
-
-
-
-    .headerText0 {
-      font-size:28px!important;
-  margin-top:15%!important
-    }
-
-
-
   .text0 {
   font-size:28px!important;
   margin-top:15%!important
@@ -1909,33 +1844,16 @@ top: 0px !important;
 
     right:51%;
     }
-    .headerText1 {
-      font-size:28px!important;
-      margin-top:15%!important
-    }
+
 
   .text1 {
   font-size:28px!important;
   margin-top:15%!important
   }
   
-
-  .headerText2 {
-    font-size:28px!important;
-    margin-top:15%!important
-  }
-
-
   .text2 {
   font-size:28px!important;
   margin-top:15%!important
-  }
-
-
-  
-  .headerText3 {
-    font-size:20px!important;
-    margin-top:6%!important
   }
   
   .text3 {
@@ -1950,7 +1868,7 @@ top: 0px !important;
   padding:9px
   }
 
-  .lifestyle {
+  .mediae {
     height:80% !important;
 
     }
@@ -1966,22 +1884,22 @@ top: 0px !important;
 
  
 
-  .lifestyle, .centerLifestyle p {
+  .mediae, .centerMediae p {
    
 
 
     font-size:35px;
     font-weight:700;
     }
-    #buttomTextLifestyle1 {
+    #buttomTextMediae1 {
       font-size:20px;
       margin-top: -20px !important;
       }
 
   
 
-          /* Container Lifestyle start */
-          .containerLifestyle {
+          /* Container Mediae start */
+          .containerMediae {
             display:block;
             align-items: center;
             justify-content: center
@@ -1990,7 +1908,7 @@ top: 0px !important;
  
 
           
-          .textContainerLifestyle {
+          .textContainerMediae {
         
             font-size: 20px;
             max-width: 100%;
@@ -2006,7 +1924,7 @@ top: 0px !important;
 
 
 
-           /* Container Lifestyle end */
+           /* Container Mediae end */
 
  /* Container contact  start */
            .textContainerContact
@@ -2029,15 +1947,7 @@ top: 0px !important;
   
   @media (max-width:770px) {
 
-    video {
-
-  
-      height:50%;
-      
-  }
-
-
-    .containerLifestyleBox,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
+    .containerMediaeBox0,  .containerMediaeBox1,  .containerMediaeBox2,  .containerMediaeBox3
     {
     
    
@@ -2094,21 +2004,9 @@ top: 0px !important;
   font-size:20px
   }
   
-
-  .headerText0 {
-    font-size:20px!important;
-    margin-top:25%!important
-  }
-
   .text0 {
   font-size:20px!important;
   margin-top:25%!important
-  }
-
-  
-  .headerText1 {
-    font-size:20px!important;
-    margin-top:30%!important
   }
   
   .text1 {
@@ -2116,39 +2014,17 @@ top: 0px !important;
   margin-top:30%!important
   }
   
-
-  .headerText2 {
-    font-size:20px!important;
-    margin-top:20%!important
-  }
-
-
-
   .text2 {
   font-size:20px!important;
   margin-top:20%!important
   }
   
-
-  
-  .headerText3 {
-    font-size:15px!important;
-    margin-top:6%!important
-  }
-
-
   .text3 {
   font-size:15px!important;
   margin-top:6%!important
   }
   
-  .add-padding1 {
-  margin-top:180px
-  }
-  
-  .add-padding2 {
-  margin-top:140px
-  }
+
   
   .slideshow .slider .item {
   height:230px;
@@ -2204,7 +2080,7 @@ top: 0px !important;
   margin-top:0;
   width:130px
   }
-  .lifestyle
+  .mediae
   {
     background-size:cover !important;
     background-attachment:scroll !important;
@@ -2215,15 +2091,15 @@ top: 0px !important;
       background-size:cover !important;
       background-attachment:scroll !important;
     }
-  .centerLifestyle p {
+  .centerMediae p {
 margin-top: 50px;
-    font-size:20px;
+    font-size:25px;
     margin-left: 20px;
 
     }
 
 
-    #buttomTextLifestyle1 {
+    #buttomTextMediae1 {
       font-size:15px;
       padding: 10px;
       margin-left: 20px;
@@ -2237,20 +2113,10 @@ margin-top: 50px;
   font-size:12px
   }
   
-  .add-padding1 {
-  margin-top:170px
-  }
-  
-  .add-padding2 {
-  margin-top:150px
-  }
-  
+
 
   
-  .locationsAll {
-  
 
-  }
   }
   
   @media (min-width: 600px) {
@@ -2287,19 +2153,6 @@ margin-top: 50px;
   }
   
   @media (max-width: 600px) {
-
-
-
-      /* Video start */
-
-
-
-
-
-/* Video end */
-
-
-
     footer {
       height: 780px !important;
     }
@@ -2348,20 +2201,12 @@ margin-top: 50px;
 
 
 
-    video {
-
-  
-      height:30%;
-      
-  }
 
   .add-padding1 {
   margin-top:200px
   }
   
-  .add-padding2 {
-  margin-top:150px
-  }
+
   
   header {
   height:1000px!important
@@ -2371,47 +2216,20 @@ margin-top: 50px;
   margin-top:100px;
   font-size:15px
   }
-
-
-  .headerText0 {
-    font-size:15px!important;
-    margin-top:25%!important
-  }
-
   
   .text0 {
   font-size:15px!important;
   margin-top:25%!important
-  }
-
-
-
-  .headerText1 {
-    font-size:15px!important;
-    margin-top:30%!important
   }
   
   .text1 {
   font-size:15px!important;
   margin-top:30%!important
   }
-
-
-
-  .headerText2 {
-    font-size:15px!important;
-    margin-top:20%!important
-  }
-  
   
   .text2 {
   font-size:15px!important;
   margin-top:20%!important
-  }
-    .headerText3 {
-      font-size:15px!important;
-      margin-top:-7%!important;
-      font-weight: 200 !important;
   }
   
   .text3 {
@@ -2504,14 +2322,7 @@ h5
 }
   }
   @media (max-width: 450px) {
-
-    #buttomText3 {
-    
-          font-size:12px;
-          margin-top: -80px;
-          }
-        
-    .containerLifestyleBox,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
+    .containerMediaeBox0,  .containerMediaeBox1,  .containerMediaeBox2,  .containerMediaeBox3
     {
     
    
@@ -2541,13 +2352,7 @@ h5
   font-size:5px
   }
   
-  .add-padding1 {
-  margin-top:200px
-  }
-  
-  .add-padding2 {
-  margin-top:140px
-  }
+
   
   .slideshowTwo-text {
 
