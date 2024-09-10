@@ -596,11 +596,14 @@ padding: 0%;
           transition:.5s ease-out;
         }
         
-      #buttomMedia:hover {
+ 
+        .buttomMediaText:hover {
 
-        backdrop-filter:blur(0px);
-       transition:.5s ease-out;
-        }
+     
+          backdrop-filter:blur(1.5px);
+          transition:.5s ease-out;
+          }
+        
       
 
 
