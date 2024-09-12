@@ -176,7 +176,7 @@ t
   position:absolute;
   top:56px;
   font-weight:500;
- 
+  border: 1px solid #fff;
   width:100%;
   margin-right:6%;
   background-color:#30492B;
@@ -914,12 +914,7 @@ img {
 height:auto
 }
     
-.locationsAll {
-  position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
     
 h5 {
 font-weight:500;
@@ -1171,98 +1166,6 @@ font-weight:500;
   }
   /* estate background end  */
 
-  /* footer start  */
-  footer {
-  font-weight:100;
-  margin:0;
-   bottom:0;
-  position:relative;
-  background:#30492b;
-  color:#fff;
-height: 60% !important;
-  line-height:1.5
-  }
-  .smollText
-  {
-   position: fixed;
-   top: 75%;
-   right: 12%;
-   text-align: left;
-  }
-  .footer_logo {
-  margin-right:3%;
-  margin-top:1%;
-  width:17% !important;
-  }
-  
-  .locationsLeft {
-  margin-left:3%;
-  padding:15px 40px;
-  font-size:17px
-  }
-  
-  .locationsRight {
-  margin-left:920px;
-  display:flex;
-  text-align:right!important;
-  margin-top:-400px!important;
-  margin-top:0
-  }
-  
-  .locationsCenter {
-  margin-left:500px;
-  position:absolute;
-  text-align:center!important;
-  margin-top:0px;
-  text-wrap: pretty !important;
-  }
-
-  .line {
-  height:1px;
-  background-color:#fff
-  }
-/* social media start   */
-  .fa {
-  right:140px;
-  position:relative;
-  padding:7px;
-  font-size:22px;
-  width:25px;
-  height:20px;
-  text-align:center;
-  text-decoration:none;
-  margin:270px 2px 0!important;
-
-  border-radius:100%;
-
-  }
-  
-  .fa:hover {
-  opacity:.7
-  }
-  
-  .fa-facebook {
-  background:#fff;
-  color:#000
-  }
-  
-  .fa-linkedin {
-  background:#fff;
-  color:#000
-  }
-  
-  .fa-youtube {
-  background:#fff;
-  color:#000
-  }
-  
-  .fa-instagram {
-  background:#fff;
-  color:#000
-  }
- /* social media end */
-
-/* footer end  */
 
 /* 3D mockup start */
 #smart-makieta {
@@ -1476,10 +1379,6 @@ z-index: 1;
 
 
 
-footer
-{
-  height:50% !important;
-}
 
   }
   
@@ -1490,14 +1389,8 @@ footer
   padding-bottom: 2%;
   }
   
-  .locationsAll {
 
-  
-  }
-  
-  footer {
-    height: 72.5% !important;
-  }
+
   }
 
   
@@ -1559,48 +1452,6 @@ footer
   font-size:12.5px
   }
   
-  .smollText
-  {
-
-   top: 75%;
-   right: 15%;
-
-  }
-  
-
-  
-  .footer_logo {
-  margin-right:3%;
-  margin-top:1%;
-  width:17%
-  }
-  
-  .locationsLeft {
-  margin-left:3%
-  }
-  
-  .locationsRight {
-  margin-left:620px;
-  margin-top:-375px!important;
-  margin-top:0
-  }
-  
-  .locationsCenter {
-  margin-left:300px;
-  margin-top:0px
-  }
-  
-  .line {
-  height:1px
-  }
-  
-  .fa {
-  margin-top:300px!important;
-  right:140px;
-  font-size:20px;
-  width:20px;
-  height:20px
-  }
 /* email  start  */
 #form {
 
@@ -1630,47 +1481,6 @@ top: 850px !important;
 
 
 
-
-    footer {
-      height: 759px !important;
-      }
-      .smollText
-      {
-    
-       top: 81%;
-       right: 80%;
-    
-      }
-      
-
-      
-      footer .content_footer {
-      padding:0 10px!important;
-      font-size:17px
-      }
-      
-      .locationsLeft {
-      margin-left:0;
-      padding:0
-      }
-      
-      .locationsCenter {
-      margin-left:0;
-      text-align:left!important;
-      margin-top:11px
-      }
-      
-      .locationsRight {
-        
-      margin-left:0;
-      text-align:left!important;
-      margin-top:0!important
-      }
-      
-      .fa {
-      margin-top:270px!important;
-      right:45%;
-      }
   
   header .center p {
   margin-top:210px;
@@ -1735,10 +1545,7 @@ top: 0px !important;
 
 }
 
-.footer_logo
-{
-  width: 25% !important;
-}
+
 /* email  end  */
 
   }
@@ -1771,22 +1578,10 @@ top: 0px !important;
     {
       display:none;
     }
-    .smollText
-    {
-  
-     top: 81%;
-     right: 79%;
-  
-    }
+
     
 
-.locationsAll
-{
-  top: 42% !important;
-}
-    .footer_logo{
-      width:17%;
-    }
+
 
   
   .logo {
@@ -1812,18 +1607,7 @@ top: 0px !important;
   margin-top:15%!important
   }
   
-  .smollText
 
-{
-  top: 85%;
-  left: 0%;
-  width: 100%;
-}
-
-  .fa {
-
-    right:51%;
-    }
 
 
   .text1 {
@@ -1920,11 +1704,7 @@ top: 0px !important;
 
   }
   
-  .footer_logo
-  {
-    width: 30%;
-  }
-  
+
   @media (max-width:770px) {
 
     .containerLifestyleBox0,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
@@ -1968,13 +1748,7 @@ top: 0px !important;
   @media (max-width: 767px) {
 
 
-    .fa
-    {
-      right:60%;
-    }
-    footer {
-      height: 760px !important;
-    }
+ 
   header {
   height:1100px!important
   }
@@ -2133,9 +1907,7 @@ margin-top: 50px;
   }
   
   @media (max-width: 600px) {
-    footer {
-      height: 780px !important;
-    }
+  
     .white-border {
       padding:0 1px !important;
       padding-bottom:5.5%;
@@ -2171,10 +1943,7 @@ margin-top: 50px;
   
 
   
-.footer_logo
-{
-  width: 40%;
-}
+
   }
   
   @media (max-width: 550px) {
@@ -2230,60 +1999,19 @@ margin-top: 50px;
   .center-text {
   font-size: 15px;
     }
-    footer {
-    
-      height: 750px !important;
-      text-align: center !important;
-    }
-  
-  .locationsLeft {
-    font-size:15px;
-  text-align: center !important;
-  
-  }
-  .locationsCenter {
-    left:0% !important;
-      text-wrap: pretty !important;
-    }
-  .locationsAll {
-    text-align: center !important;
-top:45%;
-  font-size:15px;
-  }
-  
-.smollText
-{
-  top: 87%;
-  left: 0%;
-}
-  
-  
-  .footer_logo {
-  width:50% !important;
-  left: 0;
-  }
+ 
     /* email  start  */
     input {
   
       width: 300px;
     }
 
-    .locationsRight
-{
-  text-align: center !important;
-  margin-left:22% !important;
-  
-}
+
 h5
 {
   text-align: center !important 
 }
 
-.fa {
-  
- margin-top: 80% !important;
-  right:156px;
-  }
 
 
     textarea {

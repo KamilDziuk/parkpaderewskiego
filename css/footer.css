@@ -1,0 +1,191 @@
+
+  /* footer start  */
+
+  img {
+    width:auto;
+   height:auto
+   }
+  footer {
+    position: relative;
+ height: 20%;
+    background:#30492b;
+    color:#fff;
+    font-size:15.5px !important;
+ 
+  }
+.backlightFooter:hover
+{
+color: #d1d1d1 !important;
+}
+  .locationsAll {
+
+    background:#30492b;
+    position: absolute;
+    top: 10%;
+    display: flex  !important;
+
+width: 100%;
+line-height:1.5;
+
+  }
+  .smollText
+  {
+ font-weight: 700;
+  }
+  .footer_logo {
+    position: relative;
+    width:180px;
+
+
+  margin-bottom:3%;
+  }
+
+  .locationsLeft {
+    position: relative;
+    width: 50%;
+    margin-left: 5%;
+  }
+  
+  .locationsRight {
+margin-right: 5%;
+    position: relative;
+    text-align: right;
+
+  }
+  
+  .locationsCenter {
+    margin-top: 350px;
+    position: relative;
+  width: 100%;
+  margin-bottom: 0.5%;
+transform: translateX(-100%);
+left: 45%;
+    text-align: center;
+  }
+
+  .line {
+    margin-bottom: 1%;
+    height:1px;
+    background-color:#fff
+  }
+/* social media start   */
+  .fa {
+ 
+    position:relative;
+    padding:7px;
+    font-size:22px;
+    width:25px;
+    height:20px;
+    text-align:center;
+    text-decoration:none;
+    margin:2px 2px 0;
+  
+    border-radius:100%;
+    background:#fff;
+    color:#000;
+    transform: translateX(-100%);
+    left: 30%;
+
+  }
+  
+  .fa:hover {
+  opacity:.7
+  }
+  
+
+ /* social media end */
+
+/* footer end  */
+
+
+
+
+
+
+
+  
+@media (max-width:950px) {
+
+
+
+ /* footer start  */
+
+
+ .locationsAll {
+    position: absolute;
+    top: 1%;
+    display:block !important  ;
+
+width: 100%;
+line-height:1.5;
+
+  }
+
+  .footer_logo {
+    position: relative;
+
+
+    margin-top:1%;
+  margin-bottom:1%;
+  }
+
+  .locationsLeft {
+    position: relative;
+    margin-left: 0%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .locationsRight {
+    margin-right: 0%;
+    position: relative;
+    text-align: center;
+
+  }
+  
+  .locationsCenter {
+    margin-top: 0px;
+    position: relative;
+  width: 100%;
+  margin-bottom:3%;
+    text-align: center;
+    transform: translateX(0%);
+left: 0%;
+  }
+
+  .line {
+
+
+
+
+    background-color:#ffffff00
+  }
+/* social media start   */
+  .fa {
+ 
+    position:relative;
+    padding:7px;
+    font-size:22px;
+    width:25px;
+    height:20px;
+    text-align:center;
+    text-decoration:none;
+    margin:2px 2px 0;
+  
+    border-radius:100%;
+    background:#fff;
+    color:#000;
+    transform: translateX(0%);
+    left: 0%;
+margin-bottom: 2%;
+  }
+  
+  .fa:hover {
+  opacity:.7
+  }
+  
+
+ /* social media end */
+
+/* footer end  */
+}
