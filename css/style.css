@@ -7,7 +7,6 @@ body {
   overflow-x: hidden !important;
   }
 
-
   .test
   {
     display:block;
@@ -1628,7 +1627,6 @@ top: 0px !important;
   
   @media (max-width:950px) {
 
-
     video {
 
   
@@ -2216,14 +2214,14 @@ h5
       max-width: 300px;
     }    
 /* email  end  */
-.line
-{
-  width: 100px;
-  margin-left:35% !important;
-}
+
   }
   @media (max-width: 450px) {
-
+    #textAlexBrush
+    { 
+      margin-top: 50px;
+      font-size: 17px;
+    }
     #buttomText3 {
     
           font-size:12px;
@@ -2279,7 +2277,9 @@ h5
   @media (max-width: 395px) {
     #showPopup
     {
+      top: 15%;
     font-size: 10px;
+    padding:5px;
     }
   
   }
@@ -2370,7 +2370,8 @@ margin-right: 3%;
   z-index:1;
   transition:color 1s cubic-bezier(0.6,0,0.2,1);
   border:2px solid #fff;
-  border-radius:5px
+  border-radius:5px;
+  text-align: center;
   }
   
   .panel__title {

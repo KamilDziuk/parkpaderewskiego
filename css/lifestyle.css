@@ -1847,7 +1847,7 @@ top: 0px !important;
     }
   .centerLifestyle p {
 margin-top: 50px;
-    font-size:25px;
+   
     margin-left: 20px;
 
     }
@@ -2019,18 +2019,22 @@ h5
       max-width: 300px;
     }    
 /* email  end  */
-.line
-{
-  width: 100px;
-  margin-left:35% !important;
-}
+
   }
   @media (max-width: 450px) {
+
+
+    .centerLifestyle p {
+   
+          font-size:17px;
+        
+      
+          }
     .containerLifestyleBox0,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
     {
     
    
-      width:350px;
+      width:100%;
       height:197px;
 
     }
@@ -2069,7 +2073,9 @@ h5
   @media (max-width: 395px) {
     #showPopup
     {
+      top: 15%;
     font-size: 10px;
+    padding:5px;
     }
   
   }

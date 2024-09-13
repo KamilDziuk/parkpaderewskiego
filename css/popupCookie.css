@@ -5,7 +5,7 @@
   left: 550%;
  
   transform: translateX(-50%);    
-  max-width: 380px;
+  max-width: 350px;
   width: 100%;
   background: #fff;
   border-radius: 8px;
@@ -292,12 +292,12 @@ font-size: 15px;
 
   .containerCookie {
 
-    max-width: 231px;
+  width: 95%;
 
   }
 
   .buttonsCookie .button {
-font-size: 12px;
+font-size: 9px;
 
   }
   input[type="checkbox"].box1{
