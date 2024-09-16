@@ -5,7 +5,7 @@
   left: 550%;
  
   transform: translateX(-50%);    
-  max-width: 350px;
+  max-width: 390px;
   width: 100%;
   background: #fff;
   border-radius: 8px;
@@ -50,6 +50,7 @@ position: fixed;
 }
 
 .containerCookie .headerCookie {
+  
   display: flex;
   align-items: center;
   column-gap: 15px;
@@ -80,33 +81,49 @@ position: fixed;
   textCookie-decoration: underline;
 }
 .buttonsCookie {
-  margin-top: 16px;
-  font-size: 12px !important; 
 
 
-transform: translateX(-50%) ;
-left: 50% ;
+
+position: relative;
   
 }
 
-.button
+
+#acceptBtn
 {
-position: relative;
-font-size: 12px;
-margin-bottom: 1%;
-margin-top: 1%;
-padding: 6px;
+
+  font-size: 12px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  padding: 6px;
+  background: rgb(48, 73, 43) ;
+  color: #fff;
 
 
 }
 
-#acceptBtn, #saveBtn
+#advancedSettings
 {
-color: #fff;
-background: rgb(48, 73, 43) ;
+  font-size: 12px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+  padding: 6px;
+  background: rgb(217, 217, 217) !important;
+  color: #000000;
+
 }
-
-
+#saveBtn
+{
+  font-size: 12px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+margin-left: 5px;
+  padding: 6px;
+  background: rgb(217, 217, 217) !important;
+  color: #000000;
+}
   /* Switch 1 Specific Styles Start */
 
 .box_1{
@@ -292,7 +309,7 @@ font-size: 15px;
 
   .containerCookie {
 
-  width: 95%;
+  width: 80%;
 
   }
 
