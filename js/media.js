@@ -25,3 +25,11 @@ document.querySelector(".hamburger").addEventListener("click", () => {
     popup.style.display = 'none';
     });
     // popup end
+
+
+    let dropdown = document.querySelector(".dropdown");
+
+dropdown.addEventListener("click", () =>
+{
+    document.querySelector(".dropdown-content").classList.toggle("dropdownShow");
+})

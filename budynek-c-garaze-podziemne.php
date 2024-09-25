@@ -10,14 +10,19 @@
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','');</script>
+})(window,document,'script','dataLayer','GTM-');</script>
 <!-- End Google Tag Manager -->
 
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
+<link rel="apple-touch-icon" href="image/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -30,7 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<script src="js/popupMenu.js" async></script>
+<!-- <script src="js/popupMenu.js" async></script> -->
 <script src="js/popupCookie.js" defer></script>
   <title>Garaże podziemne C - Nowoczesne Osiedle w Zawierciu</title>
 </head>
@@ -40,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- navbar start -->
 <div class="top">
@@ -61,7 +66,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a class="navbar__item navbar__link" href="galeria">Galeria</a>
 <a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
 <a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
+<a class="navbar__item navbar__link" href="media">Media</a>
+<a class="navbar__item navbar__link" href="#contact">Kontakt</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -323,9 +329,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   </div>
   <br>
+  <section id="contact"></section>
   <!-- footer start -->
   <footer class="desctop">
-  <section id="contact"></section>
+
   <div class="locationsAll">
   <div class="locationsLeft"> 
     <img src="image/dhd.webp"
@@ -356,7 +363,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
 
   <footer class="mobile">
-    <section id="contact"></section>
+
     <div class="locationsAll">
     <div class="locationsLeft"> 
       <img src="image/dhd.webp"
@@ -801,5 +808,198 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
   </script>
+  <script>
+  // navigation bar start
+document.querySelector(".hamburger").addEventListener("click", () => {
+document.querySelector(".hamburger").classList.toggle("is-active");
+document.querySelector(".navbar__menu").classList.toggle("navbar__menu--active");
+document.querySelector(".top").classList.toggle("top--open");
+});
+window.addEventListener("scroll", () => {
+let scroll = window.pageYOffset || document.documentElement.scrollTop;
+if (scroll >= 60) {
+document.querySelector(".top").classList.add("top--scrolling");
+} else {
+document.querySelector(".top").classList.remove("top--scrolling");
+}
+});
+// navigation bar end
+
+// popup start
+
+let showPopupButton = document.getElementById('showPopup');
+let popup = document.getElementById('popup');
+let closePopupButton = document.getElementById('closePopup');
+showPopupButton.addEventListener('click', () => {
+popup.style.display = 'block';
+});
+closePopupButton.addEventListener('click', () => {
+popup.style.display = 'none';
+});
+// window.addEventListener('click', (event) => {
+// if (event.target === popup) {
+// popup.style.display = 'none';
+// }
+// });
+// popup end
+
+
+
+
+    // email  start 
+    
+    let send = document.querySelector('.send');
+    let text = document.querySelector('.text');
+    let text1 = document.querySelector('.text1');
+    let textValue = document.querySelector('.textValue');
+    let email = document.querySelector('.email');
+    let firstName = document.querySelector('.firstName');
+    let message = document.querySelector('.message');
+    let phone = document.querySelector('.phone');
+    let checkbox0 = document.querySelector('.checkbox0');
+    let checkbox1 = document.querySelector('.checkbox1');
+    let checkbox2 = document.querySelector('.checkbox2');
+    
+    // conditions for marking checkboxes start
+    checkbox0.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox0.value = "ZGODA_MARKETING Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.";
+    }
+    else 
+    {
+        checkbox0.value= "Not accepted";
+    }
+    });
+    
+    
+    
+    checkbox1.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox1.value= "ZGODA_MAIL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.";
+    }
+    else 
+    {
+        checkbox1.value= "Not accepted";
+    }
+    });
+    
+    checkbox2.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox2.value = "ZGODA_TEL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.";
+    }
+    else 
+    {
+        checkbox2.value= "Not accepted";
+    }
+    });
+    
+    checkbox0.value= "Not accepted";
+    checkbox1.value= "Not accepted";
+    checkbox2.value= "Not accepted";
+    // conditions for marking checkboxes end
+    
+    
+    send.addEventListener('click', () => {
+    
+      // form submission method start
+    sendEamil = () => {
+    
+    
+    // conditions for filling out the form fields and sending a request to submit the contact form start
+    if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
+    {
+        firstName.placeholder = " pole Imie";
+    }
+    
+    else
+    {
+    
+    
+        
+    Email.send({
+      SecureToken : '',
+To : 'sprzedaz@parkpaderewskiego.pl ',
+From : 'sprzedaz@parkpaderewskiego.pl ',
+    
+    Subject : `strona www - ${firstName.value}`,
+    Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  
+    EMAIL: ${email.value}<br><br>
+    TELEFON: ${phone.value}<br><br> 
+    OPIS: ${message.value} <br><br>
+    ZGODY: <br>${checkbox0.value} <br><br>
+    ${checkbox1.value} <br><br>
+    ${checkbox2.value}`
+    }).then(
+      // form submission method end
+    message =>  
+    {
+    text.innerHTML = message
+    if(text.textContent === "OK")
+    {
+    
+      setTimeout(() =>
+    {
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
+        textValue.style.color = "#ffff";
+    textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
+    }
+    else 
+    {
+      formPopup.style.display = "none";
+      textValue.style.color = "red"
+    textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
+      setTimeout(() => {
+        formPopup.style.display = "block";
+        textValue.style.display = "none";
+       
+    }, 5000);
+     
+    }
+    
+    
+    }); 
+    
+    };
+    };
+    sendEamil();
+    
+    });
+    // conditions for filling out the form fields and sending a request to submit the contact form start
+    // email  end 
+    let dropdown = document.querySelector(".dropdown");
+
+dropdown.addEventListener("click", () =>
+{
+    document.querySelector(".dropdown-content").classList.toggle("dropdownShow");
+})
+
+</script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(
+        'pwabuilder-sw.js'
+      );
+    }
+  </script>
+  
 </body>
 </html>

@@ -69,7 +69,9 @@ body {
   text-align:center;
   z-index:999!important
   }
-  
+  .dropdownShow{
+    display: block;
+      }
   .dropdown-content {
     
   font-size:15px;
@@ -182,7 +184,7 @@ t
   position:absolute;
   top:56px;
   font-weight:500;
-  border: 1px solid #fff;
+
   width:100%;
   margin-right:6%;
   background-color:#30492B;
@@ -1971,7 +1973,26 @@ margin-top: 50px;
   }
   
   @media (max-width: 550px) {
+    .navbar__link
+    {
+      border-bottom: 0.1px solid #fff;
+width: 80%;
+transform: translateX(-50%);
+margin-left: 50%;
+    }
+    .dropdown-content {
+  
+     
+      top:7px;
+   
+      }
 
+    .close {
+
+      right: 3.5px;
+ 
+      }
+    
 
 
 
@@ -2028,7 +2049,7 @@ margin-top: 50px;
 
     /* email  start  */
     input {
-  
+      width: 300px;
    
     }
 

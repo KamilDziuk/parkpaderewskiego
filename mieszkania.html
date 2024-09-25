@@ -6,6 +6,12 @@
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="icon" href="/favicon.ico" />
+
+<link rel="apple-touch-icon" href="image/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+<link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#000000" />
 <meta name="description" content="Interaktywna Smart Makieta" />
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,7 +28,7 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','');</script>
+  })(window,document,'script','dataLayer','GTM-');</script>
   <!-- End Google Tag Manager -->
 
 <!-- Google Tag Manager -->
@@ -30,17 +36,17 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM');</script>
+  })(window,document,'script','dataLayer','GTM-');</script>
   <!-- End Google Tag Manager -->
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G');
+  gtag('config', 'G-');
 </script>
 <!-- navbar start -->
 <div class="top-content">
@@ -62,7 +68,7 @@
 <a class="navbar__item navbar__link" href="galeria">Galeria</a>
 <a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
 <a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
+<a class="navbar__item navbar__link" href="media">Media</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -182,6 +188,13 @@ onload="(function(){SM.init('207119cb-dc7d-4f71-b101-90eb16e19025', 'smart-makie
     </div>
   </div>
   <!-- popup cookie  start -->
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(
+        'pwabuilder-sw.js'
+      );
+    }
+  </script>
+  
 </body>
 </html>

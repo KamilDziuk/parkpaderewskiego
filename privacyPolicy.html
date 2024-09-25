@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Polityka prywatności - Nowoczesne Osiedle w Zawierciu</title>
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
+
+<link rel="apple-touch-icon" href="image/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
@@ -23,11 +29,11 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','');</script>
+  })(window,document,'script','dataLayer','GTM-');</script>
   <!-- End Google Tag Manager -->
   
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -61,7 +67,8 @@
   <a class="navbar__item navbar__link" href="galeria">Galeria</a>
   <a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
   <a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
-  <a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
+  <a class="navbar__item navbar__link" href="media">Media</a>
+  <a class="navbar__item navbar__link" href="#contact">Kontakt</a>
   <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
   </div>
   <!-- Popup start -->
@@ -248,8 +255,9 @@
 
       
   <!-- footer start -->
+  <section id="contact"></section>
   <footer class="desctop">
-    <section id="contact"></section>
+
     <div class="locationsAll">
     <div class="locationsLeft"> 
       <img src="image/dhd.webp"
@@ -268,7 +276,7 @@
     <!-- social media start -->
      <br>
   <div class="smollText">   Bądź na bieżąco </div>
-    <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+    <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
     <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
     <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
     <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -280,7 +288,7 @@
     </footer>
   
     <footer class="mobile">
-      <section id="contact"></section>
+
       <div class="locationsAll">
       <div class="locationsLeft"> 
         <img src="image/dhd.webp"
@@ -296,7 +304,7 @@
       <!-- social media start -->
        <br>
     <div class="smollText">   Bądź na bieżąco </div>
-      <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+      <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
       <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
       <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
       <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -330,6 +338,13 @@
       </div>
     </div>
     <!-- popup cookie  start -->
-  
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register(
+          'pwabuilder-sw.js'
+        );
+      }
+    </script>
+    
 </body>
 </html>

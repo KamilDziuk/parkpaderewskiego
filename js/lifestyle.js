@@ -198,3 +198,11 @@ sliderTable.forEach((_, idx) => {
 sldier();
 
 },3000);
+
+
+let dropdown = document.querySelector(".dropdown");
+
+dropdown.addEventListener("click", () =>
+{
+    document.querySelector(".dropdown-content").classList.toggle("dropdownShow");
+})

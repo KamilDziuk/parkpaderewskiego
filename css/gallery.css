@@ -46,7 +46,7 @@ margin-bottom: 30px;
   font-size: 60px !important;
 }
 
-*:not(.fa,.popup-content) {
+*:not(.fa,.popup-content,.containerCookie) {
   box-sizing: border-box;
 }
 .responsive {
@@ -88,6 +88,11 @@ font-size: 30px !important;
 }
 
 @media only screen and (max-width: 500px) {
+
+  .empty
+  {
+    display: none;
+  }
   .responsive {
   width: 100%;
   }

@@ -9,8 +9,10 @@
 <link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
 <link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
 <link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
-
 <link rel="manifest" href="manifest.json">
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
@@ -50,7 +52,7 @@
 
 </head>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 <body>
@@ -73,8 +75,8 @@
 <a class="navbar__item navbar__link" href="galeria">Galeria</a>
 <a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
 <a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
-<a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
-<a class="navbar__item navbar__link"   target="_blank"   href="/image/forbse.pdf">Media</a>
+<a class="navbar__item navbar__link" href="#contact">Kontakt</a>
+<a class="navbar__item navbar__link" href="media">Media</a>
 <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
 </div>
 <!-- Popup start -->
@@ -353,8 +355,9 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
 <!-- movable buttons end -->
 
   <!-- footer start -->
-<footer class="desctop">
   <section id="contact"></section>
+<footer class="desctop">
+
   <div class="locationsAll">
   <div class="locationsLeft"> 
     <img src="image/dhd.webp"
@@ -373,7 +376,7 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
   <!-- social media start -->
    <br>
 <div class="smollText">   Bądź na bieżąco </div>
-  <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+  <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
   <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
   <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
   <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -385,7 +388,7 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
   </footer>
 
   <footer class="mobile">
-    <section id="contact"></section>
+
     <div class="locationsAll">
     <div class="locationsLeft"> 
       <img src="image/dhd.webp"
@@ -401,7 +404,7 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
     <!-- social media start -->
      <br>
   <div class="smollText">   Bądź na bieżąco </div>
-    <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+    <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
     <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
     <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
     <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -429,13 +432,19 @@ kroku z użyciem aplikacji na smartfony lub smartwatche.</p>
     <div class="textCookie"></div>
   
     <div class="buttonsCookie">
-      <button class="button" id="acceptBtn">Akceptuję i przechodzę do strony</button>
-        <button class="button" id="advancedSettings">Ustawienia zaawansowane</button>
-      <button class="button" id="saveBtn">Zapisz</button>
+      <button  id="acceptBtn">Akceptuję i przechodzę do strony</button>
+        <button  id="advancedSettings">Ustawienia zaawansowane</button>
+      <button  id="saveBtn">Zapisz</button>
     </div>
   </div>
   <!-- popup cookie  start -->
-
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(
+        'pwabuilder-sw.js'
+      );
+    }
+  </script>
   
 </body>
 </html>

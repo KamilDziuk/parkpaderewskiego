@@ -75,6 +75,9 @@ body {
   transform:translate(-50%,13%)
   }
   
+  .dropdownShow{
+display: block;
+  }
   .dropdown:hover .dropdown-content {
   display:block
   }
@@ -177,7 +180,7 @@ body {
   position:absolute;
   top:56px;
   font-weight:500;
-  border: 1px solid #fff;
+
   width:100%;
   margin-right:6%;
   background-color:#30492B;
@@ -344,7 +347,7 @@ body {
   .popup-content {
     top: 10px !important;
   font-size:12px;
-  background-color:rgba(255,255,255,0.098)!important;
+  background-color:rgba(41, 41, 41, 0.681)!important;
   border:2px solid #ccc;
   max-width:850px;
   max-height:470px!important;
@@ -2102,8 +2105,25 @@ margin-top: 50px;
   }
   
   @media (max-width: 550px) {
+    .navbar__link
+    {
+      border-bottom: 0.1px solid #fff;
+width: 80%;
+transform: translateX(-50%);
+margin-left: 50%;
+    }
+    .dropdown-content {
+  
+     
+      top:7px;
+   
+      }
 
+    .close {
 
+      right:3.5px;
+  
+      }
 
     video {
 
@@ -2217,6 +2237,7 @@ h5
 
   }
   @media (max-width: 450px) {
+    
     #textAlexBrush
     { 
       margin-top: 50px;

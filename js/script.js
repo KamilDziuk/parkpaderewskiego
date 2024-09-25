@@ -43,3 +43,11 @@ let tracking1,rightTracking1,$slider=$(".slideshow .slider"),maxItemsOne=$(".ite
 // carousel start
 
 // carousel end
+
+
+let dropdown = document.querySelector(".dropdown");
+
+dropdown.addEventListener("click", () =>
+{
+    document.querySelector(".dropdown-content").classList.toggle("dropdownShow");
+})

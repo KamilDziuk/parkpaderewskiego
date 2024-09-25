@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Media - Nowoczesne Osiedle w Zawierciu</title>
 <link rel="icon" type="image/jpg" href="image/icone.jpg">
+
+<link rel="apple-touch-icon" href="image/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+<link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
@@ -16,7 +22,7 @@
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <link rel="stylesheet" type="text/css" href="css/media.css">
-
+<link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -38,7 +44,7 @@
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
@@ -176,8 +182,9 @@
 <!-- Mediae photo and text four end -->
       
   <!-- footer start -->
+  <section id="contact"></section>
   <footer class="desctop">
-    <section id="contact"></section>
+
     <div class="locationsAll">
     <div class="locationsLeft"> 
       <img src="image/dhd.webp"
@@ -196,7 +203,7 @@
     <!-- social media start -->
      <br>
   <div class="smollText">   Bądź na bieżąco </div>
-    <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+    <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
     <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
     <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
     <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -208,7 +215,7 @@
     </footer>
   
     <footer class="mobile">
-      <section id="contact"></section>
+
       <div class="locationsAll">
       <div class="locationsLeft"> 
         <img src="image/dhd.webp"
@@ -224,7 +231,7 @@
       <!-- social media start -->
        <br>
     <div class="smollText">   Bądź na bieżąco </div>
-      <a target="_blank"  href="https://www.facebook.com/profile.php?id=100092554970321" class="fa fa-facebook"></a>
+      <a target="_blank"  href="https://m.facebook.com/parkpaderewskiegozawiercie/" class="fa fa-facebook"></a>
       <a target="_blank"   href="https://www.linkedin.com/company/diamond-hill-development/" class="fa fa-linkedin"></a>
       <a target="_blank"  href="https://www.youtube.com/@ParkPaderewskiegoZawiercie" class="fa fa-youtube"></a>
       <a target="_blank"  href="https://www.instagram.com/park_paderewskiego_zawiercie/" class="fa fa-instagram"></a>
@@ -259,6 +266,13 @@
     </div>
     <!-- popup cookie  start -->
   
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register(
+          'pwabuilder-sw.js'
+        );
+      }
+    </script>
+    
 </body>
 </html>

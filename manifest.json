@@ -36,5 +36,9 @@
     }
   ],
   "id": "parkpaderewskiego",
-  "description": "Park Paderewskiego"
+  "description": "Park Paderewskiego - Nowoczesne Osiedle w Zawierciu",
+  "lang": "pl",
+  "categories": [
+    "business"
+  ]
 }

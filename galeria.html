@@ -20,6 +20,11 @@
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<link rel="apple-touch-icon" href="image/icon-96x96.png">
+<link rel="apple-touch-icon" sizes="152x152" href="image/icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="image/icon-167x167.png">
+<link rel="apple-touch-icon" sizes="180x180" href="image/icon-180x180.png">
+<link rel="manifest" href="manifest.json">
 
 <script src="js/script.js" defer></script>
 <script src="js/sendingEmail.js" defer></script>
@@ -29,23 +34,24 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','');</script>
+  })(window,document,'script','dataLayer','GTM-');</script>
   <!-- End Google Tag Manager -->
+
   
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '');
+  gtag('config', 'G-');
 </script>
 
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 <!-- navbar start -->
@@ -67,7 +73,8 @@
   <a class="navbar__item navbar__link" href="galeria">Galeria</a>
   <a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
   <a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
-  <a class="navbar__item navbar__link" href="kontakt">Kontakt</a>
+  <a class="navbar__item navbar__link" href="media">Media</a>
+  <a class="navbar__item navbar__link" href="#contact">Kontakt</a>
   <a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
   </div>
   <!-- Popup start -->
@@ -205,7 +212,7 @@
   <div class="responsive">
     <div class="gallery">
   
-        <img src="image/empty.webp">
+        <img class="empty" src="image/empty.webp">
      
     </div>
   </div>
@@ -217,14 +224,14 @@
   <div class="responsive">
     <div class="gallery">
     
-        <img src="image/empty.webp">
+        <img class="empty" src="image/empty.webp">
    
     </div>
   </div>
   <div class="responsive">
     <div class="gallery">
    
-        <img src="image/empty.webp">
+        <img class="empty" src="image/empty.webp">
    
     </div>
   </div>
@@ -297,7 +304,7 @@
 <div class="responsive">
   <div class="gallery">
 
-      <img src="image/empty.webp">
+      <img class="empty" src="image/empty.webp">
     
   
   </div>
@@ -716,8 +723,9 @@
 
     
   <!-- footer start -->
+  <section id="contact"></section>
   <footer class="desctop">
-    <section id="contact"></section>
+ 
     <div class="locationsAll">
     <div class="locationsLeft"> 
       <img src="image/dhd.webp"
@@ -748,7 +756,7 @@
     </footer>
   
     <footer class="mobile">
-      <section id="contact"></section>
+      <
       <div class="locationsAll">
       <div class="locationsLeft"> 
         <img src="image/dhd.webp"
@@ -779,7 +787,7 @@
       </footer>
     <!-- footer end -->
   
-  
+
       <!-- popup cookie  start -->
       <div class="popupCookie"></div>
   <div class="containerCookie">
@@ -799,5 +807,13 @@
     </div>
     <!-- popup cookie  start -->
   
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register(
+          'pwabuilder-sw.js'
+        );
+      }
+    </script>
+    
 </body>
 </html>

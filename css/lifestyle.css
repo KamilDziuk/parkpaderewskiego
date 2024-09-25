@@ -63,7 +63,9 @@ body {
   text-align:center;
   z-index:999!important
   }
-  
+  .dropdownShow{
+    display: block;
+      }
   .dropdown-content {
     
   font-size:15px;
@@ -104,7 +106,7 @@ body {
     -webkit-transform:translate3d(0,0,0);
     -moz-transform:translate3d(0,0,0);
     z-index:996
-t
+
   }
 
 
@@ -176,7 +178,7 @@ t
   position:absolute;
   top:56px;
   font-weight:500;
-  border: 1px solid #fff;
+
   width:100%;
   margin-right:6%;
   background-color:#30492B;
@@ -1633,7 +1635,7 @@ top: 0px !important;
   }
 
   .lifestyle {
-    height:80% !important;
+    height:60% !important;
 
     }
 
@@ -1947,6 +1949,26 @@ margin-top: 50px;
   }
   
   @media (max-width: 550px) {
+
+    .navbar__link
+    {
+      border-bottom: 0.1px solid #fff;
+width: 80%;
+transform: translateX(-50%);
+margin-left: 50%;
+    }
+    .dropdown-content {
+  
+     
+      top:7px;
+   
+      }
+
+    .close {
+
+      right:3.5px;
+  
+      }
   .add-padding1 {
   margin-top:200px
   }
@@ -2026,7 +2048,7 @@ h5
 
     .centerLifestyle p {
    
-          font-size:17px;
+          font-size:25px;
         
       
           }
@@ -2034,7 +2056,7 @@ h5
     {
     
    
-      width:100%;
+      width:95%;
       height:197px;
 
     }

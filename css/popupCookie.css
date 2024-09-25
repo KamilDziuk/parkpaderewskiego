@@ -46,7 +46,7 @@ position: fixed;
   width:25%;
   left:0px;
   top: 0px;
- margin-bottom: -20px;
+ margin-bottom: 0px;
 }
 
 .containerCookie .headerCookie {
@@ -300,7 +300,7 @@ left: calc(100% - 1.5em);
 {
   position: relative;
 
- margin-bottom: -10px;
+ margin-bottom: 0px;
 }
   .headerCookie h2 {
 font-size: 15px;
