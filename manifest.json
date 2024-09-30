@@ -1,12 +1,12 @@
 {
   "background_color": "#30492b",
-  "dir": "ltr",
+  "dir": "auto",
   "display": "standalone",
   "name": "Park Paderewskiego",
   "orientation": "any",
   "scope": "/",
   "short_name": "parkpaderewskiego",
-  "start_url": "/",
+  "start_url": "https://parkpaderewskiego.pl/mieszkania",
   "theme_color": "#ffffff",
   "icons": [
     {
