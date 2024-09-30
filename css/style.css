@@ -157,8 +157,15 @@ display: block;
   position:absolute;
   margin-top:2px;
   margin-right:82%;
-  width:130px
+  width:130px;
+  z-index: 994 !important;
+
   }
+
+.logoEd
+{
+  display: none;
+}
   
   .navbar__item {
   color:#ffff;
@@ -1805,6 +1812,21 @@ top: 0px !important;
 
   
   @media (max-width:770px) {
+
+  
+    
+    .logoEd
+    {
+      display: block;
+      position:absolute;
+      margin-top:0px !important;
+      margin-right:82%;
+      width:60px !important;
+      background:#F5F5F5;
+    
+    }
+      
+  
 
     video {
 
