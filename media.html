@@ -15,9 +15,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="js/media.js" async></script>
-<script src="js/sendingEmail.js" defer></script>
-<script src="js/popupCookie.js" defer></script>
+
+
   
 <link rel="stylesheet" type="text/css" href="css/popupCookie.css">
 <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -273,6 +272,303 @@
         );
       }
     </script>
+    <script>
+      // navigation bar start
+document.querySelector(".hamburger").addEventListener("click", () => {
+    document.querySelector(".hamburger").classList.toggle("is-active");
+    document.querySelector(".navbar__menu").classList.toggle("navbar__menu--active");
+    document.querySelector(".top").classList.toggle("top--open");
+    });
+    window.addEventListener("scroll",  () =>{
+    let scroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (scroll >= 60) {
+    document.querySelector(".top").classList.add("top--scrolling");
+    } else {
+    document.querySelector(".top").classList.remove("top--scrolling");
+    }
+    });
+    // navigation bar end
     
+    // popup start
+    let showPopupButton = document.getElementById('showPopup');
+    let popup = document.getElementById('popup');
+    let closePopupButton = document.getElementById('closePopup');
+    showPopupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+    });
+    closePopupButton.addEventListener('click', () => {
+    popup.style.display = 'none';
+    });
+    // popup end
+
+
+    let dropdown = document.querySelector(".dropdown");
+
+dropdown.addEventListener("click", () =>
+{
+    document.querySelector(".dropdown-content").classList.toggle("dropdownShow");
+})
+
+
+
+
+
+
+
+
+
+let acceptBtn = document.querySelector("#acceptBtn");
+let cookieBox = document.querySelector(".containerCookie");
+let saveBtn = document.querySelector("#saveBtn");
+let popupCookie = document.querySelector(".popupCookie");
+
+
+
+
+
+
+
+// Set Cookie function 
+function setCookie(cName, cValue, status, exDays) {
+  let date = new Date();
+  date.setTime(date.getTime() +  (exDays * 90 *(24* (60* (60 * 1000)))));
+  
+  // Expiration date
+  let expires = "expires=" + date.toUTCString();
+  
+  // Set the cookie
+  document.cookie = cName + "=" + cValue + status + "; " + expires + "; path=/";
+}
+  
+// Get Cookie function
+// Check if the cookie exists
+function getCookie(cName) {
+  let name = cName + "=";
+  let cDecoded = decodeURIComponent(document.cookie);
+  let cArr = cDecoded.split("; ");
+  for (let i = 0; i < cArr.length; i++) {
+    let c = cArr[i];
+    if (c.indexOf(name) === 0) return c.substring(name.length);
+  }
+  return "";
+}
+
+// Display cookie message
+
+
+
+function cookieMessage() {
+  setTimeout( () => {
+
+  if (!getCookie("consentCookie")) {
+    cookieBox.classList.add("show");
+    popupCookie.classList.add("show2");
+
+    let textCookie = document.querySelector(".textCookie");
+    let advancedSettings = document.querySelector("#advancedSettings");
+
+    let buttonsCookie = document.querySelector(".buttonsCookie");
+
+
+    buttonsCookie.style.width = "93%";
+    acceptBtn.style.left = "50%";
+    advancedSettings.style.left = "50%";
+    saveBtn.style.display = "none";
+
+    textCookie.innerHTML = `
+      <p>
+W celu zapewnienia użytkownikom jak najlepszych doświadczeń podczas korzystania z naszej witryny, używamy plików cookie oraz funkcji konwersji rozszerzonych Google, w tym zewnętrznych plików cookie. Dzięki nim możemy dostosowywać witrynę do indywidualnych potrzeb użytkowników, a także stale ją ulepszać i optymalizować na podstawie danych dotyczących sposobu korzystania z niej.<br><br>
+
+Wykorzystujemy również pliki cookie do celów analitycznych i statystycznych. W ramach działań reklamowych stosujemy pliki cookie umożliwiające personalizację reklam wyświetlanych przez Google i naszych partnerów. Jeśli pliki cookie wykorzystywane w celach reklamowych są niedostępne, używamy konwersji rozszerzonych dostarczanych przez Google, co pozwala na dokładniejszą analizę działań marketingowych i ich lepsze zarządzanie.<br><br>
+
+Zalecamy zaakceptowanie wszystkich plików cookie oraz korzystanie z funkcji konwersji rozszerzonych. Twoja zgoda jest dobrowolna i możesz ją w dowolnym momencie wycofać w ustawieniach przeglądarki. Administratorem Twoich danych jest Diamond Hill Development Sp. z o.o. Więcej informacji na temat przetwarzania danych osobowych znajdziesz w naszej  <a href="cookiesPolitics">Polityce prywatności.</a>
+      </p>`;
+
+    advancedSettings.addEventListener('click', () => {
+      saveBtn.style.display = "block";
+      advancedSettings.style.display = "none";
+      buttonsCookie.style.width = "75%";
+      acceptBtn.style.left = "40%";
+      advancedSettings.style.left = "40%";
+      buttonsCookie.style.display = "flex";
+      textCookie.innerHTML = `
+        <p>
+        Wybierz, jakie kategorie ciasteczek akceptujesz. Twój wybór będzie zapamietany przez rok. <a href="cookiesPolitics">Polityce prywatności.</a><br><br>
+        <b>Wymagane</b>
+        Te pliki cookie nie są opcjonalne. Są one potrzebne do działania witryny.  <br><input class="box1" type="checkbox" checked><br>
+        <b>Wydajnościowe/analityczne</b><br>
+      Pliki te pozwalają nam rozwijać i optymalizować witrynę, uwzględniając potrzeby użytkowników, dzięki wykorzystaniu narzędzi analitycznych. Dzięki nim rozumiemy zachowania użytkowników - pozwalają nam one monitorować, jak użytkownicy wchodzą w interakcję z witryną oraz zliczać wizyty i źródła ruchu. Jeżeli wyślesz dodatkowo zapytanie na stronie o dowolną nieruchomość i wyrazisz zgodę na przetwarzanie Twoich danych osobowych w celach reklamowych będą wykorzystywane w tym celu pliki cookie wydajnościowe i analityczne, w efekcie połączymy dane pochodzące z plików cookie z Tobą. <br><input class="box2" type="checkbox"><br>
+        <b>Reklama i marketing</b><br>
+        Dzieląc się swoimi zainteresowaniami i zachowaniami podczas odwiedzania naszej witryny, zwiększasz szansę na zobaczenie spersonalizowanych treści i ofert. <br><input class="box3" type="checkbox">
+      
+        </p>`;
+    });
+
+    // Consent to cookies
+    acceptBtn.addEventListener("click", () => {
+      popupCookie.style.display = "none";
+      cookieBox.style.display = "none";
+      setCookie("consentCookie", "GA4_Active: ", true, 30);
+    });
+
+    saveBtn.addEventListener("click", () => {
+      popupCookie.style.display = "none";
+      cookieBox.style.display = "none";
+      setCookie("consentCookie",  "GA4_Active: ", true, 30);
+    });
+  }
+
+}, 3000)
+}
+
+// Initialize cookie message on window load
+window.addEventListener("load", cookieMessage);
+
+
+
+
+    // email  start 
+    
+    let send = document.querySelector('.send');
+    let text = document.querySelector('.text');
+    let text1 = document.querySelector('.text1');
+    let textValue = document.querySelector('.textValue');
+    let email = document.querySelector('.email');
+    let firstName = document.querySelector('.firstName');
+    let message = document.querySelector('.message');
+    let phone = document.querySelector('.phone');
+    let checkbox0 = document.querySelector('.checkbox0');
+    let checkbox1 = document.querySelector('.checkbox1');
+    let checkbox2 = document.querySelector('.checkbox2');
+    
+    // conditions for marking checkboxes start
+    checkbox0.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox0.value = "ZGODA_MARKETING Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.";
+    }
+    else 
+    {
+        checkbox0.value= "Not accepted";
+    }
+    });
+    
+    
+    
+    checkbox1.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox1.value= "ZGODA_MAIL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.";
+    }
+    else 
+    {
+        checkbox1.value= "Not accepted";
+    }
+    });
+    
+    checkbox2.addEventListener('click', () => {
+    
+        text1.innerHTML ="Accepted";
+    
+    
+    if(text1.textContent =="Accepted")
+    {
+        checkbox2.value = "ZGODA_TEL Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.";
+    }
+    else 
+    {
+        checkbox2.value= "Not accepted";
+    }
+    });
+    
+    checkbox0.value= "Not accepted";
+    checkbox1.value= "Not accepted";
+    checkbox2.value= "Not accepted";
+    // conditions for marking checkboxes end
+    
+    
+    send.addEventListener('click', () => {
+    
+      // form submission method start
+    sendEamil = () => {
+    
+    
+    // conditions for filling out the form fields and sending a request to submit the contact form start
+    if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
+    {
+        firstName.placeholder = " pole Imie";
+    }
+    
+    else
+    {
+    
+    
+        
+    Email.send({
+      SecureToken : '',
+To : 'sprzedaz@parkpaderewskiego.pl ',
+From : 'sprzedaz@parkpaderewskiego.pl ',
+    
+    Subject : `strona www - ${firstName.value}`,
+    Body :` INWESTYCJA: inwestycji Park Paderewskiego <br><br> IMIE: ${firstName.value} <br><br>  
+    EMAIL: ${email.value}<br><br>
+    TELEFON: ${phone.value}<br><br> 
+    OPIS: ${message.value} <br><br>
+    ZGODY: <br>${checkbox0.value} <br><br>
+    ${checkbox1.value} <br><br>
+    ${checkbox2.value}`
+    }).then(
+      // form submission method end
+    message =>  
+    {
+    text.innerHTML = message
+    if(text.textContent === "OK")
+    {
+    
+      setTimeout(() =>
+    {
+      formPopup.style.display = "block";
+        textValue.style.display = "none";
+    }, 3000)
+        formPopup.style.display = "none";
+        textValue.style.color = "#ffff";
+    textValue.innerHTML = "<br><br>Twoja wiadomość została wysłana <br><br>";
+    }
+    else 
+    {
+      formPopup.style.display = "none";
+      textValue.style.color = "red"
+    textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może to być spowodowane zbyt liczną wysyłką wiadomość na raz.<br> Proszę wysłąć wiadomość po przez zakładkę <a href="https://parkpaderewskiego.pl/mieszkania/"> mieszkania</a><br><br>`;
+      setTimeout(() => {
+        formPopup.style.display = "block";
+        textValue.style.display = "none";
+       
+    }, 5000);
+     
+    }
+    
+    
+    }); 
+    
+    };
+    };
+    sendEamil();
+    
+    });
+    // conditions for filling out the form fields and sending a request to submit the contact form start
+    // email  end 
+
+
+
+
+    </script>
 </body>
 </html>

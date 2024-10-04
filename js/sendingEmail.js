@@ -14,7 +14,36 @@
     let checkbox0 = document.querySelector('.checkbox0');
     let checkbox1 = document.querySelector('.checkbox1');
     let checkbox2 = document.querySelector('.checkbox2');
+    let agreement01 = document.querySelector('.agreement01');
+    let agreement02 = document.querySelector('.agreement02');
+    let agreement03 = document.querySelector('.agreement03');
+    agreement01.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia. <div style ="color:red"> Wymagana zgoda</div>';
+    agreement02.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną. <div style ="color:red"> Wymagana zgoda</div>';
+    agreement03.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne. <div style ="color:red"> Wymagana zgoda</div>';
+
+    checkbox0.addEventListener( "click", ()=> {
+      {
+        agreement01.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.';
+       
+      }
+    });
     
+    checkbox1.addEventListener( "click", ()=> {
+        {
+
+          agreement02.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.';
+        
+        }
+      });
+        
+        checkbox2.addEventListener( "click", ()=> {
+        {
+         
+          agreement03.innerHTML = ' Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne. ';
+        }
+      });
+
+      
     // conditions for marking checkboxes start
     checkbox0.addEventListener('click', () => {
     
@@ -67,20 +96,40 @@
     checkbox1.value= "Not accepted";
     checkbox2.value= "Not accepted";
     // conditions for marking checkboxes end
-    
+  
     
     send.addEventListener('click', () => {
-    
+     
       // form submission method start
     sendEamil = () => {
     
     
     // conditions for filling out the form fields and sending a request to submit the contact form start
-    if(firstName.value == '' || firstName.value == null || email.value == '' || email.value == null ||phone.value == '' || phone.value == null || email.value == '' || email.value == null ||message.value == '' || message.value == null)
+    if(email.value == '' || email.value == null)
     {
-        firstName.placeholder = " pole Imie";
+      email.placeholder = "Wypełnij to pole ";
+      email.classList.add("error-placeholder");
     }
-    
+
+
+    else if(checkbox0.checked  == false )
+    {
+      agreement01.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia. <div style ="color:red"> Wymagana zgoda</div>';
+     
+    }
+    else if(checkbox1.checked  == false    )
+      {
+       
+        agreement02.innerHTML = 'Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.  <div style ="color:red"> Wymagana zgoda</div>';
+       
+      }
+
+
+      else if( checkbox2.checked  == false  )
+        {
+        
+          agreement03.innerHTML = ' Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.  <div style ="color:red"> Wymagana zgoda</div>';
+        }
     else
     {
     

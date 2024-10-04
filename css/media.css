@@ -2514,6 +2514,7 @@ margin: 0px auto 0px 0px;
   --size: 20px;
   --border-size: 2px;
 color: #ffffff;
+
   position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -2523,6 +2524,7 @@ color: #ffffff;
 .checkbox-wrapper-32 *::after,
 .checkbox-wrapper-32 *::before {
   box-sizing: border-box;
+  
 }
 
 .checkbox-wrapper-32 input[type="checkbox"] {
