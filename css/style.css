@@ -795,10 +795,46 @@ color: #00000000;
   font-size:17px;
   border-radius:5px
   }
+  #buttomText5 {
+    position: relative;
+    margin-top:0!important;
+    margin-left:0%;
+    color:#5D5455!important;
+    border:3px solid #5D5455;
+    background-color:rgba(255,255,255,0);
+    outline:none;
+    padding:15px;
+    color:#020000;
+    font-size:17px;
+    border-radius:5px;
+    display:inline;
 
+    }
+    #textInvestorPackage
+    {
+      position: relative;
+      display: flex ;
+      align-items: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5px; 
+
+    }
+    .imageInvestorPackage
+    {
+      
+      position: relative;
+      width: 55%; 
+      padding-left: 1%;
+    }
+
+    #buttomText5:hover {
+      background-color:#5D5455;
+      color:#ffff!important
+      }
 
   #buttomText3 {
 position: relative;
+
     color:#ffffff!important;
     margin-top: -100px;
     border:3px solid #5d545500;
@@ -1528,21 +1564,20 @@ margin-top: 150px;
   
   @media (max-width:950px) {
 
-    video {
-
-  
-      height:60%;
-      
-  }
-  
-    .test1
+    #textInvestorPackage
     {
-      display:block;
+   
+      display:contents;
+
+
     }
-
-    .test
+    .imageInvestorPackage
     {
-      display:none;
+      
+      position: relative;
+      width: 100%; 
+      padding-left: 1%;
+    padding-bottom: 7%;
     }
   
   .add-padding1 {
