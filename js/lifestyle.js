@@ -181,7 +181,7 @@ sliderTable.forEach((images, idx) =>{
 
   images.forEach((item, i) =>{
 
-    item.style.transform = `translateY(${( i - sliderImages[idx]) * 100}%)`;
+    item.style.transform = `translateX(${( i - sliderImages[idx]) * 100}%)`;
 
   });
 
@@ -191,8 +191,7 @@ sliderTable.forEach((images, idx) =>{
 
 setInterval( () => {
 sliderTable.forEach((_, idx) => {
-  sliderImages[idx] = ( sliderImages[idx] < sliderTable[idx].length - 1) ?   sliderImages[idx]  +1 :0;
-
+sliderImages[idx] = ( sliderImages[idx] < sliderTable[idx].length - 1) ?   sliderImages[idx]  +1 :0;
 });
 
 sldier();
