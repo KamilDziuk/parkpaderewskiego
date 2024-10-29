@@ -171,14 +171,13 @@
       <div class="titleBox">
           <span class="block"></span>
       
-          <div class="text01">Wykończenia pod klucz<br>
-            krótkie terminy realizacji<br>
-            gwarancja ceny pakietów wykończeniowych<br>
+          <div class="text01">Wykończenia pod klucz
+            krótkie terminy realizacji
+            gwarancja ceny pakietów wykończeniowych
             oszczędność 15% podatku VAT</div>
           <div class="text01">Zabudowy meblowe na wymiar
             meble kuchenne, zabudowy na wymiar
             oraz AGD dopasowane do Ciebie
-            
             Otrzymaj kosztorys w 48h</div>
    
   
@@ -213,14 +212,16 @@
 
   <section class="add-padding add-flex">
     <div class="center-text">
-    <h1 id="textAlexBrush" class="alex-brush"><span class="custom-font"></span><br/> Projektowanie
-
-      i wykańczanie wnętrz
-      </h1><br>
+      <br><br>
+    <h1 id="textAlexBrush" class="alex-brush"><span class="custom-font"></span><br/> Projektowanie i wykonanie
+      </h1>
+      <br>
+      <b>zabudowy kuchennej</b>
+      <br> <br>
     <section id="aboutus"></section>
-    <p id="textAboutus">Nasi doświadczeni architekci stworzą projekt i funkcjonalną aranżację wnętrza. Ekipa wykończeniowa kompleksowo wykona wszystkie prace związane z inwestycją i wyposaży lokal w niezbędne elementy.</p>
+    <p id="textAboutus">Nasze realizacje podbiły serce niejednego Klienta. Pracujemy w teamie architektów i wykonawców mebli. Zapewniamy indywidualny projekt mebla, instalacji elektrycznej w zabudowie meblowej, a także kompleksowe wsparcie w zakresie doboru materiałów oraz montażu. Projektujemy kuchnie, garderoby, szafy wnękowe oraz meble łazienkowe.</p>
     </section>
-
+    <br><br>
 <!-- text two start -->
 <section class="add-padding2 add-flex">
 <div class="center-text">
@@ -236,7 +237,7 @@
           <img  class="imgContainerLifestyle0" src="image/apartment_interior10.jpg">
           <img  class="imgContainerLifestyle0" src="image/apartment_interior11.jpg">
           <img  class="imgContainerLifestyle0" src="image/apartment_interior12.jpg">
-          <img  class="imgContainerLifestyle0" src="image/apartment_interior13.jpg">
+      
         </div>
       </div>
         <div class="textContainerLifestyle textLeft">
@@ -252,10 +253,19 @@
 
         </div>
       </div>
+      <br> 
+      <br> 
+      <br> 
+      <br> 
+
+      <br> 
+      <br> 
+      <br> 
+      <br> 
       <!-- Lifestyle photo and text one end -->
 
       <!-- Lifestyle photo and text two strart -->
-      <div class="containerLifestyle">
+      <!-- <div class="containerLifestyle">
       
         <div class="textContainerLifestyle textRight">
           <b>Wyceń swój mebel</b>
@@ -271,10 +281,10 @@
           <img  class="imgContainerLifestyle1" src="image/apartment_interior16.jpg">
           <img  class="imgContainerLifestyle1" src="image/apartment_interior17.jpg">
         </div>
-        </div>
+        </div> -->
       </div>
       <!-- Lifestyle photo and text two end -->
-      <br> 
+      <!-- <br> 
       <br> 
       <br> 
 
@@ -282,9 +292,42 @@
 
 </div>
 
+</div> -->
+     <!-- Lifestyle photo and text two strart -->
+     <div class="containerLifestyle">
+      
+      <div class="containerLifestyle">
+        <div>
+          <div class="containerLifestyleBox4">
+          <img  class="imgContainerLifestyle8" src="image/mapka_oddzialy_polska-09-2024.webp">
+  
+        </div>
+      </div>
+        <div class="textContainerLifestyle textLeft">
+          <h1>Projektowanie</h1>
+          <b> 
+            i wykańczanie wnętrz
+            
+     
+            
+      
+            </b>
+            <br>
+          
+          <p>Jesteśmy firmą wykańczającą wnętrza. W swoich szeregach zgromadziliśmy najlepszych architektów wnętrz oraz specjalistów w swojej dziedzinie. Wykonujemy nasze usługi na terenie Warszawy, Poznania, Trójmiasta, Katowic i Łodzi oraz okolicznych miejscowościach. Oferujemy fachową, kompleksową pomoc uwzględniając Twoje osobiste preferencje. Budżet i termin realizacji- tego trzymamy się w naszej współpracy. </p>
+
+        </div>
+      </div>
+    <!-- Lifestyle photo and text two end -->
+    <br> 
+    <br> 
+    <br> 
+
+  
+
 </div>
 
-
+</div>
 
 
 
@@ -607,6 +650,7 @@
     
     sldier = () =>
     {
+
     sliderTable.forEach((images, idx) =>{
     
       images.forEach((item, i) =>{
@@ -627,7 +671,7 @@
     
     sldier();
     
-    },3000);
+    },5000);
     
     
     
@@ -915,9 +959,9 @@ dropdown.addEventListener("click", () =>
   imagesMove = (e) =>
   {
   image.forEach(element => {
-  let x = e.clientX / 170;
-  let y = e.clientY / 70;
-  element.style.transform = "translateX("+ x + "px) translateY("+ y + "px)";
+  // let x = e.clientX / 170;
+  // let y = e.clientY / 70;
+  // element.style.transform = "translateX("+ x + "px) translateY("+ y + "px)";
   });
   }
   
@@ -1105,7 +1149,7 @@ dropdown.addEventListener("click", () =>
   
   .backgroundsFilter {
   width:100%;
-  height:100%;
+  height:90%;
   position:relative;
   left:40%;
   background-color:#000000c5;
@@ -1114,14 +1158,14 @@ dropdown.addEventListener("click", () =>
   }
   
   .contenterGallery {
-  width:80%;
+  width:100%;
   position:relative;
   left:50%;
   transform:translateX(-50%)
   }
   
   .mainSlider {
-  top:20px;
+  top:0px;
   position:relative;
   width:100%;
   height:660px;
@@ -1133,7 +1177,7 @@ dropdown.addEventListener("click", () =>
   .contendeImages {
   position:absolute;
   width:100%;
-  height:660px;
+  height:100%;
   transition:transform 3s ease,opacity .3s ease
   }
   
@@ -1142,7 +1186,7 @@ dropdown.addEventListener("click", () =>
   width:50%;
   height:200px;
   margin-top:30px;
-  transform: translateX(-25%);
+  transform: translateX(-50%);
   left: 50%;
 top: 30%;
   z-index:999;
@@ -1170,11 +1214,11 @@ top: 30%;
   .mainSlideContender .contenderTitle .titleBox .text01 {
   color:#fff;
   background:#00000000;
-  font-size:40px;
+  font-size:20px;
   font-weight:600;
   padding-left:2%;
   padding-right:2%;
- 
+ text-align: center;
   animation:mainFadeIn 2s forwards;
   animation-delay:1.6s;
   opacity:0;
@@ -1185,8 +1229,9 @@ top: 30%;
   }
   
   .image {
-  width:100%;
-  height:700px
+    width:100%;
+    height:100%;
+
   }
   
   .arrows {
