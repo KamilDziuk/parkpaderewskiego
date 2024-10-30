@@ -8,14 +8,11 @@ body {
   }
 
 
-  .sliderDesktopVersion
-  {
-    display:block;
-  }
 
   .sliderMobileVersion
   {
-    display:none;
+    
+    background-color: #000;
   }
   /* navbar start */
   .white-border {
@@ -591,8 +588,8 @@ input[type="submit"] {
         .containerLifestyle {
           display: flex;
           align-items: center;
-          justify-content: center;
-       
+ 
+   
         }
         
         .containerLifestyleBox0,  .containerLifestyleBox1,  .containerLifestyleBox2,  .containerLifestyleBox3
@@ -603,9 +600,15 @@ input[type="submit"] {
           height:650px;
       overflow: hidden;
       border-radius: 0%;
-      
+    
         }
-
+        .sliderDesktopVersion
+        {
+      
+          background-color: #000;
+          height:650px;
+        }
+      
 
         .containerLifestyleBox4
         {
@@ -647,6 +650,13 @@ input[type="submit"] {
         .textLeft
         {
 text-align: left;
+
+        }
+
+        .textColor
+        
+        {
+          color: white;
         }
         .textRight
         {
@@ -839,16 +849,21 @@ text-align: left;
   #buttomText0,#buttomText1 {
   margin-top:0!important;
   margin-left:0;
-  color:#ffff!important;
+  color:#ffffff!important;
   border:3px solid #fff;
-  background-color:rgba(255,255,255,0);
+  background-color:rgb(0, 0, 0);
   outline:none;
   padding:15px;
   color:#020000;
-  font-size:17px;
-  border-radius:5px
+  font-size:20px;
+  border-radius:5px;
+  padding: 2%;
   }
-  
+  .colorSection
+  {
+    background-color:#ffffff;
+    height: 400px;
+  }
   #buttomText2 {
   margin-top:0!important;
   margin-left:0%;
@@ -867,7 +882,8 @@ text-align: left;
   }
   
   #buttomText1:hover {
-  background-color:#ffffff54
+    background-color:#EFEFED;
+ color: #000 !important;
   }
   
   #buttomText2:hover {
@@ -1491,7 +1507,12 @@ top: 850px !important;
   left: 50%;
     }
 
-
+    .sliderDesktopVersion
+    {
+  
+      height:309px;
+    }
+  
 
   
   header .center p {
@@ -1570,26 +1591,15 @@ top: 0px !important;
 
     .add-padding {
 
-      margin-right:5%;
+    
       max-width: 100%;
       color:#5D5455;
-      padding-left: 5%;
+ 
  
         }
 
 
 
-
-
-    .sliderMobileVersion
-    {
-      display:block;
-    }
-
-    .sliderDesktopVersion
-    {
-      display:none;
-    }
 
     
 
@@ -1728,6 +1738,10 @@ top: 0px !important;
 
     }
 
+    .sliderDesktopVersion
+    {
+      height:253px;
+    }
   .top-content
   {
     display: none;
@@ -2069,6 +2083,10 @@ h5
       width:95%;
       height:197px;
 
+    }
+    .sliderDesktopVersion
+    {
+      height:197px;
     }
     .textContainerContact
     {
