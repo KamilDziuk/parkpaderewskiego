@@ -375,15 +375,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <figcaption>26: </figcaption>
         <figcaption class = "premiseStatus26PPS"></figcaption>
       </figcaption>
-    </figure>
-  </div>
-
-  <div id = "columns1">
-    <figure>
-    <br>  <br>
-    <figcaption>
-    
-        <figcaption>27: </figcaption>
+      <figcaption>
+      <figcaption>27: </figcaption>
         <figcaption class = "premiseStatus27PPS"></figcaption>
       </figcaption>
       <figcaption>
@@ -447,6 +440,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <figcaption class = "premiseStatus42PPS"></figcaption>
       </figcaption>
       <figcaption>
+        <figcaption>46: </figcaption>
+        <figcaption class = "premiseStatus46PPS"></figcaption>
+      </figcaption>
+    </figure>
+  </div>
+
+
+  <div id = "columns1">
+    <figure>
+    <figcaption class="garage">Garaże Premium: 9</figcaption>
+
+      <figcaption>
         <figcaption>43: </figcaption>
         <figcaption class = "premiseStatus43PPS"></figcaption>
       </figcaption>
@@ -457,10 +462,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <figcaption>
         <figcaption>45: </figcaption>
         <figcaption class = "premiseStatus45PPS"></figcaption>
-      </figcaption>
-      <figcaption>
-        <figcaption>46: </figcaption>
-        <figcaption class = "premiseStatus46PPS"></figcaption>
       </figcaption>
       <figcaption>
         <figcaption>47: </figcaption>
@@ -474,6 +475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <figcaption>49: </figcaption>
         <figcaption class = "premiseStatus49PPS"></figcaption>
       </figcaption>
+ 
       <figcaption>
         <figcaption>50: </figcaption>
         <figcaption class = "premiseStatus50PPS"></figcaption>
@@ -488,8 +490,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </figcaption>
     </figure>
   </div>
-
-  <div id = "columns1">
+  <!-- <div id = "columns1">
     <figure>
     <figcaption class="garage">Boksy rowerowe: 10</figcaption>
     <figcaption>
@@ -533,7 +534,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <figcaption class = "premiseStatus25PPBR"></figcaption>
       </figcaption>
     </figure>
-  </div>
+  </div> -->
   </div>
   <br> <br> <br> <br>
   <!-- footer start -->
@@ -632,166 +633,166 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $statusNameValue = (string)$realestate->status_name;
    
  // Storage rooms start
-    if ($idValue === "2751"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    if ($idValue === "2751"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 
       $premiseStatusText01PPB  = "Sprzedane";
       $premiseStatusColor01PPB = "red";
-    } else if ($idValue === "2751"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2751"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText01PPB  = "Zarezerwowane";
       $premiseStatusColor01PPB = "#e6b800";
     } else if ($idValue === "2751"  && $statusNameValue === "Dostępne") {
       $premiseStatusText01PPB  = "Dostępne";
       $premiseStatusColor01PPB = "darkgreen";
-    } else if ($idValue === "2753"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2753"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText02PPB  = "Sprzedane";
       $premiseStatusColor02PPB = "red";
-    } else if ($idValue === "2753"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2753"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText02PPB  = "Zarezerwowane";
       $premiseStatusColor02PPB = "#e6b800";
     } else if ($idValue === "2753"  && $statusNameValue === "Dostępne") {
       $premiseStatusText02PPB  = "Dostępne";
       $premiseStatusColor02PPB = "darkgreen";
-    } else if ($idValue === "2755"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2755"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText03PPB  = "Sprzedane";
       $premiseStatusColor03PPB = "red";
-    } else if ($idValue === "2755"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2755"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText03PPB  = "Zarezerwowane";
       $premiseStatusColor03PPB = "#e6b800";
     } else if ($idValue === "2755"  && $statusNameValue === "Dostępne") {
       $premiseStatusText03PPB  = "Dostępne";
       $premiseStatusColor03PPB = "darkgreen";
-    } else if ($idValue === "2757"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2757"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText04PPB  = "Sprzedane";
       $premiseStatusColor04PPB = "red";
-    } else if ($idValue === "2757"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2757"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText04PPB  = "Zarezerwowane";
       $premiseStatusColor04PPB = "#e6b800";
     } else if ($idValue === "2757"  && $statusNameValue === "Dostępne") {
       $premiseStatusText04PPB  = "Dostępne";
       $premiseStatusColor04PPB ="darkgreen";
-    } else if ($idValue === "2759"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2759"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText05PPB  = "Sprzedane";
       $premiseStatusColor05PPB = "red";
-    } else if ($idValue === "2759"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2759"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText05PPB  = "Zarezerwowane";
       $premiseStatusColor05PPB = "#e6b800";
     } else if ($idValue === "2759"  && $statusNameValue === "Dostępne") {
       $premiseStatusText05PPB  = "Dostępne";
       $premiseStatusColor05PPB = "darkgreen";
-    } else if ($idValue === "2761"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2761"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText06PPB  = "Sprzedane";
       $premiseStatusColor06PPB = "red";
-    } else if ($idValue === "2761"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2761"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText06PPB  = "Zarezerwowane";
       $premiseStatusColor06PPB = "#e6b800";
     } else if ($idValue === "2761"  && $statusNameValue === "Dostępne") {
       $premiseStatusText06PPB  = "Dostępne";
       $premiseStatusColor06PPB = "darkgreen";
-    } else if ($idValue === "2763"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2763"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText07PPB  = "Sprzedane";
       $premiseStatusColor07PPB = "red";
-    } else if ($idValue === "2763"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2763"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText07PPB  = "Zarezerwowane";
       $premiseStatusColor07PPB = "#e6b800";
     } else if ($idValue === "2763"  && $statusNameValue === "Dostępne") {
       $premiseStatusText07PPB  = "Dostępne";
       $premiseStatusColor07PPB = "darkgreen";
-    } else if ($idValue === "2765"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2765"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText08PPB  = "Sprzedane";
       $premiseStatusColor08PPB = "red";
-    } else if ($idValue === "2765"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2765"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText08PPB  = "Zarezerwowane";
       $premiseStatusColor08PPB = "#e6b800";
     } else if ($idValue === "2765"  && $statusNameValue === "Dostępne") {
       $premiseStatusText08PPB  = "Dostępne";
       $premiseStatusColor08PPB = "darkgreen";
-    } else if ($idValue === "2767"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2767"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText09PPB  = "Sprzedane";
       $premiseStatusColor09PPB = "red";
-    } else if ($idValue === "2767"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2767"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText09PPB  = "Zarezerwowane";
       $premiseStatusColor09PPB = "#e6b800";
     } else if ($idValue === "2767"  && $statusNameValue === "Dostępne") {
       $premiseStatusText09PPB  = "Dostępne";
       $premiseStatusColor09PPB = "darkgreen";
-    } else if ($idValue === "2768"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2768"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText10PPB  = "Sprzedane";
       $premiseStatusColor10PPB = "red";
-    } else if ($idValue === "2768"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2768"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText10PPB  = "Zarezerwowane";
       $premiseStatusColor10PPB = "#e6b800";
     } else if ($idValue === "2768"  && $statusNameValue === "Dostępne") {
       $premiseStatusText10PPB  = "Dostępne";
       $premiseStatusColor10PPB = "darkgreen";
   
-    } else if ($idValue === "2769"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2769"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText11PPB  = "Sprzedane";
       $premiseStatusColor11PPB = "red";
-    } else if ($idValue === "2769"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2769"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText11PPB  = "Zarezerwowane";
       $premiseStatusColor11PPB = "#e6b800";
     } else if ($idValue === "2769"  && $statusNameValue === "Dostępne") {
       $premiseStatusText11PPB  = "Dostępne";
       $premiseStatusColor11PPB = "darkgreen";
-    } else if ($idValue === "2770"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2770"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText12PPB  = "Sprzedane";
       $premiseStatusColor12PPB = "red";
-    } else if ($idValue === "2770"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2770"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText12PPB  = "Zarezerwowane";
       $premiseStatusColor12PPB = "#e6b800";
     } else if ($idValue === "2770"  && $statusNameValue === "Dostępne") {
       $premiseStatusText12PPB  = "Dostępne";
       $premiseStatusColor12PPB = "darkgreen";
-    } else if ($idValue === "2771"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2771"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText13PPB  = "Sprzedane";
       $premiseStatusColor13PPB = "red";
-    } else if ($idValue === "2771"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2771"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText13PPB  = "Zarezerwowane";
       $premiseStatusColor13PPB = "#e6b800";
     } else if ($idValue === "2771"  && $statusNameValue === "Dostępne") {
       $premiseStatusText13PPB  = "Dostępne";
       $premiseStatusColor13PPB = "darkgreen";
-    } else if ($idValue === "2772"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2772"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText14PPB  = "Sprzedane";
       $premiseStatusColor14PPB = "red";
-    } else if ($idValue === "2772"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2772"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText14PPB  = "Zarezerwowane";
       $premiseStatusColor14PPB = "#e6b800";
     } else if ($idValue === "2772"  && $statusNameValue === "Dostępne") {
       $premiseStatusText14PPB  = "Dostępne";
       $premiseStatusColor14PPB = "darkgreen";
-    } else if ($idValue === "2773"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2773"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText15PPB  = "Sprzedane";
       $premiseStatusColor15PPB = "red";
-    } else if ($idValue === "2773"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2773"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText15PPB  = "Zarezerwowane";
       $premiseStatusColor15PPB = "#e6b800";
     } else if ($idValue === "2773"  && $statusNameValue === "Dostępne") {
       $premiseStatusText15PPB  = "Dostępne";
       $premiseStatusColor15PPB = "darkgreen";
-    } else if ($idValue === "2774"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2774"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText16PPB  = "Sprzedane";
       $premiseStatusColor16PPB = "red";
-    } else if ($idValue === "2774"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2774"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText16PPB  = "Zarezerwowane";
       $premiseStatusColor16PPB = "#e6b800";
     } else if ($idValue === "2774"  && $statusNameValue === "Dostępne") {
       $premiseStatusText16PPB  = "Dostępne";
       $premiseStatusColor16PPB = "darkgreen";
-    } else if ($idValue === "2775"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2775"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText17PPB  = "Sprzedane";
       $premiseStatusColor17PPB = "red";
-    } else if ($idValue === "2775"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2775"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText17PPB  = "Zarezerwowane";
       $premiseStatusColor17PPB = "#e6b800";
     } else if ($idValue === "2775"  && $statusNameValue === "Dostępne") {
       $premiseStatusText17PPB  = "Dostępne";
       $premiseStatusColor17PPB = "darkgreen";
 
-    } else if ($idValue === "2776"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2776"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
       $premiseStatusText18PPB  = "Sprzedane";
       $premiseStatusColor18PPB = "red";
-    } else if ($idValue === "2776"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+    } else if ($idValue === "2776"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
       $premiseStatusText18PPB  = "Zarezerwowane";
       $premiseStatusColor18PPB = "#e6b800";
     } else if ($idValue === "2776"  && $statusNameValue === "Dostępne") {
@@ -799,10 +800,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       $premiseStatusColor18PPB = "darkgreen";
     
 
-  } else if ($idValue === "2777"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2777"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText19PPB  = "Sprzedane";
     $premiseStatusColor19PPB = "red";
-  } else if ($idValue === "2777"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2777"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText19PPB  = "Zarezerwowane";
     $premiseStatusColor19PPB = "#e6b800";
   } else if ($idValue === "2777"  && $statusNameValue === "Dostępne") {
@@ -810,20 +811,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $premiseStatusColor19PPB = "darkgreen";
   
   }
-  else if ($idValue === "2778"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2778"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText20PPB  = "Sprzedane";
     $premiseStatusColor20PPB = "red";
-  } else if ($idValue === "2778"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2778"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText20PPB  = "Zarezerwowane";
     $premiseStatusColor20PPB = "#e6b800";
   } else if ($idValue === "2778"  && $statusNameValue === "Dostępne") {
     $premiseStatusText20PPB  = "Dostępne";
     $premiseStatusColor20PPB = "darkgreen";
   }
-  else if ($idValue === "2779"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2779"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText21PPB  = "Sprzedane";
     $premiseStatusColor21PPB = "red";
-  } else if ($idValue === "2779"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2779"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText21PPB  = "Zarezerwowane";
     $premiseStatusColor21PPB = "#e6b800";
   } else if ($idValue === "2779"  && $statusNameValue === "Dostępne") {
@@ -832,10 +833,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
 
-  else if ($idValue === "2780"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2780"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText22PPB  = "Sprzedane";
     $premiseStatusColor22PPB = "red";
-  } else if ($idValue === "2780"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2780"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText22PPB  = "Zarezerwowane";
     $premiseStatusColor22PPB = "#e6b800";
   } else if ($idValue === "2780"  && $statusNameValue === "Dostępne") {
@@ -844,10 +845,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
 
-  else if ($idValue === "2781"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2781"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText23PPB  = "Sprzedane";
     $premiseStatusColor23PPB = "red";
-  } else if ($idValue === "2781"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2781"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText23PPB  = "Zarezerwowane";
     $premiseStatusColor23PPB = "#e6b800";
   } else if ($idValue === "2781"  && $statusNameValue === "Dostępne") {
@@ -856,10 +857,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
 
 
-  else if ($idValue === "2782"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2782"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText24PPB  = "Sprzedane";
     $premiseStatusColor24PPB = "red";
-  } else if ($idValue === "2782"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2782"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText24PPB  = "Zarezerwowane";
     $premiseStatusColor24PPB = "#e6b800";
   } else if ($idValue === "2782"  && $statusNameValue === "Dostępne") {
@@ -867,10 +868,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $premiseStatusColor24PPB = "darkgreen";
   }
 
-  else if ($idValue === "2783"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  else if ($idValue === "2783"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
     $premiseStatusText25PPB  = "Sprzedane";
     $premiseStatusColor25PPB = "red";
-  } else if ($idValue === "2783"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+  } else if ($idValue === "2783"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
     $premiseStatusText25PPB  = "Zarezerwowane";
     $premiseStatusColor25PPB = "#e6b800";
   } else if ($idValue === "2783"  && $statusNameValue === "Dostępne") {
@@ -878,281 +879,281 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     $premiseStatusColor25PPB = "darkgreen";
      // Storage rooms end
 
-
+  }
 
     //  bicycle boxes start
 
-} else if ($idValue === "2752"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText16PPBR  = "Sprzedane";
-  $premiseStatusColor16PPBR = "red";
-} else if ($idValue === "2752"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText16PPBR  = "Zarezerwowane";
-  $premiseStatusColor16PPBR = "#e6b800";
-} else if ($idValue === "2752"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText16PPBR  = "Dostępne";
-  $premiseStatusColor16PPBR = "darkgreen";
-} else if ($idValue === "2754"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText17PPBR  = "Sprzedane";
-  $premiseStatusColor17PPBR = "red";
-} else if ($idValue === "2754"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText17PPBR  = "Zarezerwowane";
-  $premiseStatusColor17PPBR = "#e6b800";
-} else if ($idValue === "2754"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText17PPBR  = "Dostępne";
-  $premiseStatusColor17PPBR = "darkgreen";
+// } else if ($idValue === "2752"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+//   $premiseStatusText16PPBR  = "Sprzedane";
+//   $premiseStatusColor16PPBR = "red";
+// } else if ($idValue === "2752"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+//   $premiseStatusText16PPBR  = "Zarezerwowane";
+//   $premiseStatusColor16PPBR = "#e6b800";
+// } else if ($idValue === "2752"  && $statusNameValue === "Dostępne") {
+//   $premiseStatusText16PPBR  = "Dostępne";
+//   $premiseStatusColor16PPBR = "darkgreen";
+// } else if ($idValue === "2754"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+//   $premiseStatusText17PPBR  = "Sprzedane";
+//   $premiseStatusColor17PPBR = "red";
+// } else if ($idValue === "2754"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+//   $premiseStatusText17PPBR  = "Zarezerwowane";
+//   $premiseStatusColor17PPBR = "#e6b800";
+// } else if ($idValue === "2754"  && $statusNameValue === "Dostępne") {
+//   $premiseStatusText17PPBR  = "Dostępne";
+//   $premiseStatusColor17PPBR = "darkgreen";
 
-} else if ($idValue === "2756"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText18PPBR  = "Sprzedane";
-  $premiseStatusColor18PPBR = "red";
-} else if ($idValue === "2756"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText18PPBR  = "Zarezerwowane";
-  $premiseStatusColor18PPBR = "#e6b800";
-} else if ($idValue === "2756"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText18PPBR  = "Dostępne";
-  $premiseStatusColor18PPBR = "darkgreen";
-
-
-} else if ($idValue === "2758"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText19PPBR  = "Sprzedane";
-$premiseStatusColor19PPBR = "red";
-} else if ($idValue === "2758"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText19PPBR  = "Zarezerwowane";
-$premiseStatusColor19PPBR = "#e6b800";
-} else if ($idValue === "2758"  && $statusNameValue === "Dostępne") {
-$premiseStatusText19PPBR  = "Dostępne";
-$premiseStatusColor19PPBR = "darkgreen";
-
-}
-else if ($idValue === "2760"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText20PPBR  = "Sprzedane";
-$premiseStatusColor20PPBR = "red";
-} else if ($idValue === "2760"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText20PPBR  = "Zarezerwowane";
-$premiseStatusColor20PPBR = "#e6b800";
-} else if ($idValue === "2760"  && $statusNameValue === "Dostępne") {
-$premiseStatusText20PPBR  = "Dostępne";
-$premiseStatusColor20PPBR = "darkgreen";
-}
-else if ($idValue === "2762"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText21PPBR  = "Sprzedane";
-$premiseStatusColor21PPBR = "red";
-} else if ($idValue === "2762"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText21PPBR  = "Zarezerwowane";
-$premiseStatusColor21PPBR = "#e6b800";
-} else if ($idValue === "2762"  && $statusNameValue === "Dostępne") {
-$premiseStatusText21PPBR  = "Dostępne";
-$premiseStatusColor21PPBR = "darkgreen";
-}
+// } else if ($idValue === "2756"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+//   $premiseStatusText18PPBR  = "Sprzedane";
+//   $premiseStatusColor18PPBR = "red";
+// } else if ($idValue === "2756"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+//   $premiseStatusText18PPBR  = "Zarezerwowane";
+//   $premiseStatusColor18PPBR = "#e6b800";
+// } else if ($idValue === "2756"  && $statusNameValue === "Dostępne") {
+//   $premiseStatusText18PPBR  = "Dostępne";
+//   $premiseStatusColor18PPBR = "darkgreen";
 
 
-else if ($idValue === "2764"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText22PPBR  = "Sprzedane";
-$premiseStatusColor22PPBR = "red";
-} else if ($idValue === "2764"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText22PPBR  = "Zarezerwowane";
-$premiseStatusColor22PPBR = "#e6b800";
-} else if ($idValue === "2764"  && $statusNameValue === "Dostępne") {
-$premiseStatusText22PPBR  = "Dostępne";
-$premiseStatusColor22PPBR = "darkgreen";
-}
+// } else if ($idValue === "2758"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+// $premiseStatusText19PPBR  = "Sprzedane";
+// $premiseStatusColor19PPBR = "red";
+// } else if ($idValue === "2758"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+// $premiseStatusText19PPBR  = "Zarezerwowane";
+// $premiseStatusColor19PPBR = "#e6b800";
+// } else if ($idValue === "2758"  && $statusNameValue === "Dostępne") {
+// $premiseStatusText19PPBR  = "Dostępne";
+// $premiseStatusColor19PPBR = "darkgreen";
+
+// }
+// else if ($idValue === "2760"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+// $premiseStatusText20PPBR  = "Sprzedane";
+// $premiseStatusColor20PPBR = "red";
+// } else if ($idValue === "2760"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+// $premiseStatusText20PPBR  = "Zarezerwowane";
+// $premiseStatusColor20PPBR = "#e6b800";
+// } else if ($idValue === "2760"  && $statusNameValue === "Dostępne") {
+// $premiseStatusText20PPBR  = "Dostępne";
+// $premiseStatusColor20PPBR = "darkgreen";
+// }
+// else if ($idValue === "2762"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+// $premiseStatusText21PPBR  = "Sprzedane";
+// $premiseStatusColor21PPBR = "red";
+// } else if ($idValue === "2762"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+// $premiseStatusText21PPBR  = "Zarezerwowane";
+// $premiseStatusColor21PPBR = "#e6b800";
+// } else if ($idValue === "2762"  && $statusNameValue === "Dostępne") {
+// $premiseStatusText21PPBR  = "Dostępne";
+// $premiseStatusColor21PPBR = "darkgreen";
+// }
 
 
-else if ($idValue === "2766"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText23PPBR  = "Sprzedane";
-$premiseStatusColor23PPBR = "red";
-} else if ($idValue === "2766"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-$premiseStatusText23PPBR  = "Zarezerwowane";
-$premiseStatusColor23PPBR = "#e6b800";
-} else if ($idValue === "2766"  && $statusNameValue === "Dostępne") {
-$premiseStatusText23PPBR  = "Dostępne";
-$premiseStatusColor23PPBR = "darkgreen";
-}
+// else if ($idValue === "2764"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+// $premiseStatusText22PPBR  = "Sprzedane";
+// $premiseStatusColor22PPBR = "red";
+// } else if ($idValue === "2764"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+// $premiseStatusText22PPBR  = "Zarezerwowane";
+// $premiseStatusColor22PPBR = "#e6b800";
+// } else if ($idValue === "2764"  && $statusNameValue === "Dostępne") {
+// $premiseStatusText22PPBR  = "Dostępne";
+// $premiseStatusColor22PPBR = "darkgreen";
+// }
 
-else if ($idValue === "2787"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText24PPBR  = "Sprzedane";
-  $premiseStatusColor24PPBR = "red";
-  } else if ($idValue === "2787"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-  $premiseStatusText24PPBR  = "Zarezerwowane";
-  $premiseStatusColor24PPBR = "#e6b800";
-  } else if ($idValue === "2787"  && $statusNameValue === "Dostępne") {
-  $premiseStatusText24PPBR  = "Dostępne";
-  $premiseStatusColor24PPBR = "darkgreen";
-  }
-  else if ($idValue === "2788"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText25PPBR  = "Sprzedane";
-    $premiseStatusColor25PPBR = "red";
-    } else if ($idValue === "2788"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
-    $premiseStatusText25PPBR  = "Zarezerwowane";
-    $premiseStatusColor25PPBR = "#e6b800";
-    } else if ($idValue === "2788"  && $statusNameValue === "Dostępne") {
-    $premiseStatusText25PPBR  = "Dostępne";
-    $premiseStatusColor25PPBR = "darkgreen";
-    }
+
+// else if ($idValue === "2766"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+// $premiseStatusText23PPBR  = "Sprzedane";
+// $premiseStatusColor23PPBR = "red";
+// } else if ($idValue === "2766"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+// $premiseStatusText23PPBR  = "Zarezerwowane";
+// $premiseStatusColor23PPBR = "#e6b800";
+// } else if ($idValue === "2766"  && $statusNameValue === "Dostępne") {
+// $premiseStatusText23PPBR  = "Dostępne";
+// $premiseStatusColor23PPBR = "darkgreen";
+// }
+
+// else if ($idValue === "2787"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+//   $premiseStatusText24PPBR  = "Sprzedane";
+//   $premiseStatusColor24PPBR = "red";
+//   } else if ($idValue === "2787"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+//   $premiseStatusText24PPBR  = "Zarezerwowane";
+//   $premiseStatusColor24PPBR = "#e6b800";
+//   } else if ($idValue === "2787"  && $statusNameValue === "Dostępne") {
+//   $premiseStatusText24PPBR  = "Dostępne";
+//   $premiseStatusColor24PPBR = "darkgreen";
+//   }
+//   else if ($idValue === "2788"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
+//     $premiseStatusText25PPBR  = "Sprzedane";
+//     $premiseStatusColor25PPBR = "red";
+//     } else if ($idValue === "2788"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+//     $premiseStatusText25PPBR  = "Zarezerwowane";
+//     $premiseStatusColor25PPBR = "#e6b800";
+//     } else if ($idValue === "2788"  && $statusNameValue === "Dostępne") {
+//     $premiseStatusText25PPBR  = "Dostępne";
+//     $premiseStatusColor25PPBR = "darkgreen";
+//     }
    //  bicycle boxes end
 
 
 
 //  parking spaces start
-if ($idValue === "2789"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+if ($idValue === "2789"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 
   $premiseStatusText01PPS  = "Sprzedane";
   $premiseStatusColor01PPS = "red";
-} else if ($idValue === "2789"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2789"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText01PPS  = "Zarezerwowane";
   $premiseStatusColor01PPS = "#e6b800";
 } else if ($idValue === "2789"  && $statusNameValue === "Dostępne") {
   $premiseStatusText01PPS  = "Dostępne";
   $premiseStatusColor01PPS = "darkgreen";
-} else if ($idValue === "2790"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2790"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText02PPS  = "Sprzedane";
   $premiseStatusColor02PPS = "red";
-} else if ($idValue === "2790"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2790"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText02PPS  = "Zarezerwowane";
   $premiseStatusColor02PPS = "#e6b800";
 } else if ($idValue === "2790"  && $statusNameValue === "Dostępne") {
   $premiseStatusText02PPS  = "Dostępne";
   $premiseStatusColor02PPS = "darkgreen";
-} else if ($idValue === "2791"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2791"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText03PPS  = "Sprzedane";
   $premiseStatusColor03PPS = "red";
-} else if ($idValue === "2791"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2791"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText03PPS  = "Zarezerwowane";
   $premiseStatusColor03PPS = "#e6b800";
 } else if ($idValue === "2791"  && $statusNameValue === "Dostępne") {
   $premiseStatusText03PPS  = "Dostępne";
   $premiseStatusColor03PPS = "darkgreen";
-} else if ($idValue === "2792"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2792"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText04PPS  = "Sprzedane";
   $premiseStatusColor04PPS = "red";
-} else if ($idValue === "2792"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2792"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText04PPS  = "Zarezerwowane";
   $premiseStatusColor04PPS = "#e6b800";
 } else if ($idValue === "2792"  && $statusNameValue === "Dostępne") {
   $premiseStatusText04PPS  = "Dostępne";
   $premiseStatusColor04PPS ="darkgreen";
-} else if ($idValue === "2793"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2793"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText05PPS  = "Sprzedane";
   $premiseStatusColor05PPS = "red";
-} else if ($idValue === "2793"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2793"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText05PPS  = "Zarezerwowane";
   $premiseStatusColor05PPS = "#e6b800";
 } else if ($idValue === "2793"  && $statusNameValue === "Dostępne") {
   $premiseStatusText05PPS  = "Dostępne";
   $premiseStatusColor05PPS = "darkgreen";
-} else if ($idValue === "2794"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2794"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText06PPS  = "Sprzedane";
   $premiseStatusColor06PPS = "red";
-} else if ($idValue === "2794"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2794"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText06PPS  = "Zarezerwowane";
   $premiseStatusColor06PPS = "#e6b800";
 } else if ($idValue === "2794"  && $statusNameValue === "Dostępne") {
   $premiseStatusText06PPS  = "Dostępne";
   $premiseStatusColor06PPS = "darkgreen";
-} else if ($idValue === "2795"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2795"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText07PPS  = "Sprzedane";
   $premiseStatusColor07PPS = "red";
-} else if ($idValue === "2795"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2795"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText07PPS  = "Zarezerwowane";
   $premiseStatusColor07PPS = "#e6b800";
 } else if ($idValue === "2795"  && $statusNameValue === "Dostępne") {
   $premiseStatusText07PPS  = "Dostępne";
   $premiseStatusColor07PPS = "darkgreen";
-} else if ($idValue === "2796"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2796"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText08PPS  = "Sprzedane";
   $premiseStatusColor08PPS = "red";
-} else if ($idValue === "2796"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2796"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText08PPS  = "Zarezerwowane";
   $premiseStatusColor08PPS = "#e6b800";
 } else if ($idValue === "2796"  && $statusNameValue === "Dostępne") {
   $premiseStatusText08PPS  = "Dostępne";
   $premiseStatusColor08PPS = "darkgreen";
-} else if ($idValue === "2797"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2797"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText09PPS  = "Sprzedane";
   $premiseStatusColor09PPS = "red";
-} else if ($idValue === "2797"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2797"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText09PPS  = "Zarezerwowane";
   $premiseStatusColor09PPS = "#e6b800";
 } else if ($idValue === "2797"  && $statusNameValue === "Dostępne") {
   $premiseStatusText09PPS  = "Dostępne";
   $premiseStatusColor09PPS = "darkgreen";
-} else if ($idValue === "2798"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2798"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText10PPS  = "Sprzedane";
   $premiseStatusColor10PPS = "red";
-} else if ($idValue === "2798"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2798"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText10PPS  = "Zarezerwowane";
   $premiseStatusColor10PPS = "#e6b800";
 } else if ($idValue === "2798"  && $statusNameValue === "Dostępne") {
   $premiseStatusText10PPS  = "Dostępne";
   $premiseStatusColor10PPS = "darkgreen";
 
-} else if ($idValue === "2799"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2799"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText11PPS  = "Sprzedane";
   $premiseStatusColor11PPS = "red";
-} else if ($idValue === "2799"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2799"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText11PPS  = "Zarezerwowane";
   $premiseStatusColor11PPS = "#e6b800";
 } else if ($idValue === "2799"  && $statusNameValue === "Dostępne") {
   $premiseStatusText11PPS  = "Dostępne";
   $premiseStatusColor11PPS = "darkgreen";
-} else if ($idValue === "2800"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2800"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText12PPS  = "Sprzedane";
   $premiseStatusColor12PPS = "red";
-} else if ($idValue === "2800"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2800"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText12PPS  = "Zarezerwowane";
   $premiseStatusColor12PPS = "#e6b800";
 } else if ($idValue === "2800"  && $statusNameValue === "Dostępne") {
   $premiseStatusText12PPS  = "Dostępne";
   $premiseStatusColor12PPS = "darkgreen";
-} else if ($idValue === "2801"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2801"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText13PPS  = "Sprzedane";
   $premiseStatusColor13PPS = "red";
-} else if ($idValue === "2801"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2801"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText13PPS  = "Zarezerwowane";
   $premiseStatusColor13PPS = "#e6b800";
 } else if ($idValue === "2801"  && $statusNameValue === "Dostępne") {
   $premiseStatusText13PPS  = "Dostępne";
   $premiseStatusColor13PPS = "darkgreen";
-} else if ($idValue === "2802"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2802"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText14PPS  = "Sprzedane";
   $premiseStatusColor14PPS = "red";
-} else if ($idValue === "2802"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2802"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText14PPS  = "Zarezerwowane";
   $premiseStatusColor14PPS = "#e6b800";
 } else if ($idValue === "2802"  && $statusNameValue === "Dostępne") {
   $premiseStatusText14PPS  = "Dostępne";
   $premiseStatusColor14PPS = "darkgreen";
-} else if ($idValue === "2803"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2803"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText15PPS  = "Sprzedane";
   $premiseStatusColor15PPS = "red";
-} else if ($idValue === "2803"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2803"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText15PPS  = "Zarezerwowane";
   $premiseStatusColor15PPS = "#e6b800";
 } else if ($idValue === "2803"  && $statusNameValue === "Dostępne") {
   $premiseStatusText15PPS  = "Dostępne";
   $premiseStatusColor15PPS = "darkgreen";
-} else if ($idValue === "2804"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2804"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText16PPS  = "Sprzedane";
   $premiseStatusColor16PPS = "red";
-} else if ($idValue === "2804"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2804"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText16PPS  = "Zarezerwowane";
   $premiseStatusColor16PPS = "#e6b800";
 } else if ($idValue === "2804"  && $statusNameValue === "Dostępne") {
   $premiseStatusText16PPS  = "Dostępne";
   $premiseStatusColor16PPS = "darkgreen";
-} else if ($idValue === "2805"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2805"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText17PPS  = "Sprzedane";
   $premiseStatusColor17PPS = "red";
-} else if ($idValue === "2805"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2805"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText17PPS  = "Zarezerwowane";
   $premiseStatusColor17PPS = "#e6b800";
 } else if ($idValue === "2805"  && $statusNameValue === "Dostępne") {
   $premiseStatusText17PPS  = "Dostępne";
   $premiseStatusColor17PPS = "darkgreen";
 
-} else if ($idValue === "2806"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2806"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText18PPS  = "Sprzedane";
   $premiseStatusColor18PPS = "red";
-} else if ($idValue === "2806"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2806"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText18PPS  = "Zarezerwowane";
   $premiseStatusColor18PPS = "#e6b800";
 } else if ($idValue === "2806"  && $statusNameValue === "Dostępne") {
@@ -1160,10 +1161,10 @@ if ($idValue === "2789"  && ($statusNameValue === "Sprzedany" || $statusNameValu
   $premiseStatusColor18PPS = "darkgreen";
 
 
-} else if ($idValue === "2807"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2807"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText19PPS  = "Sprzedane";
 $premiseStatusColor19PPS = "red";
-} else if ($idValue === "2807"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2807"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText19PPS  = "Zarezerwowane";
 $premiseStatusColor19PPS = "#e6b800";
 } else if ($idValue === "2807"  && $statusNameValue === "Dostępne") {
@@ -1171,20 +1172,20 @@ $premiseStatusText19PPS  = "Dostępne";
 $premiseStatusColor19PPS = "darkgreen";
 
 }
-else if ($idValue === "2808"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2808"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText20PPS  = "Sprzedane";
 $premiseStatusColor20PPS = "red";
-} else if ($idValue === "2808"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2808"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText20PPS  = "Zarezerwowane";
 $premiseStatusColor20PPS = "#e6b800";
 } else if ($idValue === "2808"  && $statusNameValue === "Dostępne") {
 $premiseStatusText20PPS  = "Dostępne";
 $premiseStatusColor20PPS = "darkgreen";
 }
-else if ($idValue === "2809"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2809"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText21PPS  = "Sprzedane";
 $premiseStatusColor21PPS = "red";
-} else if ($idValue === "2809"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2809"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText21PPS  = "Zarezerwowane";
 $premiseStatusColor21PPS = "#e6b800";
 } else if ($idValue === "2809"  && $statusNameValue === "Dostępne") {
@@ -1193,10 +1194,10 @@ $premiseStatusColor21PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2810"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2810"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText22PPS  = "Sprzedane";
 $premiseStatusColor22PPS = "red";
-} else if ($idValue === "2810"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2810"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText22PPS  = "Zarezerwowane";
 $premiseStatusColor22PPS = "#e6b800";
 } else if ($idValue === "2810"  && $statusNameValue === "Dostępne") {
@@ -1205,10 +1206,10 @@ $premiseStatusColor22PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2811"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2811"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText23PPS  = "Sprzedane";
 $premiseStatusColor23PPS = "red";
-} else if ($idValue === "2811"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2811"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText23PPS  = "Zarezerwowane";
 $premiseStatusColor23PPS = "#e6b800";
 } else if ($idValue === "2811"  && $statusNameValue === "Dostępne") {
@@ -1217,10 +1218,10 @@ $premiseStatusColor23PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2812"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2812"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText24PPS  = "Sprzedane";
 $premiseStatusColor24PPS = "red";
-} else if ($idValue === "2812"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2812"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText24PPS  = "Zarezerwowane";
 $premiseStatusColor24PPS = "#e6b800";
 } else if ($idValue === "2812"  && $statusNameValue === "Dostępne") {
@@ -1228,176 +1229,176 @@ $premiseStatusText24PPS  = "Dostępne";
 $premiseStatusColor24PPS = "darkgreen";
 }
 
-else if ($idValue === "2813"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2813"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText25PPS  = "Sprzedane";
 $premiseStatusColor25PPS = "red";
-} else if ($idValue === "2813"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2813"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText25PPS  = "Zarezerwowane";
 $premiseStatusColor25PPS = "#e6b800";
 } else if ($idValue === "2813"  && $statusNameValue === "Dostępne") {
 $premiseStatusText25PPS  = "Dostępne";
 $premiseStatusColor25PPS = "darkgreen";
 }
-else if ($idValue === "2814"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2814"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 
   $premiseStatusText26PPS  = "Sprzedane";
   $premiseStatusColor26PPS = "red";
-} else if ($idValue === "2814"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2814"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText26PPS  = "Zarezerwowane";
   $premiseStatusColor26PPS = "#e6b800";
 } else if ($idValue === "2814"  && $statusNameValue === "Dostępne") {
   $premiseStatusText26PPS  = "Dostępne";
   $premiseStatusColor26PPS = "darkgreen";
-} else if ($idValue === "2815"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2815"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText27PPS  = "Sprzedane";
   $premiseStatusColor27PPS = "red";
-} else if ($idValue === "2815"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2815"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText27PPS  = "Zarezerwowane";
   $premiseStatusColor27PPS = "#e6b800";
 } else if ($idValue === "2815"  && $statusNameValue === "Dostępne") {
   $premiseStatusText27PPS  = "Dostępne";
   $premiseStatusColor27PPS = "darkgreen";
-} else if ($idValue === "2816"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2816"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText28PPS  = "Sprzedane";
   $premiseStatusColor28PPS = "red";
-} else if ($idValue === "2816"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2816"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText28PPS  = "Zarezerwowane";
   $premiseStatusColor28PPS = "#e6b800";
 } else if ($idValue === "2816"  && $statusNameValue === "Dostępne") {
   $premiseStatusText28PPS  = "Dostępne";
   $premiseStatusColor28PPS = "darkgreen";
-} else if ($idValue === "2817"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2817"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText29PPS  = "Sprzedane";
   $premiseStatusColor29PPS = "red";
-} else if ($idValue === "2817"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2817"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText29PPS  = "Zarezerwowane";
   $premiseStatusColor29PPS = "#e6b800";
 } else if ($idValue === "2817"  && $statusNameValue === "Dostępne") {
   $premiseStatusText29PPS  = "Dostępne";
   $premiseStatusColor29PPS ="darkgreen";
-} else if ($idValue === "2818"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2818"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText30PPS  = "Sprzedane";
   $premiseStatusColor30PPS = "red";
-} else if ($idValue === "2818"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2818"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText30PPS  = "Zarezerwowane";
   $premiseStatusColor30PPS = "#e6b800";
 } else if ($idValue === "2818"  && $statusNameValue === "Dostępne") {
   $premiseStatusText30PPS  = "Dostępne";
   $premiseStatusColor30PPS = "darkgreen";
-} else if ($idValue === "2819"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2819"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText31PPS  = "Sprzedane";
   $premiseStatusColor31PPS = "red";
-} else if ($idValue === "2819"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2819"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText31PPS  = "Zarezerwowane";
   $premiseStatusColor31PPS = "#e6b800";
 } else if ($idValue === "2819"  && $statusNameValue === "Dostępne") {
   $premiseStatusText31PPS  = "Dostępne";
   $premiseStatusColor31PPS = "darkgreen";
-} else if ($idValue === "2820"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2820"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText32PPS  = "Sprzedane";
   $premiseStatusColor32PPS = "red";
-} else if ($idValue === "2820"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2820"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText32PPS  = "Zarezerwowane";
   $premiseStatusColor32PPS = "#e6b800";
 } else if ($idValue === "2820"  && $statusNameValue === "Dostępne") {
   $premiseStatusText32PPS  = "Dostępne";
   $premiseStatusColor32PPS = "darkgreen";
-} else if ($idValue === "2821"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2821"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText33PPS  = "Sprzedane";
   $premiseStatusColor33PPS = "red";
-} else if ($idValue === "2821"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2821"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText33PPS  = "Zarezerwowane";
   $premiseStatusColor33PPS = "#e6b800";
 } else if ($idValue === "2821"  && $statusNameValue === "Dostępne") {
   $premiseStatusText33PPS  = "Dostępne";
   $premiseStatusColor33PPS = "darkgreen";
-} else if ($idValue === "2822"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2822"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText34PPS  = "Sprzedane";
   $premiseStatusColor34PPS = "red";
-} else if ($idValue === "2822"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2822"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText34PPS  = "Zarezerwowane";
   $premiseStatusColor34PPS = "#e6b800";
 } else if ($idValue === "2822"  && $statusNameValue === "Dostępne") {
   $premiseStatusText34PPS  = "Dostępne";
   $premiseStatusColor34PPS = "darkgreen";
-} else if ($idValue === "2823"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2823"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText35PPS  = "Sprzedane";
   $premiseStatusColor35PPS = "red";
-} else if ($idValue === "2823"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2823"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText35PPS  = "Zarezerwowane";
   $premiseStatusColor35PPS = "#e6b800";
 } else if ($idValue === "2823"  && $statusNameValue === "Dostępne") {
   $premiseStatusText35PPS  = "Dostępne";
   $premiseStatusColor35PPS = "darkgreen";
 
-} else if ($idValue === "2824"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2824"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText36PPS  = "Sprzedane";
   $premiseStatusColor36PPS = "red";
-} else if ($idValue === "2824"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2824"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText36PPS  = "Zarezerwowane";
   $premiseStatusColor36PPS = "#e6b800";
 } else if ($idValue === "2824"  && $statusNameValue === "Dostępne") {
   $premiseStatusText36PPS  = "Dostępne";
   $premiseStatusColor36PPS = "darkgreen";
-} else if ($idValue === "2825"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2825"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText37PPS  = "Sprzedane";
   $premiseStatusColor37PPS = "red";
-} else if ($idValue === "2825"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2825"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText37PPS  = "Zarezerwowane";
   $premiseStatusColor37PPS = "#e6b800";
 } else if ($idValue === "2825"  && $statusNameValue === "Dostępne") {
   $premiseStatusText37PPS  = "Dostępne";
   $premiseStatusColor37PPS = "darkgreen";
-} else if ($idValue === "2826"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2826"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText38PPS  = "Sprzedane";
   $premiseStatusColor38PPS = "red";
-} else if ($idValue === "2826"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2826"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText38PPS  = "Zarezerwowane";
   $premiseStatusColor38PPS = "#e6b800";
 } else if ($idValue === "2826"  && $statusNameValue === "Dostępne") {
   $premiseStatusText38PPS  = "Dostępne";
   $premiseStatusColor38PPS = "darkgreen";
-} else if ($idValue === "2827"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2827"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText39PPS  = "Sprzedane";
   $premiseStatusColor39PPS = "red";
-} else if ($idValue === "2827"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2827"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText39PPS  = "Zarezerwowane";
   $premiseStatusColor39PPS = "#e6b800";
 } else if ($idValue === "2827"  && $statusNameValue === "Dostępne") {
   $premiseStatusText39PPS  = "Dostępne";
   $premiseStatusColor39PPS = "darkgreen";
-} else if ($idValue === "2828"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2828"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText40PPS  = "Sprzedane";
   $premiseStatusColor40PPS = "red";
-} else if ($idValue === "2828"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2828"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText40PPS  = "Zarezerwowane";
   $premiseStatusColor40PPS = "#e6b800";
 } else if ($idValue === "2828"  && $statusNameValue === "Dostępne") {
   $premiseStatusText40PPS  = "Dostępne";
   $premiseStatusColor40PPS = "darkgreen";
-} else if ($idValue === "2829"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2829"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText41PPS  = "Sprzedane";
   $premiseStatusColor41PPS = "red";
-} else if ($idValue === "2829"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2829"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText41PPS  = "Zarezerwowane";
   $premiseStatusColor41PPS = "#e6b800";
 } else if ($idValue === "2829"  && $statusNameValue === "Dostępne") {
   $premiseStatusText41PPS  = "Dostępne";
   $premiseStatusColor41PPS = "darkgreen";
-} else if ($idValue === "2830"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2830"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText42PPS  = "Sprzedane";
   $premiseStatusColor42PPS = "red";
-} else if ($idValue === "2830"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2830"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText42PPS  = "Zarezerwowane";
   $premiseStatusColor42PPS = "#e6b800";
 } else if ($idValue === "2830"  && $statusNameValue === "Dostępne") {
   $premiseStatusText42PPS  = "Dostępne";
   $premiseStatusColor42PPS = "darkgreen";
 
-} else if ($idValue === "2831"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2831"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
   $premiseStatusText43PPS  = "Sprzedane";
   $premiseStatusColor43PPS = "red";
-} else if ($idValue === "2831"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2831"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
   $premiseStatusText43PPS  = "Zarezerwowane";
   $premiseStatusColor43PPS = "#e6b800";
 } else if ($idValue === "2831"  && $statusNameValue === "Dostępne") {
@@ -1405,10 +1406,10 @@ else if ($idValue === "2814"  && ($statusNameValue === "Sprzedany" || $statusNam
   $premiseStatusColor43PPS = "darkgreen";
 
 
-} else if ($idValue === "2832"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2832"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText44PPS  = "Sprzedane";
 $premiseStatusColor44PPS = "red";
-} else if ($idValue === "2832"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2832"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText44PPS  = "Zarezerwowane";
 $premiseStatusColor44PPS = "#e6b800";
 } else if ($idValue === "2832"  && $statusNameValue === "Dostępne") {
@@ -1416,20 +1417,20 @@ $premiseStatusText44PPS  = "Dostępne";
 $premiseStatusColor44PPS = "darkgreen";
 
 }
-else if ($idValue === "2833"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2833"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText45PPS  = "Sprzedane";
 $premiseStatusColor45PPS = "red";
-} else if ($idValue === "2833"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2833"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText45PPS  = "Zarezerwowane";
 $premiseStatusColor45PPS = "#e6b800";
 } else if ($idValue === "2833"  && $statusNameValue === "Dostępne") {
 $premiseStatusText45PPS  = "Dostępne";
 $premiseStatusColor45PPS = "darkgreen";
 }
-else if ($idValue === "2834"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2834"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText46PPS  = "Sprzedane";
 $premiseStatusColor46PPS = "red";
-} else if ($idValue === "2834"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2834"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText46PPS  = "Zarezerwowane";
 $premiseStatusColor46PPS = "#e6b800";
 } else if ($idValue === "2834"  && $statusNameValue === "Dostępne") {
@@ -1438,10 +1439,10 @@ $premiseStatusColor46PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2835"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2835"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText47PPS  = "Sprzedane";
 $premiseStatusColor47PPS = "red";
-} else if ($idValue === "2835"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2835"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText47PPS  = "Zarezerwowane";
 $premiseStatusColor47PPS = "#e6b800";
 } else if ($idValue === "2835"  && $statusNameValue === "Dostępne") {
@@ -1450,10 +1451,10 @@ $premiseStatusColor47PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2836"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2836"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText48PPS  = "Sprzedane";
 $premiseStatusColor48PPS = "red";
-} else if ($idValue === "2836"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2836"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText48PPS  = "Zarezerwowane";
 $premiseStatusColor48PPS = "#e6b800";
 } else if ($idValue === "2836"  && $statusNameValue === "Dostępne") {
@@ -1462,10 +1463,10 @@ $premiseStatusColor48PPS = "darkgreen";
 }
 
 
-else if ($idValue === "2837"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2837"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText49PPS  = "Sprzedane";
 $premiseStatusColor49PPS = "red";
-} else if ($idValue === "2837"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2837"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText49PPS  = "Zarezerwowane";
 $premiseStatusColor49PPS = "#e6b800";
 } else if ($idValue === "2837"  && $statusNameValue === "Dostępne") {
@@ -1473,10 +1474,10 @@ $premiseStatusText49PPS  = "Dostępne";
 $premiseStatusColor49PPS = "darkgreen";
 }
 
-else if ($idValue === "2838"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2838"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText50PPS  = "Sprzedane";
 $premiseStatusColor50PPS = "red";
-} else if ($idValue === "2838"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2838"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText50PPS  = "Zarezerwowane";
 $premiseStatusColor50PPS = "#e6b800";
 } else if ($idValue === "2838"  && $statusNameValue === "Dostępne") {
@@ -1484,10 +1485,10 @@ $premiseStatusText50PPS  = "Dostępne";
 $premiseStatusColor50PPS = "darkgreen";
 
 }
-else if ($idValue === "2839"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2839"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText51PPS  = "Sprzedane";
 $premiseStatusColor51PPS = "red";
-} else if ($idValue === "2839"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2839"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText51PPS  = "Zarezerwowane";
 $premiseStatusColor51PPS = "#e6b800";
 } else if ($idValue === "2839"  && $statusNameValue === "Dostępne") {
@@ -1495,10 +1496,10 @@ $premiseStatusText51PPS  = "Dostępne";
 $premiseStatusColor51PPS = "darkgreen";
 
 }
-else if ($idValue === "2840"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+else if ($idValue === "2840"  && ($statusNameValue === "Sprzedany" || $statusNameValue === "Umowa deweloperska" || $statusNameValue === "Akt notarialny" ||  $statusNameValue === "Umowa przedwstępna"|| $statusNameValue === "Odebrano")) {
 $premiseStatusText52PPS  = "Sprzedane";
 $premiseStatusColor52PPS = "red";
-} else if ($idValue === "2840"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||  $statusNameValue === "Umowa przedwstępna" || $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
+} else if ($idValue === "2840"  && ($statusNameValue === "Umowa rezerwacyjna" || $statusNameValue === "Rezerwacja ustna" ||   $statusNameValue === "Akt notarialny" || $statusNameValue === "Odebrano")) {
 $premiseStatusText52PPS  = "Zarezerwowane";
 $premiseStatusColor52PPS = "#e6b800";
 } else if ($idValue === "2840"  && $statusNameValue === "Dostępne") {
@@ -1564,26 +1565,7 @@ $premiseStatusColor52PPS = "darkgreen";
 // Storage rooms end
 
 //  bicycle boxes start
- let premiseStatus16PPBR=document.getElementsByClassName("premiseStatus16PPBR")[0];
- premiseStatus16PPBR.innerHTML="<?php echo $premiseStatusText16PPBR; ?>",premiseStatus16PPBR.style.color="<?php echo $premiseStatusColor16PPBR; ?>";
- let premiseStatus17PPBR=document.getElementsByClassName("premiseStatus17PPBR")[0];
- premiseStatus17PPBR.innerHTML="<?php echo $premiseStatusText17PPBR; ?>",premiseStatus17PPBR.style.color="<?php echo $premiseStatusColor17PPBR; ?>";
- let premiseStatus18PPBR=document.getElementsByClassName("premiseStatus18PPBR")[0];
- premiseStatus18PPBR.innerHTML="<?php echo $premiseStatusText18PPBR; ?>",premiseStatus18PPBR.style.color="<?php echo $premiseStatusColor18PPBR; ?>";
- let premiseStatus19PPBR=document.getElementsByClassName("premiseStatus19PPBR")[0];
- premiseStatus19PPBR.innerHTML="<?php echo $premiseStatusText19PPBR; ?>",premiseStatus19PPBR.style.color="<?php echo $premiseStatusColor19PPBR; ?>";
- let premiseStatus20PPBR=document.getElementsByClassName("premiseStatus20PPBR")[0];
- premiseStatus20PPBR.innerHTML="<?php echo $premiseStatusText20PPBR; ?>",premiseStatus20PPBR.style.color="<?php echo $premiseStatusColor20PPBR; ?>";
- let premiseStatus21PPBR=document.getElementsByClassName("premiseStatus21PPBR")[0];
- premiseStatus21PPBR.innerHTML="<?php echo $premiseStatusText21PPBR; ?>",premiseStatus21PPBR.style.color="<?php echo $premiseStatusColor21PPBR; ?>";
- let premiseStatus22PPBR=document.getElementsByClassName("premiseStatus22PPBR")[0];
- premiseStatus22PPBR.innerHTML="<?php echo $premiseStatusText22PPBR; ?>",premiseStatus22PPBR.style.color="<?php echo $premiseStatusColor22PPBR; ?>";
- let premiseStatus23PPBR=document.getElementsByClassName("premiseStatus23PPBR")[0];
- premiseStatus23PPBR.innerHTML="<?php echo $premiseStatusText23PPBR; ?>",premiseStatus23PPBR.style.color="<?php echo $premiseStatusColor23PPBR; ?>";
- let premiseStatus24PPBR=document.getElementsByClassName("premiseStatus24PPBR")[0];
- premiseStatus24PPBR.innerHTML="<?php echo $premiseStatusText24PPBR; ?>",premiseStatus24PPBR.style.color="<?php echo $premiseStatusColor24PPBR; ?>";
- let premiseStatus25PPBR=document.getElementsByClassName("premiseStatus25PPBR")[0];
- premiseStatus25PPBR.innerHTML="<?php echo $premiseStatusText25PPBR; ?>",premiseStatus25PPBR.style.color="<?php echo $premiseStatusColor25PPBR; ?>";
+
 //  bicycle boxes end
 
   //  parking spaces start
