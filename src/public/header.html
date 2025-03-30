@@ -1,0 +1,87 @@
+
+
+
+<div class="navbar">
+<a class="navbar__item logo" href="./">  <img class="navbar__item logo" href="./"><img class="navbar__item logo"  src="assets/images/lpp.webp"></a>
+<div class="navbar__menu">
+<a class="navbar__item navbar__link white-border" href="mieszkania">Mieszkania</a>
+<div class="navbar__item navbar__link dropdown">Parkingi
+<div class="dropdown-content">
+<a href="parkingi-naziemne.php">Parkingi Naziemne</a><br>
+<a href="budynek-b-garaze-podziemne.php">Garaże podziemne B</a>
+<br>
+<a href="budynek-c-garaze-podziemne.php">Garaże podziemne C</a>
+<br>
+<a href="budynek-a-garaze-podziemne.php">Garaże podziemne A</a>
+</div>
+</div>
+<a class="navbar__item navbar__link" href="galeria">Galeria</a>
+<a class="navbar__item navbar__link" href="oferta-inwestycyjna">Oferta inwestycyjna</a>
+<a class="navbar__item navbar__link" href="lifestyle">Lifestyle</a>
+<a class="navbar__item navbar__link" href="media">Media</a>
+<a class="navbar__item navbar__link" href="#contact">Kontakt</a>
+<a class="navbar__item navbar__link" href="https://diamond-hill.com.pl/">Deweloper</a>
+</div>
+ 
+<button id="showPopup">Zapytaj o mieszkania</button>
+  
+<span class="hamburger hamburger--collapse navbar__item" id="js-navbar-toggle">
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</span>
+</div>
+</div>
+<div id="popup" class="popup">
+<div class="popup-content">
+
+<div class="textValue"></div>
+
+<form id="formPopup">
+<input id="text1" class="firstName" name="firstName" type="text" placeholder="Imie" >
+<input class="email" type="email"  name="email"  placeholder="Emial" required>
+<input class="number" type="number" name="number"   placeholder="Telefon" required>
+<textarea class="message" type="text"  name="message" placeholder="Dotyczy mieszkania" required></textarea>
+<input class="send" id="submit" name="submit"  type="submit" value="Wyślij zapytanie">        
+<div class="checkbox-wrapper-32">
+<input type="checkbox" name="checkbox-32" id="checkbox-32"  class="checkbox0" required>
+<label for="checkbox-32">
+Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu i zakresie koniecznym do realizacji zgłoszenia.
+</label>
+     
+<svg viewBox="0 0 100 100">
+<path d="M 10 10 L 90 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+<path d="M 90 10 L 10 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+</svg>
+</div>
+    
+<div class="checkbox-wrapper-33">
+<input type="checkbox" name="checkbox-33" id="checkbox-33"  class="checkbox1" required>
+<label for="checkbox-33">
+Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu przesyłania mi ofert handlowych na produkty własne spółki drogą elektroniczną.
+</label>
+
+<svg viewBox="0 0 100 100">
+<path d="M 10 10 L 90 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+<path d="M 90 10 L 10 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+</svg>
+</div>    
+<div class="checkbox-wrapper-34">
+<input type="checkbox" name="checkbox-34" id="checkbox-34"  class="checkbox2" required>
+<label for="checkbox-34">
+Wyrażam zgodę na przetwarzanie przez Diamond Hill Development Sp. z o.o, moich danych osobowych zawartych w niniejszym formularzu kontaktowym w celu kontaktu telefonicznego ze strony przedstawicieli spółki w sprawach związanych z ofertą handlową na produkty własne.
+</label>
+     
+<svg viewBox="0 0 100 100">
+<path d="M 10 10 L 90 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+<path d="M 90 10 L 10 90" stroke="#ffff" stroke-dasharray="113" stroke-dashoffset="113"></path>
+</svg>
+</div>
+
+<div class="text"></div>
+<div class="text1"></div>
+</form>
+
+<div class="allAvailableApartmentsAvailable"></div>
+<span class="close" id="closePopup">X</span>        
+</div>
