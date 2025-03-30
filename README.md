@@ -12,10 +12,10 @@ Available at [https://parkpaderewskiego.pl/](https://parkpaderewskiego.pl/). The
 ### Underground Garage Status List  
 Accessible on the following pages:  
 
-- [https://parkpaderewskiego.pl/parkingi-naziemne.php](https://parkpaderewskiego.pl/parkingi-naziemne.php)  
-- [https://parkpaderewskiego.pl/budynek-a-garaze-podziemne.php](https://parkpaderewskiego.pl/budynek-a-garaze-podziemne.php)  
-- [https://parkpaderewskiego.pl/budynek-b-garaze-podziemne.php](https://parkpaderewskiego.pl/budynek-b-garaze-podziemne.php)  
-- [https://parkpaderewskiego.pl/budynek-c-garaze-podziemne.php](https://parkpaderewskiego.pl/budynek-c-garaze-podziemne.php)  
+- [parkpaderewskiego/src/public/parkingi-naziemne.php](parkpaderewskiego/src/public/parkingi-naziemne.php)  
+- [parkpaderewskiego/src/public/budynek-a-garaze-podziemne.php](parkpaderewskiego/src/public/budynek-a-garaze-podziemne.php)  
+- [parkpaderewskiego/src/public/budynek-b-garaze-podziemne.php](parkpaderewskiego/src/public/budynek-b-garaze-podziemne.php)  
+- [parkpaderewskiego/src/public/budynek-c-garaze-podziemne.php](parkpaderewskiego/src/public/budynek-c-garaze-podziemne.php)  
 
 This information is continuously synchronized with the CRM system API.  
 
