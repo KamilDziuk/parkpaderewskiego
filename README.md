@@ -1,6 +1,6 @@
 
 # Park Paderewskiego
-![presentation](image/presentation.gif)
+![presentation](src/public/assets/video/presentation.gif)
 ## Project Description  
 Park Paderewskiego aims to promote a residential housing estate. The website includes interactive elements that allow users to browse available parking spaces and check the status of underground garages in real-time.  
 
