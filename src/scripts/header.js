@@ -1,4 +1,4 @@
-
+export  function header() {
 fetch("header.html")
 .then(resposne => resposne.text())
 .then(header =>{
@@ -87,8 +87,8 @@ textValue.innerHTML =  `<br><br>Nieudało się wysłać wiadomość.<br> Może t
 });
 })};
 });
-
-
+};
+header();
 
 
 
