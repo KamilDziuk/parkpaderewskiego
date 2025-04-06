@@ -1,4 +1,4 @@
-
+export  function lifestyle() {
 const sliderTable = [
 document.querySelectorAll('.imgContainerLifestyle0'),
 document.querySelectorAll('.imgContainerLifestyle1'),
@@ -30,5 +30,5 @@ sliderImages[idx] = ( sliderImages[idx] < sliderTable[idx].length - 1) ?   slide
 sldier();
 
 },3000);
-
-
+}:
+lifestyle();
