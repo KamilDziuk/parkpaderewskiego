@@ -1,6 +1,6 @@
 import "./footer.js"
 import "./header.js"
-
+import "./cookie.js"
 
 document.head.innerHTML += ` 
 <link rel="icon" type="image/jpg" href="assets/images/icone.jpg">
